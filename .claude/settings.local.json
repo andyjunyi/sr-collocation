@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(netstat:*)",
+      "Bash(git:*)",
+      "Bash(vercel:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
