@@ -16496,5 +16496,199 @@ export const collocationData = [
       { word: "qualified", pos: "adj.", chinese: "合格的" }
     ],
     sentence_pattern: { pattern: "S + suffer from a lack of resources", example: "The project failed due to a lack of resources." }
+  },
+  {
+    keyword: "problem",
+    collocations: [
+      {
+        phrase: "pose a problem",
+        type: "動詞 + 名詞",
+        chinese: "造成問題、構成問題",
+        example: {
+          english: "The sudden lack of funding poses a serious problem for the research team.",
+          chinese: "資金的突然短缺對研究團隊構成了一個嚴重的問題。",
+          grammar_point: "pose a problem for + 人/事物（對...造成/構成問題，高級替換詞）"
+        },
+        vocabulary: [
+          { word: "sudden", pos: "adj.", chinese: "突然的" },
+          { word: "funding", pos: "n.", chinese: "資金" },
+          { word: "pose", pos: "v.", chinese: "造成、引起" }
+        ],
+        sentence_pattern: {
+          pattern: "N + poses a problem for + O",
+          example: "This delay poses a problem for our schedule."
+        }
+      },
+      {
+        phrase: "encounter a problem",
+        type: "動詞 + 名詞",
+        chinese: "遭遇問題",
+        example: {
+          english: "If you encounter any problems during the installation process, please contact our support team.",
+          chinese: "如果您在安裝過程中遭遇任何問題，請聯絡我們的支援團隊。",
+          grammar_point: "encounter a problem（遭遇困難/問題，語氣比 meet 更正式）"
+        },
+        vocabulary: [
+          { word: "encounter", pos: "v.", chinese: "遭遇、遇到" },
+          { word: "installation", pos: "n.", chinese: "安裝" },
+          { word: "support", pos: "n.", chinese: "支援" }
+        ],
+        sentence_pattern: {
+          pattern: "If S + encounter a problem, S + V",
+          example: "We encountered a minor problem yesterday."
+        }
+      },
+      {
+        phrase: "overcome a problem",
+        type: "動詞 + 名詞",
+        chinese: "克服問題",
+        example: {
+          english: "With great determination, she finally overcame the problem of stage fright.",
+          chinese: "憑藉著極大的決心，她終於克服了怯場的問題。",
+          grammar_point: "overcome the problem of + N/V-ing（克服...的問題）"
+        },
+        vocabulary: [
+          { word: "overcome", pos: "v.", chinese: "克服（過去式 overcame）" },
+          { word: "determination", pos: "n.", chinese: "決心" },
+          { word: "stage fright", pos: "n.", chinese: "怯場" }
+        ],
+        sentence_pattern: {
+          pattern: "S + overcome the problem of + N",
+          example: "They worked together to overcome the problem."
+        }
+      },
+      {
+        phrase: "cause a problem",
+        type: "動詞 + 名詞",
+        chinese: "引起問題",
+        example: {
+          english: "The lack of communication caused a major problem between the two departments.",
+          chinese: "缺乏溝通在兩個部門之間引起了一個重大問題。",
+          grammar_point: "cause a problem（導致/引發問題）"
+        },
+        vocabulary: [
+          { word: "lack", pos: "n.", chinese: "缺乏" },
+          { word: "communication", pos: "n.", chinese: "溝通" },
+          { word: "department", pos: "n.", chinese: "部門" }
+        ],
+        sentence_pattern: {
+          pattern: "N + caused a problem between A and B",
+          example: "His carelessness caused a big problem."
+        }
+      },
+      {
+        phrase: "serious problem",
+        type: "形容詞 + 名詞",
+        chinese: "嚴重的問題",
+        example: {
+          english: "Air pollution has become a highly serious problem in many modern cities.",
+          chinese: "空氣污染已經成為許多現代城市中極其嚴重的問題。",
+          grammar_point: "a serious problem（強烈搭配，不可用 heavy problem）"
+        },
+        vocabulary: [
+          { word: "pollution", pos: "n.", chinese: "污染" },
+          { word: "highly", pos: "adv.", chinese: "極度地、高度地" },
+          { word: "modern", pos: "adj.", chinese: "現代的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + has become a serious problem.",
+          example: "Traffic jam is a serious problem here."
+        }
+      },
+      {
+        phrase: "growing problem",
+        type: "形容詞/分詞 + 名詞",
+        chinese: "日益嚴重的問題",
+        example: {
+          english: "Childhood obesity is a growing problem in most developed countries.",
+          chinese: "兒童肥胖在多數已開發國家是一個日益嚴重的問題。",
+          grammar_point: "a growing problem（用現在分詞 growing 表達「逐漸擴大、越來越嚴重」）"
+        },
+        vocabulary: [
+          { word: "childhood", pos: "n.", chinese: "童年" },
+          { word: "obesity", pos: "n.", chinese: "肥胖" },
+          { word: "developed", pos: "adj.", chinese: "已開發的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a growing problem in + 地方",
+          example: "Cyberbullying is a growing problem."
+        }
+      },
+      {
+        phrase: "complex problem",
+        type: "形容詞 + 名詞",
+        chinese: "複雜的問題",
+        example: {
+          english: "The issue of global climate change is a complex problem that requires international cooperation.",
+          chinese: "全球氣候變遷的議題是一個需要國際合作的複雜問題。",
+          grammar_point: "a complex problem（錯綜複雜、難以單一方法解決的問題）"
+        },
+        vocabulary: [
+          { word: "complex", pos: "adj.", chinese: "複雜的" },
+          { word: "require", pos: "v.", chinese: "要求、需要" },
+          { word: "cooperation", pos: "n.", chinese: "合作" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a complex problem.",
+          example: "Poverty is a very complex problem."
+        }
+      },
+      {
+        phrase: "common problem",
+        type: "形容詞 + 名詞",
+        chinese: "常見的問題",
+        example: {
+          english: "Back pain is a common problem for office workers who sit all day.",
+          chinese: "背痛對於整天坐著的辦公室員工來說是個常見的問題。",
+          grammar_point: "a common problem for + 人（對某族群而言普遍的問題）"
+        },
+        vocabulary: [
+          { word: "back pain", pos: "n.", chinese: "背痛" },
+          { word: "common", pos: "adj.", chinese: "常見的、普遍的" },
+          { word: "office worker", pos: "n.", chinese: "上班族" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a common problem for + O",
+          example: "Insomnia is a common problem nowadays."
+        }
+      },
+      {
+        phrase: "solution to a problem",
+        type: "名詞 + 介系詞 + 名詞",
+        chinese: "問題的解決方案",
+        example: {
+          english: "Education is often seen as the best solution to the problem of poverty.",
+          chinese: "教育通常被視為解決貧窮問題的最佳方案。",
+          grammar_point: "【學測必考陷阱】solution 後面的介系詞必須搭配 to，不能用 of！"
+        },
+        vocabulary: [
+          { word: "solution", pos: "n.", chinese: "解決方案" },
+          { word: "poverty", pos: "n.", chinese: "貧窮" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is the solution to the problem.",
+          example: "We must find a solution to this problem."
+        }
+      },
+      {
+        phrase: "approach to a problem",
+        type: "名詞 + 介系詞 + 名詞",
+        chinese: "處理問題的方法/途徑",
+        example: {
+          english: "The new manager has a completely different approach to the problem.",
+          chinese: "新經理對於這個問題有一套完全不同的處理方法。",
+          grammar_point: "【學測必考陷阱】approach（方法）後面的介系詞同樣必須搭配 to！"
+        },
+        vocabulary: [
+          { word: "manager", pos: "n.", chinese: "經理" },
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "approach", pos: "n.", chinese: "方法、途徑" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have a different approach to the problem.",
+          example: "His approach to the problem is creative."
+        }
+      }
+    ]
   }
 ];
