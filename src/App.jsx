@@ -150,11 +150,12 @@ export default function App() {
   const handleSearch = () => {
     const q = query.trim()
     if (!q) return
-    const lower = q.toLowerCase()
+    const isEnglish = /[a-zA-Z]/.test(q)
+    const wordRegex = isEnglish ? new RegExp(`\\b${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
     const matches = collocationData.filter((item) =>
-      item.phrase.toLowerCase().includes(lower) ||
-      item.chinese.includes(q) ||
-      item.keywords.some((k) => k.toLowerCase().includes(lower))
+      isEnglish
+        ? wordRegex.test(item.phrase) || item.keywords.some((k) => wordRegex.test(k))
+        : item.chinese.includes(q)
     )
     setResults(matches)
     setSearched(true)
