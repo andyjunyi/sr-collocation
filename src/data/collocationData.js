@@ -16499,6 +16499,7 @@ export const collocationData = [
   },
   {
     keyword: "problem",
+    keywords: [],
     collocations: [
       {
         phrase: "pose a problem",
@@ -16687,6 +16688,5353 @@ export const collocationData = [
         sentence_pattern: {
           pattern: "S + have a different approach to the problem.",
           example: "His approach to the problem is creative."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "out",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "out and about",
+        type: "慣用語 / 介系詞片語",
+        chinese: "活躍地四處走動、(病後)能下床走動",
+        example: {
+          english: "After a week in bed with the flu, she is finally out and about again.",
+          chinese: "因為流感臥床一週後，她終於又能下床四處走動了。",
+          grammar_point: "be out and about（指人從疾病中康復，或平時活躍於外出活動）"
+        },
+        vocabulary: [
+          { word: "flu", pos: "n.", chinese: "流行性感冒" },
+          { word: "finally", pos: "adv.", chinese: "終於" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out and about",
+          example: "It's good to see you out and about after your surgery."
+        }
+      },
+      {
+        phrase: "out of the blue",
+        type: "介系詞片語",
+        chinese: "突然地、出乎意料地",
+        example: {
+          english: "I hadn't seen him for years, and then he called me completely out of the blue.",
+          chinese: "我好幾年沒見到他了，然後他完全出乎意料地打電話給我。",
+          grammar_point: "out of the blue（猶如晴天霹靂般突然發生，常放句尾作副詞）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + out of the blue",
+          example: "The decision came totally out of the blue."
+        }
+      },
+      {
+        phrase: "out of character",
+        type: "介系詞片語",
+        chinese: "不符合性格、與平時表現不符",
+        example: {
+          english: "It was completely out of character for him to shout at the employees.",
+          chinese: "他對員工大吼大叫完全不符合他平時的性格。",
+          grammar_point: "be out of character for + 人（對某人來說很不尋常/反常）"
+        },
+        vocabulary: [
+          { word: "character", pos: "n.", chinese: "性格、品格" },
+          { word: "shout", pos: "v.", chinese: "大吼" },
+          { word: "employee", pos: "n.", chinese: "員工" }
+        ],
+        sentence_pattern: {
+          pattern: "It is out of character for O + to V",
+          example: "Her sudden anger was very out of character."
+        }
+      },
+      {
+        phrase: "out of circulation",
+        type: "介系詞片語",
+        chinese: "不再流通、(人)不活躍於社交圈",
+        example: {
+          english: "Since he started his new demanding job, he has been somewhat out of circulation.",
+          chinese: "自從他開始那份要求很高的新工作後，他就有些脫離社交圈了。",
+          grammar_point: "be out of circulation（可指貨幣、書籍停用，也可指人不再參加社交活動）"
+        },
+        vocabulary: [
+          { word: "circulation", pos: "n.", chinese: "流通、循環" },
+          { word: "demanding", pos: "adj.", chinese: "要求高的、費力的" },
+          { word: "somewhat", pos: "adv.", chinese: "有點、稍微" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of circulation",
+          example: "Those old coins are now out of circulation."
+        }
+      },
+      {
+        phrase: "out of your depth",
+        type: "介系詞片語",
+        chinese: "無法駕馭、力不從心",
+        example: {
+          english: "When they started discussing advanced quantum physics, I felt completely out of my depth.",
+          chinese: "當他們開始討論進階的量子物理學時，我感到完全力不從心。",
+          grammar_point: "be/feel out of one's depth（超出某人的能力/理解範圍，宛如在深水中踩不到底）"
+        },
+        vocabulary: [
+          { word: "advanced", pos: "adj.", chinese: "進階的、先進的" },
+          { word: "quantum physics", pos: "n.", chinese: "量子物理學" },
+          { word: "depth", pos: "n.", chinese: "深度" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel out of one's depth",
+          example: "I am out of my depth in this new project."
+        }
+      },
+      {
+        phrase: "out of earshot",
+        type: "介系詞片語",
+        chinese: "在聽不見的距離之外",
+        example: {
+          english: "We waited until the children were out of earshot before discussing the surprise party.",
+          chinese: "我們等到孩子們走遠聽不見了，才開始討論驚喜派對。",
+          grammar_point: "be out of earshot（在聽力所及的範圍外；反義詞為 within earshot）"
+        },
+        vocabulary: [
+          { word: "earshot", pos: "n.", chinese: "聽力所及的範圍" },
+          { word: "discuss", pos: "v.", chinese: "討論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of earshot",
+          example: "Make sure she is out of earshot before you speak."
+        }
+      },
+      {
+        phrase: "out of harm's way",
+        type: "介系詞片語",
+        chinese: "在安全的地方、免於危險",
+        example: {
+          english: "During the typhoon, we moved all the potted plants indoors to keep them out of harm's way.",
+          chinese: "颱風期間，我們把所有盆栽移到室內，讓它們免受破壞。",
+          grammar_point: "keep/stay out of harm's way（保持安全無虞）"
+        },
+        vocabulary: [
+          { word: "typhoon", pos: "n.", chinese: "颱風" },
+          { word: "potted plant", pos: "n.", chinese: "盆栽" },
+          { word: "indoors", pos: "adv.", chinese: "在室內" }
+        ],
+        sentence_pattern: {
+          pattern: "keep O + out of harm's way",
+          example: "The police guided the crowd out of harm's way."
+        }
+      },
+      {
+        phrase: "out like a light",
+        type: "慣用語",
+        chinese: "迅速入睡、立刻熟睡",
+        example: {
+          english: "He was so exhausted after the marathon that he was out like a light as soon as his head hit the pillow.",
+          chinese: "馬拉松結束後他太累了，頭一碰到枕頭就立刻睡著了。",
+          grammar_point: "be out like a light（非正式用語，形容極快睡著或昏過去）"
+        },
+        vocabulary: [
+          { word: "exhausted", pos: "adj.", chinese: "筋疲力盡的" },
+          { word: "marathon", pos: "n.", chinese: "馬拉松" },
+          { word: "pillow", pos: "n.", chinese: "枕頭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out like a light",
+          example: "After drinking the medicine, she was out like a light."
+        }
+      },
+      {
+        phrase: "out on a limb",
+        type: "慣用語",
+        chinese: "處於孤立無援的境地、冒著風險",
+        example: {
+          english: "I went out on a limb to defend your proposal, so please don't let me down.",
+          chinese: "我冒著極大的風險為你的提案辯護，所以請不要讓我失望。",
+          grammar_point: "go out on a limb（原意指走到樹枝末端，引申為冒險、孤立無援）"
+        },
+        vocabulary: [
+          { word: "limb", pos: "n.", chinese: "樹枝、肢體" },
+          { word: "defend", pos: "v.", chinese: "辯護、防禦" },
+          { word: "proposal", pos: "n.", chinese: "提案" }
+        ],
+        sentence_pattern: {
+          pattern: "S + go out on a limb to + V",
+          example: "She went out on a limb for her best friend."
+        }
+      },
+      {
+        phrase: "out to lunch",
+        type: "慣用語",
+        chinese: "(口語) 瘋瘋癲癲、心不在焉、不進入狀況",
+        example: {
+          english: "You must be out to lunch if you think you can finish a one-year project in two days.",
+          chinese: "如果你以為能在兩天內完成一年的專案，那你一定是瘋了（頭腦不清楚）。",
+          grammar_point: "be out to lunch（俚語，指人不在狀態內或想法荒謬）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案、計畫" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + must be out to lunch.",
+          example: "He is totally out to lunch today."
+        }
+      },
+      {
+        phrase: "out of the picture",
+        type: "介系詞片語",
+        chinese: "不再牽涉其中、出局",
+        example: {
+          english: "Now that his rival is out of the picture, he is very likely to get the promotion.",
+          chinese: "既然他的競爭對手已經出局，他很有可能會獲得升遷。",
+          grammar_point: "be out of the picture（不再是考量因素、退出競爭）"
+        },
+        vocabulary: [
+          { word: "rival", pos: "n.", chinese: "競爭對手" },
+          { word: "likely", pos: "adj.", chinese: "很有可能的" },
+          { word: "promotion", pos: "n.", chinese: "升遷" }
+        ],
+        sentence_pattern: {
+          pattern: "S + is out of the picture",
+          example: "With him out of the picture, we can finally proceed."
+        }
+      },
+      {
+        phrase: "out of your own pocket",
+        type: "介系詞片語",
+        chinese: "自掏腰包",
+        example: {
+          english: "Because the company refused to cover the travel expenses, he had to pay for the flight out of his own pocket.",
+          chinese: "因為公司拒絕負擔差旅費，他只好自掏腰包支付機票錢。",
+          grammar_point: "pay (for sth) out of one's own pocket（用自己的錢支付）"
+        },
+        vocabulary: [
+          { word: "refuse", pos: "v.", chinese: "拒絕" },
+          { word: "expense", pos: "n.", chinese: "費用、開支" },
+          { word: "flight", pos: "n.", chinese: "航班、機票" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pay out of one's own pocket",
+          example: "Teachers often buy supplies out of their own pockets."
+        }
+      },
+      {
+        phrase: "out of the question",
+        type: "介系詞片語",
+        chinese: "不可能的、免談",
+        example: {
+          english: "Buying a new car right now is completely out of the question because we are trying to save money.",
+          chinese: "現在買新車是完全不可能的，因為我們正在努力存錢。",
+          grammar_point: "【學測必考】be out of the question（毫無可能，不容討論；注意勿與 out of question 無庸置疑搞混）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "question", pos: "n.", chinese: "問題、疑問" }
+        ],
+        sentence_pattern: {
+          pattern: "N/V-ing is out of the question.",
+          example: "Going out in this storm is out of the question."
+        }
+      },
+      {
+        phrase: "out of sight, out of mind",
+        type: "諺語 / 慣用語",
+        chinese: "眼不見為淨、久不見就忘記",
+        example: {
+          english: "I hid the chocolates in the cupboard, hoping that out of sight, out of mind would help me eat less.",
+          chinese: "我把巧克力藏在櫥櫃裡，希望眼不見為淨能幫我少吃一點。",
+          grammar_point: "out of sight, out of mind（常作為獨立子句或插入語使用）"
+        },
+        vocabulary: [
+          { word: "hide", pos: "v.", chinese: "隱藏 (過去式 hid)" },
+          { word: "cupboard", pos: "n.", chinese: "櫥櫃" }
+        ],
+        sentence_pattern: {
+          pattern: "Out of sight, out of mind.",
+          example: "Since she moved abroad, it's been out of sight, out of mind."
+        }
+      },
+      {
+        phrase: "out of sorts",
+        type: "介系詞片語",
+        chinese: "心情不佳、身體微恙",
+        example: {
+          english: "She has been feeling a bit out of sorts lately, so she decided to take a day off to rest.",
+          chinese: "她最近覺得身體有點不舒服且心情煩躁，所以她決定請一天假休息。",
+          grammar_point: "feel/be out of sorts（指稍微生病、無精打采或情緒低落）"
+        },
+        vocabulary: [
+          { word: "lately", pos: "adv.", chinese: "最近" },
+          { word: "take a day off", pos: "phr.", chinese: "請一天假" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel/be out of sorts",
+          example: "He was feeling out of sorts after the long trip."
+        }
+      },
+      {
+        phrase: "out of sync",
+        type: "介系詞片語",
+        chinese: "不同步、不協調",
+        example: {
+          english: "The audio in this video is out of sync with the speaker's lip movements.",
+          chinese: "這部影片中的音訊與講者的嘴唇動作不同步。",
+          grammar_point: "be out of sync (with N)（與...不一致/不同步；sync為synchronization的縮寫）"
+        },
+        vocabulary: [
+          { word: "audio", pos: "n.", chinese: "音訊、聲音" },
+          { word: "sync", pos: "n.", chinese: "同步" },
+          { word: "movement", pos: "n.", chinese: "動作" }
+        ],
+        sentence_pattern: {
+          pattern: "A is out of sync with B",
+          example: "My schedule is totally out of sync with yours."
+        }
+      },
+      {
+        phrase: "out of touch",
+        type: "介系詞片語",
+        chinese: "脫節、失去聯絡",
+        example: {
+          english: "The old politician is completely out of touch with what young people care about today.",
+          chinese: "這位老政治家與當今許多年輕人在乎的事物完全脫節了。",
+          grammar_point: "be out of touch (with N)（與...失去聯繫，或不了解...的現況）"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of touch with + N",
+          example: "We've been out of touch for years."
+        }
+      },
+      {
+        phrase: "out of this world",
+        type: "介系詞片語",
+        chinese: "極好的、棒透了",
+        example: {
+          english: "The chocolate cake her grandmother baked was simply out of this world.",
+          chinese: "她祖母烤的巧克力蛋糕簡直是人間美味（棒透了）。",
+          grammar_point: "be out of this world（用來誇飾某物極好，宛如不屬於這個世界的絕世珍品）"
+        },
+        vocabulary: [
+          { word: "simply", pos: "adv.", chinese: "簡直、根本" },
+          { word: "bake", pos: "v.", chinese: "烘焙" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is out of this world",
+          example: "The view from the top is out of this world."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "out",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "out and about",
+        type: "慣用語 / 介系詞片語",
+        chinese: "活躍地四處走動、(病後)能下床走動",
+        example: {
+          english: "After a week in bed with the flu, she is finally out and about again.",
+          chinese: "因為流感臥床一週後，她終於又能下床四處走動了。",
+          grammar_point: "be out and about（指人從疾病中康復，或平時活躍於外出活動）"
+        },
+        vocabulary: [
+          { word: "flu", pos: "n.", chinese: "流行性感冒" },
+          { word: "finally", pos: "adv.", chinese: "終於" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out and about",
+          example: "It's good to see you out and about after your surgery."
+        }
+      },
+      {
+        phrase: "out of the blue",
+        type: "介系詞片語",
+        chinese: "突然地、出乎意料地",
+        example: {
+          english: "I hadn't seen him for years, and then he called me completely out of the blue.",
+          chinese: "我好幾年沒見到他了，然後他完全出乎意料地打電話給我。",
+          grammar_point: "out of the blue（猶如晴天霹靂般突然發生，常放句尾作副詞）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + out of the blue",
+          example: "The decision came totally out of the blue."
+        }
+      },
+      {
+        phrase: "out of character",
+        type: "介系詞片語",
+        chinese: "不符合性格、與平時表現不符",
+        example: {
+          english: "It was completely out of character for him to shout at the employees.",
+          chinese: "他對員工大吼大叫完全不符合他平時的性格。",
+          grammar_point: "be out of character for + 人（對某人來說很不尋常/反常）"
+        },
+        vocabulary: [
+          { word: "character", pos: "n.", chinese: "性格、品格" },
+          { word: "shout", pos: "v.", chinese: "大吼" },
+          { word: "employee", pos: "n.", chinese: "員工" }
+        ],
+        sentence_pattern: {
+          pattern: "It is out of character for O + to V",
+          example: "Her sudden anger was very out of character."
+        }
+      },
+      {
+        phrase: "out of circulation",
+        type: "介系詞片語",
+        chinese: "不再流通、(人)不活躍於社交圈",
+        example: {
+          english: "Since he started his new demanding job, he has been somewhat out of circulation.",
+          chinese: "自從他開始那份要求很高的新工作後，他就有些脫離社交圈了。",
+          grammar_point: "be out of circulation（可指貨幣、書籍停用，也可指人不再參加社交活動）"
+        },
+        vocabulary: [
+          { word: "circulation", pos: "n.", chinese: "流通、循環" },
+          { word: "demanding", pos: "adj.", chinese: "要求高的、費力的" },
+          { word: "somewhat", pos: "adv.", chinese: "有點、稍微" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of circulation",
+          example: "Those old coins are now out of circulation."
+        }
+      },
+      {
+        phrase: "out of your depth",
+        type: "介系詞片語",
+        chinese: "無法駕馭、力不從心",
+        example: {
+          english: "When they started discussing advanced quantum physics, I felt completely out of my depth.",
+          chinese: "當他們開始討論進階的量子物理學時，我感到完全力不從心。",
+          grammar_point: "be/feel out of one's depth（超出某人的能力/理解範圍，宛如在深水中踩不到底）"
+        },
+        vocabulary: [
+          { word: "advanced", pos: "adj.", chinese: "進階的、先進的" },
+          { word: "quantum physics", pos: "n.", chinese: "量子物理學" },
+          { word: "depth", pos: "n.", chinese: "深度" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel out of one's depth",
+          example: "I am out of my depth in this new project."
+        }
+      },
+      {
+        phrase: "out of earshot",
+        type: "介系詞片語",
+        chinese: "在聽不見的距離之外",
+        example: {
+          english: "We waited until the children were out of earshot before discussing the surprise party.",
+          chinese: "我們等到孩子們走遠聽不見了，才開始討論驚喜派對。",
+          grammar_point: "be out of earshot（在聽力所及的範圍外；反義詞為 within earshot）"
+        },
+        vocabulary: [
+          { word: "earshot", pos: "n.", chinese: "聽力所及的範圍" },
+          { word: "discuss", pos: "v.", chinese: "討論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of earshot",
+          example: "Make sure she is out of earshot before you speak."
+        }
+      },
+      {
+        phrase: "out of harm's way",
+        type: "介系詞片語",
+        chinese: "在安全的地方、免於危險",
+        example: {
+          english: "During the typhoon, we moved all the potted plants indoors to keep them out of harm's way.",
+          chinese: "颱風期間，我們把所有盆栽移到室內，讓它們免受破壞。",
+          grammar_point: "keep/stay out of harm's way（保持安全無虞）"
+        },
+        vocabulary: [
+          { word: "typhoon", pos: "n.", chinese: "颱風" },
+          { word: "potted plant", pos: "n.", chinese: "盆栽" },
+          { word: "indoors", pos: "adv.", chinese: "在室內" }
+        ],
+        sentence_pattern: {
+          pattern: "keep O + out of harm's way",
+          example: "The police guided the crowd out of harm's way."
+        }
+      },
+      {
+        phrase: "out like a light",
+        type: "慣用語",
+        chinese: "迅速入睡、立刻熟睡",
+        example: {
+          english: "He was so exhausted after the marathon that he was out like a light as soon as his head hit the pillow.",
+          chinese: "馬拉松結束後他太累了，頭一碰到枕頭就立刻睡著了。",
+          grammar_point: "be out like a light（非正式用語，形容極快睡著或昏過去）"
+        },
+        vocabulary: [
+          { word: "exhausted", pos: "adj.", chinese: "筋疲力盡的" },
+          { word: "marathon", pos: "n.", chinese: "馬拉松" },
+          { word: "pillow", pos: "n.", chinese: "枕頭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out like a light",
+          example: "After drinking the medicine, she was out like a light."
+        }
+      },
+      {
+        phrase: "out on a limb",
+        type: "慣用語",
+        chinese: "處於孤立無援的境地、冒著風險",
+        example: {
+          english: "I went out on a limb to defend your proposal, so please don't let me down.",
+          chinese: "我冒著極大的風險為你的提案辯護，所以請不要讓我失望。",
+          grammar_point: "go out on a limb（原意指走到樹枝末端，引申為冒險、孤立無援）"
+        },
+        vocabulary: [
+          { word: "limb", pos: "n.", chinese: "樹枝、肢體" },
+          { word: "defend", pos: "v.", chinese: "辯護、防禦" },
+          { word: "proposal", pos: "n.", chinese: "提案" }
+        ],
+        sentence_pattern: {
+          pattern: "S + go out on a limb to + V",
+          example: "She went out on a limb for her best friend."
+        }
+      },
+      {
+        phrase: "out to lunch",
+        type: "慣用語",
+        chinese: "(口語) 瘋瘋癲癲、心不在焉、不進入狀況",
+        example: {
+          english: "You must be out to lunch if you think you can finish a one-year project in two days.",
+          chinese: "如果你以為能在兩天內完成一年的專案，那你一定是瘋了（頭腦不清楚）。",
+          grammar_point: "be out to lunch（俚語，指人不在狀態內或想法荒謬）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案、計畫" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + must be out to lunch.",
+          example: "He is totally out to lunch today."
+        }
+      },
+      {
+        phrase: "out of the picture",
+        type: "介系詞片語",
+        chinese: "不再牽涉其中、出局",
+        example: {
+          english: "Now that his rival is out of the picture, he is very likely to get the promotion.",
+          chinese: "既然他的競爭對手已經出局，他很有可能會獲得升遷。",
+          grammar_point: "be out of the picture（不再是考量因素、退出競爭）"
+        },
+        vocabulary: [
+          { word: "rival", pos: "n.", chinese: "競爭對手" },
+          { word: "likely", pos: "adj.", chinese: "很有可能的" },
+          { word: "promotion", pos: "n.", chinese: "升遷" }
+        ],
+        sentence_pattern: {
+          pattern: "S + is out of the picture",
+          example: "With him out of the picture, we can finally proceed."
+        }
+      },
+      {
+        phrase: "out of your own pocket",
+        type: "介系詞片語",
+        chinese: "自掏腰包",
+        example: {
+          english: "Because the company refused to cover the travel expenses, he had to pay for the flight out of his own pocket.",
+          chinese: "因為公司拒絕負擔差旅費，他只好自掏腰包支付機票錢。",
+          grammar_point: "pay (for sth) out of one's own pocket（用自己的錢支付）"
+        },
+        vocabulary: [
+          { word: "refuse", pos: "v.", chinese: "拒絕" },
+          { word: "expense", pos: "n.", chinese: "費用、開支" },
+          { word: "flight", pos: "n.", chinese: "航班、機票" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pay out of one's own pocket",
+          example: "Teachers often buy supplies out of their own pockets."
+        }
+      },
+      {
+        phrase: "out of the question",
+        type: "介系詞片語",
+        chinese: "不可能的、免談",
+        example: {
+          english: "Buying a new car right now is completely out of the question because we are trying to save money.",
+          chinese: "現在買新車是完全不可能的，因為我們正在努力存錢。",
+          grammar_point: "【學測必考】be out of the question（毫無可能，不容討論；注意勿與 out of question 無庸置疑搞混）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "question", pos: "n.", chinese: "問題、疑問" }
+        ],
+        sentence_pattern: {
+          pattern: "N/V-ing is out of the question.",
+          example: "Going out in this storm is out of the question."
+        }
+      },
+      {
+        phrase: "out of sight, out of mind",
+        type: "諺語 / 慣用語",
+        chinese: "眼不見為淨、久不見就忘記",
+        example: {
+          english: "I hid the chocolates in the cupboard, hoping that out of sight, out of mind would help me eat less.",
+          chinese: "我把巧克力藏在櫥櫃裡，希望眼不見為淨能幫我少吃一點。",
+          grammar_point: "out of sight, out of mind（常作為獨立子句或插入語使用）"
+        },
+        vocabulary: [
+          { word: "hide", pos: "v.", chinese: "隱藏 (過去式 hid)" },
+          { word: "cupboard", pos: "n.", chinese: "櫥櫃" }
+        ],
+        sentence_pattern: {
+          pattern: "Out of sight, out of mind.",
+          example: "Since she moved abroad, it's been out of sight, out of mind."
+        }
+      },
+      {
+        phrase: "out of sorts",
+        type: "介系詞片語",
+        chinese: "心情不佳、身體微恙",
+        example: {
+          english: "She has been feeling a bit out of sorts lately, so she decided to take a day off to rest.",
+          chinese: "她最近覺得身體有點不舒服且心情煩躁，所以她決定請一天假休息。",
+          grammar_point: "feel/be out of sorts（指稍微生病、無精打采或情緒低落）"
+        },
+        vocabulary: [
+          { word: "lately", pos: "adv.", chinese: "最近" },
+          { word: "take a day off", pos: "phr.", chinese: "請一天假" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel/be out of sorts",
+          example: "He was feeling out of sorts after the long trip."
+        }
+      },
+      {
+        phrase: "out of sync",
+        type: "介系詞片語",
+        chinese: "不同步、不協調",
+        example: {
+          english: "The audio in this video is out of sync with the speaker's lip movements.",
+          chinese: "這部影片中的音訊與講者的嘴唇動作不同步。",
+          grammar_point: "be out of sync (with N)（與...不一致/不同步；sync為synchronization的縮寫）"
+        },
+        vocabulary: [
+          { word: "audio", pos: "n.", chinese: "音訊、聲音" },
+          { word: "sync", pos: "n.", chinese: "同步" },
+          { word: "movement", pos: "n.", chinese: "動作" }
+        ],
+        sentence_pattern: {
+          pattern: "A is out of sync with B",
+          example: "My schedule is totally out of sync with yours."
+        }
+      },
+      {
+        phrase: "out of touch",
+        type: "介系詞片語",
+        chinese: "脫節、失去聯絡",
+        example: {
+          english: "The old politician is completely out of touch with what young people care about today.",
+          chinese: "這位老政治家與當今許多年輕人在乎的事物完全脫節了。",
+          grammar_point: "be out of touch (with N)（與...失去聯繫，或不了解...的現況）"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of touch with + N",
+          example: "We've been out of touch for years."
+        }
+      },
+      {
+        phrase: "out of this world",
+        type: "介系詞片語",
+        chinese: "極好的、棒透了",
+        example: {
+          english: "The chocolate cake her grandmother baked was simply out of this world.",
+          chinese: "她祖母烤的巧克力蛋糕簡直是人間美味（棒透了）。",
+          grammar_point: "be out of this world（用來誇飾某物極好，宛如不屬於這個世界的絕世珍品）"
+        },
+        vocabulary: [
+          { word: "simply", pos: "adv.", chinese: "簡直、根本" },
+          { word: "bake", pos: "v.", chinese: "烘焙" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is out of this world",
+          example: "The view from the top is out of this world."
+        }
+      },
+      {
+        phrase: "look out for",
+        type: "動詞片語",
+        chinese: "當心、留意、關照",
+        keywords: ["look", "out", "for"],
+        example: {
+          english: "When driving in the mountains, you need to look out for falling rocks.",
+          chinese: "在山區開車時，你需要留意落石。",
+          grammar_point: "look out for + N（留心觀察以防危險；也指關照某人）"
+        },
+        vocabulary: [
+          { word: "falling", pos: "adj.", chinese: "掉落的" },
+          { word: "rock", pos: "n.", chinese: "岩石" }
+        ],
+        sentence_pattern: {
+          pattern: "S + look out for + N",
+          example: "We should always look out for each other."
+        }
+      },
+      {
+        phrase: "turn out",
+        type: "動詞片語",
+        chinese: "結果是、出席",
+        keywords: ["turn", "out"],
+        example: {
+          english: "The weather looked bad in the morning, but it turned out to be a beautiful day.",
+          chinese: "早上天氣看起來很糟，但結果卻是個美麗的一天。",
+          grammar_point: "turn out (to be) + N/Adj（結果卻是...，也可接 that 子句）"
+        },
+        vocabulary: [
+          { word: "beautiful", pos: "adj.", chinese: "美麗的" }
+        ],
+        sentence_pattern: {
+          pattern: "It turned out that + S + V",
+          example: "The rumor turned out to be true."
+        }
+      },
+      {
+        phrase: "carry out",
+        type: "動詞片語",
+        chinese: "執行、實行",
+        keywords: ["carry", "out"],
+        example: {
+          english: "The scientists will carry out a series of experiments to test their theory.",
+          chinese: "科學家將執行一系列的實驗來測試他們的理論。",
+          grammar_point: "carry out + a plan/experiment/survey（執行計畫/實驗/調查）"
+        },
+        vocabulary: [
+          { word: "a series of", pos: "phr.", chinese: "一系列的" },
+          { word: "experiment", pos: "n.", chinese: "實驗" },
+          { word: "theory", pos: "n.", chinese: "理論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + carry out + N",
+          example: "The hospital carried out the new procedure."
+        }
+      },
+      {
+        phrase: "find out",
+        type: "動詞片語",
+        chinese: "發現、查明",
+        keywords: ["find", "out"],
+        example: {
+          english: "I was shocked to find out that my best friend had been lying to me.",
+          chinese: "我很震驚地發現我最好的朋友一直對我說謊。",
+          grammar_point: "find out + N / 疑問詞子句 / that子句（透過調查或詢問得知）"
+        },
+        vocabulary: [
+          { word: "shocked", pos: "adj.", chinese: "震驚的" },
+          { word: "lie", pos: "v.", chinese: "說謊" }
+        ],
+        sentence_pattern: {
+          pattern: "S + find out + that/Wh- clause",
+          example: "We need to find out the truth."
+        }
+      },
+      {
+        phrase: "set out",
+        type: "動詞片語",
+        chinese: "出發、開始(做某事)",
+        keywords: ["set", "out"],
+        example: {
+          english: "They set out on their journey before the sun came up.",
+          chinese: "他們在太陽升起前就出發踏上了旅程。",
+          grammar_point: "set out on a journey（出發旅行）；set out to + V（著手進行某事）"
+        },
+        vocabulary: [
+          { word: "journey", pos: "n.", chinese: "旅程" }
+        ],
+        sentence_pattern: {
+          pattern: "S + set out to + V",
+          example: "He set out to change the world."
+        }
+      },
+      {
+        phrase: "break out",
+        type: "動詞片語",
+        chinese: "爆發(戰爭、火災、疾病)",
+        keywords: ["break", "out"],
+        example: {
+          english: "A massive fire broke out in the old factory late last night.",
+          chinese: "昨晚深夜，那座舊工廠爆發了一場大火。",
+          grammar_point: "【學測必考】break out 無被動語態！事物自己爆發，不可寫 was broken out"
+        },
+        vocabulary: [
+          { word: "massive", pos: "adj.", chinese: "巨大的、大規模的" },
+          { word: "factory", pos: "n.", chinese: "工廠" }
+        ],
+        sentence_pattern: {
+          pattern: "N + broke out + 地方/時間",
+          example: "World War II broke out in 1939."
+        }
+      },
+      {
+        phrase: "work out",
+        type: "動詞片語",
+        chinese: "解決、結果圓滿、健身",
+        keywords: ["work", "out"],
+        example: {
+          english: "Don't worry too much; I'm sure things will work out in the end.",
+          chinese: "別太擔心；我相信事情最終會圓滿解決的。",
+          grammar_point: "work out 可指「事情順利解決」，也可作及物動詞 work out a problem (解決問題) 或不及物動詞「健身」"
+        },
+        vocabulary: [
+          { word: "in the end", pos: "phr.", chinese: "最後、最終" }
+        ],
+        sentence_pattern: {
+          pattern: "Things will work out.",
+          example: "He works out at the gym every day."
+        }
+      },
+      {
+        phrase: "run out of",
+        type: "動詞片語",
+        chinese: "用盡、耗盡",
+        keywords: ["run", "out", "of"],
+        example: {
+          english: "We have run out of gas, so we need to find a gas station immediately.",
+          chinese: "我們的汽油已經耗盡了，所以我們需要立刻找一家加油站。",
+          grammar_point: "run out of + N（把...用光了，主詞通常是「人」）"
+        },
+        vocabulary: [
+          { word: "gas", pos: "n.", chinese: "汽油、瓦斯" },
+          { word: "gas station", pos: "n.", chinese: "加油站" },
+          { word: "immediately", pos: "adv.", chinese: "立刻" }
+        ],
+        sentence_pattern: {
+          pattern: "S + run out of + N",
+          example: "I am running out of patience."
+        }
+      },
+      {
+        phrase: "stand out",
+        type: "動詞片語",
+        chinese: "突出、顯眼",
+        keywords: ["stand", "out"],
+        example: {
+          english: "Her bright red hair makes her really stand out from the crowd.",
+          chinese: "她鮮紅的頭髮讓她在人群中非常顯眼。",
+          grammar_point: "stand out from the crowd（在人群中脫穎而出）"
+        },
+        vocabulary: [
+          { word: "bright", pos: "adj.", chinese: "明亮的、鮮豔的" },
+          { word: "crowd", pos: "n.", chinese: "人群" }
+        ],
+        sentence_pattern: {
+          pattern: "S + stand out",
+          example: "His amazing performance stood out."
+        }
+      },
+      {
+        phrase: "point out",
+        type: "動詞片語",
+        chinese: "指出",
+        keywords: ["point", "out"],
+        example: {
+          english: "The teacher pointed out several grammar mistakes in my essay.",
+          chinese: "老師指出了我作文裡的幾個文法錯誤。",
+          grammar_point: "point out + N / point out that + 子句（明確指出某事）"
+        },
+        vocabulary: [
+          { word: "several", pos: "adj.", chinese: "幾個的" },
+          { word: "grammar", pos: "n.", chinese: "文法" },
+          { word: "essay", pos: "n.", chinese: "文章、短文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point out + that + S + V",
+          example: "He pointed out the flaws in the plan."
+        }
+      },
+      {
+        phrase: "keep out",
+        type: "動詞片語",
+        chinese: "禁止進入、阻擋在外",
+        keywords: ["keep", "out"],
+        example: {
+          english: "The sign on the gate clearly says 'Danger: Keep Out'.",
+          chinese: "大門上的告示牌清楚地寫著「危險：禁止進入」。",
+          grammar_point: "keep out of + 地方（不進入某地）；keep O out（把某物擋在外面）"
+        },
+        vocabulary: [
+          { word: "sign", pos: "n.", chinese: "標誌、告示牌" },
+          { word: "clearly", pos: "adv.", chinese: "清楚地" },
+          { word: "danger", pos: "n.", chinese: "危險" }
+        ],
+        sentence_pattern: {
+          pattern: "Keep out of + 地方",
+          example: "This coat will keep the cold out."
+        }
+      },
+      {
+        phrase: "hand out",
+        type: "動詞片語",
+        chinese: "分發",
+        keywords: ["hand", "out"],
+        example: {
+          english: "Volunteers were handing out free bottles of water to the marathon runners.",
+          chinese: "志工們正在將免費的瓶裝水發給馬拉松跑者。",
+          grammar_point: "hand out = distribute（將物品分發給眾人）"
+        },
+        vocabulary: [
+          { word: "volunteer", pos: "n.", chinese: "志工" },
+          { word: "bottle", pos: "n.", chinese: "瓶子" },
+          { word: "runner", pos: "n.", chinese: "跑者" }
+        ],
+        sentence_pattern: {
+          pattern: "S + hand out + N",
+          example: "The teacher handed out the exam papers."
+        }
+      },
+      {
+        phrase: "take out",
+        type: "動詞片語",
+        chinese: "拿出、帶...出去、外帶",
+        keywords: ["take", "out"],
+        example: {
+          english: "Please remember to take out the trash before you go to bed.",
+          chinese: "睡覺前請記得把垃圾拿出去倒。",
+          grammar_point: "take out the trash (倒垃圾)；亦可作 take someone out (帶某人外出/約會)"
+        },
+        vocabulary: [
+          { word: "trash", pos: "n.", chinese: "垃圾" },
+          { word: "remember to", pos: "phr.", chinese: "記得去做..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + take O out",
+          example: "He took out his wallet to pay."
+        }
+      },
+      {
+        phrase: "leave out",
+        type: "動詞片語",
+        chinese: "遺漏、省略",
+        keywords: ["leave", "out"],
+        example: {
+          english: "When you copy the report, make sure you don't leave out any important details.",
+          chinese: "當你抄寫報告時，確保你沒有遺漏任何重要的細節。",
+          grammar_point: "leave out = omit（不包含、漏掉某事物或人）"
+        },
+        vocabulary: [
+          { word: "copy", pos: "v.", chinese: "抄寫、複製" },
+          { word: "detail", pos: "n.", chinese: "細節" }
+        ],
+        sentence_pattern: {
+          pattern: "S + leave out + N",
+          example: "I feel left out when they speak French."
+        }
+      },
+      {
+        phrase: "cut out",
+        type: "動詞片語",
+        chinese: "戒除、刪去、剪下",
+        keywords: ["cut", "out"],
+        example: {
+          english: "My doctor told me that I need to cut out sweet drinks completely.",
+          chinese: "我的醫生告訴我，我必須完全戒除含糖飲料。",
+          grammar_point: "cut out + N（在飲食或習慣上「停止/戒掉」）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "sweet", pos: "adj.", chinese: "甜的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + cut out + N",
+          example: "She cut out a picture from the magazine."
+        }
+      },
+      {
+        phrase: "wear out",
+        type: "動詞片語",
+        chinese: "磨損、使筋疲力盡",
+        keywords: ["wear", "out"],
+        example: {
+          english: "Walking around the city all day has completely worn me out.",
+          chinese: "在城市裡走了一整天讓我完全筋疲力盡了。",
+          grammar_point: "wear someone out（使人精疲力盡）；be worn out（物體破舊磨損/人很疲累）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + wear O out",
+          example: "My favorite shoes are worn out."
+        }
+      },
+      {
+        phrase: "pull out",
+        type: "動詞片語",
+        chinese: "拔出、(車輛)駛出、撤退",
+        keywords: ["pull", "out"],
+        example: {
+          english: "The train slowly pulled out of the station, heading towards the capital.",
+          chinese: "火車緩緩駛出車站，朝向首都駛去。",
+          grammar_point: "pull out of + 地方（車輛離開某處；或指軍隊/企業撤出）"
+        },
+        vocabulary: [
+          { word: "slowly", pos: "adv.", chinese: "緩慢地" },
+          { word: "head", pos: "v.", chinese: "朝向、前進" },
+          { word: "capital", pos: "n.", chinese: "首都" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pull out of + N",
+          example: "The dentist pulled out my bad tooth."
+        }
+      },
+      {
+        phrase: "fall out",
+        type: "動詞片語",
+        chinese: "吵架、脫落",
+        keywords: ["fall", "out"],
+        example: {
+          english: "He fell out with his brother over a disagreement about their family business.",
+          chinese: "他因為家族企業的意見不合而跟他的兄弟吵架了。",
+          grammar_point: "fall out with + 人 (over 事情)（與某人鬧翻/吵架）"
+        },
+        vocabulary: [
+          { word: "disagreement", pos: "n.", chinese: "意見不合、爭論" },
+          { word: "business", pos: "n.", chinese: "企業、生意" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall out with + O",
+          example: "My hair started to fall out."
+        }
+      },
+      {
+        phrase: "check out",
+        type: "動詞片語",
+        chinese: "結帳離開、查看",
+        keywords: ["check", "out"],
+        example: {
+          english: "We need to pack our bags and check out of the hotel by 11 AM.",
+          chinese: "我們必須打包行李並在上午 11 點前退房。",
+          grammar_point: "check out of a hotel (退房)；check out something (去查看/看一看某物)"
+        },
+        vocabulary: [
+          { word: "pack", pos: "v.", chinese: "打包" },
+          { word: "hotel", pos: "n.", chinese: "旅館" }
+        ],
+        sentence_pattern: {
+          pattern: "S + check out of + 地方",
+          example: "Check out this new song!"
+        }
+      },
+      {
+        phrase: "pass out",
+        type: "動詞片語",
+        chinese: "昏倒、分發",
+        keywords: ["pass", "out"],
+        example: {
+          english: "The heat in the crowded room was so intense that one of the students passed out.",
+          chinese: "擁擠房間裡的悶熱太強烈了，導致其中一名學生昏倒了。",
+          grammar_point: "pass out = faint (昏厥)；也可用來代替 hand out (分發物品)"
+        },
+        vocabulary: [
+          { word: "heat", pos: "n.", chinese: "高溫、炎熱" },
+          { word: "crowded", pos: "adj.", chinese: "擁擠的" },
+          { word: "intense", pos: "adj.", chinese: "強烈的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pass out",
+          example: "Please pass out these books to the class."
+        }
+      },
+      {
+        phrase: "blow out",
+        type: "動詞片語",
+        chinese: "吹熄、爆胎",
+        keywords: ["blow", "out"],
+        example: {
+          english: "Make a wish before you blow out all the candles on your birthday cake.",
+          chinese: "在吹熄你生日蛋糕上所有的蠟燭前許個願吧。",
+          grammar_point: "blow out the candles (吹熄蠟燭)；如果是輪胎，指「爆胎」"
+        },
+        vocabulary: [
+          { word: "wish", pos: "n.", chinese: "願望" },
+          { word: "candle", pos: "n.", chinese: "蠟燭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + blow out + N",
+          example: "The wind blew out the match."
+        }
+      },
+      {
+        phrase: "die out",
+        type: "動詞片語",
+        chinese: "滅絕、逐漸消失",
+        keywords: ["die", "out"],
+        example: {
+          english: "Many traditional customs are beginning to die out in modern society.",
+          chinese: "許多傳統習俗在現代社會中正開始逐漸消失。",
+          grammar_point: "die out = become extinct（物種滅絕或風俗習慣消失）"
+        },
+        vocabulary: [
+          { word: "traditional", pos: "adj.", chinese: "傳統的" },
+          { word: "custom", pos: "n.", chinese: "習俗" },
+          { word: "modern", pos: "adj.", chinese: "現代的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dying out",
+          example: "Dinosaurs died out millions of years ago."
+        }
+      },
+      {
+        phrase: "rule out",
+        type: "動詞片語",
+        chinese: "排除...的可能性",
+        keywords: ["rule", "out"],
+        example: {
+          english: "The police have ruled out suicide and are now treating the case as murder.",
+          chinese: "警方已排除了自殺的可能性，現在將此案視為謀殺來處理。",
+          grammar_point: "rule out the possibility of + N（大考閱測超高頻字：排除...可能）"
+        },
+        vocabulary: [
+          { word: "suicide", pos: "n.", chinese: "自殺" },
+          { word: "treat", pos: "v.", chinese: "對待、處理" },
+          { word: "murder", pos: "n.", chinese: "謀殺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + rule out + N",
+          example: "You cannot rule out this theory completely."
+        }
+      },
+      {
+        phrase: "speak out",
+        type: "動詞片語",
+        chinese: "公開發表意見、大聲說出",
+        keywords: ["speak", "out"],
+        example: {
+          english: "More and more people are speaking out against animal cruelty in the fashion industry.",
+          chinese: "越來越多的人公開發表意見反對時尚產業中的虐待動物行為。",
+          grammar_point: "speak out against + N（發聲反對某事）"
+        },
+        vocabulary: [
+          { word: "cruelty", pos: "n.", chinese: "殘忍、虐待" },
+          { word: "fashion", pos: "n.", chinese: "時尚" },
+          { word: "industry", pos: "n.", chinese: "產業" }
+        ],
+        sentence_pattern: {
+          pattern: "S + speak out about/against + N",
+          example: "We must speak out for our rights."
+        }
+      },
+      {
+        phrase: "watch out",
+        type: "動詞片語",
+        chinese: "小心、注意",
+        keywords: ["watch", "out"],
+        example: {
+          english: "Watch out for pickpockets when you are traveling in crowded tourist areas.",
+          chinese: "當你在擁擠的旅遊區旅行時，要小心扒手。",
+          grammar_point: "Watch out! (當感嘆詞單獨使用)；Watch out for + N (提防/留意...)"
+        },
+        vocabulary: [
+          { word: "pickpocket", pos: "n.", chinese: "扒手" },
+          { word: "tourist area", pos: "n.", chinese: "旅遊區" }
+        ],
+        sentence_pattern: {
+          pattern: "Watch out for + N",
+          example: "Watch out! A car is coming."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "out",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "out and about",
+        type: "慣用語 / 介系詞片語",
+        chinese: "活躍地四處走動、(病後)能下床走動",
+        example: {
+          english: "After a week in bed with the flu, she is finally out and about again.",
+          chinese: "因為流感臥床一週後，她終於又能下床四處走動了。",
+          grammar_point: "be out and about（指人從疾病中康復，或平時活躍於外出活動）"
+        },
+        vocabulary: [
+          { word: "flu", pos: "n.", chinese: "流行性感冒" },
+          { word: "finally", pos: "adv.", chinese: "終於" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out and about",
+          example: "It's good to see you out and about after your surgery."
+        }
+      },
+      {
+        phrase: "out of the blue",
+        type: "介系詞片語",
+        chinese: "突然地、出乎意料地",
+        example: {
+          english: "I hadn't seen him for years, and then he called me completely out of the blue.",
+          chinese: "我好幾年沒見到他了，然後他完全出乎意料地打電話給我。",
+          grammar_point: "out of the blue（猶如晴天霹靂般突然發生，常放句尾作副詞）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + out of the blue",
+          example: "The decision came totally out of the blue."
+        }
+      },
+      {
+        phrase: "out of character",
+        type: "介系詞片語",
+        chinese: "不符合性格、與平時表現不符",
+        example: {
+          english: "It was completely out of character for him to shout at the employees.",
+          chinese: "他對員工大吼大叫完全不符合他平時的性格。",
+          grammar_point: "be out of character for + 人（對某人來說很不尋常/反常）"
+        },
+        vocabulary: [
+          { word: "character", pos: "n.", chinese: "性格、品格" },
+          { word: "shout", pos: "v.", chinese: "大吼" },
+          { word: "employee", pos: "n.", chinese: "員工" }
+        ],
+        sentence_pattern: {
+          pattern: "It is out of character for O + to V",
+          example: "Her sudden anger was very out of character."
+        }
+      },
+      {
+        phrase: "out of circulation",
+        type: "介系詞片語",
+        chinese: "不再流通、(人)不活躍於社交圈",
+        example: {
+          english: "Since he started his new demanding job, he has been somewhat out of circulation.",
+          chinese: "自從他開始那份要求很高的新工作後，他就有些脫離社交圈了。",
+          grammar_point: "be out of circulation（可指貨幣、書籍停用，也可指人不再參加社交活動）"
+        },
+        vocabulary: [
+          { word: "circulation", pos: "n.", chinese: "流通、循環" },
+          { word: "demanding", pos: "adj.", chinese: "要求高的、費力的" },
+          { word: "somewhat", pos: "adv.", chinese: "有點、稍微" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of circulation",
+          example: "Those old coins are now out of circulation."
+        }
+      },
+      {
+        phrase: "out of your depth",
+        type: "介系詞片語",
+        chinese: "無法駕馭、力不從心",
+        example: {
+          english: "When they started discussing advanced quantum physics, I felt completely out of my depth.",
+          chinese: "當他們開始討論進階的量子物理學時，我感到完全力不從心。",
+          grammar_point: "be/feel out of one's depth（超出某人的能力/理解範圍，宛如在深水中踩不到底）"
+        },
+        vocabulary: [
+          { word: "advanced", pos: "adj.", chinese: "進階的、先進的" },
+          { word: "quantum physics", pos: "n.", chinese: "量子物理學" },
+          { word: "depth", pos: "n.", chinese: "深度" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel out of one's depth",
+          example: "I am out of my depth in this new project."
+        }
+      },
+      {
+        phrase: "out of earshot",
+        type: "介系詞片語",
+        chinese: "在聽不見的距離之外",
+        example: {
+          english: "We waited until the children were out of earshot before discussing the surprise party.",
+          chinese: "我們等到孩子們走遠聽不見了，才開始討論驚喜派對。",
+          grammar_point: "be out of earshot（在聽力所及的範圍外；反義詞為 within earshot）"
+        },
+        vocabulary: [
+          { word: "earshot", pos: "n.", chinese: "聽力所及的範圍" },
+          { word: "discuss", pos: "v.", chinese: "討論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of earshot",
+          example: "Make sure she is out of earshot before you speak."
+        }
+      },
+      {
+        phrase: "out of harm's way",
+        type: "介系詞片語",
+        chinese: "在安全的地方、免於危險",
+        example: {
+          english: "During the typhoon, we moved all the potted plants indoors to keep them out of harm's way.",
+          chinese: "颱風期間，我們把所有盆栽移到室內，讓它們免受破壞。",
+          grammar_point: "keep/stay out of harm's way（保持安全無虞）"
+        },
+        vocabulary: [
+          { word: "typhoon", pos: "n.", chinese: "颱風" },
+          { word: "potted plant", pos: "n.", chinese: "盆栽" },
+          { word: "indoors", pos: "adv.", chinese: "在室內" }
+        ],
+        sentence_pattern: {
+          pattern: "keep O + out of harm's way",
+          example: "The police guided the crowd out of harm's way."
+        }
+      },
+      {
+        phrase: "out like a light",
+        type: "慣用語",
+        chinese: "迅速入睡、立刻熟睡",
+        example: {
+          english: "He was so exhausted after the marathon that he was out like a light as soon as his head hit the pillow.",
+          chinese: "馬拉松結束後他太累了，頭一碰到枕頭就立刻睡著了。",
+          grammar_point: "be out like a light（非正式用語，形容極快睡著或昏過去）"
+        },
+        vocabulary: [
+          { word: "exhausted", pos: "adj.", chinese: "筋疲力盡的" },
+          { word: "marathon", pos: "n.", chinese: "馬拉松" },
+          { word: "pillow", pos: "n.", chinese: "枕頭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out like a light",
+          example: "After drinking the medicine, she was out like a light."
+        }
+      },
+      {
+        phrase: "out on a limb",
+        type: "慣用語",
+        chinese: "處於孤立無援的境地、冒著風險",
+        example: {
+          english: "I went out on a limb to defend your proposal, so please don't let me down.",
+          chinese: "我冒著極大的風險為你的提案辯護，所以請不要讓我失望。",
+          grammar_point: "go out on a limb（原意指走到樹枝末端，引申為冒險、孤立無援）"
+        },
+        vocabulary: [
+          { word: "limb", pos: "n.", chinese: "樹枝、肢體" },
+          { word: "defend", pos: "v.", chinese: "辯護、防禦" },
+          { word: "proposal", pos: "n.", chinese: "提案" }
+        ],
+        sentence_pattern: {
+          pattern: "S + go out on a limb to + V",
+          example: "She went out on a limb for her best friend."
+        }
+      },
+      {
+        phrase: "out to lunch",
+        type: "慣用語",
+        chinese: "(口語) 瘋瘋癲癲、心不在焉、不進入狀況",
+        example: {
+          english: "You must be out to lunch if you think you can finish a one-year project in two days.",
+          chinese: "如果你以為能在兩天內完成一年的專案，那你一定是瘋了（頭腦不清楚）。",
+          grammar_point: "be out to lunch（俚語，指人不在狀態內或想法荒謬）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案、計畫" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + must be out to lunch.",
+          example: "He is totally out to lunch today."
+        }
+      },
+      {
+        phrase: "out of the picture",
+        type: "介系詞片語",
+        chinese: "不再牽涉其中、出局",
+        example: {
+          english: "Now that his rival is out of the picture, he is very likely to get the promotion.",
+          chinese: "既然他的競爭對手已經出局，他很有可能會獲得升遷。",
+          grammar_point: "be out of the picture（不再是考量因素、退出競爭）"
+        },
+        vocabulary: [
+          { word: "rival", pos: "n.", chinese: "競爭對手" },
+          { word: "likely", pos: "adj.", chinese: "很有可能的" },
+          { word: "promotion", pos: "n.", chinese: "升遷" }
+        ],
+        sentence_pattern: {
+          pattern: "S + is out of the picture",
+          example: "With him out of the picture, we can finally proceed."
+        }
+      },
+      {
+        phrase: "out of your own pocket",
+        type: "介系詞片語",
+        chinese: "自掏腰包",
+        example: {
+          english: "Because the company refused to cover the travel expenses, he had to pay for the flight out of his own pocket.",
+          chinese: "因為公司拒絕負擔差旅費，他只好自掏腰包支付機票錢。",
+          grammar_point: "pay (for sth) out of one's own pocket（用自己的錢支付）"
+        },
+        vocabulary: [
+          { word: "refuse", pos: "v.", chinese: "拒絕" },
+          { word: "expense", pos: "n.", chinese: "費用、開支" },
+          { word: "flight", pos: "n.", chinese: "航班、機票" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pay out of one's own pocket",
+          example: "Teachers often buy supplies out of their own pockets."
+        }
+      },
+      {
+        phrase: "out of the question",
+        type: "介系詞片語",
+        chinese: "不可能的、免談",
+        example: {
+          english: "Buying a new car right now is completely out of the question because we are trying to save money.",
+          chinese: "現在買新車是完全不可能的，因為我們正在努力存錢。",
+          grammar_point: "【學測必考】be out of the question（毫無可能，不容討論；注意勿與 out of question 無庸置疑搞混）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "question", pos: "n.", chinese: "問題、疑問" }
+        ],
+        sentence_pattern: {
+          pattern: "N/V-ing is out of the question.",
+          example: "Going out in this storm is out of the question."
+        }
+      },
+      {
+        phrase: "out of sight, out of mind",
+        type: "諺語 / 慣用語",
+        chinese: "眼不見為淨、久不見就忘記",
+        example: {
+          english: "I hid the chocolates in the cupboard, hoping that out of sight, out of mind would help me eat less.",
+          chinese: "我把巧克力藏在櫥櫃裡，希望眼不見為淨能幫我少吃一點。",
+          grammar_point: "out of sight, out of mind（常作為獨立子句或插入語使用）"
+        },
+        vocabulary: [
+          { word: "hide", pos: "v.", chinese: "隱藏 (過去式 hid)" },
+          { word: "cupboard", pos: "n.", chinese: "櫥櫃" }
+        ],
+        sentence_pattern: {
+          pattern: "Out of sight, out of mind.",
+          example: "Since she moved abroad, it's been out of sight, out of mind."
+        }
+      },
+      {
+        phrase: "out of sorts",
+        type: "介系詞片語",
+        chinese: "心情不佳、身體微恙",
+        example: {
+          english: "She has been feeling a bit out of sorts lately, so she decided to take a day off to rest.",
+          chinese: "她最近覺得身體有點不舒服且心情煩躁，所以她決定請一天假休息。",
+          grammar_point: "feel/be out of sorts（指稍微生病、無精打采或情緒低落）"
+        },
+        vocabulary: [
+          { word: "lately", pos: "adv.", chinese: "最近" },
+          { word: "take a day off", pos: "phr.", chinese: "請一天假" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel/be out of sorts",
+          example: "He was feeling out of sorts after the long trip."
+        }
+      },
+      {
+        phrase: "out of sync",
+        type: "介系詞片語",
+        chinese: "不同步、不協調",
+        example: {
+          english: "The audio in this video is out of sync with the speaker's lip movements.",
+          chinese: "這部影片中的音訊與講者的嘴唇動作不同步。",
+          grammar_point: "be out of sync (with N)（與...不一致/不同步；sync為synchronization的縮寫）"
+        },
+        vocabulary: [
+          { word: "audio", pos: "n.", chinese: "音訊、聲音" },
+          { word: "sync", pos: "n.", chinese: "同步" },
+          { word: "movement", pos: "n.", chinese: "動作" }
+        ],
+        sentence_pattern: {
+          pattern: "A is out of sync with B",
+          example: "My schedule is totally out of sync with yours."
+        }
+      },
+      {
+        phrase: "out of touch",
+        type: "介系詞片語",
+        chinese: "脫節、失去聯絡",
+        example: {
+          english: "The old politician is completely out of touch with what young people care about today.",
+          chinese: "這位老政治家與當今許多年輕人在乎的事物完全脫節了。",
+          grammar_point: "be out of touch (with N)（與...失去聯繫，或不了解...的現況）"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of touch with + N",
+          example: "We've been out of touch for years."
+        }
+      },
+      {
+        phrase: "out of this world",
+        type: "介系詞片語",
+        chinese: "極好的、棒透了",
+        example: {
+          english: "The chocolate cake her grandmother baked was simply out of this world.",
+          chinese: "她祖母烤的巧克力蛋糕簡直是人間美味（棒透了）。",
+          grammar_point: "be out of this world（用來誇飾某物極好，宛如不屬於這個世界的絕世珍品）"
+        },
+        vocabulary: [
+          { word: "simply", pos: "adv.", chinese: "簡直、根本" },
+          { word: "bake", pos: "v.", chinese: "烘焙" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is out of this world",
+          example: "The view from the top is out of this world."
+        }
+      },
+      {
+        phrase: "look out for",
+        type: "動詞片語",
+        chinese: "當心、留意、關照",
+        keywords: ["look", "out", "for"],
+        example: {
+          english: "When driving in the mountains, you need to look out for falling rocks.",
+          chinese: "在山區開車時，你需要留意落石。",
+          grammar_point: "look out for + N（留心觀察以防危險；也指關照某人）"
+        },
+        vocabulary: [
+          { word: "falling", pos: "adj.", chinese: "掉落的" },
+          { word: "rock", pos: "n.", chinese: "岩石" }
+        ],
+        sentence_pattern: {
+          pattern: "S + look out for + N",
+          example: "We should always look out for each other."
+        }
+      },
+      {
+        phrase: "turn out",
+        type: "動詞片語",
+        chinese: "結果是、出席",
+        keywords: ["turn", "out"],
+        example: {
+          english: "The weather looked bad in the morning, but it turned out to be a beautiful day.",
+          chinese: "早上天氣看起來很糟，但結果卻是個美麗的一天。",
+          grammar_point: "turn out (to be) + N/Adj（結果卻是...，也可接 that 子句）"
+        },
+        vocabulary: [
+          { word: "beautiful", pos: "adj.", chinese: "美麗的" }
+        ],
+        sentence_pattern: {
+          pattern: "It turned out that + S + V",
+          example: "The rumor turned out to be true."
+        }
+      },
+      {
+        phrase: "carry out",
+        type: "動詞片語",
+        chinese: "執行、實行",
+        keywords: ["carry", "out"],
+        example: {
+          english: "The scientists will carry out a series of experiments to test their theory.",
+          chinese: "科學家將執行一系列的實驗來測試他們的理論。",
+          grammar_point: "carry out + a plan/experiment/survey（執行計畫/實驗/調查）"
+        },
+        vocabulary: [
+          { word: "a series of", pos: "phr.", chinese: "一系列的" },
+          { word: "experiment", pos: "n.", chinese: "實驗" },
+          { word: "theory", pos: "n.", chinese: "理論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + carry out + N",
+          example: "The hospital carried out the new procedure."
+        }
+      },
+      {
+        phrase: "find out",
+        type: "動詞片語",
+        chinese: "發現、查明",
+        keywords: ["find", "out"],
+        example: {
+          english: "I was shocked to find out that my best friend had been lying to me.",
+          chinese: "我很震驚地發現我最好的朋友一直對我說謊。",
+          grammar_point: "find out + N / 疑問詞子句 / that子句（透過調查或詢問得知）"
+        },
+        vocabulary: [
+          { word: "shocked", pos: "adj.", chinese: "震驚的" },
+          { word: "lie", pos: "v.", chinese: "說謊" }
+        ],
+        sentence_pattern: {
+          pattern: "S + find out + that/Wh- clause",
+          example: "We need to find out the truth."
+        }
+      },
+      {
+        phrase: "set out",
+        type: "動詞片語",
+        chinese: "出發、開始(做某事)",
+        keywords: ["set", "out"],
+        example: {
+          english: "They set out on their journey before the sun came up.",
+          chinese: "他們在太陽升起前就出發踏上了旅程。",
+          grammar_point: "set out on a journey（出發旅行）；set out to + V（著手進行某事）"
+        },
+        vocabulary: [
+          { word: "journey", pos: "n.", chinese: "旅程" }
+        ],
+        sentence_pattern: {
+          pattern: "S + set out to + V",
+          example: "He set out to change the world."
+        }
+      },
+      {
+        phrase: "break out",
+        type: "動詞片語",
+        chinese: "爆發(戰爭、火災、疾病)",
+        keywords: ["break", "out"],
+        example: {
+          english: "A massive fire broke out in the old factory late last night.",
+          chinese: "昨晚深夜，那座舊工廠爆發了一場大火。",
+          grammar_point: "【學測必考】break out 無被動語態！事物自己爆發，不可寫 was broken out"
+        },
+        vocabulary: [
+          { word: "massive", pos: "adj.", chinese: "巨大的、大規模的" },
+          { word: "factory", pos: "n.", chinese: "工廠" }
+        ],
+        sentence_pattern: {
+          pattern: "N + broke out + 地方/時間",
+          example: "World War II broke out in 1939."
+        }
+      },
+      {
+        phrase: "work out",
+        type: "動詞片語",
+        chinese: "解決、結果圓滿、健身",
+        keywords: ["work", "out"],
+        example: {
+          english: "Don't worry too much; I'm sure things will work out in the end.",
+          chinese: "別太擔心；我相信事情最終會圓滿解決的。",
+          grammar_point: "work out 可指「事情順利解決」，也可作及物動詞 work out a problem (解決問題) 或不及物動詞「健身」"
+        },
+        vocabulary: [
+          { word: "in the end", pos: "phr.", chinese: "最後、最終" }
+        ],
+        sentence_pattern: {
+          pattern: "Things will work out.",
+          example: "He works out at the gym every day."
+        }
+      },
+      {
+        phrase: "run out of",
+        type: "動詞片語",
+        chinese: "用盡、耗盡",
+        keywords: ["run", "out", "of"],
+        example: {
+          english: "We have run out of gas, so we need to find a gas station immediately.",
+          chinese: "我們的汽油已經耗盡了，所以我們需要立刻找一家加油站。",
+          grammar_point: "run out of + N（把...用光了，主詞通常是「人」）"
+        },
+        vocabulary: [
+          { word: "gas", pos: "n.", chinese: "汽油、瓦斯" },
+          { word: "gas station", pos: "n.", chinese: "加油站" },
+          { word: "immediately", pos: "adv.", chinese: "立刻" }
+        ],
+        sentence_pattern: {
+          pattern: "S + run out of + N",
+          example: "I am running out of patience."
+        }
+      },
+      {
+        phrase: "stand out",
+        type: "動詞片語",
+        chinese: "突出、顯眼",
+        keywords: ["stand", "out"],
+        example: {
+          english: "Her bright red hair makes her really stand out from the crowd.",
+          chinese: "她鮮紅的頭髮讓她在人群中非常顯眼。",
+          grammar_point: "stand out from the crowd（在人群中脫穎而出）"
+        },
+        vocabulary: [
+          { word: "bright", pos: "adj.", chinese: "明亮的、鮮豔的" },
+          { word: "crowd", pos: "n.", chinese: "人群" }
+        ],
+        sentence_pattern: {
+          pattern: "S + stand out",
+          example: "His amazing performance stood out."
+        }
+      },
+      {
+        phrase: "point out",
+        type: "動詞片語",
+        chinese: "指出",
+        keywords: ["point", "out"],
+        example: {
+          english: "The teacher pointed out several grammar mistakes in my essay.",
+          chinese: "老師指出了我作文裡的幾個文法錯誤。",
+          grammar_point: "point out + N / point out that + 子句（明確指出某事）"
+        },
+        vocabulary: [
+          { word: "several", pos: "adj.", chinese: "幾個的" },
+          { word: "grammar", pos: "n.", chinese: "文法" },
+          { word: "essay", pos: "n.", chinese: "文章、短文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point out + that + S + V",
+          example: "He pointed out the flaws in the plan."
+        }
+      },
+      {
+        phrase: "keep out",
+        type: "動詞片語",
+        chinese: "禁止進入、阻擋在外",
+        keywords: ["keep", "out"],
+        example: {
+          english: "The sign on the gate clearly says 'Danger: Keep Out'.",
+          chinese: "大門上的告示牌清楚地寫著「危險：禁止進入」。",
+          grammar_point: "keep out of + 地方（不進入某地）；keep O out（把某物擋在外面）"
+        },
+        vocabulary: [
+          { word: "sign", pos: "n.", chinese: "標誌、告示牌" },
+          { word: "clearly", pos: "adv.", chinese: "清楚地" },
+          { word: "danger", pos: "n.", chinese: "危險" }
+        ],
+        sentence_pattern: {
+          pattern: "Keep out of + 地方",
+          example: "This coat will keep the cold out."
+        }
+      },
+      {
+        phrase: "hand out",
+        type: "動詞片語",
+        chinese: "分發",
+        keywords: ["hand", "out"],
+        example: {
+          english: "Volunteers were handing out free bottles of water to the marathon runners.",
+          chinese: "志工們正在將免費的瓶裝水發給馬拉松跑者。",
+          grammar_point: "hand out = distribute（將物品分發給眾人）"
+        },
+        vocabulary: [
+          { word: "volunteer", pos: "n.", chinese: "志工" },
+          { word: "bottle", pos: "n.", chinese: "瓶子" },
+          { word: "runner", pos: "n.", chinese: "跑者" }
+        ],
+        sentence_pattern: {
+          pattern: "S + hand out + N",
+          example: "The teacher handed out the exam papers."
+        }
+      },
+      {
+        phrase: "take out",
+        type: "動詞片語",
+        chinese: "拿出、帶...出去、外帶",
+        keywords: ["take", "out"],
+        example: {
+          english: "Please remember to take out the trash before you go to bed.",
+          chinese: "睡覺前請記得把垃圾拿出去倒。",
+          grammar_point: "take out the trash (倒垃圾)；亦可作 take someone out (帶某人外出/約會)"
+        },
+        vocabulary: [
+          { word: "trash", pos: "n.", chinese: "垃圾" },
+          { word: "remember to", pos: "phr.", chinese: "記得去做..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + take O out",
+          example: "He took out his wallet to pay."
+        }
+      },
+      {
+        phrase: "leave out",
+        type: "動詞片語",
+        chinese: "遺漏、省略",
+        keywords: ["leave", "out"],
+        example: {
+          english: "When you copy the report, make sure you don't leave out any important details.",
+          chinese: "當你抄寫報告時，確保你沒有遺漏任何重要的細節。",
+          grammar_point: "leave out = omit（不包含、漏掉某事物或人）"
+        },
+        vocabulary: [
+          { word: "copy", pos: "v.", chinese: "抄寫、複製" },
+          { word: "detail", pos: "n.", chinese: "細節" }
+        ],
+        sentence_pattern: {
+          pattern: "S + leave out + N",
+          example: "I feel left out when they speak French."
+        }
+      },
+      {
+        phrase: "cut out",
+        type: "動詞片語",
+        chinese: "戒除、刪去、剪下",
+        keywords: ["cut", "out"],
+        example: {
+          english: "My doctor told me that I need to cut out sweet drinks completely.",
+          chinese: "我的醫生告訴我，我必須完全戒除含糖飲料。",
+          grammar_point: "cut out + N（在飲食或習慣上「停止/戒掉」）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "sweet", pos: "adj.", chinese: "甜的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + cut out + N",
+          example: "She cut out a picture from the magazine."
+        }
+      },
+      {
+        phrase: "wear out",
+        type: "動詞片語",
+        chinese: "磨損、使筋疲力盡",
+        keywords: ["wear", "out"],
+        example: {
+          english: "Walking around the city all day has completely worn me out.",
+          chinese: "在城市裡走了一整天讓我完全筋疲力盡了。",
+          grammar_point: "wear someone out（使人精疲力盡）；be worn out（物體破舊磨損/人很疲累）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + wear O out",
+          example: "My favorite shoes are worn out."
+        }
+      },
+      {
+        phrase: "pull out",
+        type: "動詞片語",
+        chinese: "拔出、(車輛)駛出、撤退",
+        keywords: ["pull", "out"],
+        example: {
+          english: "The train slowly pulled out of the station, heading towards the capital.",
+          chinese: "火車緩緩駛出車站，朝向首都駛去。",
+          grammar_point: "pull out of + 地方（車輛離開某處；或指軍隊/企業撤出）"
+        },
+        vocabulary: [
+          { word: "slowly", pos: "adv.", chinese: "緩慢地" },
+          { word: "head", pos: "v.", chinese: "朝向、前進" },
+          { word: "capital", pos: "n.", chinese: "首都" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pull out of + N",
+          example: "The dentist pulled out my bad tooth."
+        }
+      },
+      {
+        phrase: "fall out",
+        type: "動詞片語",
+        chinese: "吵架、脫落",
+        keywords: ["fall", "out"],
+        example: {
+          english: "He fell out with his brother over a disagreement about their family business.",
+          chinese: "他因為家族企業的意見不合而跟他的兄弟吵架了。",
+          grammar_point: "fall out with + 人 (over 事情)（與某人鬧翻/吵架）"
+        },
+        vocabulary: [
+          { word: "disagreement", pos: "n.", chinese: "意見不合、爭論" },
+          { word: "business", pos: "n.", chinese: "企業、生意" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall out with + O",
+          example: "My hair started to fall out."
+        }
+      },
+      {
+        phrase: "check out",
+        type: "動詞片語",
+        chinese: "結帳離開、查看",
+        keywords: ["check", "out"],
+        example: {
+          english: "We need to pack our bags and check out of the hotel by 11 AM.",
+          chinese: "我們必須打包行李並在上午 11 點前退房。",
+          grammar_point: "check out of a hotel (退房)；check out something (去查看/看一看某物)"
+        },
+        vocabulary: [
+          { word: "pack", pos: "v.", chinese: "打包" },
+          { word: "hotel", pos: "n.", chinese: "旅館" }
+        ],
+        sentence_pattern: {
+          pattern: "S + check out of + 地方",
+          example: "Check out this new song!"
+        }
+      },
+      {
+        phrase: "pass out",
+        type: "動詞片語",
+        chinese: "昏倒、分發",
+        keywords: ["pass", "out"],
+        example: {
+          english: "The heat in the crowded room was so intense that one of the students passed out.",
+          chinese: "擁擠房間裡的悶熱太強烈了，導致其中一名學生昏倒了。",
+          grammar_point: "pass out = faint (昏厥)；也可用來代替 hand out (分發物品)"
+        },
+        vocabulary: [
+          { word: "heat", pos: "n.", chinese: "高溫、炎熱" },
+          { word: "crowded", pos: "adj.", chinese: "擁擠的" },
+          { word: "intense", pos: "adj.", chinese: "強烈的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pass out",
+          example: "Please pass out these books to the class."
+        }
+      },
+      {
+        phrase: "blow out",
+        type: "動詞片語",
+        chinese: "吹熄、爆胎",
+        keywords: ["blow", "out"],
+        example: {
+          english: "Make a wish before you blow out all the candles on your birthday cake.",
+          chinese: "在吹熄你生日蛋糕上所有的蠟燭前許個願吧。",
+          grammar_point: "blow out the candles (吹熄蠟燭)；如果是輪胎，指「爆胎」"
+        },
+        vocabulary: [
+          { word: "wish", pos: "n.", chinese: "願望" },
+          { word: "candle", pos: "n.", chinese: "蠟燭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + blow out + N",
+          example: "The wind blew out the match."
+        }
+      },
+      {
+        phrase: "die out",
+        type: "動詞片語",
+        chinese: "滅絕、逐漸消失",
+        keywords: ["die", "out"],
+        example: {
+          english: "Many traditional customs are beginning to die out in modern society.",
+          chinese: "許多傳統習俗在現代社會中正開始逐漸消失。",
+          grammar_point: "die out = become extinct（物種滅絕或風俗習慣消失）"
+        },
+        vocabulary: [
+          { word: "traditional", pos: "adj.", chinese: "傳統的" },
+          { word: "custom", pos: "n.", chinese: "習俗" },
+          { word: "modern", pos: "adj.", chinese: "現代的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dying out",
+          example: "Dinosaurs died out millions of years ago."
+        }
+      },
+      {
+        phrase: "rule out",
+        type: "動詞片語",
+        chinese: "排除...的可能性",
+        keywords: ["rule", "out"],
+        example: {
+          english: "The police have ruled out suicide and are now treating the case as murder.",
+          chinese: "警方已排除了自殺的可能性，現在將此案視為謀殺來處理。",
+          grammar_point: "rule out the possibility of + N（大考閱測超高頻字：排除...可能）"
+        },
+        vocabulary: [
+          { word: "suicide", pos: "n.", chinese: "自殺" },
+          { word: "treat", pos: "v.", chinese: "對待、處理" },
+          { word: "murder", pos: "n.", chinese: "謀殺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + rule out + N",
+          example: "You cannot rule out this theory completely."
+        }
+      },
+      {
+        phrase: "speak out",
+        type: "動詞片語",
+        chinese: "公開發表意見、大聲說出",
+        keywords: ["speak", "out"],
+        example: {
+          english: "More and more people are speaking out against animal cruelty in the fashion industry.",
+          chinese: "越來越多的人公開發表意見反對時尚產業中的虐待動物行為。",
+          grammar_point: "speak out against + N（發聲反對某事）"
+        },
+        vocabulary: [
+          { word: "cruelty", pos: "n.", chinese: "殘忍、虐待" },
+          { word: "fashion", pos: "n.", chinese: "時尚" },
+          { word: "industry", pos: "n.", chinese: "產業" }
+        ],
+        sentence_pattern: {
+          pattern: "S + speak out about/against + N",
+          example: "We must speak out for our rights."
+        }
+      },
+      {
+        phrase: "watch out",
+        type: "動詞片語",
+        chinese: "小心、注意",
+        keywords: ["watch", "out"],
+        example: {
+          english: "Watch out for pickpockets when you are traveling in crowded tourist areas.",
+          chinese: "當你在擁擠的旅遊區旅行時，要小心扒手。",
+          grammar_point: "Watch out! (當感嘆詞單獨使用)；Watch out for + N (提防/留意...)"
+        },
+        vocabulary: [
+          { word: "pickpocket", pos: "n.", chinese: "扒手" },
+          { word: "tourist area", pos: "n.", chinese: "旅遊區" }
+        ],
+        sentence_pattern: {
+          pattern: "Watch out for + N",
+          example: "Watch out! A car is coming."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "advanced",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "utterly ridiculous",
+        type: "副詞 + 形容詞",
+        chinese: "荒謬至極",
+        keywords: ["utterly", "ridiculous"],
+        example: {
+          english: "His excuse for being late was utterly ridiculous and nobody believed him.",
+          chinese: "他遲到的藉口簡直荒謬至極，沒有人相信他。",
+          grammar_point: "utterly 修飾負面或極端的形容詞，意為「完全地、徹底地」"
+        },
+        vocabulary: [
+          { word: "utterly", pos: "adv.", chinese: "完全地、徹底地" },
+          { word: "ridiculous", pos: "adj.", chinese: "荒謬的" },
+          { word: "excuse", pos: "n.", chinese: "藉口" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is utterly ridiculous.",
+          example: "The price of this ticket is utterly ridiculous."
+        }
+      },
+      {
+        phrase: "dead tired",
+        type: "副詞 + 形容詞",
+        chinese: "累僵了、精疲力竭",
+        keywords: ["dead", "tired"],
+        example: {
+          english: "After working a 12-hour shift, I was dead tired and went straight to bed.",
+          chinese: "上完12小時的班後，我精疲力竭，直接上床睡覺了。",
+          grammar_point: "dead 在此作副詞，意思是「完全地、極度地」"
+        },
+        vocabulary: [
+          { word: "shift", pos: "n.", chinese: "輪班" },
+          { word: "straight", pos: "adv.", chinese: "直接地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be dead tired",
+          example: "She was dead tired after the marathon."
+        }
+      },
+      {
+        phrase: "fast asleep",
+        type: "副詞 + 形容詞",
+        chinese: "熟睡的",
+        keywords: ["fast", "asleep"],
+        example: {
+          english: "The little baby was fast asleep in her mother's arms.",
+          chinese: "小嬰兒在母親的懷裡睡得很熟。",
+          grammar_point: "fast 在此作副詞，意為「深深地、沉沉地」，與 quick 無關"
+        },
+        vocabulary: [
+          { word: "asleep", pos: "adj.", chinese: "睡著的" },
+          { word: "arms", pos: "n.", chinese: "手臂、懷抱" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall/be fast asleep",
+          example: "He fell fast asleep as soon as he lay down."
+        }
+      },
+      {
+        phrase: "painfully slow",
+        type: "副詞 + 形容詞",
+        chinese: "極度緩慢的",
+        keywords: ["painfully", "slow"],
+        example: {
+          english: "Progress on the construction project has been painfully slow due to a lack of funds.",
+          chinese: "由於缺乏資金，這項建築工程的進度慢得令人難受。",
+          grammar_point: "painfully slow（慢到令人痛苦/難受的地步）"
+        },
+        vocabulary: [
+          { word: "progress", pos: "n.", chinese: "進度" },
+          { word: "construction", pos: "n.", chinese: "建築、施工" },
+          { word: "lack", pos: "n.", chinese: "缺乏" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is painfully slow.",
+          example: "The internet connection is painfully slow today."
+        }
+      },
+      {
+        phrase: "heavily involved",
+        type: "副詞 + 過去分詞",
+        chinese: "深度參與、牽涉極深",
+        keywords: ["heavily", "involved"],
+        example: {
+          english: "She is heavily involved in local charity work and helps out every weekend.",
+          chinese: "她深度參與當地的慈善工作，每個週末都會去幫忙。",
+          grammar_point: "be heavily involved in + N（深度參與...）"
+        },
+        vocabulary: [
+          { word: "involved", pos: "adj.", chinese: "參與的、牽涉的" },
+          { word: "charity", pos: "n.", chinese: "慈善" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be heavily involved in + N",
+          example: "The company is heavily involved in environmental protection."
+        }
+      },
+      {
+        phrase: "in broad daylight",
+        type: "介系詞 + 形容詞 + 名詞",
+        chinese: "在光天化日之下",
+        keywords: ["broad", "daylight"],
+        example: {
+          english: "The robbery occurred right in the middle of the street in broad daylight.",
+          chinese: "這場搶劫就發生在光天化日之下的大街中央。",
+          grammar_point: "in broad daylight（為固定片語，常接於發生意外、犯罪的語境）"
+        },
+        vocabulary: [
+          { word: "robbery", pos: "n.", chinese: "搶劫" },
+          { word: "occur", pos: "v.", chinese: "發生" }
+        ],
+        sentence_pattern: {
+          pattern: "N + happened in broad daylight.",
+          example: "His car was stolen in broad daylight."
+        }
+      },
+      {
+        phrase: "brief chat",
+        type: "形容詞 + 名詞",
+        chinese: "簡短的交談",
+        keywords: ["brief", "chat"],
+        example: {
+          english: "I had a brief chat with my professor after the lecture about my thesis.",
+          chinese: "演講結束後，我和教授就我的論文進行了簡短的交談。",
+          grammar_point: "have a brief chat with + 人（與某人簡短交談）"
+        },
+        vocabulary: [
+          { word: "brief", pos: "adj.", chinese: "簡短的" },
+          { word: "lecture", pos: "n.", chinese: "演講、講課" },
+          { word: "thesis", pos: "n.", chinese: "論文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have a brief chat with + O",
+          example: "We had a brief chat before the meeting started."
+        }
+      },
+      {
+        phrase: "key factor",
+        type: "形容詞 + 名詞",
+        chinese: "關鍵因素",
+        keywords: ["key", "factor"],
+        example: {
+          english: "Education is a key factor in reducing poverty and improving society.",
+          chinese: "教育是減少貧窮和改善社會的關鍵因素。",
+          grammar_point: "a key factor in + V-ing/N（在...方面的關鍵因素）"
+        },
+        vocabulary: [
+          { word: "factor", pos: "n.", chinese: "因素" },
+          { word: "poverty", pos: "n.", chinese: "貧窮" },
+          { word: "improve", pos: "v.", chinese: "改善" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a key factor in + V-ing",
+          example: "Price is a key factor in their decision."
+        }
+      },
+      {
+        phrase: "prime example",
+        type: "形容詞 + 名詞",
+        chinese: "最佳範例、典型例子",
+        keywords: ["prime", "example"],
+        example: {
+          english: "This eco-friendly building is a prime example of modern sustainable architecture.",
+          chinese: "這棟環保建築是現代永續建築的最佳範例。",
+          grammar_point: "a prime example of + N（...的絕佳例子）"
+        },
+        vocabulary: [
+          { word: "eco-friendly", pos: "adj.", chinese: "環保的" },
+          { word: "sustainable", pos: "adj.", chinese: "永續的" },
+          { word: "architecture", pos: "n.", chinese: "建築(學)" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a prime example of + N",
+          example: "His success is a prime example of hard work."
+        }
+      },
+      {
+        phrase: "major breakthrough",
+        type: "形容詞 + 名詞",
+        chinese: "重大突破",
+        keywords: ["major", "breakthrough"],
+        example: {
+          english: "Scientists have finally made a major breakthrough in cancer research.",
+          chinese: "科學家們終於在癌症研究方面取得了重大突破。",
+          grammar_point: "make a major breakthrough in + N（在...方面取得重大突破）"
+        },
+        vocabulary: [
+          { word: "breakthrough", pos: "n.", chinese: "突破" },
+          { word: "cancer", pos: "n.", chinese: "癌症" },
+          { word: "research", pos: "n.", chinese: "研究" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a major breakthrough in + N",
+          example: "The new technology represents a major breakthrough."
+        }
+      },
+      {
+        phrase: "hidden talent",
+        type: "形容詞 + 名詞",
+        chinese: "隱藏的才能",
+        keywords: ["hidden", "talent"],
+        example: {
+          english: "During the karaoke party, she revealed a hidden talent for singing that surprised everyone.",
+          chinese: "在卡拉OK派對上，她展現了令人驚豔的隱藏歌唱才能。",
+          grammar_point: "a hidden talent for + V-ing（在...方面有隱藏的才華）"
+        },
+        vocabulary: [
+          { word: "reveal", pos: "v.", chinese: "展現、揭露" },
+          { word: "talent", pos: "n.", chinese: "才能、天賦" },
+          { word: "surprise", pos: "v.", chinese: "使驚訝" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have/reveal a hidden talent for + N/V-ing",
+          example: "He discovered a hidden talent for cooking."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "out",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "out and about",
+        type: "慣用語 / 介系詞片語",
+        chinese: "活躍地四處走動、(病後)能下床走動",
+        example: {
+          english: "After a week in bed with the flu, she is finally out and about again.",
+          chinese: "因為流感臥床一週後，她終於又能下床四處走動了。",
+          grammar_point: "be out and about（指人從疾病中康復，或平時活躍於外出活動）"
+        },
+        vocabulary: [
+          { word: "flu", pos: "n.", chinese: "流行性感冒" },
+          { word: "finally", pos: "adv.", chinese: "終於" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out and about",
+          example: "It's good to see you out and about after your surgery."
+        }
+      },
+      {
+        phrase: "out of the blue",
+        type: "介系詞片語",
+        chinese: "突然地、出乎意料地",
+        example: {
+          english: "I hadn't seen him for years, and then he called me completely out of the blue.",
+          chinese: "我好幾年沒見到他了，然後他完全出乎意料地打電話給我。",
+          grammar_point: "out of the blue（猶如晴天霹靂般突然發生，常放句尾作副詞）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + out of the blue",
+          example: "The decision came totally out of the blue."
+        }
+      },
+      {
+        phrase: "out of character",
+        type: "介系詞片語",
+        chinese: "不符合性格、與平時表現不符",
+        example: {
+          english: "It was completely out of character for him to shout at the employees.",
+          chinese: "他對員工大吼大叫完全不符合他平時的性格。",
+          grammar_point: "be out of character for + 人（對某人來說很不尋常/反常）"
+        },
+        vocabulary: [
+          { word: "character", pos: "n.", chinese: "性格、品格" },
+          { word: "shout", pos: "v.", chinese: "大吼" },
+          { word: "employee", pos: "n.", chinese: "員工" }
+        ],
+        sentence_pattern: {
+          pattern: "It is out of character for O + to V",
+          example: "Her sudden anger was very out of character."
+        }
+      },
+      {
+        phrase: "out of circulation",
+        type: "介系詞片語",
+        chinese: "不再流通、(人)不活躍於社交圈",
+        example: {
+          english: "Since he started his new demanding job, he has been somewhat out of circulation.",
+          chinese: "自從他開始那份要求很高的新工作後，他就有些脫離社交圈了。",
+          grammar_point: "be out of circulation（可指貨幣、書籍停用，也可指人不再參加社交活動）"
+        },
+        vocabulary: [
+          { word: "circulation", pos: "n.", chinese: "流通、循環" },
+          { word: "demanding", pos: "adj.", chinese: "要求高的、費力的" },
+          { word: "somewhat", pos: "adv.", chinese: "有點、稍微" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of circulation",
+          example: "Those old coins are now out of circulation."
+        }
+      },
+      {
+        phrase: "out of your depth",
+        type: "介系詞片語",
+        chinese: "無法駕馭、力不從心",
+        example: {
+          english: "When they started discussing advanced quantum physics, I felt completely out of my depth.",
+          chinese: "當他們開始討論進階的量子物理學時，我感到完全力不從心。",
+          grammar_point: "be/feel out of one's depth（超出某人的能力/理解範圍，宛如在深水中踩不到底）"
+        },
+        vocabulary: [
+          { word: "advanced", pos: "adj.", chinese: "進階的、先進的" },
+          { word: "quantum physics", pos: "n.", chinese: "量子物理學" },
+          { word: "depth", pos: "n.", chinese: "深度" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel out of one's depth",
+          example: "I am out of my depth in this new project."
+        }
+      },
+      {
+        phrase: "out of earshot",
+        type: "介系詞片語",
+        chinese: "在聽不見的距離之外",
+        example: {
+          english: "We waited until the children were out of earshot before discussing the surprise party.",
+          chinese: "我們等到孩子們走遠聽不見了，才開始討論驚喜派對。",
+          grammar_point: "be out of earshot（在聽力所及的範圍外；反義詞為 within earshot）"
+        },
+        vocabulary: [
+          { word: "earshot", pos: "n.", chinese: "聽力所及的範圍" },
+          { word: "discuss", pos: "v.", chinese: "討論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of earshot",
+          example: "Make sure she is out of earshot before you speak."
+        }
+      },
+      {
+        phrase: "out of harm's way",
+        type: "介系詞片語",
+        chinese: "在安全的地方、免於危險",
+        example: {
+          english: "During the typhoon, we moved all the potted plants indoors to keep them out of harm's way.",
+          chinese: "颱風期間，我們把所有盆栽移到室內，讓它們免受破壞。",
+          grammar_point: "keep/stay out of harm's way（保持安全無虞）"
+        },
+        vocabulary: [
+          { word: "typhoon", pos: "n.", chinese: "颱風" },
+          { word: "potted plant", pos: "n.", chinese: "盆栽" },
+          { word: "indoors", pos: "adv.", chinese: "在室內" }
+        ],
+        sentence_pattern: {
+          pattern: "keep O + out of harm's way",
+          example: "The police guided the crowd out of harm's way."
+        }
+      },
+      {
+        phrase: "out like a light",
+        type: "慣用語",
+        chinese: "迅速入睡、立刻熟睡",
+        example: {
+          english: "He was so exhausted after the marathon that he was out like a light as soon as his head hit the pillow.",
+          chinese: "馬拉松結束後他太累了，頭一碰到枕頭就立刻睡著了。",
+          grammar_point: "be out like a light（非正式用語，形容極快睡著或昏過去）"
+        },
+        vocabulary: [
+          { word: "exhausted", pos: "adj.", chinese: "筋疲力盡的" },
+          { word: "marathon", pos: "n.", chinese: "馬拉松" },
+          { word: "pillow", pos: "n.", chinese: "枕頭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out like a light",
+          example: "After drinking the medicine, she was out like a light."
+        }
+      },
+      {
+        phrase: "out on a limb",
+        type: "慣用語",
+        chinese: "處於孤立無援的境地、冒著風險",
+        example: {
+          english: "I went out on a limb to defend your proposal, so please don't let me down.",
+          chinese: "我冒著極大的風險為你的提案辯護，所以請不要讓我失望。",
+          grammar_point: "go out on a limb（原意指走到樹枝末端，引申為冒險、孤立無援）"
+        },
+        vocabulary: [
+          { word: "limb", pos: "n.", chinese: "樹枝、肢體" },
+          { word: "defend", pos: "v.", chinese: "辯護、防禦" },
+          { word: "proposal", pos: "n.", chinese: "提案" }
+        ],
+        sentence_pattern: {
+          pattern: "S + go out on a limb to + V",
+          example: "She went out on a limb for her best friend."
+        }
+      },
+      {
+        phrase: "out to lunch",
+        type: "慣用語",
+        chinese: "(口語) 瘋瘋癲癲、心不在焉、不進入狀況",
+        example: {
+          english: "You must be out to lunch if you think you can finish a one-year project in two days.",
+          chinese: "如果你以為能在兩天內完成一年的專案，那你一定是瘋了（頭腦不清楚）。",
+          grammar_point: "be out to lunch（俚語，指人不在狀態內或想法荒謬）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案、計畫" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + must be out to lunch.",
+          example: "He is totally out to lunch today."
+        }
+      },
+      {
+        phrase: "out of the picture",
+        type: "介系詞片語",
+        chinese: "不再牽涉其中、出局",
+        example: {
+          english: "Now that his rival is out of the picture, he is very likely to get the promotion.",
+          chinese: "既然他的競爭對手已經出局，他很有可能會獲得升遷。",
+          grammar_point: "be out of the picture（不再是考量因素、退出競爭）"
+        },
+        vocabulary: [
+          { word: "rival", pos: "n.", chinese: "競爭對手" },
+          { word: "likely", pos: "adj.", chinese: "很有可能的" },
+          { word: "promotion", pos: "n.", chinese: "升遷" }
+        ],
+        sentence_pattern: {
+          pattern: "S + is out of the picture",
+          example: "With him out of the picture, we can finally proceed."
+        }
+      },
+      {
+        phrase: "out of your own pocket",
+        type: "介系詞片語",
+        chinese: "自掏腰包",
+        example: {
+          english: "Because the company refused to cover the travel expenses, he had to pay for the flight out of his own pocket.",
+          chinese: "因為公司拒絕負擔差旅費，他只好自掏腰包支付機票錢。",
+          grammar_point: "pay (for sth) out of one's own pocket（用自己的錢支付）"
+        },
+        vocabulary: [
+          { word: "refuse", pos: "v.", chinese: "拒絕" },
+          { word: "expense", pos: "n.", chinese: "費用、開支" },
+          { word: "flight", pos: "n.", chinese: "航班、機票" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pay out of one's own pocket",
+          example: "Teachers often buy supplies out of their own pockets."
+        }
+      },
+      {
+        phrase: "out of the question",
+        type: "介系詞片語",
+        chinese: "不可能的、免談",
+        example: {
+          english: "Buying a new car right now is completely out of the question because we are trying to save money.",
+          chinese: "現在買新車是完全不可能的，因為我們正在努力存錢。",
+          grammar_point: "【學測必考】be out of the question（毫無可能，不容討論；注意勿與 out of question 無庸置疑搞混）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "question", pos: "n.", chinese: "問題、疑問" }
+        ],
+        sentence_pattern: {
+          pattern: "N/V-ing is out of the question.",
+          example: "Going out in this storm is out of the question."
+        }
+      },
+      {
+        phrase: "out of sight, out of mind",
+        type: "諺語 / 慣用語",
+        chinese: "眼不見為淨、久不見就忘記",
+        example: {
+          english: "I hid the chocolates in the cupboard, hoping that out of sight, out of mind would help me eat less.",
+          chinese: "我把巧克力藏在櫥櫃裡，希望眼不見為淨能幫我少吃一點。",
+          grammar_point: "out of sight, out of mind（常作為獨立子句或插入語使用）"
+        },
+        vocabulary: [
+          { word: "hide", pos: "v.", chinese: "隱藏 (過去式 hid)" },
+          { word: "cupboard", pos: "n.", chinese: "櫥櫃" }
+        ],
+        sentence_pattern: {
+          pattern: "Out of sight, out of mind.",
+          example: "Since she moved abroad, it's been out of sight, out of mind."
+        }
+      },
+      {
+        phrase: "out of sorts",
+        type: "介系詞片語",
+        chinese: "心情不佳、身體微恙",
+        example: {
+          english: "She has been feeling a bit out of sorts lately, so she decided to take a day off to rest.",
+          chinese: "她最近覺得身體有點不舒服且心情煩躁，所以她決定請一天假休息。",
+          grammar_point: "feel/be out of sorts（指稍微生病、無精打采或情緒低落）"
+        },
+        vocabulary: [
+          { word: "lately", pos: "adv.", chinese: "最近" },
+          { word: "take a day off", pos: "phr.", chinese: "請一天假" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel/be out of sorts",
+          example: "He was feeling out of sorts after the long trip."
+        }
+      },
+      {
+        phrase: "out of sync",
+        type: "介系詞片語",
+        chinese: "不同步、不協調",
+        example: {
+          english: "The audio in this video is out of sync with the speaker's lip movements.",
+          chinese: "這部影片中的音訊與講者的嘴唇動作不同步。",
+          grammar_point: "be out of sync (with N)（與...不一致/不同步；sync為synchronization的縮寫）"
+        },
+        vocabulary: [
+          { word: "audio", pos: "n.", chinese: "音訊、聲音" },
+          { word: "sync", pos: "n.", chinese: "同步" },
+          { word: "movement", pos: "n.", chinese: "動作" }
+        ],
+        sentence_pattern: {
+          pattern: "A is out of sync with B",
+          example: "My schedule is totally out of sync with yours."
+        }
+      },
+      {
+        phrase: "out of touch",
+        type: "介系詞片語",
+        chinese: "脫節、失去聯絡",
+        example: {
+          english: "The old politician is completely out of touch with what young people care about today.",
+          chinese: "這位老政治家與當今許多年輕人在乎的事物完全脫節了。",
+          grammar_point: "be out of touch (with N)（與...失去聯繫，或不了解...的現況）"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of touch with + N",
+          example: "We've been out of touch for years."
+        }
+      },
+      {
+        phrase: "out of this world",
+        type: "介系詞片語",
+        chinese: "極好的、棒透了",
+        example: {
+          english: "The chocolate cake her grandmother baked was simply out of this world.",
+          chinese: "她祖母烤的巧克力蛋糕簡直是人間美味（棒透了）。",
+          grammar_point: "be out of this world（用來誇飾某物極好，宛如不屬於這個世界的絕世珍品）"
+        },
+        vocabulary: [
+          { word: "simply", pos: "adv.", chinese: "簡直、根本" },
+          { word: "bake", pos: "v.", chinese: "烘焙" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is out of this world",
+          example: "The view from the top is out of this world."
+        }
+      },
+      {
+        phrase: "look out for",
+        type: "動詞片語",
+        chinese: "當心、留意、關照",
+        keywords: ["look", "out", "for"],
+        example: {
+          english: "When driving in the mountains, you need to look out for falling rocks.",
+          chinese: "在山區開車時，你需要留意落石。",
+          grammar_point: "look out for + N（留心觀察以防危險；也指關照某人）"
+        },
+        vocabulary: [
+          { word: "falling", pos: "adj.", chinese: "掉落的" },
+          { word: "rock", pos: "n.", chinese: "岩石" }
+        ],
+        sentence_pattern: {
+          pattern: "S + look out for + N",
+          example: "We should always look out for each other."
+        }
+      },
+      {
+        phrase: "turn out",
+        type: "動詞片語",
+        chinese: "結果是、出席",
+        keywords: ["turn", "out"],
+        example: {
+          english: "The weather looked bad in the morning, but it turned out to be a beautiful day.",
+          chinese: "早上天氣看起來很糟，但結果卻是個美麗的一天。",
+          grammar_point: "turn out (to be) + N/Adj（結果卻是...，也可接 that 子句）"
+        },
+        vocabulary: [
+          { word: "beautiful", pos: "adj.", chinese: "美麗的" }
+        ],
+        sentence_pattern: {
+          pattern: "It turned out that + S + V",
+          example: "The rumor turned out to be true."
+        }
+      },
+      {
+        phrase: "carry out",
+        type: "動詞片語",
+        chinese: "執行、實行",
+        keywords: ["carry", "out"],
+        example: {
+          english: "The scientists will carry out a series of experiments to test their theory.",
+          chinese: "科學家將執行一系列的實驗來測試他們的理論。",
+          grammar_point: "carry out + a plan/experiment/survey（執行計畫/實驗/調查）"
+        },
+        vocabulary: [
+          { word: "a series of", pos: "phr.", chinese: "一系列的" },
+          { word: "experiment", pos: "n.", chinese: "實驗" },
+          { word: "theory", pos: "n.", chinese: "理論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + carry out + N",
+          example: "The hospital carried out the new procedure."
+        }
+      },
+      {
+        phrase: "find out",
+        type: "動詞片語",
+        chinese: "發現、查明",
+        keywords: ["find", "out"],
+        example: {
+          english: "I was shocked to find out that my best friend had been lying to me.",
+          chinese: "我很震驚地發現我最好的朋友一直對我說謊。",
+          grammar_point: "find out + N / 疑問詞子句 / that子句（透過調查或詢問得知）"
+        },
+        vocabulary: [
+          { word: "shocked", pos: "adj.", chinese: "震驚的" },
+          { word: "lie", pos: "v.", chinese: "說謊" }
+        ],
+        sentence_pattern: {
+          pattern: "S + find out + that/Wh- clause",
+          example: "We need to find out the truth."
+        }
+      },
+      {
+        phrase: "set out",
+        type: "動詞片語",
+        chinese: "出發、開始(做某事)",
+        keywords: ["set", "out"],
+        example: {
+          english: "They set out on their journey before the sun came up.",
+          chinese: "他們在太陽升起前就出發踏上了旅程。",
+          grammar_point: "set out on a journey（出發旅行）；set out to + V（著手進行某事）"
+        },
+        vocabulary: [
+          { word: "journey", pos: "n.", chinese: "旅程" }
+        ],
+        sentence_pattern: {
+          pattern: "S + set out to + V",
+          example: "He set out to change the world."
+        }
+      },
+      {
+        phrase: "break out",
+        type: "動詞片語",
+        chinese: "爆發(戰爭、火災、疾病)",
+        keywords: ["break", "out"],
+        example: {
+          english: "A massive fire broke out in the old factory late last night.",
+          chinese: "昨晚深夜，那座舊工廠爆發了一場大火。",
+          grammar_point: "【學測必考】break out 無被動語態！事物自己爆發，不可寫 was broken out"
+        },
+        vocabulary: [
+          { word: "massive", pos: "adj.", chinese: "巨大的、大規模的" },
+          { word: "factory", pos: "n.", chinese: "工廠" }
+        ],
+        sentence_pattern: {
+          pattern: "N + broke out + 地方/時間",
+          example: "World War II broke out in 1939."
+        }
+      },
+      {
+        phrase: "work out",
+        type: "動詞片語",
+        chinese: "解決、結果圓滿、健身",
+        keywords: ["work", "out"],
+        example: {
+          english: "Don't worry too much; I'm sure things will work out in the end.",
+          chinese: "別太擔心；我相信事情最終會圓滿解決的。",
+          grammar_point: "work out 可指「事情順利解決」，也可作及物動詞 work out a problem (解決問題) 或不及物動詞「健身」"
+        },
+        vocabulary: [
+          { word: "in the end", pos: "phr.", chinese: "最後、最終" }
+        ],
+        sentence_pattern: {
+          pattern: "Things will work out.",
+          example: "He works out at the gym every day."
+        }
+      },
+      {
+        phrase: "run out of",
+        type: "動詞片語",
+        chinese: "用盡、耗盡",
+        keywords: ["run", "out", "of"],
+        example: {
+          english: "We have run out of gas, so we need to find a gas station immediately.",
+          chinese: "我們的汽油已經耗盡了，所以我們需要立刻找一家加油站。",
+          grammar_point: "run out of + N（把...用光了，主詞通常是「人」）"
+        },
+        vocabulary: [
+          { word: "gas", pos: "n.", chinese: "汽油、瓦斯" },
+          { word: "gas station", pos: "n.", chinese: "加油站" },
+          { word: "immediately", pos: "adv.", chinese: "立刻" }
+        ],
+        sentence_pattern: {
+          pattern: "S + run out of + N",
+          example: "I am running out of patience."
+        }
+      },
+      {
+        phrase: "stand out",
+        type: "動詞片語",
+        chinese: "突出、顯眼",
+        keywords: ["stand", "out"],
+        example: {
+          english: "Her bright red hair makes her really stand out from the crowd.",
+          chinese: "她鮮紅的頭髮讓她在人群中非常顯眼。",
+          grammar_point: "stand out from the crowd（在人群中脫穎而出）"
+        },
+        vocabulary: [
+          { word: "bright", pos: "adj.", chinese: "明亮的、鮮豔的" },
+          { word: "crowd", pos: "n.", chinese: "人群" }
+        ],
+        sentence_pattern: {
+          pattern: "S + stand out",
+          example: "His amazing performance stood out."
+        }
+      },
+      {
+        phrase: "point out",
+        type: "動詞片語",
+        chinese: "指出",
+        keywords: ["point", "out"],
+        example: {
+          english: "The teacher pointed out several grammar mistakes in my essay.",
+          chinese: "老師指出了我作文裡的幾個文法錯誤。",
+          grammar_point: "point out + N / point out that + 子句（明確指出某事）"
+        },
+        vocabulary: [
+          { word: "several", pos: "adj.", chinese: "幾個的" },
+          { word: "grammar", pos: "n.", chinese: "文法" },
+          { word: "essay", pos: "n.", chinese: "文章、短文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point out + that + S + V",
+          example: "He pointed out the flaws in the plan."
+        }
+      },
+      {
+        phrase: "keep out",
+        type: "動詞片語",
+        chinese: "禁止進入、阻擋在外",
+        keywords: ["keep", "out"],
+        example: {
+          english: "The sign on the gate clearly says 'Danger: Keep Out'.",
+          chinese: "大門上的告示牌清楚地寫著「危險：禁止進入」。",
+          grammar_point: "keep out of + 地方（不進入某地）；keep O out（把某物擋在外面）"
+        },
+        vocabulary: [
+          { word: "sign", pos: "n.", chinese: "標誌、告示牌" },
+          { word: "clearly", pos: "adv.", chinese: "清楚地" },
+          { word: "danger", pos: "n.", chinese: "危險" }
+        ],
+        sentence_pattern: {
+          pattern: "Keep out of + 地方",
+          example: "This coat will keep the cold out."
+        }
+      },
+      {
+        phrase: "hand out",
+        type: "動詞片語",
+        chinese: "分發",
+        keywords: ["hand", "out"],
+        example: {
+          english: "Volunteers were handing out free bottles of water to the marathon runners.",
+          chinese: "志工們正在將免費的瓶裝水發給馬拉松跑者。",
+          grammar_point: "hand out = distribute（將物品分發給眾人）"
+        },
+        vocabulary: [
+          { word: "volunteer", pos: "n.", chinese: "志工" },
+          { word: "bottle", pos: "n.", chinese: "瓶子" },
+          { word: "runner", pos: "n.", chinese: "跑者" }
+        ],
+        sentence_pattern: {
+          pattern: "S + hand out + N",
+          example: "The teacher handed out the exam papers."
+        }
+      },
+      {
+        phrase: "take out",
+        type: "動詞片語",
+        chinese: "拿出、帶...出去、外帶",
+        keywords: ["take", "out"],
+        example: {
+          english: "Please remember to take out the trash before you go to bed.",
+          chinese: "睡覺前請記得把垃圾拿出去倒。",
+          grammar_point: "take out the trash (倒垃圾)；亦可作 take someone out (帶某人外出/約會)"
+        },
+        vocabulary: [
+          { word: "trash", pos: "n.", chinese: "垃圾" },
+          { word: "remember to", pos: "phr.", chinese: "記得去做..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + take O out",
+          example: "He took out his wallet to pay."
+        }
+      },
+      {
+        phrase: "leave out",
+        type: "動詞片語",
+        chinese: "遺漏、省略",
+        keywords: ["leave", "out"],
+        example: {
+          english: "When you copy the report, make sure you don't leave out any important details.",
+          chinese: "當你抄寫報告時，確保你沒有遺漏任何重要的細節。",
+          grammar_point: "leave out = omit（不包含、漏掉某事物或人）"
+        },
+        vocabulary: [
+          { word: "copy", pos: "v.", chinese: "抄寫、複製" },
+          { word: "detail", pos: "n.", chinese: "細節" }
+        ],
+        sentence_pattern: {
+          pattern: "S + leave out + N",
+          example: "I feel left out when they speak French."
+        }
+      },
+      {
+        phrase: "cut out",
+        type: "動詞片語",
+        chinese: "戒除、刪去、剪下",
+        keywords: ["cut", "out"],
+        example: {
+          english: "My doctor told me that I need to cut out sweet drinks completely.",
+          chinese: "我的醫生告訴我，我必須完全戒除含糖飲料。",
+          grammar_point: "cut out + N（在飲食或習慣上「停止/戒掉」）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "sweet", pos: "adj.", chinese: "甜的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + cut out + N",
+          example: "She cut out a picture from the magazine."
+        }
+      },
+      {
+        phrase: "wear out",
+        type: "動詞片語",
+        chinese: "磨損、使筋疲力盡",
+        keywords: ["wear", "out"],
+        example: {
+          english: "Walking around the city all day has completely worn me out.",
+          chinese: "在城市裡走了一整天讓我完全筋疲力盡了。",
+          grammar_point: "wear someone out（使人精疲力盡）；be worn out（物體破舊磨損/人很疲累）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + wear O out",
+          example: "My favorite shoes are worn out."
+        }
+      },
+      {
+        phrase: "pull out",
+        type: "動詞片語",
+        chinese: "拔出、(車輛)駛出、撤退",
+        keywords: ["pull", "out"],
+        example: {
+          english: "The train slowly pulled out of the station, heading towards the capital.",
+          chinese: "火車緩緩駛出車站，朝向首都駛去。",
+          grammar_point: "pull out of + 地方（車輛離開某處；或指軍隊/企業撤出）"
+        },
+        vocabulary: [
+          { word: "slowly", pos: "adv.", chinese: "緩慢地" },
+          { word: "head", pos: "v.", chinese: "朝向、前進" },
+          { word: "capital", pos: "n.", chinese: "首都" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pull out of + N",
+          example: "The dentist pulled out my bad tooth."
+        }
+      },
+      {
+        phrase: "fall out",
+        type: "動詞片語",
+        chinese: "吵架、脫落",
+        keywords: ["fall", "out"],
+        example: {
+          english: "He fell out with his brother over a disagreement about their family business.",
+          chinese: "他因為家族企業的意見不合而跟他的兄弟吵架了。",
+          grammar_point: "fall out with + 人 (over 事情)（與某人鬧翻/吵架）"
+        },
+        vocabulary: [
+          { word: "disagreement", pos: "n.", chinese: "意見不合、爭論" },
+          { word: "business", pos: "n.", chinese: "企業、生意" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall out with + O",
+          example: "My hair started to fall out."
+        }
+      },
+      {
+        phrase: "check out",
+        type: "動詞片語",
+        chinese: "結帳離開、查看",
+        keywords: ["check", "out"],
+        example: {
+          english: "We need to pack our bags and check out of the hotel by 11 AM.",
+          chinese: "我們必須打包行李並在上午 11 點前退房。",
+          grammar_point: "check out of a hotel (退房)；check out something (去查看/看一看某物)"
+        },
+        vocabulary: [
+          { word: "pack", pos: "v.", chinese: "打包" },
+          { word: "hotel", pos: "n.", chinese: "旅館" }
+        ],
+        sentence_pattern: {
+          pattern: "S + check out of + 地方",
+          example: "Check out this new song!"
+        }
+      },
+      {
+        phrase: "pass out",
+        type: "動詞片語",
+        chinese: "昏倒、分發",
+        keywords: ["pass", "out"],
+        example: {
+          english: "The heat in the crowded room was so intense that one of the students passed out.",
+          chinese: "擁擠房間裡的悶熱太強烈了，導致其中一名學生昏倒了。",
+          grammar_point: "pass out = faint (昏厥)；也可用來代替 hand out (分發物品)"
+        },
+        vocabulary: [
+          { word: "heat", pos: "n.", chinese: "高溫、炎熱" },
+          { word: "crowded", pos: "adj.", chinese: "擁擠的" },
+          { word: "intense", pos: "adj.", chinese: "強烈的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pass out",
+          example: "Please pass out these books to the class."
+        }
+      },
+      {
+        phrase: "blow out",
+        type: "動詞片語",
+        chinese: "吹熄、爆胎",
+        keywords: ["blow", "out"],
+        example: {
+          english: "Make a wish before you blow out all the candles on your birthday cake.",
+          chinese: "在吹熄你生日蛋糕上所有的蠟燭前許個願吧。",
+          grammar_point: "blow out the candles (吹熄蠟燭)；如果是輪胎，指「爆胎」"
+        },
+        vocabulary: [
+          { word: "wish", pos: "n.", chinese: "願望" },
+          { word: "candle", pos: "n.", chinese: "蠟燭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + blow out + N",
+          example: "The wind blew out the match."
+        }
+      },
+      {
+        phrase: "die out",
+        type: "動詞片語",
+        chinese: "滅絕、逐漸消失",
+        keywords: ["die", "out"],
+        example: {
+          english: "Many traditional customs are beginning to die out in modern society.",
+          chinese: "許多傳統習俗在現代社會中正開始逐漸消失。",
+          grammar_point: "die out = become extinct（物種滅絕或風俗習慣消失）"
+        },
+        vocabulary: [
+          { word: "traditional", pos: "adj.", chinese: "傳統的" },
+          { word: "custom", pos: "n.", chinese: "習俗" },
+          { word: "modern", pos: "adj.", chinese: "現代的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dying out",
+          example: "Dinosaurs died out millions of years ago."
+        }
+      },
+      {
+        phrase: "rule out",
+        type: "動詞片語",
+        chinese: "排除...的可能性",
+        keywords: ["rule", "out"],
+        example: {
+          english: "The police have ruled out suicide and are now treating the case as murder.",
+          chinese: "警方已排除了自殺的可能性，現在將此案視為謀殺來處理。",
+          grammar_point: "rule out the possibility of + N（大考閱測超高頻字：排除...可能）"
+        },
+        vocabulary: [
+          { word: "suicide", pos: "n.", chinese: "自殺" },
+          { word: "treat", pos: "v.", chinese: "對待、處理" },
+          { word: "murder", pos: "n.", chinese: "謀殺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + rule out + N",
+          example: "You cannot rule out this theory completely."
+        }
+      },
+      {
+        phrase: "speak out",
+        type: "動詞片語",
+        chinese: "公開發表意見、大聲說出",
+        keywords: ["speak", "out"],
+        example: {
+          english: "More and more people are speaking out against animal cruelty in the fashion industry.",
+          chinese: "越來越多的人公開發表意見反對時尚產業中的虐待動物行為。",
+          grammar_point: "speak out against + N（發聲反對某事）"
+        },
+        vocabulary: [
+          { word: "cruelty", pos: "n.", chinese: "殘忍、虐待" },
+          { word: "fashion", pos: "n.", chinese: "時尚" },
+          { word: "industry", pos: "n.", chinese: "產業" }
+        ],
+        sentence_pattern: {
+          pattern: "S + speak out about/against + N",
+          example: "We must speak out for our rights."
+        }
+      },
+      {
+        phrase: "watch out",
+        type: "動詞片語",
+        chinese: "小心、注意",
+        keywords: ["watch", "out"],
+        example: {
+          english: "Watch out for pickpockets when you are traveling in crowded tourist areas.",
+          chinese: "當你在擁擠的旅遊區旅行時，要小心扒手。",
+          grammar_point: "Watch out! (當感嘆詞單獨使用)；Watch out for + N (提防/留意...)"
+        },
+        vocabulary: [
+          { word: "pickpocket", pos: "n.", chinese: "扒手" },
+          { word: "tourist area", pos: "n.", chinese: "旅遊區" }
+        ],
+        sentence_pattern: {
+          pattern: "Watch out for + N",
+          example: "Watch out! A car is coming."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "advanced",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "utterly ridiculous",
+        type: "副詞 + 形容詞",
+        chinese: "荒謬至極",
+        keywords: ["utterly", "ridiculous"],
+        example: {
+          english: "His excuse for being late was utterly ridiculous and nobody believed him.",
+          chinese: "他遲到的藉口簡直荒謬至極，沒有人相信他。",
+          grammar_point: "utterly 修飾負面或極端的形容詞，意為「完全地、徹底地」"
+        },
+        vocabulary: [
+          { word: "utterly", pos: "adv.", chinese: "完全地、徹底地" },
+          { word: "ridiculous", pos: "adj.", chinese: "荒謬的" },
+          { word: "excuse", pos: "n.", chinese: "藉口" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is utterly ridiculous.",
+          example: "The price of this ticket is utterly ridiculous."
+        }
+      },
+      {
+        phrase: "dead tired",
+        type: "副詞 + 形容詞",
+        chinese: "累僵了、精疲力竭",
+        keywords: ["dead", "tired"],
+        example: {
+          english: "After working a 12-hour shift, I was dead tired and went straight to bed.",
+          chinese: "上完12小時的班後，我精疲力竭，直接上床睡覺了。",
+          grammar_point: "dead 在此作副詞，意思是「完全地、極度地」"
+        },
+        vocabulary: [
+          { word: "shift", pos: "n.", chinese: "輪班" },
+          { word: "straight", pos: "adv.", chinese: "直接地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be dead tired",
+          example: "She was dead tired after the marathon."
+        }
+      },
+      {
+        phrase: "fast asleep",
+        type: "副詞 + 形容詞",
+        chinese: "熟睡的",
+        keywords: ["fast", "asleep"],
+        example: {
+          english: "The little baby was fast asleep in her mother's arms.",
+          chinese: "小嬰兒在母親的懷裡睡得很熟。",
+          grammar_point: "fast 在此作副詞，意為「深深地、沉沉地」，與 quick 無關"
+        },
+        vocabulary: [
+          { word: "asleep", pos: "adj.", chinese: "睡著的" },
+          { word: "arms", pos: "n.", chinese: "手臂、懷抱" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall/be fast asleep",
+          example: "He fell fast asleep as soon as he lay down."
+        }
+      },
+      {
+        phrase: "painfully slow",
+        type: "副詞 + 形容詞",
+        chinese: "極度緩慢的",
+        keywords: ["painfully", "slow"],
+        example: {
+          english: "Progress on the construction project has been painfully slow due to a lack of funds.",
+          chinese: "由於缺乏資金，這項建築工程的進度慢得令人難受。",
+          grammar_point: "painfully slow（慢到令人痛苦/難受的地步）"
+        },
+        vocabulary: [
+          { word: "progress", pos: "n.", chinese: "進度" },
+          { word: "construction", pos: "n.", chinese: "建築、施工" },
+          { word: "lack", pos: "n.", chinese: "缺乏" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is painfully slow.",
+          example: "The internet connection is painfully slow today."
+        }
+      },
+      {
+        phrase: "heavily involved",
+        type: "副詞 + 過去分詞",
+        chinese: "深度參與、牽涉極深",
+        keywords: ["heavily", "involved"],
+        example: {
+          english: "She is heavily involved in local charity work and helps out every weekend.",
+          chinese: "她深度參與當地的慈善工作，每個週末都會去幫忙。",
+          grammar_point: "be heavily involved in + N（深度參與...）"
+        },
+        vocabulary: [
+          { word: "involved", pos: "adj.", chinese: "參與的、牽涉的" },
+          { word: "charity", pos: "n.", chinese: "慈善" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be heavily involved in + N",
+          example: "The company is heavily involved in environmental protection."
+        }
+      },
+      {
+        phrase: "in broad daylight",
+        type: "介系詞 + 形容詞 + 名詞",
+        chinese: "在光天化日之下",
+        keywords: ["broad", "daylight"],
+        example: {
+          english: "The robbery occurred right in the middle of the street in broad daylight.",
+          chinese: "這場搶劫就發生在光天化日之下的大街中央。",
+          grammar_point: "in broad daylight（為固定片語，常接於發生意外、犯罪的語境）"
+        },
+        vocabulary: [
+          { word: "robbery", pos: "n.", chinese: "搶劫" },
+          { word: "occur", pos: "v.", chinese: "發生" }
+        ],
+        sentence_pattern: {
+          pattern: "N + happened in broad daylight.",
+          example: "His car was stolen in broad daylight."
+        }
+      },
+      {
+        phrase: "brief chat",
+        type: "形容詞 + 名詞",
+        chinese: "簡短的交談",
+        keywords: ["brief", "chat"],
+        example: {
+          english: "I had a brief chat with my professor after the lecture about my thesis.",
+          chinese: "演講結束後，我和教授就我的論文進行了簡短的交談。",
+          grammar_point: "have a brief chat with + 人（與某人簡短交談）"
+        },
+        vocabulary: [
+          { word: "brief", pos: "adj.", chinese: "簡短的" },
+          { word: "lecture", pos: "n.", chinese: "演講、講課" },
+          { word: "thesis", pos: "n.", chinese: "論文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have a brief chat with + O",
+          example: "We had a brief chat before the meeting started."
+        }
+      },
+      {
+        phrase: "key factor",
+        type: "形容詞 + 名詞",
+        chinese: "關鍵因素",
+        keywords: ["key", "factor"],
+        example: {
+          english: "Education is a key factor in reducing poverty and improving society.",
+          chinese: "教育是減少貧窮和改善社會的關鍵因素。",
+          grammar_point: "a key factor in + V-ing/N（在...方面的關鍵因素）"
+        },
+        vocabulary: [
+          { word: "factor", pos: "n.", chinese: "因素" },
+          { word: "poverty", pos: "n.", chinese: "貧窮" },
+          { word: "improve", pos: "v.", chinese: "改善" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a key factor in + V-ing",
+          example: "Price is a key factor in their decision."
+        }
+      },
+      {
+        phrase: "prime example",
+        type: "形容詞 + 名詞",
+        chinese: "最佳範例、典型例子",
+        keywords: ["prime", "example"],
+        example: {
+          english: "This eco-friendly building is a prime example of modern sustainable architecture.",
+          chinese: "這棟環保建築是現代永續建築的最佳範例。",
+          grammar_point: "a prime example of + N（...的絕佳例子）"
+        },
+        vocabulary: [
+          { word: "eco-friendly", pos: "adj.", chinese: "環保的" },
+          { word: "sustainable", pos: "adj.", chinese: "永續的" },
+          { word: "architecture", pos: "n.", chinese: "建築(學)" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a prime example of + N",
+          example: "His success is a prime example of hard work."
+        }
+      },
+      {
+        phrase: "major breakthrough",
+        type: "形容詞 + 名詞",
+        chinese: "重大突破",
+        keywords: ["major", "breakthrough"],
+        example: {
+          english: "Scientists have finally made a major breakthrough in cancer research.",
+          chinese: "科學家們終於在癌症研究方面取得了重大突破。",
+          grammar_point: "make a major breakthrough in + N（在...方面取得重大突破）"
+        },
+        vocabulary: [
+          { word: "breakthrough", pos: "n.", chinese: "突破" },
+          { word: "cancer", pos: "n.", chinese: "癌症" },
+          { word: "research", pos: "n.", chinese: "研究" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a major breakthrough in + N",
+          example: "The new technology represents a major breakthrough."
+        }
+      },
+      {
+        phrase: "hidden talent",
+        type: "形容詞 + 名詞",
+        chinese: "隱藏的才能",
+        keywords: ["hidden", "talent"],
+        example: {
+          english: "During the karaoke party, she revealed a hidden talent for singing that surprised everyone.",
+          chinese: "在卡拉OK派對上，她展現了令人驚豔的隱藏歌唱才能。",
+          grammar_point: "a hidden talent for + V-ing（在...方面有隱藏的才華）"
+        },
+        vocabulary: [
+          { word: "reveal", pos: "v.", chinese: "展現、揭露" },
+          { word: "talent", pos: "n.", chinese: "才能、天賦" },
+          { word: "surprise", pos: "v.", chinese: "使驚訝" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have/reveal a hidden talent for + N/V-ing",
+          example: "He discovered a hidden talent for cooking."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "very_alternatives",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "pitch black",
+        type: "形容詞片語",
+        chinese: "漆黑的",
+        keywords: ["pitch", "black"],
+        example: {
+          english: "The power went out and the entire building was pitch black.",
+          chinese: "停電了，整棟建築物漆黑一片。",
+          grammar_point: "用 pitch black 代替 very black，pitch 指柏油/瀝青。"
+        },
+        vocabulary: [
+          { word: "power go out", pos: "phr.", chinese: "停電" },
+          { word: "entire", pos: "adj.", chinese: "整個的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is pitch black",
+          example: "The night sky was pitch black."
+        }
+      },
+      {
+        phrase: "freezing cold",
+        type: "形容詞片語",
+        chinese: "極冷的、凍僵的",
+        keywords: ["freezing", "cold"],
+        example: {
+          english: "Make sure to wear a heavy coat; it is freezing cold outside today.",
+          chinese: "一定要穿件厚外套；今天外面極度寒冷。",
+          grammar_point: "用 freezing cold 代替 very cold。"
+        },
+        vocabulary: [
+          { word: "heavy coat", pos: "n.", chinese: "厚外套" },
+          { word: "outside", pos: "adv.", chinese: "在外面" }
+        ],
+        sentence_pattern: {
+          pattern: "It is freezing cold.",
+          example: "My hands are freezing cold."
+        }
+      },
+      {
+        phrase: "boiling hot",
+        type: "形容詞片語",
+        chinese: "酷熱的、滾燙的",
+        keywords: ["boiling", "hot"],
+        example: {
+          english: "I can't drink this soup right now because it is boiling hot.",
+          chinese: "我現在沒辦法喝這碗湯，因為它是滾燙的。",
+          grammar_point: "用 boiling hot 代替 very hot。"
+        },
+        vocabulary: [
+          { word: "soup", pos: "n.", chinese: "湯" },
+          { word: "right now", pos: "adv.", chinese: "現在" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is boiling hot.",
+          example: "The weather is boiling hot."
+        }
+      },
+      {
+        phrase: "soaking wet",
+        type: "形容詞片語",
+        chinese: "濕透的",
+        keywords: ["soaking", "wet"],
+        example: {
+          english: "He forgot his umbrella and came home soaking wet from the rain.",
+          chinese: "他忘了帶傘，淋著雨濕透地回家。",
+          grammar_point: "用 soaking wet 代替 very wet。"
+        },
+        vocabulary: [
+          { word: "umbrella", pos: "n.", chinese: "雨傘" },
+          { word: "forget", pos: "v.", chinese: "忘記" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be/get soaking wet",
+          example: "My clothes are soaking wet."
+        }
+      },
+      {
+        phrase: "brand new",
+        type: "形容詞片語",
+        chinese: "嶄新的",
+        keywords: ["brand", "new"],
+        example: {
+          english: "She just bought a brand new car and can't wait to drive it.",
+          chinese: "她剛買了一輛嶄新的車，等不及要開了。",
+          grammar_point: "用 brand new 代替 very new。"
+        },
+        vocabulary: [
+          { word: "buy", pos: "v.", chinese: "買 (過去式 bought)" },
+          { word: "can't wait to", pos: "phr.", chinese: "等不及要..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + have/buy + a brand new + N",
+          example: "This phone is brand new."
+        }
+      },
+      {
+        phrase: "crystal clear",
+        type: "形容詞片語",
+        chinese: "清澈透明的、十分清楚的",
+        keywords: ["crystal", "clear"],
+        example: {
+          english: "The instructions were crystal clear, so nobody made any mistakes.",
+          chinese: "指示非常清楚，所以沒有人犯任何錯誤。",
+          grammar_point: "可指水質「清澈」，也常用於指解說或含意「十分清楚」。"
+        },
+        vocabulary: [
+          { word: "instruction", pos: "n.", chinese: "指示、說明" },
+          { word: "mistake", pos: "n.", chinese: "錯誤" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is crystal clear",
+          example: "The water here is crystal clear."
+        }
+      },
+      {
+        phrase: "lightning fast",
+        type: "形容詞片語",
+        chinese: "極快的、閃電般的",
+        keywords: ["lightning", "fast"],
+        example: {
+          english: "The cheetah caught its prey with a lightning fast sprint.",
+          chinese: "獵豹以閃電般的衝刺抓住了獵物。",
+          grammar_point: "用 lightning fast 代替 very fast。"
+        },
+        vocabulary: [
+          { word: "cheetah", pos: "n.", chinese: "獵豹" },
+          { word: "prey", pos: "n.", chinese: "獵物" },
+          { word: "sprint", pos: "n.", chinese: "衝刺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + at a lightning fast speed",
+          example: "His reaction was lightning fast."
+        }
+      },
+      {
+        phrase: "dirt cheap",
+        type: "形容詞片語",
+        chinese: "非常便宜的",
+        keywords: ["dirt", "cheap"],
+        example: {
+          english: "I bought these shoes at the flea market; they were dirt cheap.",
+          chinese: "我在跳蚤市場買了這雙鞋；它們超級便宜。",
+          grammar_point: "用 dirt cheap 代替 very cheap (多用於口語)。"
+        },
+        vocabulary: [
+          { word: "flea market", pos: "n.", chinese: "跳蚤市場" },
+          { word: "shoe", pos: "n.", chinese: "鞋子" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dirt cheap",
+          example: "The rent in this town is dirt cheap."
+        }
+      },
+      {
+        phrase: "rock hard",
+        type: "形容詞片語",
+        chinese: "堅硬如石的",
+        keywords: ["rock", "hard"],
+        example: {
+          english: "The bread had been left out for a week and was rock hard.",
+          chinese: "這麵包被放在外面一個星期，已經變得堅硬如石。",
+          grammar_point: "用 rock hard 代替 very hard (主要指物理硬度)。"
+        },
+        vocabulary: [
+          { word: "bread", pos: "n.", chinese: "麵包" },
+          { word: "leave out", pos: "phr. v.", chinese: "放在外面" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is rock hard",
+          example: "The ground was rock hard."
+        }
+      },
+      {
+        phrase: "razor sharp",
+        type: "形容詞片語",
+        chinese: "極其鋒利的、(心智)敏銳的",
+        keywords: ["razor", "sharp"],
+        example: {
+          english: "You need a razor sharp knife to cut this thick meat.",
+          chinese: "你需要一把極度鋒利的刀來切這塊厚肉。",
+          grammar_point: "用 razor sharp 代替 very sharp。"
+        },
+        vocabulary: [
+          { word: "knife", pos: "n.", chinese: "刀子" },
+          { word: "thick", pos: "adj.", chinese: "厚的" },
+          { word: "meat", pos: "n.", chinese: "肉" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is razor sharp",
+          example: "He has a razor sharp mind."
+        }
+      },
+      {
+        phrase: "bone dry",
+        type: "形容詞片語",
+        chinese: "乾透的",
+        keywords: ["bone", "dry"],
+        example: {
+          english: "After months without rain, the riverbed was completely bone dry.",
+          chinese: "幾個月沒下雨後，河床完全乾涸了。",
+          grammar_point: "用 bone dry 代替 very dry。"
+        },
+        vocabulary: [
+          { word: "riverbed", pos: "n.", chinese: "河床" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is bone dry",
+          example: "My throat is bone dry."
+        }
+      },
+      {
+        phrase: "wide awake",
+        type: "形容詞片語",
+        chinese: "完全清醒的",
+        keywords: ["wide", "awake"],
+        example: {
+          english: "I drank an espresso at 9 PM, and now I am still wide awake.",
+          chinese: "我晚上9點喝了一杯濃縮咖啡，現在依然完全清醒。",
+          grammar_point: "用 wide awake 代替 fully awake / very awake。"
+        },
+        vocabulary: [
+          { word: "espresso", pos: "n.", chinese: "濃縮咖啡" },
+          { word: "still", pos: "adv.", chinese: "依然、還" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be wide awake",
+          example: "I was wide awake at 3 AM."
+        }
+      },
+      {
+        phrase: "a tiny bit",
+        type: "名詞/副詞片語",
+        chinese: "一丁點、稍微",
+        keywords: ["tiny", "bit"],
+        example: {
+          english: "I am a tiny bit tired, but I can still finish the work.",
+          chinese: "我稍微有點累，但我依然能完成工作。",
+          grammar_point: "用 a tiny bit 代替 a little bit (強調微小)。"
+        },
+        vocabulary: [
+          { word: "tired", pos: "adj.", chinese: "疲勞的" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be + a tiny bit + adj",
+          example: "It is a tiny bit too salty."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "adverb_collocations",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "virtually impossible",
+        type: "副詞 + 形容詞",
+        chinese: "幾乎不可能的",
+        keywords: ["virtually", "impossible"],
+        example: {
+          english: "It is virtually impossible to memorize all these words in one day.",
+          chinese: "要在一天內背下所有這些單字幾乎是不可能的。",
+          grammar_point: "virtually 意為「幾乎、實質上」，學測常考。"
+        },
+        vocabulary: [
+          { word: "memorize", pos: "v.", chinese: "背誦、記住" },
+          { word: "virtually", pos: "adv.", chinese: "幾乎、實質上" }
+        ],
+        sentence_pattern: {
+          pattern: "It is virtually impossible to + V",
+          example: "Winning the game now is virtually impossible."
+        }
+      },
+      {
+        phrase: "diametrically opposed",
+        type: "副詞 + 形容詞",
+        chinese: "截然相反的",
+        keywords: ["diametrically", "opposed"],
+        example: {
+          english: "The two candidates hold diametrically opposed views on the new tax policy.",
+          chinese: "這兩位候選人對新稅收政策持有截然相反的觀點。",
+          grammar_point: "diametrically opposed (南轅北轍的、完全相反的)，極高級用語。"
+        },
+        vocabulary: [
+          { word: "candidate", pos: "n.", chinese: "候選人" },
+          { word: "opposed", pos: "adj.", chinese: "反對的、相反的" },
+          { word: "policy", pos: "n.", chinese: "政策" }
+        ],
+        sentence_pattern: {
+          pattern: "A and B are diametrically opposed.",
+          example: "Their opinions are diametrically opposed."
+        }
+      },
+      {
+        phrase: "strictly prohibited",
+        type: "副詞 + 形容詞",
+        chinese: "嚴格禁止的",
+        keywords: ["strictly", "prohibited"],
+        example: {
+          english: "Taking photos inside the museum is strictly prohibited to protect the artwork.",
+          chinese: "博物館內嚴格禁止拍照以保護藝術品。",
+          grammar_point: "同義詞為 strictly forbidden，常出現在告示牌或規定中。"
+        },
+        vocabulary: [
+          { word: "prohibited", pos: "adj.", chinese: "被禁止的" },
+          { word: "artwork", pos: "n.", chinese: "藝術品" }
+        ],
+        sentence_pattern: {
+          pattern: "V-ing is strictly prohibited.",
+          example: "Smoking is strictly prohibited here."
+        }
+      },
+      {
+        phrase: "honestly believe",
+        type: "副詞 + 動詞",
+        chinese: "真心相信",
+        keywords: ["honestly", "believe"],
+        example: {
+          english: "I honestly believe that she did not mean to hurt your feelings.",
+          chinese: "我真心相信她並不是有意要傷害你的感情。",
+          grammar_point: "honestly believe (發自內心地相信)。"
+        },
+        vocabulary: [
+          { word: "mean to", pos: "phr.", chinese: "有意去..." },
+          { word: "feelings", pos: "n.", chinese: "感情、感受" }
+        ],
+        sentence_pattern: {
+          pattern: "S + honestly believe that...",
+          example: "I honestly believe we can win."
+        }
+      },
+      {
+        phrase: "categorically deny",
+        type: "副詞 + 動詞",
+        chinese: "堅決否認、明確否認",
+        keywords: ["categorically", "deny"],
+        example: {
+          english: "The politician categorically denied all the rumors about his corruption.",
+          chinese: "這位政治人物堅決否認所有關於他貪污的謠言。",
+          grammar_point: "categorically 指「絕對地、直截了當地」。"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "rumor", pos: "n.", chinese: "謠言" },
+          { word: "corruption", pos: "n.", chinese: "貪污" }
+        ],
+        sentence_pattern: {
+          pattern: "S + categorically deny + N",
+          example: "He categorically denied the accusations."
+        }
+      },
+      {
+        phrase: "point-blank refuse",
+        type: "動詞 + 副詞",
+        chinese: "斷然拒絕",
+        keywords: ["refuse", "point-blank"],
+        example: {
+          english: "When asked to lie to the customers, he refused point-blank.",
+          chinese: "當被要求對顧客說謊時，他斷然拒絕了。",
+          grammar_point: "point-blank 可作副詞，常接在 refuse 後面 (refuse point-blank) 或前面。"
+        },
+        vocabulary: [
+          { word: "lie", pos: "v.", chinese: "說謊" },
+          { word: "customer", pos: "n.", chinese: "顧客" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point-blank refuse to + V / refuse point-blank",
+          example: "She point-blank refused to help."
+        }
+      },
+      {
+        phrase: "heavily influenced",
+        type: "副詞 + 過去分詞",
+        chinese: "深受影響的",
+        keywords: ["heavily", "influenced"],
+        example: {
+          english: "His painting style is heavily influenced by traditional Chinese art.",
+          chinese: "他的繪畫風格深受中國傳統藝術的影響。",
+          grammar_point: "be heavily influenced by + N (受到...極大的影響)。"
+        },
+        vocabulary: [
+          { word: "style", pos: "n.", chinese: "風格" },
+          { word: "traditional", pos: "adj.", chinese: "傳統的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be heavily influenced by + N",
+          example: "The decision was heavily influenced by public opinion."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "out",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "out and about",
+        type: "慣用語 / 介系詞片語",
+        chinese: "活躍地四處走動、(病後)能下床走動",
+        example: {
+          english: "After a week in bed with the flu, she is finally out and about again.",
+          chinese: "因為流感臥床一週後，她終於又能下床四處走動了。",
+          grammar_point: "be out and about（指人從疾病中康復，或平時活躍於外出活動）"
+        },
+        vocabulary: [
+          { word: "flu", pos: "n.", chinese: "流行性感冒" },
+          { word: "finally", pos: "adv.", chinese: "終於" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out and about",
+          example: "It's good to see you out and about after your surgery."
+        }
+      },
+      {
+        phrase: "out of the blue",
+        type: "介系詞片語",
+        chinese: "突然地、出乎意料地",
+        example: {
+          english: "I hadn't seen him for years, and then he called me completely out of the blue.",
+          chinese: "我好幾年沒見到他了，然後他完全出乎意料地打電話給我。",
+          grammar_point: "out of the blue（猶如晴天霹靂般突然發生，常放句尾作副詞）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + out of the blue",
+          example: "The decision came totally out of the blue."
+        }
+      },
+      {
+        phrase: "out of character",
+        type: "介系詞片語",
+        chinese: "不符合性格、與平時表現不符",
+        example: {
+          english: "It was completely out of character for him to shout at the employees.",
+          chinese: "他對員工大吼大叫完全不符合他平時的性格。",
+          grammar_point: "be out of character for + 人（對某人來說很不尋常/反常）"
+        },
+        vocabulary: [
+          { word: "character", pos: "n.", chinese: "性格、品格" },
+          { word: "shout", pos: "v.", chinese: "大吼" },
+          { word: "employee", pos: "n.", chinese: "員工" }
+        ],
+        sentence_pattern: {
+          pattern: "It is out of character for O + to V",
+          example: "Her sudden anger was very out of character."
+        }
+      },
+      {
+        phrase: "out of circulation",
+        type: "介系詞片語",
+        chinese: "不再流通、(人)不活躍於社交圈",
+        example: {
+          english: "Since he started his new demanding job, he has been somewhat out of circulation.",
+          chinese: "自從他開始那份要求很高的新工作後，他就有些脫離社交圈了。",
+          grammar_point: "be out of circulation（可指貨幣、書籍停用，也可指人不再參加社交活動）"
+        },
+        vocabulary: [
+          { word: "circulation", pos: "n.", chinese: "流通、循環" },
+          { word: "demanding", pos: "adj.", chinese: "要求高的、費力的" },
+          { word: "somewhat", pos: "adv.", chinese: "有點、稍微" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of circulation",
+          example: "Those old coins are now out of circulation."
+        }
+      },
+      {
+        phrase: "out of your depth",
+        type: "介系詞片語",
+        chinese: "無法駕馭、力不從心",
+        example: {
+          english: "When they started discussing advanced quantum physics, I felt completely out of my depth.",
+          chinese: "當他們開始討論進階的量子物理學時，我感到完全力不從心。",
+          grammar_point: "be/feel out of one's depth（超出某人的能力/理解範圍，宛如在深水中踩不到底）"
+        },
+        vocabulary: [
+          { word: "advanced", pos: "adj.", chinese: "進階的、先進的" },
+          { word: "quantum physics", pos: "n.", chinese: "量子物理學" },
+          { word: "depth", pos: "n.", chinese: "深度" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel out of one's depth",
+          example: "I am out of my depth in this new project."
+        }
+      },
+      {
+        phrase: "out of earshot",
+        type: "介系詞片語",
+        chinese: "在聽不見的距離之外",
+        example: {
+          english: "We waited until the children were out of earshot before discussing the surprise party.",
+          chinese: "我們等到孩子們走遠聽不見了，才開始討論驚喜派對。",
+          grammar_point: "be out of earshot（在聽力所及的範圍外；反義詞為 within earshot）"
+        },
+        vocabulary: [
+          { word: "earshot", pos: "n.", chinese: "聽力所及的範圍" },
+          { word: "discuss", pos: "v.", chinese: "討論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of earshot",
+          example: "Make sure she is out of earshot before you speak."
+        }
+      },
+      {
+        phrase: "out of harm's way",
+        type: "介系詞片語",
+        chinese: "在安全的地方、免於危險",
+        example: {
+          english: "During the typhoon, we moved all the potted plants indoors to keep them out of harm's way.",
+          chinese: "颱風期間，我們把所有盆栽移到室內，讓它們免受破壞。",
+          grammar_point: "keep/stay out of harm's way（保持安全無虞）"
+        },
+        vocabulary: [
+          { word: "typhoon", pos: "n.", chinese: "颱風" },
+          { word: "potted plant", pos: "n.", chinese: "盆栽" },
+          { word: "indoors", pos: "adv.", chinese: "在室內" }
+        ],
+        sentence_pattern: {
+          pattern: "keep O + out of harm's way",
+          example: "The police guided the crowd out of harm's way."
+        }
+      },
+      {
+        phrase: "out like a light",
+        type: "慣用語",
+        chinese: "迅速入睡、立刻熟睡",
+        example: {
+          english: "He was so exhausted after the marathon that he was out like a light as soon as his head hit the pillow.",
+          chinese: "馬拉松結束後他太累了，頭一碰到枕頭就立刻睡著了。",
+          grammar_point: "be out like a light（非正式用語，形容極快睡著或昏過去）"
+        },
+        vocabulary: [
+          { word: "exhausted", pos: "adj.", chinese: "筋疲力盡的" },
+          { word: "marathon", pos: "n.", chinese: "馬拉松" },
+          { word: "pillow", pos: "n.", chinese: "枕頭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out like a light",
+          example: "After drinking the medicine, she was out like a light."
+        }
+      },
+      {
+        phrase: "out on a limb",
+        type: "慣用語",
+        chinese: "處於孤立無援的境地、冒著風險",
+        example: {
+          english: "I went out on a limb to defend your proposal, so please don't let me down.",
+          chinese: "我冒著極大的風險為你的提案辯護，所以請不要讓我失望。",
+          grammar_point: "go out on a limb（原意指走到樹枝末端，引申為冒險、孤立無援）"
+        },
+        vocabulary: [
+          { word: "limb", pos: "n.", chinese: "樹枝、肢體" },
+          { word: "defend", pos: "v.", chinese: "辯護、防禦" },
+          { word: "proposal", pos: "n.", chinese: "提案" }
+        ],
+        sentence_pattern: {
+          pattern: "S + go out on a limb to + V",
+          example: "She went out on a limb for her best friend."
+        }
+      },
+      {
+        phrase: "out to lunch",
+        type: "慣用語",
+        chinese: "(口語) 瘋瘋癲癲、心不在焉、不進入狀況",
+        example: {
+          english: "You must be out to lunch if you think you can finish a one-year project in two days.",
+          chinese: "如果你以為能在兩天內完成一年的專案，那你一定是瘋了（頭腦不清楚）。",
+          grammar_point: "be out to lunch（俚語，指人不在狀態內或想法荒謬）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案、計畫" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + must be out to lunch.",
+          example: "He is totally out to lunch today."
+        }
+      },
+      {
+        phrase: "out of the picture",
+        type: "介系詞片語",
+        chinese: "不再牽涉其中、出局",
+        example: {
+          english: "Now that his rival is out of the picture, he is very likely to get the promotion.",
+          chinese: "既然他的競爭對手已經出局，他很有可能會獲得升遷。",
+          grammar_point: "be out of the picture（不再是考量因素、退出競爭）"
+        },
+        vocabulary: [
+          { word: "rival", pos: "n.", chinese: "競爭對手" },
+          { word: "likely", pos: "adj.", chinese: "很有可能的" },
+          { word: "promotion", pos: "n.", chinese: "升遷" }
+        ],
+        sentence_pattern: {
+          pattern: "S + is out of the picture",
+          example: "With him out of the picture, we can finally proceed."
+        }
+      },
+      {
+        phrase: "out of your own pocket",
+        type: "介系詞片語",
+        chinese: "自掏腰包",
+        example: {
+          english: "Because the company refused to cover the travel expenses, he had to pay for the flight out of his own pocket.",
+          chinese: "因為公司拒絕負擔差旅費，他只好自掏腰包支付機票錢。",
+          grammar_point: "pay (for sth) out of one's own pocket（用自己的錢支付）"
+        },
+        vocabulary: [
+          { word: "refuse", pos: "v.", chinese: "拒絕" },
+          { word: "expense", pos: "n.", chinese: "費用、開支" },
+          { word: "flight", pos: "n.", chinese: "航班、機票" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pay out of one's own pocket",
+          example: "Teachers often buy supplies out of their own pockets."
+        }
+      },
+      {
+        phrase: "out of the question",
+        type: "介系詞片語",
+        chinese: "不可能的、免談",
+        example: {
+          english: "Buying a new car right now is completely out of the question because we are trying to save money.",
+          chinese: "現在買新車是完全不可能的，因為我們正在努力存錢。",
+          grammar_point: "【學測必考】be out of the question（毫無可能，不容討論；注意勿與 out of question 無庸置疑搞混）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "question", pos: "n.", chinese: "問題、疑問" }
+        ],
+        sentence_pattern: {
+          pattern: "N/V-ing is out of the question.",
+          example: "Going out in this storm is out of the question."
+        }
+      },
+      {
+        phrase: "out of sight, out of mind",
+        type: "諺語 / 慣用語",
+        chinese: "眼不見為淨、久不見就忘記",
+        example: {
+          english: "I hid the chocolates in the cupboard, hoping that out of sight, out of mind would help me eat less.",
+          chinese: "我把巧克力藏在櫥櫃裡，希望眼不見為淨能幫我少吃一點。",
+          grammar_point: "out of sight, out of mind（常作為獨立子句或插入語使用）"
+        },
+        vocabulary: [
+          { word: "hide", pos: "v.", chinese: "隱藏 (過去式 hid)" },
+          { word: "cupboard", pos: "n.", chinese: "櫥櫃" }
+        ],
+        sentence_pattern: {
+          pattern: "Out of sight, out of mind.",
+          example: "Since she moved abroad, it's been out of sight, out of mind."
+        }
+      },
+      {
+        phrase: "out of sorts",
+        type: "介系詞片語",
+        chinese: "心情不佳、身體微恙",
+        example: {
+          english: "She has been feeling a bit out of sorts lately, so she decided to take a day off to rest.",
+          chinese: "她最近覺得身體有點不舒服且心情煩躁，所以她決定請一天假休息。",
+          grammar_point: "feel/be out of sorts（指稍微生病、無精打采或情緒低落）"
+        },
+        vocabulary: [
+          { word: "lately", pos: "adv.", chinese: "最近" },
+          { word: "take a day off", pos: "phr.", chinese: "請一天假" }
+        ],
+        sentence_pattern: {
+          pattern: "S + feel/be out of sorts",
+          example: "He was feeling out of sorts after the long trip."
+        }
+      },
+      {
+        phrase: "out of sync",
+        type: "介系詞片語",
+        chinese: "不同步、不協調",
+        example: {
+          english: "The audio in this video is out of sync with the speaker's lip movements.",
+          chinese: "這部影片中的音訊與講者的嘴唇動作不同步。",
+          grammar_point: "be out of sync (with N)（與...不一致/不同步；sync為synchronization的縮寫）"
+        },
+        vocabulary: [
+          { word: "audio", pos: "n.", chinese: "音訊、聲音" },
+          { word: "sync", pos: "n.", chinese: "同步" },
+          { word: "movement", pos: "n.", chinese: "動作" }
+        ],
+        sentence_pattern: {
+          pattern: "A is out of sync with B",
+          example: "My schedule is totally out of sync with yours."
+        }
+      },
+      {
+        phrase: "out of touch",
+        type: "介系詞片語",
+        chinese: "脫節、失去聯絡",
+        example: {
+          english: "The old politician is completely out of touch with what young people care about today.",
+          chinese: "這位老政治家與當今許多年輕人在乎的事物完全脫節了。",
+          grammar_point: "be out of touch (with N)（與...失去聯繫，或不了解...的現況）"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be out of touch with + N",
+          example: "We've been out of touch for years."
+        }
+      },
+      {
+        phrase: "out of this world",
+        type: "介系詞片語",
+        chinese: "極好的、棒透了",
+        example: {
+          english: "The chocolate cake her grandmother baked was simply out of this world.",
+          chinese: "她祖母烤的巧克力蛋糕簡直是人間美味（棒透了）。",
+          grammar_point: "be out of this world（用來誇飾某物極好，宛如不屬於這個世界的絕世珍品）"
+        },
+        vocabulary: [
+          { word: "simply", pos: "adv.", chinese: "簡直、根本" },
+          { word: "bake", pos: "v.", chinese: "烘焙" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is out of this world",
+          example: "The view from the top is out of this world."
+        }
+      },
+      {
+        phrase: "look out for",
+        type: "動詞片語",
+        chinese: "當心、留意、關照",
+        keywords: ["look", "out", "for"],
+        example: {
+          english: "When driving in the mountains, you need to look out for falling rocks.",
+          chinese: "在山區開車時，你需要留意落石。",
+          grammar_point: "look out for + N（留心觀察以防危險；也指關照某人）"
+        },
+        vocabulary: [
+          { word: "falling", pos: "adj.", chinese: "掉落的" },
+          { word: "rock", pos: "n.", chinese: "岩石" }
+        ],
+        sentence_pattern: {
+          pattern: "S + look out for + N",
+          example: "We should always look out for each other."
+        }
+      },
+      {
+        phrase: "turn out",
+        type: "動詞片語",
+        chinese: "結果是、出席",
+        keywords: ["turn", "out"],
+        example: {
+          english: "The weather looked bad in the morning, but it turned out to be a beautiful day.",
+          chinese: "早上天氣看起來很糟，但結果卻是個美麗的一天。",
+          grammar_point: "turn out (to be) + N/Adj（結果卻是...，也可接 that 子句）"
+        },
+        vocabulary: [
+          { word: "beautiful", pos: "adj.", chinese: "美麗的" }
+        ],
+        sentence_pattern: {
+          pattern: "It turned out that + S + V",
+          example: "The rumor turned out to be true."
+        }
+      },
+      {
+        phrase: "carry out",
+        type: "動詞片語",
+        chinese: "執行、實行",
+        keywords: ["carry", "out"],
+        example: {
+          english: "The scientists will carry out a series of experiments to test their theory.",
+          chinese: "科學家將執行一系列的實驗來測試他們的理論。",
+          grammar_point: "carry out + a plan/experiment/survey（執行計畫/實驗/調查）"
+        },
+        vocabulary: [
+          { word: "a series of", pos: "phr.", chinese: "一系列的" },
+          { word: "experiment", pos: "n.", chinese: "實驗" },
+          { word: "theory", pos: "n.", chinese: "理論" }
+        ],
+        sentence_pattern: {
+          pattern: "S + carry out + N",
+          example: "The hospital carried out the new procedure."
+        }
+      },
+      {
+        phrase: "find out",
+        type: "動詞片語",
+        chinese: "發現、查明",
+        keywords: ["find", "out"],
+        example: {
+          english: "I was shocked to find out that my best friend had been lying to me.",
+          chinese: "我很震驚地發現我最好的朋友一直對我說謊。",
+          grammar_point: "find out + N / 疑問詞子句 / that子句（透過調查或詢問得知）"
+        },
+        vocabulary: [
+          { word: "shocked", pos: "adj.", chinese: "震驚的" },
+          { word: "lie", pos: "v.", chinese: "說謊" }
+        ],
+        sentence_pattern: {
+          pattern: "S + find out + that/Wh- clause",
+          example: "We need to find out the truth."
+        }
+      },
+      {
+        phrase: "set out",
+        type: "動詞片語",
+        chinese: "出發、開始(做某事)",
+        keywords: ["set", "out"],
+        example: {
+          english: "They set out on their journey before the sun came up.",
+          chinese: "他們在太陽升起前就出發踏上了旅程。",
+          grammar_point: "set out on a journey（出發旅行）；set out to + V（著手進行某事）"
+        },
+        vocabulary: [
+          { word: "journey", pos: "n.", chinese: "旅程" }
+        ],
+        sentence_pattern: {
+          pattern: "S + set out to + V",
+          example: "He set out to change the world."
+        }
+      },
+      {
+        phrase: "break out",
+        type: "動詞片語",
+        chinese: "爆發(戰爭、火災、疾病)",
+        keywords: ["break", "out"],
+        example: {
+          english: "A massive fire broke out in the old factory late last night.",
+          chinese: "昨晚深夜，那座舊工廠爆發了一場大火。",
+          grammar_point: "【學測必考】break out 無被動語態！事物自己爆發，不可寫 was broken out"
+        },
+        vocabulary: [
+          { word: "massive", pos: "adj.", chinese: "巨大的、大規模的" },
+          { word: "factory", pos: "n.", chinese: "工廠" }
+        ],
+        sentence_pattern: {
+          pattern: "N + broke out + 地方/時間",
+          example: "World War II broke out in 1939."
+        }
+      },
+      {
+        phrase: "work out",
+        type: "動詞片語",
+        chinese: "解決、結果圓滿、健身",
+        keywords: ["work", "out"],
+        example: {
+          english: "Don't worry too much; I'm sure things will work out in the end.",
+          chinese: "別太擔心；我相信事情最終會圓滿解決的。",
+          grammar_point: "work out 可指「事情順利解決」，也可作及物動詞 work out a problem (解決問題) 或不及物動詞「健身」"
+        },
+        vocabulary: [
+          { word: "in the end", pos: "phr.", chinese: "最後、最終" }
+        ],
+        sentence_pattern: {
+          pattern: "Things will work out.",
+          example: "He works out at the gym every day."
+        }
+      },
+      {
+        phrase: "run out of",
+        type: "動詞片語",
+        chinese: "用盡、耗盡",
+        keywords: ["run", "out", "of"],
+        example: {
+          english: "We have run out of gas, so we need to find a gas station immediately.",
+          chinese: "我們的汽油已經耗盡了，所以我們需要立刻找一家加油站。",
+          grammar_point: "run out of + N（把...用光了，主詞通常是「人」）"
+        },
+        vocabulary: [
+          { word: "gas", pos: "n.", chinese: "汽油、瓦斯" },
+          { word: "gas station", pos: "n.", chinese: "加油站" },
+          { word: "immediately", pos: "adv.", chinese: "立刻" }
+        ],
+        sentence_pattern: {
+          pattern: "S + run out of + N",
+          example: "I am running out of patience."
+        }
+      },
+      {
+        phrase: "stand out",
+        type: "動詞片語",
+        chinese: "突出、顯眼",
+        keywords: ["stand", "out"],
+        example: {
+          english: "Her bright red hair makes her really stand out from the crowd.",
+          chinese: "她鮮紅的頭髮讓她在人群中非常顯眼。",
+          grammar_point: "stand out from the crowd（在人群中脫穎而出）"
+        },
+        vocabulary: [
+          { word: "bright", pos: "adj.", chinese: "明亮的、鮮豔的" },
+          { word: "crowd", pos: "n.", chinese: "人群" }
+        ],
+        sentence_pattern: {
+          pattern: "S + stand out",
+          example: "His amazing performance stood out."
+        }
+      },
+      {
+        phrase: "point out",
+        type: "動詞片語",
+        chinese: "指出",
+        keywords: ["point", "out"],
+        example: {
+          english: "The teacher pointed out several grammar mistakes in my essay.",
+          chinese: "老師指出了我作文裡的幾個文法錯誤。",
+          grammar_point: "point out + N / point out that + 子句（明確指出某事）"
+        },
+        vocabulary: [
+          { word: "several", pos: "adj.", chinese: "幾個的" },
+          { word: "grammar", pos: "n.", chinese: "文法" },
+          { word: "essay", pos: "n.", chinese: "文章、短文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point out + that + S + V",
+          example: "He pointed out the flaws in the plan."
+        }
+      },
+      {
+        phrase: "keep out",
+        type: "動詞片語",
+        chinese: "禁止進入、阻擋在外",
+        keywords: ["keep", "out"],
+        example: {
+          english: "The sign on the gate clearly says 'Danger: Keep Out'.",
+          chinese: "大門上的告示牌清楚地寫著「危險：禁止進入」。",
+          grammar_point: "keep out of + 地方（不進入某地）；keep O out（把某物擋在外面）"
+        },
+        vocabulary: [
+          { word: "sign", pos: "n.", chinese: "標誌、告示牌" },
+          { word: "clearly", pos: "adv.", chinese: "清楚地" },
+          { word: "danger", pos: "n.", chinese: "危險" }
+        ],
+        sentence_pattern: {
+          pattern: "Keep out of + 地方",
+          example: "This coat will keep the cold out."
+        }
+      },
+      {
+        phrase: "hand out",
+        type: "動詞片語",
+        chinese: "分發",
+        keywords: ["hand", "out"],
+        example: {
+          english: "Volunteers were handing out free bottles of water to the marathon runners.",
+          chinese: "志工們正在將免費的瓶裝水發給馬拉松跑者。",
+          grammar_point: "hand out = distribute（將物品分發給眾人）"
+        },
+        vocabulary: [
+          { word: "volunteer", pos: "n.", chinese: "志工" },
+          { word: "bottle", pos: "n.", chinese: "瓶子" },
+          { word: "runner", pos: "n.", chinese: "跑者" }
+        ],
+        sentence_pattern: {
+          pattern: "S + hand out + N",
+          example: "The teacher handed out the exam papers."
+        }
+      },
+      {
+        phrase: "take out",
+        type: "動詞片語",
+        chinese: "拿出、帶...出去、外帶",
+        keywords: ["take", "out"],
+        example: {
+          english: "Please remember to take out the trash before you go to bed.",
+          chinese: "睡覺前請記得把垃圾拿出去倒。",
+          grammar_point: "take out the trash (倒垃圾)；亦可作 take someone out (帶某人外出/約會)"
+        },
+        vocabulary: [
+          { word: "trash", pos: "n.", chinese: "垃圾" },
+          { word: "remember to", pos: "phr.", chinese: "記得去做..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + take O out",
+          example: "He took out his wallet to pay."
+        }
+      },
+      {
+        phrase: "leave out",
+        type: "動詞片語",
+        chinese: "遺漏、省略",
+        keywords: ["leave", "out"],
+        example: {
+          english: "When you copy the report, make sure you don't leave out any important details.",
+          chinese: "當你抄寫報告時，確保你沒有遺漏任何重要的細節。",
+          grammar_point: "leave out = omit（不包含、漏掉某事物或人）"
+        },
+        vocabulary: [
+          { word: "copy", pos: "v.", chinese: "抄寫、複製" },
+          { word: "detail", pos: "n.", chinese: "細節" }
+        ],
+        sentence_pattern: {
+          pattern: "S + leave out + N",
+          example: "I feel left out when they speak French."
+        }
+      },
+      {
+        phrase: "cut out",
+        type: "動詞片語",
+        chinese: "戒除、刪去、剪下",
+        keywords: ["cut", "out"],
+        example: {
+          english: "My doctor told me that I need to cut out sweet drinks completely.",
+          chinese: "我的醫生告訴我，我必須完全戒除含糖飲料。",
+          grammar_point: "cut out + N（在飲食或習慣上「停止/戒掉」）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" },
+          { word: "sweet", pos: "adj.", chinese: "甜的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + cut out + N",
+          example: "She cut out a picture from the magazine."
+        }
+      },
+      {
+        phrase: "wear out",
+        type: "動詞片語",
+        chinese: "磨損、使筋疲力盡",
+        keywords: ["wear", "out"],
+        example: {
+          english: "Walking around the city all day has completely worn me out.",
+          chinese: "在城市裡走了一整天讓我完全筋疲力盡了。",
+          grammar_point: "wear someone out（使人精疲力盡）；be worn out（物體破舊磨損/人很疲累）"
+        },
+        vocabulary: [
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + wear O out",
+          example: "My favorite shoes are worn out."
+        }
+      },
+      {
+        phrase: "pull out",
+        type: "動詞片語",
+        chinese: "拔出、(車輛)駛出、撤退",
+        keywords: ["pull", "out"],
+        example: {
+          english: "The train slowly pulled out of the station, heading towards the capital.",
+          chinese: "火車緩緩駛出車站，朝向首都駛去。",
+          grammar_point: "pull out of + 地方（車輛離開某處；或指軍隊/企業撤出）"
+        },
+        vocabulary: [
+          { word: "slowly", pos: "adv.", chinese: "緩慢地" },
+          { word: "head", pos: "v.", chinese: "朝向、前進" },
+          { word: "capital", pos: "n.", chinese: "首都" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pull out of + N",
+          example: "The dentist pulled out my bad tooth."
+        }
+      },
+      {
+        phrase: "fall out",
+        type: "動詞片語",
+        chinese: "吵架、脫落",
+        keywords: ["fall", "out"],
+        example: {
+          english: "He fell out with his brother over a disagreement about their family business.",
+          chinese: "他因為家族企業的意見不合而跟他的兄弟吵架了。",
+          grammar_point: "fall out with + 人 (over 事情)（與某人鬧翻/吵架）"
+        },
+        vocabulary: [
+          { word: "disagreement", pos: "n.", chinese: "意見不合、爭論" },
+          { word: "business", pos: "n.", chinese: "企業、生意" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall out with + O",
+          example: "My hair started to fall out."
+        }
+      },
+      {
+        phrase: "check out",
+        type: "動詞片語",
+        chinese: "結帳離開、查看",
+        keywords: ["check", "out"],
+        example: {
+          english: "We need to pack our bags and check out of the hotel by 11 AM.",
+          chinese: "我們必須打包行李並在上午 11 點前退房。",
+          grammar_point: "check out of a hotel (退房)；check out something (去查看/看一看某物)"
+        },
+        vocabulary: [
+          { word: "pack", pos: "v.", chinese: "打包" },
+          { word: "hotel", pos: "n.", chinese: "旅館" }
+        ],
+        sentence_pattern: {
+          pattern: "S + check out of + 地方",
+          example: "Check out this new song!"
+        }
+      },
+      {
+        phrase: "pass out",
+        type: "動詞片語",
+        chinese: "昏倒、分發",
+        keywords: ["pass", "out"],
+        example: {
+          english: "The heat in the crowded room was so intense that one of the students passed out.",
+          chinese: "擁擠房間裡的悶熱太強烈了，導致其中一名學生昏倒了。",
+          grammar_point: "pass out = faint (昏厥)；也可用來代替 hand out (分發物品)"
+        },
+        vocabulary: [
+          { word: "heat", pos: "n.", chinese: "高溫、炎熱" },
+          { word: "crowded", pos: "adj.", chinese: "擁擠的" },
+          { word: "intense", pos: "adj.", chinese: "強烈的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + pass out",
+          example: "Please pass out these books to the class."
+        }
+      },
+      {
+        phrase: "blow out",
+        type: "動詞片語",
+        chinese: "吹熄、爆胎",
+        keywords: ["blow", "out"],
+        example: {
+          english: "Make a wish before you blow out all the candles on your birthday cake.",
+          chinese: "在吹熄你生日蛋糕上所有的蠟燭前許個願吧。",
+          grammar_point: "blow out the candles (吹熄蠟燭)；如果是輪胎，指「爆胎」"
+        },
+        vocabulary: [
+          { word: "wish", pos: "n.", chinese: "願望" },
+          { word: "candle", pos: "n.", chinese: "蠟燭" }
+        ],
+        sentence_pattern: {
+          pattern: "S + blow out + N",
+          example: "The wind blew out the match."
+        }
+      },
+      {
+        phrase: "die out",
+        type: "動詞片語",
+        chinese: "滅絕、逐漸消失",
+        keywords: ["die", "out"],
+        example: {
+          english: "Many traditional customs are beginning to die out in modern society.",
+          chinese: "許多傳統習俗在現代社會中正開始逐漸消失。",
+          grammar_point: "die out = become extinct（物種滅絕或風俗習慣消失）"
+        },
+        vocabulary: [
+          { word: "traditional", pos: "adj.", chinese: "傳統的" },
+          { word: "custom", pos: "n.", chinese: "習俗" },
+          { word: "modern", pos: "adj.", chinese: "現代的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dying out",
+          example: "Dinosaurs died out millions of years ago."
+        }
+      },
+      {
+        phrase: "rule out",
+        type: "動詞片語",
+        chinese: "排除...的可能性",
+        keywords: ["rule", "out"],
+        example: {
+          english: "The police have ruled out suicide and are now treating the case as murder.",
+          chinese: "警方已排除了自殺的可能性，現在將此案視為謀殺來處理。",
+          grammar_point: "rule out the possibility of + N（大考閱測超高頻字：排除...可能）"
+        },
+        vocabulary: [
+          { word: "suicide", pos: "n.", chinese: "自殺" },
+          { word: "treat", pos: "v.", chinese: "對待、處理" },
+          { word: "murder", pos: "n.", chinese: "謀殺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + rule out + N",
+          example: "You cannot rule out this theory completely."
+        }
+      },
+      {
+        phrase: "speak out",
+        type: "動詞片語",
+        chinese: "公開發表意見、大聲說出",
+        keywords: ["speak", "out"],
+        example: {
+          english: "More and more people are speaking out against animal cruelty in the fashion industry.",
+          chinese: "越來越多的人公開發表意見反對時尚產業中的虐待動物行為。",
+          grammar_point: "speak out against + N（發聲反對某事）"
+        },
+        vocabulary: [
+          { word: "cruelty", pos: "n.", chinese: "殘忍、虐待" },
+          { word: "fashion", pos: "n.", chinese: "時尚" },
+          { word: "industry", pos: "n.", chinese: "產業" }
+        ],
+        sentence_pattern: {
+          pattern: "S + speak out about/against + N",
+          example: "We must speak out for our rights."
+        }
+      },
+      {
+        phrase: "watch out",
+        type: "動詞片語",
+        chinese: "小心、注意",
+        keywords: ["watch", "out"],
+        example: {
+          english: "Watch out for pickpockets when you are traveling in crowded tourist areas.",
+          chinese: "當你在擁擠的旅遊區旅行時，要小心扒手。",
+          grammar_point: "Watch out! (當感嘆詞單獨使用)；Watch out for + N (提防/留意...)"
+        },
+        vocabulary: [
+          { word: "pickpocket", pos: "n.", chinese: "扒手" },
+          { word: "tourist area", pos: "n.", chinese: "旅遊區" }
+        ],
+        sentence_pattern: {
+          pattern: "Watch out for + N",
+          example: "Watch out! A car is coming."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "advanced",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "utterly ridiculous",
+        type: "副詞 + 形容詞",
+        chinese: "荒謬至極",
+        keywords: ["utterly", "ridiculous"],
+        example: {
+          english: "His excuse for being late was utterly ridiculous and nobody believed him.",
+          chinese: "他遲到的藉口簡直荒謬至極，沒有人相信他。",
+          grammar_point: "utterly 修飾負面或極端的形容詞，意為「完全地、徹底地」"
+        },
+        vocabulary: [
+          { word: "utterly", pos: "adv.", chinese: "完全地、徹底地" },
+          { word: "ridiculous", pos: "adj.", chinese: "荒謬的" },
+          { word: "excuse", pos: "n.", chinese: "藉口" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is utterly ridiculous.",
+          example: "The price of this ticket is utterly ridiculous."
+        }
+      },
+      {
+        phrase: "dead tired",
+        type: "副詞 + 形容詞",
+        chinese: "累僵了、精疲力竭",
+        keywords: ["dead", "tired"],
+        example: {
+          english: "After working a 12-hour shift, I was dead tired and went straight to bed.",
+          chinese: "上完12小時的班後，我精疲力竭，直接上床睡覺了。",
+          grammar_point: "dead 在此作副詞，意思是「完全地、極度地」"
+        },
+        vocabulary: [
+          { word: "shift", pos: "n.", chinese: "輪班" },
+          { word: "straight", pos: "adv.", chinese: "直接地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be dead tired",
+          example: "She was dead tired after the marathon."
+        }
+      },
+      {
+        phrase: "fast asleep",
+        type: "副詞 + 形容詞",
+        chinese: "熟睡的",
+        keywords: ["fast", "asleep"],
+        example: {
+          english: "The little baby was fast asleep in her mother's arms.",
+          chinese: "小嬰兒在母親的懷裡睡得很熟。",
+          grammar_point: "fast 在此作副詞，意為「深深地、沉沉地」，與 quick 無關"
+        },
+        vocabulary: [
+          { word: "asleep", pos: "adj.", chinese: "睡著的" },
+          { word: "arms", pos: "n.", chinese: "手臂、懷抱" }
+        ],
+        sentence_pattern: {
+          pattern: "S + fall/be fast asleep",
+          example: "He fell fast asleep as soon as he lay down."
+        }
+      },
+      {
+        phrase: "painfully slow",
+        type: "副詞 + 形容詞",
+        chinese: "極度緩慢的",
+        keywords: ["painfully", "slow"],
+        example: {
+          english: "Progress on the construction project has been painfully slow due to a lack of funds.",
+          chinese: "由於缺乏資金，這項建築工程的進度慢得令人難受。",
+          grammar_point: "painfully slow（慢到令人痛苦/難受的地步）"
+        },
+        vocabulary: [
+          { word: "progress", pos: "n.", chinese: "進度" },
+          { word: "construction", pos: "n.", chinese: "建築、施工" },
+          { word: "lack", pos: "n.", chinese: "缺乏" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is painfully slow.",
+          example: "The internet connection is painfully slow today."
+        }
+      },
+      {
+        phrase: "heavily involved",
+        type: "副詞 + 過去分詞",
+        chinese: "深度參與、牽涉極深",
+        keywords: ["heavily", "involved"],
+        example: {
+          english: "She is heavily involved in local charity work and helps out every weekend.",
+          chinese: "她深度參與當地的慈善工作，每個週末都會去幫忙。",
+          grammar_point: "be heavily involved in + N（深度參與...）"
+        },
+        vocabulary: [
+          { word: "involved", pos: "adj.", chinese: "參與的、牽涉的" },
+          { word: "charity", pos: "n.", chinese: "慈善" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be heavily involved in + N",
+          example: "The company is heavily involved in environmental protection."
+        }
+      },
+      {
+        phrase: "in broad daylight",
+        type: "介系詞 + 形容詞 + 名詞",
+        chinese: "在光天化日之下",
+        keywords: ["broad", "daylight"],
+        example: {
+          english: "The robbery occurred right in the middle of the street in broad daylight.",
+          chinese: "這場搶劫就發生在光天化日之下的大街中央。",
+          grammar_point: "in broad daylight（為固定片語，常接於發生意外、犯罪的語境）"
+        },
+        vocabulary: [
+          { word: "robbery", pos: "n.", chinese: "搶劫" },
+          { word: "occur", pos: "v.", chinese: "發生" }
+        ],
+        sentence_pattern: {
+          pattern: "N + happened in broad daylight.",
+          example: "His car was stolen in broad daylight."
+        }
+      },
+      {
+        phrase: "brief chat",
+        type: "形容詞 + 名詞",
+        chinese: "簡短的交談",
+        keywords: ["brief", "chat"],
+        example: {
+          english: "I had a brief chat with my professor after the lecture about my thesis.",
+          chinese: "演講結束後，我和教授就我的論文進行了簡短的交談。",
+          grammar_point: "have a brief chat with + 人（與某人簡短交談）"
+        },
+        vocabulary: [
+          { word: "brief", pos: "adj.", chinese: "簡短的" },
+          { word: "lecture", pos: "n.", chinese: "演講、講課" },
+          { word: "thesis", pos: "n.", chinese: "論文" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have a brief chat with + O",
+          example: "We had a brief chat before the meeting started."
+        }
+      },
+      {
+        phrase: "key factor",
+        type: "形容詞 + 名詞",
+        chinese: "關鍵因素",
+        keywords: ["key", "factor"],
+        example: {
+          english: "Education is a key factor in reducing poverty and improving society.",
+          chinese: "教育是減少貧窮和改善社會的關鍵因素。",
+          grammar_point: "a key factor in + V-ing/N（在...方面的關鍵因素）"
+        },
+        vocabulary: [
+          { word: "factor", pos: "n.", chinese: "因素" },
+          { word: "poverty", pos: "n.", chinese: "貧窮" },
+          { word: "improve", pos: "v.", chinese: "改善" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a key factor in + V-ing",
+          example: "Price is a key factor in their decision."
+        }
+      },
+      {
+        phrase: "prime example",
+        type: "形容詞 + 名詞",
+        chinese: "最佳範例、典型例子",
+        keywords: ["prime", "example"],
+        example: {
+          english: "This eco-friendly building is a prime example of modern sustainable architecture.",
+          chinese: "這棟環保建築是現代永續建築的最佳範例。",
+          grammar_point: "a prime example of + N（...的絕佳例子）"
+        },
+        vocabulary: [
+          { word: "eco-friendly", pos: "adj.", chinese: "環保的" },
+          { word: "sustainable", pos: "adj.", chinese: "永續的" },
+          { word: "architecture", pos: "n.", chinese: "建築(學)" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is a prime example of + N",
+          example: "His success is a prime example of hard work."
+        }
+      },
+      {
+        phrase: "major breakthrough",
+        type: "形容詞 + 名詞",
+        chinese: "重大突破",
+        keywords: ["major", "breakthrough"],
+        example: {
+          english: "Scientists have finally made a major breakthrough in cancer research.",
+          chinese: "科學家們終於在癌症研究方面取得了重大突破。",
+          grammar_point: "make a major breakthrough in + N（在...方面取得重大突破）"
+        },
+        vocabulary: [
+          { word: "breakthrough", pos: "n.", chinese: "突破" },
+          { word: "cancer", pos: "n.", chinese: "癌症" },
+          { word: "research", pos: "n.", chinese: "研究" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a major breakthrough in + N",
+          example: "The new technology represents a major breakthrough."
+        }
+      },
+      {
+        phrase: "hidden talent",
+        type: "形容詞 + 名詞",
+        chinese: "隱藏的才能",
+        keywords: ["hidden", "talent"],
+        example: {
+          english: "During the karaoke party, she revealed a hidden talent for singing that surprised everyone.",
+          chinese: "在卡拉OK派對上，她展現了令人驚豔的隱藏歌唱才能。",
+          grammar_point: "a hidden talent for + V-ing（在...方面有隱藏的才華）"
+        },
+        vocabulary: [
+          { word: "reveal", pos: "v.", chinese: "展現、揭露" },
+          { word: "talent", pos: "n.", chinese: "才能、天賦" },
+          { word: "surprise", pos: "v.", chinese: "使驚訝" }
+        ],
+        sentence_pattern: {
+          pattern: "S + have/reveal a hidden talent for + N/V-ing",
+          example: "He discovered a hidden talent for cooking."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "very_alternatives",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "pitch black",
+        type: "形容詞片語",
+        chinese: "漆黑的",
+        keywords: ["pitch", "black"],
+        example: {
+          english: "The power went out and the entire building was pitch black.",
+          chinese: "停電了，整棟建築物漆黑一片。",
+          grammar_point: "用 pitch black 代替 very black，pitch 指柏油/瀝青。"
+        },
+        vocabulary: [
+          { word: "power go out", pos: "phr.", chinese: "停電" },
+          { word: "entire", pos: "adj.", chinese: "整個的" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is pitch black",
+          example: "The night sky was pitch black."
+        }
+      },
+      {
+        phrase: "freezing cold",
+        type: "形容詞片語",
+        chinese: "極冷的、凍僵的",
+        keywords: ["freezing", "cold"],
+        example: {
+          english: "Make sure to wear a heavy coat; it is freezing cold outside today.",
+          chinese: "一定要穿件厚外套；今天外面極度寒冷。",
+          grammar_point: "用 freezing cold 代替 very cold。"
+        },
+        vocabulary: [
+          { word: "heavy coat", pos: "n.", chinese: "厚外套" },
+          { word: "outside", pos: "adv.", chinese: "在外面" }
+        ],
+        sentence_pattern: {
+          pattern: "It is freezing cold.",
+          example: "My hands are freezing cold."
+        }
+      },
+      {
+        phrase: "boiling hot",
+        type: "形容詞片語",
+        chinese: "酷熱的、滾燙的",
+        keywords: ["boiling", "hot"],
+        example: {
+          english: "I can't drink this soup right now because it is boiling hot.",
+          chinese: "我現在沒辦法喝這碗湯，因為它是滾燙的。",
+          grammar_point: "用 boiling hot 代替 very hot。"
+        },
+        vocabulary: [
+          { word: "soup", pos: "n.", chinese: "湯" },
+          { word: "right now", pos: "adv.", chinese: "現在" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is boiling hot.",
+          example: "The weather is boiling hot."
+        }
+      },
+      {
+        phrase: "soaking wet",
+        type: "形容詞片語",
+        chinese: "濕透的",
+        keywords: ["soaking", "wet"],
+        example: {
+          english: "He forgot his umbrella and came home soaking wet from the rain.",
+          chinese: "他忘了帶傘，淋著雨濕透地回家。",
+          grammar_point: "用 soaking wet 代替 very wet。"
+        },
+        vocabulary: [
+          { word: "umbrella", pos: "n.", chinese: "雨傘" },
+          { word: "forget", pos: "v.", chinese: "忘記" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be/get soaking wet",
+          example: "My clothes are soaking wet."
+        }
+      },
+      {
+        phrase: "brand new",
+        type: "形容詞片語",
+        chinese: "嶄新的",
+        keywords: ["brand", "new"],
+        example: {
+          english: "She just bought a brand new car and can't wait to drive it.",
+          chinese: "她剛買了一輛嶄新的車，等不及要開了。",
+          grammar_point: "用 brand new 代替 very new。"
+        },
+        vocabulary: [
+          { word: "buy", pos: "v.", chinese: "買 (過去式 bought)" },
+          { word: "can't wait to", pos: "phr.", chinese: "等不及要..." }
+        ],
+        sentence_pattern: {
+          pattern: "S + have/buy + a brand new + N",
+          example: "This phone is brand new."
+        }
+      },
+      {
+        phrase: "crystal clear",
+        type: "形容詞片語",
+        chinese: "清澈透明的、十分清楚的",
+        keywords: ["crystal", "clear"],
+        example: {
+          english: "The instructions were crystal clear, so nobody made any mistakes.",
+          chinese: "指示非常清楚，所以沒有人犯任何錯誤。",
+          grammar_point: "可指水質「清澈」，也常用於指解說或含意「十分清楚」。"
+        },
+        vocabulary: [
+          { word: "instruction", pos: "n.", chinese: "指示、說明" },
+          { word: "mistake", pos: "n.", chinese: "錯誤" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is crystal clear",
+          example: "The water here is crystal clear."
+        }
+      },
+      {
+        phrase: "lightning fast",
+        type: "形容詞片語",
+        chinese: "極快的、閃電般的",
+        keywords: ["lightning", "fast"],
+        example: {
+          english: "The cheetah caught its prey with a lightning fast sprint.",
+          chinese: "獵豹以閃電般的衝刺抓住了獵物。",
+          grammar_point: "用 lightning fast 代替 very fast。"
+        },
+        vocabulary: [
+          { word: "cheetah", pos: "n.", chinese: "獵豹" },
+          { word: "prey", pos: "n.", chinese: "獵物" },
+          { word: "sprint", pos: "n.", chinese: "衝刺" }
+        ],
+        sentence_pattern: {
+          pattern: "S + V + at a lightning fast speed",
+          example: "His reaction was lightning fast."
+        }
+      },
+      {
+        phrase: "dirt cheap",
+        type: "形容詞片語",
+        chinese: "非常便宜的",
+        keywords: ["dirt", "cheap"],
+        example: {
+          english: "I bought these shoes at the flea market; they were dirt cheap.",
+          chinese: "我在跳蚤市場買了這雙鞋；它們超級便宜。",
+          grammar_point: "用 dirt cheap 代替 very cheap (多用於口語)。"
+        },
+        vocabulary: [
+          { word: "flea market", pos: "n.", chinese: "跳蚤市場" },
+          { word: "shoe", pos: "n.", chinese: "鞋子" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is dirt cheap",
+          example: "The rent in this town is dirt cheap."
+        }
+      },
+      {
+        phrase: "rock hard",
+        type: "形容詞片語",
+        chinese: "堅硬如石的",
+        keywords: ["rock", "hard"],
+        example: {
+          english: "The bread had been left out for a week and was rock hard.",
+          chinese: "這麵包被放在外面一個星期，已經變得堅硬如石。",
+          grammar_point: "用 rock hard 代替 very hard (主要指物理硬度)。"
+        },
+        vocabulary: [
+          { word: "bread", pos: "n.", chinese: "麵包" },
+          { word: "leave out", pos: "phr. v.", chinese: "放在外面" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is rock hard",
+          example: "The ground was rock hard."
+        }
+      },
+      {
+        phrase: "razor sharp",
+        type: "形容詞片語",
+        chinese: "極其鋒利的、(心智)敏銳的",
+        keywords: ["razor", "sharp"],
+        example: {
+          english: "You need a razor sharp knife to cut this thick meat.",
+          chinese: "你需要一把極度鋒利的刀來切這塊厚肉。",
+          grammar_point: "用 razor sharp 代替 very sharp。"
+        },
+        vocabulary: [
+          { word: "knife", pos: "n.", chinese: "刀子" },
+          { word: "thick", pos: "adj.", chinese: "厚的" },
+          { word: "meat", pos: "n.", chinese: "肉" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is razor sharp",
+          example: "He has a razor sharp mind."
+        }
+      },
+      {
+        phrase: "bone dry",
+        type: "形容詞片語",
+        chinese: "乾透的",
+        keywords: ["bone", "dry"],
+        example: {
+          english: "After months without rain, the riverbed was completely bone dry.",
+          chinese: "幾個月沒下雨後，河床完全乾涸了。",
+          grammar_point: "用 bone dry 代替 very dry。"
+        },
+        vocabulary: [
+          { word: "riverbed", pos: "n.", chinese: "河床" },
+          { word: "completely", pos: "adv.", chinese: "完全地" }
+        ],
+        sentence_pattern: {
+          pattern: "N + is bone dry",
+          example: "My throat is bone dry."
+        }
+      },
+      {
+        phrase: "wide awake",
+        type: "形容詞片語",
+        chinese: "完全清醒的",
+        keywords: ["wide", "awake"],
+        example: {
+          english: "I drank an espresso at 9 PM, and now I am still wide awake.",
+          chinese: "我晚上9點喝了一杯濃縮咖啡，現在依然完全清醒。",
+          grammar_point: "用 wide awake 代替 fully awake / very awake。"
+        },
+        vocabulary: [
+          { word: "espresso", pos: "n.", chinese: "濃縮咖啡" },
+          { word: "still", pos: "adv.", chinese: "依然、還" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be wide awake",
+          example: "I was wide awake at 3 AM."
+        }
+      },
+      {
+        phrase: "a tiny bit",
+        type: "名詞/副詞片語",
+        chinese: "一丁點、稍微",
+        keywords: ["tiny", "bit"],
+        example: {
+          english: "I am a tiny bit tired, but I can still finish the work.",
+          chinese: "我稍微有點累，但我依然能完成工作。",
+          grammar_point: "用 a tiny bit 代替 a little bit (強調微小)。"
+        },
+        vocabulary: [
+          { word: "tired", pos: "adj.", chinese: "疲勞的" },
+          { word: "finish", pos: "v.", chinese: "完成" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be + a tiny bit + adj",
+          example: "It is a tiny bit too salty."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "adverb_collocations",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "virtually impossible",
+        type: "副詞 + 形容詞",
+        chinese: "幾乎不可能的",
+        keywords: ["virtually", "impossible"],
+        example: {
+          english: "It is virtually impossible to memorize all these words in one day.",
+          chinese: "要在一天內背下所有這些單字幾乎是不可能的。",
+          grammar_point: "virtually 意為「幾乎、實質上」，學測常考。"
+        },
+        vocabulary: [
+          { word: "memorize", pos: "v.", chinese: "背誦、記住" },
+          { word: "virtually", pos: "adv.", chinese: "幾乎、實質上" }
+        ],
+        sentence_pattern: {
+          pattern: "It is virtually impossible to + V",
+          example: "Winning the game now is virtually impossible."
+        }
+      },
+      {
+        phrase: "diametrically opposed",
+        type: "副詞 + 形容詞",
+        chinese: "截然相反的",
+        keywords: ["diametrically", "opposed"],
+        example: {
+          english: "The two candidates hold diametrically opposed views on the new tax policy.",
+          chinese: "這兩位候選人對新稅收政策持有截然相反的觀點。",
+          grammar_point: "diametrically opposed (南轅北轍的、完全相反的)，極高級用語。"
+        },
+        vocabulary: [
+          { word: "candidate", pos: "n.", chinese: "候選人" },
+          { word: "opposed", pos: "adj.", chinese: "反對的、相反的" },
+          { word: "policy", pos: "n.", chinese: "政策" }
+        ],
+        sentence_pattern: {
+          pattern: "A and B are diametrically opposed.",
+          example: "Their opinions are diametrically opposed."
+        }
+      },
+      {
+        phrase: "strictly prohibited",
+        type: "副詞 + 形容詞",
+        chinese: "嚴格禁止的",
+        keywords: ["strictly", "prohibited"],
+        example: {
+          english: "Taking photos inside the museum is strictly prohibited to protect the artwork.",
+          chinese: "博物館內嚴格禁止拍照以保護藝術品。",
+          grammar_point: "同義詞為 strictly forbidden，常出現在告示牌或規定中。"
+        },
+        vocabulary: [
+          { word: "prohibited", pos: "adj.", chinese: "被禁止的" },
+          { word: "artwork", pos: "n.", chinese: "藝術品" }
+        ],
+        sentence_pattern: {
+          pattern: "V-ing is strictly prohibited.",
+          example: "Smoking is strictly prohibited here."
+        }
+      },
+      {
+        phrase: "honestly believe",
+        type: "副詞 + 動詞",
+        chinese: "真心相信",
+        keywords: ["honestly", "believe"],
+        example: {
+          english: "I honestly believe that she did not mean to hurt your feelings.",
+          chinese: "我真心相信她並不是有意要傷害你的感情。",
+          grammar_point: "honestly believe (發自內心地相信)。"
+        },
+        vocabulary: [
+          { word: "mean to", pos: "phr.", chinese: "有意去..." },
+          { word: "feelings", pos: "n.", chinese: "感情、感受" }
+        ],
+        sentence_pattern: {
+          pattern: "S + honestly believe that...",
+          example: "I honestly believe we can win."
+        }
+      },
+      {
+        phrase: "categorically deny",
+        type: "副詞 + 動詞",
+        chinese: "堅決否認、明確否認",
+        keywords: ["categorically", "deny"],
+        example: {
+          english: "The politician categorically denied all the rumors about his corruption.",
+          chinese: "這位政治人物堅決否認所有關於他貪污的謠言。",
+          grammar_point: "categorically 指「絕對地、直截了當地」。"
+        },
+        vocabulary: [
+          { word: "politician", pos: "n.", chinese: "政治人物" },
+          { word: "rumor", pos: "n.", chinese: "謠言" },
+          { word: "corruption", pos: "n.", chinese: "貪污" }
+        ],
+        sentence_pattern: {
+          pattern: "S + categorically deny + N",
+          example: "He categorically denied the accusations."
+        }
+      },
+      {
+        phrase: "point-blank refuse",
+        type: "動詞 + 副詞",
+        chinese: "斷然拒絕",
+        keywords: ["refuse", "point-blank"],
+        example: {
+          english: "When asked to lie to the customers, he refused point-blank.",
+          chinese: "當被要求對顧客說謊時，他斷然拒絕了。",
+          grammar_point: "point-blank 可作副詞，常接在 refuse 後面 (refuse point-blank) 或前面。"
+        },
+        vocabulary: [
+          { word: "lie", pos: "v.", chinese: "說謊" },
+          { word: "customer", pos: "n.", chinese: "顧客" }
+        ],
+        sentence_pattern: {
+          pattern: "S + point-blank refuse to + V / refuse point-blank",
+          example: "She point-blank refused to help."
+        }
+      },
+      {
+        phrase: "heavily influenced",
+        type: "副詞 + 過去分詞",
+        chinese: "深受影響的",
+        keywords: ["heavily", "influenced"],
+        example: {
+          english: "His painting style is heavily influenced by traditional Chinese art.",
+          chinese: "他的繪畫風格深受中國傳統藝術的影響。",
+          grammar_point: "be heavily influenced by + N (受到...極大的影響)。"
+        },
+        vocabulary: [
+          { word: "style", pos: "n.", chinese: "風格" },
+          { word: "traditional", pos: "adj.", chinese: "傳統的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + be heavily influenced by + N",
+          example: "The decision was heavily influenced by public opinion."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "everyday_collocations",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "catch a cold",
+        type: "動詞 + 名詞",
+        chinese: "感冒",
+        keywords: ["catch", "cold"],
+        example: {
+          english: "Make sure to dress warmly, or you might catch a cold.",
+          chinese: "一定要穿暖和點，否則你可能會感冒。",
+          grammar_point: "catch a cold（感冒，強烈搭配，不可用 get a cold）"
+        },
+        vocabulary: [
+          { word: "warmly", pos: "adv.", chinese: "溫暖地" }
+        ],
+        sentence_pattern: {
+          pattern: "S + catch a cold",
+          example: "I caught a terrible cold yesterday."
+        }
+      },
+      {
+        phrase: "tell a lie",
+        type: "動詞 + 名詞",
+        chinese: "說謊",
+        keywords: ["tell", "lie"],
+        example: {
+          english: "It is wrong to tell a lie, even if you are trying to protect someone's feelings.",
+          chinese: "說謊是不對的，即使你是為了保護某人的感受。",
+          grammar_point: "tell a lie（說謊，與 tell the truth 相對）"
+        },
+        vocabulary: [
+          { word: "protect", pos: "v.", chinese: "保護" },
+          { word: "feelings", pos: "n.", chinese: "感受、感情" }
+        ],
+        sentence_pattern: {
+          pattern: "S + tell a lie to + O",
+          example: "He told a lie to his parents."
+        }
+      },
+      {
+        phrase: "come to a conclusion",
+        type: "動詞片語",
+        chinese: "得出結論",
+        keywords: ["come", "conclusion"],
+        example: {
+          english: "After discussing the issue for hours, the team finally came to a conclusion.",
+          chinese: "在討論了這個問題幾個小時後，團隊終於得出了一個結論。",
+          grammar_point: "come to / reach / draw a conclusion（皆為得出結論的常見搭配）"
+        },
+        vocabulary: [
+          { word: "discuss", pos: "v.", chinese: "討論" },
+          { word: "issue", pos: "n.", chinese: "問題、議題" }
+        ],
+        sentence_pattern: {
+          pattern: "S + come to a conclusion",
+          example: "We came to a conclusion quickly."
+        }
+      },
+      {
+        phrase: "have a look",
+        type: "動詞片語",
+        chinese: "看一看",
+        keywords: ["have", "look"],
+        example: {
+          english: "If you're not sure how it works, let me have a look at the manual for you.",
+          chinese: "如果你不確定它是如何運作的，讓我幫你看一下說明書。",
+          grammar_point: "have a look at + N（看一看、瞧一瞧）"
+        },
+        vocabulary: [
+          { word: "manual", pos: "n.", chinese: "說明書、手冊" }
+        ],
+        sentence_pattern: {
+          pattern: "Let me have a look.",
+          example: "Can I have a look at your drawing?"
+        }
+      },
+      {
+        phrase: "run a business",
+        type: "動詞 + 名詞",
+        chinese: "經營事業、做生意",
+        keywords: ["run", "business"],
+        example: {
+          english: "Running a business requires a lot of hard work and dedication.",
+          chinese: "經營事業需要大量的辛勤工作和奉獻精神。",
+          grammar_point: "run a business（run 在此意為管理、經營）"
+        },
+        vocabulary: [
+          { word: "require", pos: "v.", chinese: "需要、要求" },
+          { word: "dedication", pos: "n.", chinese: "奉獻、專心致志" }
+        ],
+        sentence_pattern: {
+          pattern: "S + run a business",
+          example: "He runs a successful restaurant business."
+        }
+      },
+      {
+        phrase: "win an award",
+        type: "動詞 + 名詞",
+        chinese: "獲獎",
+        keywords: ["win", "award"],
+        example: {
+          english: "She won an award for her outstanding performance in the school play.",
+          chinese: "她因為在學校話劇中的傑出表現而獲獎。",
+          grammar_point: "win an award for + N/V-ing（因...而獲獎）"
+        },
+        vocabulary: [
+          { word: "outstanding", pos: "adj.", chinese: "傑出的" },
+          { word: "performance", pos: "n.", chinese: "表現" }
+        ],
+        sentence_pattern: {
+          pattern: "S + win an award for + N",
+          example: "The movie won several awards."
+        }
+      }
+    ]
+  },
+  {
+    keyword: "make_vs_do",
+    keywords: [],
+    collocations: [
+      {
+        phrase: "make a promise",
+        type: "動詞 + 名詞",
+        chinese: "許下承諾",
+        keywords: ["make", "promise"],
+        example: {
+          english: "You should never make a promise that you know you cannot keep.",
+          chinese: "你絕對不應該許下你明知無法遵守的承諾。",
+          grammar_point: "make a promise（許諾）；keep a promise（遵守承諾）"
+        },
+        vocabulary: [
+          { word: "promise", pos: "n.", chinese: "承諾" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a promise to + V",
+          example: "He made a promise to return early."
+        }
+      },
+      {
+        phrase: "make a noise",
+        type: "動詞 + 名詞",
+        chinese: "發出噪音、製造聲響",
+        keywords: ["make", "noise"],
+        example: {
+          english: "Please try not to make a noise while the baby is sleeping in the next room.",
+          chinese: "寶寶在隔壁房間睡覺時，請盡量不要發出噪音。",
+          grammar_point: "make a noise / make noise（皆可，指發出聲響）"
+        },
+        vocabulary: [
+          { word: "noise", pos: "n.", chinese: "噪音、聲響" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a noise",
+          example: "The old washing machine makes a loud noise."
+        }
+      },
+      {
+        phrase: "make a mess",
+        type: "動詞 + 名詞",
+        chinese: "弄得一團糟",
+        keywords: ["make", "mess"],
+        example: {
+          english: "The kids made a terrible mess in the living room while playing with their toys.",
+          chinese: "孩子們玩玩具時把客廳弄得一團糟。",
+          grammar_point: "make a mess（製造混亂/弄髒）"
+        },
+        vocabulary: [
+          { word: "terrible", pos: "adj.", chinese: "可怕的、極糟的" },
+          { word: "mess", pos: "n.", chinese: "混亂、髒亂" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a mess in + 地方",
+          example: "Don't make a mess in the kitchen!"
+        }
+      },
+      {
+        phrase: "make a plan",
+        type: "動詞 + 名詞",
+        chinese: "制定計畫",
+        keywords: ["make", "plan"],
+        example: {
+          english: "We need to make a solid plan for our upcoming summer holiday trip.",
+          chinese: "我們需要為即將到來的暑假旅行制定一個周密的計畫。",
+          grammar_point: "make a plan（比較口語的說法，進階可用 formulate a plan）"
+        },
+        vocabulary: [
+          { word: "solid", pos: "adj.", chinese: "堅固的、可靠的" },
+          { word: "upcoming", pos: "adj.", chinese: "即將到來的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make a plan to + V",
+          example: "Let's make a plan before we start."
+        }
+      },
+      {
+        phrase: "make an exception",
+        type: "動詞 + 名詞",
+        chinese: "破例",
+        keywords: ["make", "exception"],
+        example: {
+          english: "The museum usually closes at 5 PM, but they made an exception for our school group.",
+          chinese: "博物館通常下午五點關門，但他們為了我們學校團體破例了。",
+          grammar_point: "make an exception for + 人/團體（為...破例）"
+        },
+        vocabulary: [
+          { word: "usually", pos: "adv.", chinese: "通常" },
+          { word: "exception", pos: "n.", chinese: "例外" }
+        ],
+        sentence_pattern: {
+          pattern: "S + make an exception for + O",
+          example: "Can you make an exception this time?"
+        }
+      },
+      {
+        phrase: "do the laundry",
+        type: "動詞 + 名詞",
+        chinese: "洗衣服",
+        keywords: ["do", "laundry"],
+        example: {
+          english: "I usually stay home and do the laundry on Sunday mornings.",
+          chinese: "我通常在星期天早上待在家裡洗衣服。",
+          grammar_point: "do the laundry（做洗衣相關的家事，是 DO 的經典用法）"
+        },
+        vocabulary: [
+          { word: "laundry", pos: "n.", chinese: "待洗的衣服、洗衣店" }
+        ],
+        sentence_pattern: {
+          pattern: "S + do the laundry",
+          example: "It's your turn to do the laundry."
+        }
+      },
+      {
+        phrase: "do exercises",
+        type: "動詞 + 名詞",
+        chinese: "做運動、做練習題",
+        keywords: ["do", "exercises"],
+        example: {
+          english: "Doing daily stretching exercises is very good for your physical health.",
+          chinese: "做日常伸展運動對你的身體健康非常有益。",
+          grammar_point: "do exercises 可指「做體操/運動」或「做課本練習題」"
+        },
+        vocabulary: [
+          { word: "daily", pos: "adj.", chinese: "每天的" },
+          { word: "stretching", pos: "n.", chinese: "伸展" },
+          { word: "physical", pos: "adj.", chinese: "身體的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + do exercises",
+          example: "We have to do grammar exercises today."
+        }
+      },
+      {
+        phrase: "do a good job",
+        type: "動詞 + 名詞",
+        chinese: "做得好、表現出色",
+        keywords: ["do", "job", "good"],
+        example: {
+          english: "You did a really good job on this project; the client is very satisfied.",
+          chinese: "你在這個專案上表現得非常出色；客戶非常滿意。",
+          grammar_point: "do a good job on + N（在某事上做得很好）"
+        },
+        vocabulary: [
+          { word: "project", pos: "n.", chinese: "專案" },
+          { word: "client", pos: "n.", chinese: "客戶" },
+          { word: "satisfied", pos: "adj.", chinese: "滿意的" }
+        ],
+        sentence_pattern: {
+          pattern: "S + do a good job + V-ing",
+          example: "She did a good job organizing the event."
         }
       }
     ]

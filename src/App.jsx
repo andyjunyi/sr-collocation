@@ -152,9 +152,9 @@ export default function App() {
     if (!q) return
     const isEnglish = /[a-zA-Z]/.test(q)
     const wordRegex = isEnglish ? new RegExp(`\\b${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
-    const matches = collocationData.filter((item) =>
+        const matches = collocationData.filter((item) =>
       isEnglish
-        ? wordRegex.test(item.phrase) || item.keywords.some((k) => wordRegex.test(k))
+        ? wordRegex.test(item.phrase) || (item.keywords && item.keywords.some((k) => wordRegex.test(k)))
         : item.chinese.includes(q)
     )
     setResults(matches)
