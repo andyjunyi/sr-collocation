@@ -24667,7 +24667,7 @@ export const collocationData = [
   },
   {
     phrase: "abide by",
-    type: "動詞片語",
+    type: "片語動詞",
     chinese: "遵守、信守",
     keywords: ["abide", "by"],
     example: {
@@ -62993,21 +62993,6 @@ export const collocationData = [
       { word: "paperwork", pos: "n.", chinese: "文書工作" }
     ],
     sentence_pattern: { pattern: "S + wade through + N", example: "They waded through the deep floodwater." }
-  },
-  {
-    phrase: "abide by",
-    type: "片語動詞",
-    chinese: "遵守 (規則、法律)",
-    keywords: ["abide", "by"],
-    example: {
-      english: "All citizens are expected to abide by the laws of the country.",
-      chinese: "所有公民都應遵守國家的法律。",
-      grammar_point: "abide by = comply with = obey。"
-    },
-    vocabulary: [
-      { word: "law", pos: "n.", chinese: "法律" }
-    ],
-    sentence_pattern: { pattern: "S + (must) abide by + N", example: "We will abide by the judge's decision." }
   },
   {
     phrase: "account for",
