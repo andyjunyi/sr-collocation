@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
 import { collocationData } from './data/collocationData'
+import Checker from './Checker'
 
 function highlightPhrase(text, phrase) {
   // Handle structural phrases containing one's / oneself / ...
@@ -126,7 +128,7 @@ function CollocationCard({ collocation, expanded, onToggle }) {
   )
 }
 
-export default function App() {
+function HomePage() {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [searched, setSearched] = useState(false)
@@ -221,9 +223,17 @@ export default function App() {
           <h1 className="text-2xl sm:text-3xl font-bold mb-1 tracking-tight">
             英文搭配詞學習網站
           </h1>
-          <p className="text-blue-200 text-sm mb-5">
-            專為台灣高中生設計・大學學測必備
-          </p>
+          <div className="flex items-center justify-between mb-5">
+            <p className="text-blue-200 text-sm">
+              專為台灣高中生設計・大學學測必備
+            </p>
+            <Link
+              to="/checker"
+              className="text-blue-200 hover:text-white text-xs whitespace-nowrap border border-blue-400 rounded-lg px-3 py-1.5 hover:border-white transition-colors"
+            >
+              比對工具
+            </Link>
+          </div>
 
           {/* Search Box */}
           <div className="max-w-2xl mx-auto flex gap-2">
@@ -372,5 +382,14 @@ export default function App() {
       </main>
 
     </div>
+  )
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/checker" element={<Checker />} />
+    </Routes>
   )
 }
