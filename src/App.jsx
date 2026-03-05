@@ -3,43 +3,150 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { collocationData } from './data/collocationData'
 import Checker from './Checker'
 
-function highlightPhrase(text, phrase) {
-  // Handle structural phrases containing one's / oneself / ...
-  if (/one's|oneself|\.\.\./.test(phrase)) {
-    const parts = phrase.split(/\s+/)
-    const regexParts = parts.map(part => {
-      if (part === "one's") return "(my|his|her|its|your|their|our|one's)"
-      if (part === 'oneself') return '(myself|himself|herself|itself|yourself|themselves|ourselves|oneself)'
-      if (part === '...') return '.+?'
-      return part.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    })
-    const regex = new RegExp(regexParts.join('\\s+'), 'i')
-    const match = regex.exec(text)
-    if (!match) return <span>{text}</span>
-    return (
-      <span>
-        {text.slice(0, match.index)}
-        <strong className="underline decoration-blue-700 text-blue-900">
-          {text.slice(match.index, match.index + match[0].length)}
-        </strong>
-        {text.slice(match.index + match[0].length)}
-      </span>
-    )
+// 不規則動詞：只存不規則過去式（+s / +ing 由 getVerbForms 自動產生）
+const IRREGULAR_VERBS = {
+  tell: ['told'],    make: ['made'],      take: ['took'],    give: ['gave'],
+  come: ['came'],    go: ['went'],        get: ['got'],      find: ['found'],
+  keep: ['kept'],    bring: ['brought'],  think: ['thought'],feel: ['felt'],
+  leave: ['left'],   meet: ['met'],       run: ['ran'],      see: ['saw'],
+  write: ['wrote'],  know: ['knew'],      grow: ['grew'],    show: ['showed', 'shown'],
+  begin: ['began'],  break: ['broke'],    build: ['built'],  buy: ['bought'],
+  catch: ['caught'], choose: ['chose'],   draw: ['drew'],    drive: ['drove'],
+  eat: ['ate'],      fall: ['fell'],      fly: ['flew'],     forget: ['forgot'],
+  hold: ['held'],    lead: ['led'],       lose: ['lost'],    pay: ['paid'],
+  put: ['put'],      read: ['read'],      rise: ['rose'],    sell: ['sold'],
+  send: ['sent'],    set: ['set'],        speak: ['spoke'],  spend: ['spent'],
+  stand: ['stood'],  teach: ['taught'],   throw: ['threw'],  win: ['won'],
+  understand: ['understood'],
+  be: ['is', 'are', 'was', 'were', 'been', 'being', 'am'],
+  // 雙子音規則動詞（避免 +ed 拼錯）
+  drop: ['dropped'], stop: ['stopped'],   plan: ['planned'],
+  refer: ['referred'], occur: ['occurred'],
+}
+
+// 判斷是否需要雙子音（CVC 結尾）
+function needsDoubling(word) {
+  const vowels = 'aeiou'
+  const n = word.length
+  if (n < 3) return false
+  const last = word[n - 1]
+  const prev = word[n - 2]
+  const beforePrev = word[n - 3]
+  return !vowels.includes(last) && !'wxy'.includes(last) &&
+    vowels.includes(prev) &&
+    !vowels.includes(beforePrev)
+}
+
+function getVerbForms(word) {
+  const lower = word.toLowerCase()
+  const irregular = IRREGULAR_VERBS[lower]
+  const forms = [lower, lower + 's']
+
+  // 過去式 / 過去分詞
+  if (irregular) {
+    forms.push(...irregular)
+  } else if (lower.endsWith('e') && !lower.endsWith('ee')) {
+    forms.push(lower + 'd')
+  } else {
+    forms.push(lower + 'ed')
   }
 
-  const lowerText = text.toLowerCase()
-  const lowerPhrase = phrase.toLowerCase()
-  const index = lowerText.indexOf(lowerPhrase)
-  if (index === -1) return <span>{text}</span>
-  return (
-    <span>
-      {text.slice(0, index)}
-      <strong className="underline decoration-blue-700 text-blue-900">
-        {text.slice(index, index + phrase.length)}
+  // 現在分詞 (-ing)
+  if (lower.endsWith('ie')) {
+    forms.push(lower.slice(0, -2) + 'ying')
+  } else if (lower.endsWith('e') && !lower.endsWith('ee')) {
+    forms.push(lower.slice(0, -1) + 'ing')
+  } else if (needsDoubling(lower)) {
+    forms.push(lower + lower[lower.length - 1] + 'ing')
+  } else {
+    forms.push(lower + 'ing')
+  }
+
+  return forms
+}
+
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function isStructuralToken(token) {
+  return /^(sb\.?|sth\.?|\.\.\.|one's|oneself)$/i.test(token)
+}
+
+function buildTokenPattern(token, isFirstToken) {
+  const lower = token.toLowerCase()
+  if (lower === "one's") return "(my|his|her|its|your|their|our|one's)"
+  if (lower === 'oneself') return '(myself|himself|herself|itself|yourself|themselves|ourselves|oneself)'
+  if (/^(sb\.?|sth\.?|\.\.\.)$/i.test(lower)) return '\\S+(?:\\s+\\S+){0,4}'
+  if (isFirstToken || IRREGULAR_VERBS[lower]) {
+    const forms = getVerbForms(lower)
+    return '(?:' + forms.map(escapeRegex).join('|') + ')'
+  }
+  return escapeRegex(token)
+}
+
+function renderHighlights(text, ranges) {
+  if (ranges.length === 0) return <span>{text}</span>
+  const parts = []
+  let pos = 0
+  for (const { start, end } of ranges) {
+    if (start > pos) parts.push(<span key={`t${pos}`}>{text.slice(pos, start)}</span>)
+    parts.push(
+      <strong key={`h${start}`} className="underline decoration-blue-700 text-blue-900">
+        {text.slice(start, end)}
       </strong>
-      {text.slice(index + phrase.length)}
-    </span>
-  )
+    )
+    pos = end
+  }
+  if (pos < text.length) parts.push(<span key={`t${pos}`}>{text.slice(pos)}</span>)
+  return <span>{parts}</span>
+}
+
+function highlightPhrase(text, phrase) {
+  try {
+    const tokens = phrase.split(/\s+/)
+    const tokenPatterns = tokens.map((token, i) => buildTokenPattern(token, i === 0))
+
+    const firstIsStructural = isStructuralToken(tokens[0])
+    const lastIsStructural = isStructuralToken(tokens[tokens.length - 1])
+    const fullPattern =
+      (firstIsStructural ? '' : '\\b') +
+      tokenPatterns.join('\\s+') +
+      (lastIsStructural ? '' : '\\b')
+
+    // 1. 嘗試完整比對（含動詞變化形與佔位符）
+    const fullMatch = new RegExp(fullPattern, 'i').exec(text)
+    if (fullMatch) {
+      return renderHighlights(text, [{ start: fullMatch.index, end: fullMatch.index + fullMatch[0].length }])
+    }
+
+    // 2. 分段比對：只標記找得到的實詞部分
+    const solidTokens = tokens.filter(t => !isStructuralToken(t))
+    if (solidTokens.length === 0) return <span>{text}</span>
+
+    const ranges = []
+    for (const token of solidTokens) {
+      const isFirst = tokens.indexOf(token) === 0
+      const forms = (isFirst || IRREGULAR_VERBS[token.toLowerCase()])
+        ? getVerbForms(token)
+        : [token.toLowerCase()]
+      const m = new RegExp('\\b(?:' + forms.map(escapeRegex).join('|') + ')\\b', 'i').exec(text)
+      if (m) ranges.push({ start: m.index, end: m.index + m[0].length })
+    }
+
+    ranges.sort((a, b) => a.start - b.start)
+    const merged = []
+    for (const r of ranges) {
+      if (merged.length > 0 && r.start <= merged[merged.length - 1].end) {
+        merged[merged.length - 1].end = Math.max(merged[merged.length - 1].end, r.end)
+      } else {
+        merged.push({ ...r })
+      }
+    }
+    return renderHighlights(text, merged)
+  } catch {
+    return <span>{text}</span>
+  }
 }
 
 const TYPE_COLORS = {
