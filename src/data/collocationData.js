@@ -6736,26 +6736,6 @@ export const collocationData = [
     }
   },
   {
-    phrase: "related to",
-    type: "過去分詞 + 介系詞",
-    chinese: "與...有關",
-    keywords: ["related", "to"],
-    example: {
-      english: "The severe floods were directly related to the extreme weather changes.",
-      chinese: "嚴重的洪水與極端的天氣變化有直接關係。",
-      grammar_point: "be related to + N（和...有關聯）"
-    },
-    vocabulary: [
-      { word: "severe", pos: "adj.", chinese: "嚴重的" },
-      { word: "flood", pos: "n.", chinese: "洪水" },
-      { word: "extreme", pos: "adj.", chinese: "極端的" }
-    ],
-    sentence_pattern: {
-      pattern: "A + be related to + B",
-      example: "Are you related to the owner?"
-    }
-  },
-  {
     phrase: "rude to",
     type: "形容詞 + 介系詞",
     chinese: "對...無禮",
@@ -79596,21 +79576,6 @@ export const collocationData = [
     sentence_pattern: { pattern: "N + conk(s) out", example: "He conked out on the sofa after work." }
   },
   {
-    phrase: "connect to / with",
-    type: "片語動詞",
-    chinese: "連結 / 與...建立聯繫",
-    keywords: ["connect"],
-    example: {
-      english: "Social media helps people connect with friends and family around the world.",
-      chinese: "社群媒體幫助人們與世界各地的親友建立聯繫。",
-      grammar_point: "connect to (具體連接)；connect with (建立情感或商務聯繫)。"
-    },
-    vocabulary: [
-      { word: "social media", pos: "n.", chinese: "社群媒體" }
-    ],
-    sentence_pattern: { pattern: "S + connect + with + 人", example: "The computer is connected to the internet." }
-  },
-  {
     phrase: "consent to",
     type: "片語動詞",
     chinese: "同意 / 准許",
@@ -86385,5 +86350,10256 @@ export const collocationData = [
     },
     vocabulary: [],
     sentence_pattern: { pattern: "S + leave + N + in + 地方", example: "She was left in charge of the department." }
+  },
+  {
+    phrase: "carry away",
+    type: "片語動詞",
+    chinese: "使忘乎所以；沖昏頭腦",
+    keywords: ["carry", "away"],
+    example: {
+      english: "Don't get carried away by excitement and spend more money than you planned.",
+      chinese: "不要因為興奮而沖昏頭腦，花比計劃更多的錢。",
+      grammar_point: "get carried away（被動語態，表示「情緒失控」）"
+    },
+    vocabulary: [
+      { word: "excitement", pos: "n.", chinese: "興奮、激動" },
+      { word: "planned", pos: "v.", chinese: "計劃（過去式/過去分詞）" },
+      { word: "emotion", pos: "n.", chinese: "情緒、感情" }
+    ],
+    sentence_pattern: { pattern: "Don't get carried away by + N", example: "Don't get carried away by the moment." }
+  },
+  {
+    phrase: "call up",
+    type: "片語動詞",
+    chinese: "打電話給；召集；使回憶起",
+    keywords: ["call", "up"],
+    example: {
+      english: "She called up her old classmates to organize a reunion after many years.",
+      chinese: "她打電話給老同學，在多年後籌辦了一次同學會。",
+      grammar_point: "及物片語動詞，受詞可置於 call 與 up 之間"
+    },
+    vocabulary: [
+      { word: "classmate", pos: "n.", chinese: "同學" },
+      { word: "organize", pos: "v.", chinese: "籌辦、組織" },
+      { word: "reunion", pos: "n.", chinese: "重聚、同學會" }
+    ],
+    sentence_pattern: { pattern: "S + called up + 人 + to + V", example: "He called up his friends to tell them the news." }
+  },
+  {
+    phrase: "make use of",
+    type: "動詞片語",
+    chinese: "利用、善用",
+    keywords: ["make", "use", "of"],
+    example: {
+      english: "Students should make use of every opportunity to practise speaking English.",
+      chinese: "學生應該善用每一個練習說英語的機會。",
+      grammar_point: "should + V（情態動詞表建議）；make use of = utilize"
+    },
+    vocabulary: [
+      { word: "opportunity", pos: "n.", chinese: "機會" },
+      { word: "practise", pos: "v.", chinese: "練習（英式拼法）" },
+      { word: "resource", pos: "n.", chinese: "資源" }
+    ],
+    sentence_pattern: { pattern: "S + should + make use of + N + to + V", example: "We should make use of technology to improve our lives." }
+  },
+  {
+    phrase: "make sense of",
+    type: "動詞片語",
+    chinese: "理解、弄懂",
+    keywords: ["make", "sense", "of"],
+    example: {
+      english: "It took me a long time to make sense of the complicated instructions in the manual.",
+      chinese: "我花了很長時間才弄懂手冊中複雜的說明。",
+      grammar_point: "It took + 人 + 時間 + to + V（表示花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "complicated", pos: "adj.", chinese: "複雜的" },
+      { word: "instruction", pos: "n.", chinese: "說明、指示（常用複數）" },
+      { word: "manual", pos: "n.", chinese: "手冊、說明書" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to make sense of + N", example: "It took her a while to make sense of the data." }
+  },
+  {
+    phrase: "fill with",
+    type: "動詞 + 介系詞",
+    chinese: "充滿、裝滿",
+    keywords: ["fill", "with"],
+    example: {
+      english: "Her eyes filled with tears when she heard the touching story about the little girl.",
+      chinese: "當她聽到那個關於小女孩的感人故事時，她的眼眶充滿了淚水。",
+      grammar_point: "when 時間副詞子句（連接主要子句與從屬子句）"
+    },
+    vocabulary: [
+      { word: "tear", pos: "n.", chinese: "眼淚（常用複數 tears）" },
+      { word: "touching", pos: "adj.", chinese: "感人的、動人的" },
+      { word: "emotion", pos: "n.", chinese: "情緒、感動" }
+    ],
+    sentence_pattern: { pattern: "S + filled with + N + when + S + V", example: "The room filled with laughter when he told the joke." }
+  },
+  {
+    phrase: "stand up for",
+    type: "片語動詞",
+    chinese: "支持、捍衛、為…發聲",
+    keywords: ["stand", "up", "for"],
+    example: {
+      english: "We must stand up for those who cannot speak for themselves and protect their rights.",
+      chinese: "我們必須為那些無法為自己發聲的人挺身而出，保護他們的權利。",
+      grammar_point: "those who + V（關係代名詞子句，指特定群體）"
+    },
+    vocabulary: [
+      { word: "rights", pos: "n.", chinese: "權利（常用複數）" },
+      { word: "protect", pos: "v.", chinese: "保護" },
+      { word: "injustice", pos: "n.", chinese: "不公正、不公平" }
+    ],
+    sentence_pattern: { pattern: "S + must stand up for + 人/N + and + V", example: "You should stand up for what you believe in." }
+  },
+  {
+    phrase: "move forward",
+    type: "片語動詞",
+    chinese: "向前推進、取得進展",
+    keywords: ["move", "forward"],
+    example: {
+      english: "After a long discussion, the team finally agreed to move forward with the new project.",
+      chinese: "經過長時間的討論，團隊終於同意推進新專案。",
+      grammar_point: "agree to + V（同意做某事）"
+    },
+    vocabulary: [
+      { word: "discussion", pos: "n.", chinese: "討論" },
+      { word: "finally", pos: "adv.", chinese: "終於、最終" },
+      { word: "project", pos: "n.", chinese: "專案、計畫" }
+    ],
+    sentence_pattern: { pattern: "S + agreed to move forward with + N", example: "Let's move forward with the plan." }
+  },
+  {
+    phrase: "end with",
+    type: "動詞 + 介系詞",
+    chinese: "以…結束",
+    keywords: ["end", "with"],
+    example: {
+      english: "The teacher always ends the class with a short review of the key points.",
+      chinese: "老師總是以簡短的重點複習來結束課程。",
+      grammar_point: "always + V（頻率副詞置於一般動詞前）"
+    },
+    vocabulary: [
+      { word: "review", pos: "n.", chinese: "複習、回顧" },
+      { word: "key", pos: "adj.", chinese: "關鍵的、重要的" },
+      { word: "point", pos: "n.", chinese: "要點、重點" }
+    ],
+    sentence_pattern: { pattern: "S + end(s) + N + with + N", example: "She ended her speech with a quote." }
+  },
+  {
+    phrase: "stick up for",
+    type: "片語動詞",
+    chinese: "支持、為…辯護",
+    keywords: ["stick", "up", "for"],
+    example: {
+      english: "A good friend will always stick up for you even when others disagree.",
+      chinese: "一個好朋友即使在別人不同意時也會支持你。",
+      grammar_point: "even when（即使當…，表讓步的副詞子句）"
+    },
+    vocabulary: [
+      { word: "disagree", pos: "v.", chinese: "不同意" },
+      { word: "defend", pos: "v.", chinese: "捍衛、為…辯護" },
+      { word: "loyalty", pos: "n.", chinese: "忠誠" }
+    ],
+    sentence_pattern: { pattern: "S + will stick up for + 人 + even when + S + V", example: "He always sticks up for his younger brother." }
+  },
+  {
+    phrase: "read out",
+    type: "片語動詞",
+    chinese: "大聲朗讀、宣讀",
+    keywords: ["read", "out"],
+    example: {
+      english: "The teacher asked one of the students to read out the answers to the class.",
+      chinese: "老師請一位學生向全班大聲朗讀答案。",
+      grammar_point: "ask + 人 + to + V（請某人做某事）"
+    },
+    vocabulary: [
+      { word: "answer", pos: "n.", chinese: "答案" },
+      { word: "aloud", pos: "adv.", chinese: "大聲地、出聲地" },
+      { word: "announce", pos: "v.", chinese: "宣布、宣讀" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to read out + N", example: "Please read out your name when called." }
+  },
+  {
+    phrase: "read through",
+    type: "片語動詞",
+    chinese: "從頭到尾閱讀、通讀",
+    keywords: ["read", "through"],
+    example: {
+      english: "Make sure you read through the contract carefully before signing your name.",
+      chinese: "在簽名之前，請確保你仔細地從頭到尾閱讀合約。",
+      grammar_point: "Make sure + S + V（確保…）"
+    },
+    vocabulary: [
+      { word: "contract", pos: "n.", chinese: "合約、契約" },
+      { word: "carefully", pos: "adv.", chinese: "仔細地" },
+      { word: "sign", pos: "v.", chinese: "簽名" }
+    ],
+    sentence_pattern: { pattern: "Make sure S + read(s) through + N + before + V-ing", example: "Read through the report before submitting it." }
+  },
+  {
+    phrase: "pass through",
+    type: "片語動詞",
+    chinese: "經過、路過；通過",
+    keywords: ["pass", "through"],
+    example: {
+      english: "We decided to stop for lunch at a small village we were passing through on our road trip.",
+      chinese: "我們決定在公路旅行途中路過的一個小村莊停下來吃午餐。",
+      grammar_point: "現在分詞片語（we were passing through）作後置修飾"
+    },
+    vocabulary: [
+      { word: "village", pos: "n.", chinese: "村莊" },
+      { word: "road trip", pos: "n.", chinese: "公路旅行" },
+      { word: "transit", pos: "n.", chinese: "過境、通過" }
+    ],
+    sentence_pattern: { pattern: "S + pass(ed) through + 地方 + on the way to + 目的地", example: "We passed through several towns on our way to the coast." }
+  },
+  {
+    phrase: "clean off",
+    type: "片語動詞",
+    chinese: "擦掉、清除（表面污漬）",
+    keywords: ["clean", "off"],
+    example: {
+      english: "Could you please clean off the whiteboard before the next class begins?",
+      chinese: "下一堂課開始之前，你能把白板擦乾淨嗎？",
+      grammar_point: "Could you + V（禮貌請求句型）"
+    },
+    vocabulary: [
+      { word: "whiteboard", pos: "n.", chinese: "白板" },
+      { word: "surface", pos: "n.", chinese: "表面" },
+      { word: "remove", pos: "v.", chinese: "移除、去除" }
+    ],
+    sentence_pattern: { pattern: "Could you clean off + N + before + N?", example: "Clean off the mud before you come inside." }
+  },
+  {
+    phrase: "sort through",
+    type: "片語動詞",
+    chinese: "整理、逐一篩選",
+    keywords: ["sort", "through"],
+    example: {
+      english: "It took her the whole afternoon to sort through the boxes of old photos in the attic.",
+      chinese: "她花了整個下午整理閣樓裡那些裝著舊照片的箱子。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "attic", pos: "n.", chinese: "閣樓" },
+      { word: "organize", pos: "v.", chinese: "整理、組織" },
+      { word: "belongings", pos: "n.", chinese: "財物、所有物（常用複數）" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to sort through + N", example: "I need to sort through my old clothes." }
+  },
+  {
+    phrase: "use up",
+    type: "片語動詞",
+    chinese: "用完、耗盡",
+    keywords: ["use", "up"],
+    example: {
+      english: "We used up all the ink in the printer right before the important presentation.",
+      chinese: "我們在重要簡報之前就把印表機的墨水全用完了。",
+      grammar_point: "right before + N（就在…之前，right 加強語氣）"
+    },
+    vocabulary: [
+      { word: "ink", pos: "n.", chinese: "墨水" },
+      { word: "printer", pos: "n.", chinese: "印表機" },
+      { word: "exhaust", pos: "v.", chinese: "耗盡、用完" }
+    ],
+    sentence_pattern: { pattern: "S + used up + N + right before + N", example: "Don't use up all the hot water." }
+  },
+  {
+    phrase: "check over",
+    type: "片語動詞",
+    chinese: "仔細檢查、複查",
+    keywords: ["check", "over"],
+    example: {
+      english: "Always check over your answers before handing in the exam paper.",
+      chinese: "在交卷之前，一定要仔細檢查你的答案。",
+      grammar_point: "before + V-ing（在…之前的時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "answer", pos: "n.", chinese: "答案" },
+      { word: "exam", pos: "n.", chinese: "考試" },
+      { word: "error", pos: "n.", chinese: "錯誤" }
+    ],
+    sentence_pattern: { pattern: "Always check over + N + before + V-ing", example: "He checked over the report one more time." }
+  },
+  {
+    phrase: "count out",
+    type: "片語動詞",
+    chinese: "逐一數出；排除在外",
+    keywords: ["count", "out"],
+    example: {
+      english: "The cashier counted out the change and handed it back to the customer.",
+      chinese: "收銀員逐一數出零錢，然後交還給顧客。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "cashier", pos: "n.", chinese: "收銀員" },
+      { word: "change", pos: "n.", chinese: "零錢" },
+      { word: "customer", pos: "n.", chinese: "顧客" }
+    ],
+    sentence_pattern: { pattern: "S + counted out + N + and + V", example: "Count me out — I'm too tired to join." }
+  },
+  {
+    phrase: "agree on",
+    type: "動詞 + 介系詞",
+    chinese: "就…達成共識、對…意見一致",
+    keywords: ["agree", "on"],
+    example: {
+      english: "After hours of negotiation, both sides finally agreed on the terms of the contract.",
+      chinese: "經過數小時的談判，雙方終於就合約條款達成共識。",
+      grammar_point: "after + N（介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "negotiation", pos: "n.", chinese: "談判、協商" },
+      { word: "term", pos: "n.", chinese: "條款（常用複數）" },
+      { word: "compromise", pos: "n.", chinese: "妥協、折衷" }
+    ],
+    sentence_pattern: { pattern: "S + agreed on + N + after + N", example: "Can we agree on a meeting time?" }
+  },
+  {
+    phrase: "agree to",
+    type: "動詞 + 介系詞",
+    chinese: "同意（某提議或計畫）",
+    keywords: ["agree", "to"],
+    example: {
+      english: "The manager agreed to the new proposal after reviewing all the supporting data.",
+      chinese: "經理在審查所有支持數據後，同意了新提案。",
+      grammar_point: "after + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "proposal", pos: "n.", chinese: "提案、建議" },
+      { word: "review", pos: "v.", chinese: "審查、檢閱" },
+      { word: "approve", pos: "v.", chinese: "批准、認可" }
+    ],
+    sentence_pattern: { pattern: "S + agreed to + N + after + V-ing", example: "She agreed to the terms without reading them." }
+  },
+  {
+    phrase: "add on",
+    type: "片語動詞",
+    chinese: "附加、額外增加",
+    keywords: ["add", "on"],
+    example: {
+      english: "The hotel will add on a service charge of ten percent to your final bill.",
+      chinese: "飯店將在您的最終帳單上額外加收百分之十的服務費。",
+      grammar_point: "will + V（未來式，表示確定會發生的事）"
+    },
+    vocabulary: [
+      { word: "charge", pos: "n.", chinese: "費用、收費" },
+      { word: "percent", pos: "n.", chinese: "百分比" },
+      { word: "bill", pos: "n.", chinese: "帳單" }
+    ],
+    sentence_pattern: { pattern: "S + add(s) on + N + to + N", example: "They added on extra fees without telling us." }
+  },
+  {
+    phrase: "add to",
+    type: "動詞 + 介系詞",
+    chinese: "增加、加入；使加劇",
+    keywords: ["add", "to"],
+    example: {
+      english: "The heavy rain only added to the confusion during the outdoor music festival.",
+      chinese: "大雨只讓戶外音樂節期間的混亂更加嚴重。",
+      grammar_point: "only + V（only 置於動詞前，表示「只是更加…」）"
+    },
+    vocabulary: [
+      { word: "confusion", pos: "n.", chinese: "混亂、困惑" },
+      { word: "outdoor", pos: "adj.", chinese: "戶外的" },
+      { word: "worsen", pos: "v.", chinese: "使惡化、加劇" }
+    ],
+    sentence_pattern: { pattern: "N + only added to + N", example: "His complaints only added to the tension." }
+  },
+  {
+    phrase: "pull back",
+    type: "片語動詞",
+    chinese: "撤退、退縮；拉回",
+    keywords: ["pull", "back"],
+    example: {
+      english: "The company decided to pull back from the overseas market due to rising costs.",
+      chinese: "由於成本上升，該公司決定從海外市場撤退。",
+      grammar_point: "due to + N（由於…，表原因的介系詞片語）"
+    },
+    vocabulary: [
+      { word: "overseas", pos: "adj.", chinese: "海外的、國外的" },
+      { word: "withdraw", pos: "v.", chinese: "撤退、退出" },
+      { word: "cost", pos: "n.", chinese: "成本、費用" }
+    ],
+    sentence_pattern: { pattern: "S + decided to pull back from + N + due to + N", example: "He pulled back at the last moment." }
+  },
+  {
+    phrase: "act out",
+    type: "片語動詞",
+    chinese: "表演出來；將…付諸行動",
+    keywords: ["act", "out"],
+    example: {
+      english: "The students were asked to act out a short dialogue in front of the whole class.",
+      chinese: "學生被要求在全班面前表演一段簡短的對話。",
+      grammar_point: "be asked to + V（被動語態，表示被要求做某事）"
+    },
+    vocabulary: [
+      { word: "dialogue", pos: "n.", chinese: "對話" },
+      { word: "perform", pos: "v.", chinese: "表演" },
+      { word: "role", pos: "n.", chinese: "角色" }
+    ],
+    sentence_pattern: { pattern: "S + were asked to act out + N + in front of + N", example: "The children acted out the story they had read." }
+  },
+  {
+    phrase: "ask out",
+    type: "片語動詞",
+    chinese: "邀請（某人）外出約會",
+    keywords: ["ask", "out"],
+    example: {
+      english: "He finally gathered enough courage to ask her out after months of hesitation.",
+      chinese: "在猶豫了幾個月後，他終於鼓起足夠的勇氣約她出去。",
+      grammar_point: "after + N（介系詞片語表時間先後）"
+    },
+    vocabulary: [
+      { word: "courage", pos: "n.", chinese: "勇氣" },
+      { word: "hesitation", pos: "n.", chinese: "猶豫、遲疑" },
+      { word: "invite", pos: "v.", chinese: "邀請" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + out after + N", example: "Are you going to ask her out?" }
+  },
+  {
+    phrase: "back off",
+    type: "片語動詞",
+    chinese: "退後、退讓；放棄（要求）",
+    keywords: ["back", "off"],
+    example: {
+      english: "The bully backed off as soon as the teacher walked into the classroom.",
+      chinese: "老師一走進教室，那個霸凌者就立刻退縮了。",
+      grammar_point: "as soon as + S + V（一…就…，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "bully", pos: "n.", chinese: "霸凌者" },
+      { word: "retreat", pos: "v.", chinese: "退後、撤退" },
+      { word: "threaten", pos: "v.", chinese: "威脅" }
+    ],
+    sentence_pattern: { pattern: "S + backed off as soon as + S + V", example: "Back off and give me some space." }
+  },
+  {
+    phrase: "brush up on",
+    type: "片語動詞",
+    chinese: "溫習、重新練習（已學過的技能或知識）",
+    keywords: ["brush", "up", "on"],
+    example: {
+      english: "I need to brush up on my Spanish before the trip to Mexico next month.",
+      chinese: "我需要在下個月去墨西哥旅行之前溫習我的西班牙文。",
+      grammar_point: "before + N（介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "revise", pos: "v.", chinese: "複習、修改" },
+      { word: "fluent", pos: "adj.", chinese: "流利的" },
+      { word: "skill", pos: "n.", chinese: "技能、技巧" }
+    ],
+    sentence_pattern: { pattern: "S + need(s) to brush up on + N + before + N", example: "She brushed up on her math before the exam." }
+  },
+  {
+    phrase: "build in",
+    type: "片語動詞",
+    chinese: "內建、將…納入（計畫或設計中）",
+    keywords: ["build", "in"],
+    example: {
+      english: "The project manager built in extra time for unexpected delays when creating the schedule.",
+      chinese: "專案經理在制定時程時，預留了額外的時間以應對意外的延誤。",
+      grammar_point: "when + V-ing（時間副詞子句的省略形式）"
+    },
+    vocabulary: [
+      { word: "unexpected", pos: "adj.", chinese: "意外的、預料之外的" },
+      { word: "delay", pos: "n.", chinese: "延誤、延遲" },
+      { word: "schedule", pos: "n.", chinese: "時程、行程表" }
+    ],
+    sentence_pattern: { pattern: "S + built in + N + for + N + when + V-ing", example: "Safety features were built in from the start." }
+  },
+  {
+    phrase: "burn up",
+    type: "片語動詞",
+    chinese: "燒盡、耗盡；使憤怒",
+    keywords: ["burn", "up"],
+    example: {
+      english: "The spacecraft burns up in the atmosphere before it can reach the ground.",
+      chinese: "太空船在到達地面之前就在大氣層中燒盡了。",
+      grammar_point: "before + S + can + V（在…能夠…之前）"
+    },
+    vocabulary: [
+      { word: "spacecraft", pos: "n.", chinese: "太空船" },
+      { word: "atmosphere", pos: "n.", chinese: "大氣層、氣氛" },
+      { word: "consume", pos: "v.", chinese: "消耗、燃燒殆盡" }
+    ],
+    sentence_pattern: { pattern: "N + burns up in + N + before + S + can + V", example: "He was burning up with fever last night." }
+  },
+  {
+    phrase: "close in",
+    type: "片語動詞",
+    chinese: "逼近、包圍",
+    keywords: ["close", "in"],
+    example: {
+      english: "The police closed in on the suspect after tracking him for several hours.",
+      chinese: "警方在追蹤嫌疑人數小時後將其包圍。",
+      grammar_point: "after + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "suspect", pos: "n.", chinese: "嫌疑人" },
+      { word: "surround", pos: "v.", chinese: "包圍" },
+      { word: "track", pos: "v.", chinese: "追蹤" }
+    ],
+    sentence_pattern: { pattern: "S + closed in on + 人/N + after + V-ing", example: "Darkness was closing in fast." }
+  },
+  {
+    phrase: "cover for",
+    type: "片語動詞",
+    chinese: "代替（某人工作）；為…掩護",
+    keywords: ["cover", "for"],
+    example: {
+      english: "Could you cover for me on Friday afternoon while I attend my sister's graduation?",
+      chinese: "週五下午我去參加妹妹的畢業典禮時，你能幫我代班嗎？",
+      grammar_point: "while + S + V（當…的時候，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "graduation", pos: "n.", chinese: "畢業典禮" },
+      { word: "substitute", pos: "v.", chinese: "代替" },
+      { word: "shift", pos: "n.", chinese: "班次、輪班" }
+    ],
+    sentence_pattern: { pattern: "Could you cover for + 人 + while + S + V?", example: "She covered for her colleague during the holidays." }
+  },
+  {
+    phrase: "dig into",
+    type: "片語動詞",
+    chinese: "深入調查；大口吃；挖入",
+    keywords: ["dig", "into"],
+    example: {
+      english: "The journalist spent weeks digging into the financial records of the corporation.",
+      chinese: "那名記者花了數週時間深入調查那家企業的財務紀錄。",
+      grammar_point: "spend + 時間 + V-ing（花時間做某事）"
+    },
+    vocabulary: [
+      { word: "journalist", pos: "n.", chinese: "記者" },
+      { word: "financial", pos: "adj.", chinese: "財務的、金融的" },
+      { word: "investigate", pos: "v.", chinese: "調查" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + digging into + N", example: "Let's dig into the data and find the answer." }
+  },
+  {
+    phrase: "drive away",
+    type: "片語動詞",
+    chinese: "驅趕、趕走；開車離開",
+    keywords: ["drive", "away"],
+    example: {
+      english: "Rude customer service will drive away even the most loyal customers over time.",
+      chinese: "粗魯的客戶服務久而久之會把最忠實的顧客也趕跑。",
+      grammar_point: "even + 最高級（即使是…也，even 加強語氣）"
+    },
+    vocabulary: [
+      { word: "rude", pos: "adj.", chinese: "粗魯的" },
+      { word: "loyal", pos: "adj.", chinese: "忠實的、忠誠的" },
+      { word: "reputation", pos: "n.", chinese: "聲譽" }
+    ],
+    sentence_pattern: { pattern: "N + will drive away + N + over time", example: "He got in his car and drove away without a word." }
+  },
+  {
+    phrase: "drop in",
+    type: "片語動詞",
+    chinese: "順道拜訪、順路過來",
+    keywords: ["drop", "in"],
+    example: {
+      english: "Feel free to drop in whenever you are in the neighbourhood and have some free time.",
+      chinese: "只要你在附近而且有空，隨時歡迎順道過來。",
+      grammar_point: "whenever + S + V（無論何時，讓步副詞子句）"
+    },
+    vocabulary: [
+      { word: "neighbourhood", pos: "n.", chinese: "附近、鄰近地區（英式拼法）" },
+      { word: "visit", pos: "v.", chinese: "拜訪" },
+      { word: "spontaneous", pos: "adj.", chinese: "自發的、臨時起意的" }
+    ],
+    sentence_pattern: { pattern: "Feel free to drop in whenever + S + V", example: "My old teacher dropped in on us yesterday." }
+  },
+  {
+    phrase: "drop by",
+    type: "片語動詞",
+    chinese: "順道拜訪、短暫停留",
+    keywords: ["drop", "by"],
+    example: {
+      english: "My old colleague dropped by the office yesterday to say hello to everyone.",
+      chinese: "我的老同事昨天順道來辦公室跟大家打招呼。",
+      grammar_point: "過去簡單式（yesterday 表示已發生的動作）"
+    },
+    vocabulary: [
+      { word: "colleague", pos: "n.", chinese: "同事" },
+      { word: "visit", pos: "v.", chinese: "拜訪" },
+      { word: "briefly", pos: "adv.", chinese: "短暫地" }
+    ],
+    sentence_pattern: { pattern: "S + dropped by + 地方 + to + V", example: "Feel free to drop by anytime you're nearby." }
+  },
+  {
+    phrase: "email back",
+    type: "片語動詞",
+    chinese: "回覆電子郵件",
+    keywords: ["email", "back"],
+    example: {
+      english: "I will email you back as soon as I have reviewed all the documents you sent.",
+      chinese: "我一審閱完你寄來的所有文件就會馬上回覆你的電子郵件。",
+      grammar_point: "as soon as + S + V（一…就…，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "review", pos: "v.", chinese: "審閱、檢查" },
+      { word: "document", pos: "n.", chinese: "文件" },
+      { word: "respond", pos: "v.", chinese: "回應、回覆" }
+    ],
+    sentence_pattern: { pattern: "S + will email + 人 + back as soon as + S + V", example: "She emailed him back within the hour." }
+  },
+  {
+    phrase: "fade out",
+    type: "片語動詞",
+    chinese: "逐漸消失、淡出",
+    keywords: ["fade", "out"],
+    example: {
+      english: "The music slowly faded out at the end of the film, leaving the audience in silence.",
+      chinese: "音樂在電影結尾緩緩淡出，讓觀眾沉浸在寂靜之中。",
+      grammar_point: "leaving + O + in + N（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "silence", pos: "n.", chinese: "寂靜、沉默" },
+      { word: "disappear", pos: "v.", chinese: "消失" }
+    ],
+    sentence_pattern: { pattern: "N + slowly faded out at + N, leaving + O + in + N", example: "Their friendship faded out after they moved apart." }
+  },
+  {
+    phrase: "feel up to",
+    type: "片語動詞",
+    chinese: "感覺有能力或體力做某事",
+    keywords: ["feel", "up", "to"],
+    example: {
+      english: "I don't feel up to going to the party tonight because I have a terrible headache.",
+      chinese: "我今晚不想去派對，因為我頭痛得很厲害。",
+      grammar_point: "don't feel up to + V-ing（沒有精力或意願做某事）"
+    },
+    vocabulary: [
+      { word: "terrible", pos: "adj.", chinese: "嚴重的、糟糕的" },
+      { word: "headache", pos: "n.", chinese: "頭痛" },
+      { word: "energy", pos: "n.", chinese: "精力、體力" }
+    ],
+    sentence_pattern: { pattern: "S + don't feel up to + V-ing + because + S + V", example: "Do you feel up to taking on this challenge?" }
+  },
+  {
+    phrase: "get down",
+    type: "片語動詞",
+    chinese: "使沮喪；蹲下；認真開始",
+    keywords: ["get", "down"],
+    example: {
+      english: "Spending too much time on social media can really get you down if you're not careful.",
+      chinese: "如果不小心的話，花太多時間在社群媒體上真的會讓你感到沮喪。",
+      grammar_point: "can + V（情態動詞表可能性）；if + S + V（條件子句）"
+    },
+    vocabulary: [
+      { word: "depress", pos: "v.", chinese: "使沮喪、使憂鬱" },
+      { word: "social media", pos: "n.", chinese: "社群媒體" },
+      { word: "mood", pos: "n.", chinese: "心情、情緒" }
+    ],
+    sentence_pattern: { pattern: "V-ing + can get + 人 + down if + S + V", example: "Let's get down to business and stop wasting time." }
+  },
+  {
+    phrase: "hand around",
+    type: "片語動詞",
+    chinese: "分發、傳遞（給眾人）",
+    keywords: ["hand", "around"],
+    example: {
+      english: "The teacher handed around copies of the worksheet so everyone could start at the same time.",
+      chinese: "老師分發學習單的影本，讓大家可以同時開始。",
+      grammar_point: "so + S + could + V（目的子句，表示目的）"
+    },
+    vocabulary: [
+      { word: "worksheet", pos: "n.", chinese: "學習單、工作表" },
+      { word: "distribute", pos: "v.", chinese: "分發、散發" },
+      { word: "copy", pos: "n.", chinese: "副本、影本" }
+    ],
+    sentence_pattern: { pattern: "S + handed around + N + so + S + could + V", example: "Could you hand around these leaflets for me?" }
+  },
+  {
+    phrase: "hang on",
+    type: "片語動詞",
+    chinese: "稍等；堅持下去；抓緊",
+    keywords: ["hang", "on"],
+    example: {
+      english: "Hang on a moment — I need to check the details before I give you a final answer.",
+      chinese: "稍等一下——在給你最終答覆之前，我需要確認細節。",
+      grammar_point: "before + S + V（時間副詞子句，表動作先後）"
+    },
+    vocabulary: [
+      { word: "moment", pos: "n.", chinese: "片刻、一下" },
+      { word: "detail", pos: "n.", chinese: "細節" },
+      { word: "patience", pos: "n.", chinese: "耐心" }
+    ],
+    sentence_pattern: { pattern: "Hang on + 時間 — S + need(s) to + V + before + S + V", example: "Just hang on a little longer — help is on the way." }
+  },
+  {
+    phrase: "hit on",
+    type: "片語動詞",
+    chinese: "突然想到（好主意）；對…搭訕",
+    keywords: ["hit", "on"],
+    example: {
+      english: "During the brainstorming session, she hit on a brilliant idea that impressed everyone.",
+      chinese: "在腦力激盪會議中，她突然想到一個讓所有人印象深刻的絕妙主意。",
+      grammar_point: "during + N（介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "brilliant", pos: "adj.", chinese: "絕妙的、出色的" },
+      { word: "impress", pos: "v.", chinese: "使印象深刻" },
+      { word: "solution", pos: "n.", chinese: "解決方案" }
+    ],
+    sentence_pattern: { pattern: "S + hit on + N + that + V", example: "He hit on a great solution to the problem." }
+  },
+  {
+    phrase: "listen in",
+    type: "片語動詞",
+    chinese: "偷聽；收聽（廣播或會議）",
+    keywords: ["listen", "in"],
+    example: {
+      english: "Several employees were listening in on the executive meeting without permission.",
+      chinese: "幾名員工在未經許可的情況下偷聽主管會議。",
+      grammar_point: "without + N（介系詞片語，表示缺乏某條件）"
+    },
+    vocabulary: [
+      { word: "executive", pos: "adj.", chinese: "主管的、行政的" },
+      { word: "permission", pos: "n.", chinese: "許可、允許" },
+      { word: "eavesdrop", pos: "v.", chinese: "偷聽" }
+    ],
+    sentence_pattern: { pattern: "S + were listening in on + N + without + N", example: "Mind if I listen in on your conversation?" }
+  },
+  {
+    phrase: "live with",
+    type: "片語動詞",
+    chinese: "忍受、接受（不好但無法改變的事）；與…同住",
+    keywords: ["live", "with"],
+    example: {
+      english: "It's not an ideal solution, but it's something we're going to have to live with for now.",
+      chinese: "這不是理想的解決方案，但這是我們目前不得不接受的事情。",
+      grammar_point: "be going to have to + V（不得不做某事，表示無奈的必要性）"
+    },
+    vocabulary: [
+      { word: "ideal", pos: "adj.", chinese: "理想的" },
+      { word: "tolerate", pos: "v.", chinese: "忍受、容忍" },
+      { word: "consequence", pos: "n.", chinese: "後果" }
+    ],
+    sentence_pattern: { pattern: "S + will have to live with + N + for now", example: "You made the decision, so you'll have to live with it." }
+  },
+  {
+    phrase: "map out",
+    type: "片語動詞",
+    chinese: "詳細規劃、擬定（計畫或策略）",
+    keywords: ["map", "out"],
+    example: {
+      english: "Before starting the business, they mapped out a detailed plan covering every possible risk.",
+      chinese: "在創業之前，他們詳細規劃了一份涵蓋所有可能風險的計畫。",
+      grammar_point: "before + V-ing（時間副詞片語）；covering + N（分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "strategy", pos: "n.", chinese: "策略、戰略" },
+      { word: "detailed", pos: "adj.", chinese: "詳細的" },
+      { word: "risk", pos: "n.", chinese: "風險" }
+    ],
+    sentence_pattern: { pattern: "S + mapped out + N + before + V-ing", example: "Let's map out our route before we leave." }
+  },
+  {
+    phrase: "patch up",
+    type: "片語動詞",
+    chinese: "修補（關係）；草草修復",
+    keywords: ["patch", "up"],
+    example: {
+      english: "After a serious argument, it took them several weeks to patch up their friendship.",
+      chinese: "在一次嚴重的爭吵之後，他們花了幾週時間才修復友誼。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "argument", pos: "n.", chinese: "爭吵、爭論" },
+      { word: "repair", pos: "v.", chinese: "修復、修補" },
+      { word: "reconcile", pos: "v.", chinese: "和解、調解" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to patch up + N", example: "They managed to patch up their differences in the end." }
+  },
+  {
+    phrase: "phase out",
+    type: "片語動詞",
+    chinese: "逐步淘汰、分階段停止",
+    keywords: ["phase", "out"],
+    example: {
+      english: "The government plans to phase out all coal-powered plants within the next decade.",
+      chinese: "政府計劃在未來十年內逐步淘汰所有燃煤電廠。",
+      grammar_point: "plan to + V（計劃做某事）；within + 時間（在…之內）"
+    },
+    vocabulary: [
+      { word: "coal", pos: "n.", chinese: "煤炭" },
+      { word: "eliminate", pos: "v.", chinese: "消除、淘汰" },
+      { word: "decade", pos: "n.", chinese: "十年" }
+    ],
+    sentence_pattern: { pattern: "S + plans to phase out + N + within + 時間", example: "Older models will be phased out next year." }
+  },
+  {
+    phrase: "press on",
+    type: "片語動詞",
+    chinese: "繼續前進、堅持下去",
+    keywords: ["press", "on"],
+    example: {
+      english: "Despite the bad weather, the hikers decided to press on and reach the summit before dark.",
+      chinese: "儘管天氣惡劣，登山者們還是決定繼續前進，在天黑之前抵達山頂。",
+      grammar_point: "despite + N（儘管…，表讓步的介系詞片語）"
+    },
+    vocabulary: [
+      { word: "summit", pos: "n.", chinese: "山頂、頂峰" },
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "obstacle", pos: "n.", chinese: "障礙" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + decided to press on and + V", example: "We must press on with the project despite the setbacks." }
+  },
+  {
+    phrase: "profit from",
+    type: "動詞 + 介系詞",
+    chinese: "從…中獲益、利用…獲利",
+    keywords: ["profit", "from"],
+    example: {
+      english: "Some companies have profited greatly from the rapid growth of online shopping.",
+      chinese: "一些公司從網路購物的快速成長中獲益良多。",
+      grammar_point: "have + p.p.（現在完成式，表示對現在有影響的過去動作）"
+    },
+    vocabulary: [
+      { word: "rapidly", pos: "adv.", chinese: "迅速地" },
+      { word: "benefit", pos: "v.", chinese: "獲益、得益" },
+      { word: "growth", pos: "n.", chinese: "成長、增長" }
+    ],
+    sentence_pattern: { pattern: "S + have profited greatly from + N", example: "You can profit from other people's mistakes." }
+  },
+  {
+    phrase: "sweep away",
+    type: "片語動詞",
+    chinese: "沖走、席捲；徹底消除",
+    keywords: ["sweep", "away"],
+    example: {
+      english: "The powerful flood swept away several bridges and damaged hundreds of homes overnight.",
+      chinese: "強大的洪水一夜之間沖走了幾座橋樑，並損毀了數百棟房屋。",
+      grammar_point: "and + V（對等連接詞連接兩個平行動作）"
+    },
+    vocabulary: [
+      { word: "flood", pos: "n.", chinese: "洪水" },
+      { word: "destroy", pos: "v.", chinese: "摧毀" },
+      { word: "overnight", pos: "adv.", chinese: "一夜之間" }
+    ],
+    sentence_pattern: { pattern: "N + swept away + N + and + V + O", example: "Old traditions were swept away by modernization." }
+  },
+  {
+    phrase: "act against",
+    type: "動詞 + 介系詞",
+    chinese: "違背、對抗",
+    keywords: ["act", "against"],
+    example: {
+      english: "It is wrong to act against your own principles just to please other people.",
+      chinese: "僅僅為了取悅別人而違背自己的原則是不對的。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；just to + V（目的副詞片語）"
+    },
+    vocabulary: [
+      { word: "principle", pos: "n.", chinese: "原則" },
+      { word: "violate", pos: "v.", chinese: "違反、違背" },
+      { word: "conscience", pos: "n.", chinese: "良心" }
+    ],
+    sentence_pattern: { pattern: "It is wrong to act against + N + just to + V", example: "She refused to act against her beliefs." }
+  },
+  {
+    phrase: "add up to",
+    type: "片語動詞",
+    chinese: "總計達到；最終意味著",
+    keywords: ["add", "up", "to"],
+    example: {
+      english: "All the small expenses you ignore every day can add up to a surprisingly large amount.",
+      chinese: "你每天忽略的所有小支出，最終可能累積成一個驚人的大數目。",
+      grammar_point: "can + V（情態動詞表可能性）"
+    },
+    vocabulary: [
+      { word: "expense", pos: "n.", chinese: "支出、花費" },
+      { word: "amount", pos: "n.", chinese: "數量、金額" },
+      { word: "total", pos: "v.", chinese: "總計" }
+    ],
+    sentence_pattern: { pattern: "N + can add up to + N", example: "All these problems add up to a serious crisis." }
+  },
+  {
+    phrase: "apply to",
+    type: "動詞 + 介系詞",
+    chinese: "適用於；向…申請",
+    keywords: ["apply", "to"],
+    example: {
+      english: "The new safety regulations apply to all workers on the construction site without exception.",
+      chinese: "新的安全規定無一例外地適用於工地上所有工人。",
+      grammar_point: "without exception（無一例外，慣用片語）"
+    },
+    vocabulary: [
+      { word: "regulation", pos: "n.", chinese: "規定、法規" },
+      { word: "construction", pos: "n.", chinese: "建設、施工" },
+      { word: "relevant", pos: "adj.", chinese: "相關的、適用的" }
+    ],
+    sentence_pattern: { pattern: "N + apply/applies to + N + without exception", example: "This rule applies to everyone in the company." }
+  },
+  {
+    phrase: "be into",
+    type: "片語動詞",
+    chinese: "對…很感興趣、熱衷於",
+    keywords: ["be", "into"],
+    example: {
+      english: "My younger brother is really into astronomy and spends hours reading about the universe.",
+      chinese: "我弟弟對天文學非常感興趣，會花好幾個小時閱讀有關宇宙的書籍。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "astronomy", pos: "n.", chinese: "天文學" },
+      { word: "universe", pos: "n.", chinese: "宇宙" },
+      { word: "passionate", pos: "adj.", chinese: "熱情的、熱衷的" }
+    ],
+    sentence_pattern: { pattern: "S + is/are really into + N + and + V", example: "Are you into outdoor activities or indoor hobbies?" }
+  },
+  {
+    phrase: "be off",
+    type: "片語動詞",
+    chinese: "離開、出發；休假；（食物）變質",
+    keywords: ["be", "off"],
+    example: {
+      english: "I'm off to the airport now — my flight leaves in less than two hours.",
+      chinese: "我現在出發去機場了——我的班機不到兩小時就要起飛了。",
+      grammar_point: "less than + 數量（少於…，表示時間緊迫）"
+    },
+    vocabulary: [
+      { word: "flight", pos: "n.", chinese: "航班、飛行" },
+      { word: "depart", pos: "v.", chinese: "出發、離開" },
+      { word: "holiday", pos: "n.", chinese: "假期" }
+    ],
+    sentence_pattern: { pattern: "S + be off to + 地方 — N + V + in + 時間", example: "The milk is off — don't drink it." }
+  },
+  {
+    phrase: "be up to",
+    type: "片語動詞",
+    chinese: "在做（某事）；由…決定；達到（標準）",
+    keywords: ["be", "up", "to"],
+    example: {
+      english: "What have you been up to lately? I haven't heard from you in such a long time.",
+      chinese: "你最近在忙什麼？我好久沒有你的消息了。",
+      grammar_point: "現在完成進行式（have been + V-ing，表示持續到現在的動作）"
+    },
+    vocabulary: [
+      { word: "lately", pos: "adv.", chinese: "最近、近來" },
+      { word: "responsible", pos: "adj.", chinese: "負責的" },
+      { word: "standard", pos: "n.", chinese: "標準" }
+    ],
+    sentence_pattern: { pattern: "What have you been up to + 時間副詞?", example: "It's up to you to decide what we do next." }
+  },
+  {
+    phrase: "be used to",
+    type: "片語動詞",
+    chinese: "習慣於（某事）",
+    keywords: ["be", "used", "to"],
+    example: {
+      english: "After living abroad for five years, she is now fully used to the local customs and lifestyle.",
+      chinese: "在海外生活了五年後，她現在已完全習慣了當地的風俗習慣和生活方式。",
+      grammar_point: "after + V-ing（時間副詞片語，表示動作先後）"
+    },
+    vocabulary: [
+      { word: "abroad", pos: "adv.", chinese: "在海外、在國外" },
+      { word: "custom", pos: "n.", chinese: "習俗、風俗" },
+      { word: "accustomed", pos: "adj.", chinese: "習慣的" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing, S + be now used to + N/V-ing", example: "I'm not used to waking up this early." }
+  },
+  {
+    phrase: "block out",
+    type: "片語動詞",
+    chinese: "遮擋（光線）；排除（雜念）；預留（時間）",
+    keywords: ["block", "out"],
+    example: {
+      english: "She put on heavy curtains to block out the sunlight and sleep in on her day off.",
+      chinese: "她掛上厚重的窗簾遮擋陽光，好在休假日睡懶覺。",
+      grammar_point: "to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "curtain", pos: "n.", chinese: "窗簾" },
+      { word: "sunlight", pos: "n.", chinese: "陽光" },
+      { word: "distraction", pos: "n.", chinese: "干擾、分心的事" }
+    ],
+    sentence_pattern: { pattern: "S + V + N + to block out + N", example: "Try to block out all negative thoughts before the exam." }
+  },
+  {
+    phrase: "blow through",
+    type: "片語動詞",
+    chinese: "迅速花光（金錢）；快速通過",
+    keywords: ["blow", "through"],
+    example: {
+      english: "He blew through his entire month's salary in just one weekend of reckless spending.",
+      chinese: "他在一個週末的揮霍消費中就把整個月的薪水花光了。",
+      grammar_point: "in + 時間（在…之內，表示極短時間）"
+    },
+    vocabulary: [
+      { word: "salary", pos: "n.", chinese: "薪水" },
+      { word: "reckless", pos: "adj.", chinese: "魯莽的、不計後果的" },
+      { word: "squander", pos: "v.", chinese: "揮霍、浪費" }
+    ],
+    sentence_pattern: { pattern: "S + blew through + N + in + 時間", example: "The team blew through the first stage in record time." }
+  },
+  {
+    phrase: "book up",
+    type: "片語動詞",
+    chinese: "（被）訂滿、預約額滿",
+    keywords: ["book", "up"],
+    example: {
+      english: "The popular restaurant is fully booked up for the entire month of December.",
+      chinese: "那家熱門餐廳整個十二月的訂位已全部額滿。",
+      grammar_point: "be fully booked up（被動語態，表示被訂滿）"
+    },
+    vocabulary: [
+      { word: "reservation", pos: "n.", chinese: "預約、預訂" },
+      { word: "available", pos: "adj.", chinese: "可預約的、有空的" },
+      { word: "popular", pos: "adj.", chinese: "受歡迎的" }
+    ],
+    sentence_pattern: { pattern: "N + be fully booked up for + 時間", example: "I'm booked up all week — can we meet next Monday?" }
+  },
+  {
+    phrase: "break free",
+    type: "片語動詞",
+    chinese: "掙脫束縛、獲得自由",
+    keywords: ["break", "free"],
+    example: {
+      english: "It takes great courage to break free from habits that have held you back for years.",
+      chinese: "要掙脫那些阻礙你多年的習慣，需要極大的勇氣。",
+      grammar_point: "It takes + N + to + V（需要…才能做某事）；that + 關係子句（修飾先行詞 habits）"
+    },
+    vocabulary: [
+      { word: "courage", pos: "n.", chinese: "勇氣" },
+      { word: "restriction", pos: "n.", chinese: "限制、束縛" },
+      { word: "independent", pos: "adj.", chinese: "獨立的" }
+    ],
+    sentence_pattern: { pattern: "It takes + N + to break free from + N", example: "She finally broke free from a toxic relationship." }
+  },
+  {
+    phrase: "bubble up",
+    type: "片語動詞",
+    chinese: "（情緒）湧現、冒出；（液體）冒泡上升",
+    keywords: ["bubble", "up"],
+    example: {
+      english: "Feelings of anxiety began to bubble up inside her as the exam date drew closer.",
+      chinese: "隨著考試日期越來越近，焦慮的情緒開始在她內心湧現。",
+      grammar_point: "as + S + V（隨著…，表示同步發展的副詞子句）"
+    },
+    vocabulary: [
+      { word: "anxiety", pos: "n.", chinese: "焦慮" },
+      { word: "emerge", pos: "v.", chinese: "浮現、出現" },
+      { word: "emotion", pos: "n.", chinese: "情緒、感情" }
+    ],
+    sentence_pattern: { pattern: "N + began to bubble up as + S + V", example: "New ideas started to bubble up during the discussion." }
+  },
+  {
+    phrase: "build around",
+    type: "片語動詞",
+    chinese: "以…為核心建立、圍繞…構建",
+    keywords: ["build", "around"],
+    example: {
+      english: "The entire marketing strategy was built around the idea of making customers feel valued.",
+      chinese: "整個行銷策略是圍繞著讓顧客感到被重視這一理念而構建的。",
+      grammar_point: "be built around + N（被動語態，表示以…為核心構建）"
+    },
+    vocabulary: [
+      { word: "strategy", pos: "n.", chinese: "策略" },
+      { word: "concept", pos: "n.", chinese: "概念、理念" },
+      { word: "foundation", pos: "n.", chinese: "基礎" }
+    ],
+    sentence_pattern: { pattern: "N + was built around + N", example: "Their business model is built around customer trust." }
+  },
+  {
+    phrase: "chase after",
+    type: "片語動詞",
+    chinese: "追趕；追求",
+    keywords: ["chase", "after"],
+    example: {
+      english: "Instead of chasing after wealth and fame, she chose to pursue a life of meaning.",
+      chinese: "她沒有追求財富和名聲，而是選擇追求有意義的生活。",
+      grammar_point: "instead of + V-ing（而非…，表示對比選擇）"
+    },
+    vocabulary: [
+      { word: "wealth", pos: "n.", chinese: "財富" },
+      { word: "fame", pos: "n.", chinese: "名聲、名氣" },
+      { word: "pursue", pos: "v.", chinese: "追求" }
+    ],
+    sentence_pattern: { pattern: "Instead of chasing after + N, S + chose to + V", example: "Stop chasing after perfection and start making progress." }
+  },
+  {
+    phrase: "chip in",
+    type: "片語動詞",
+    chinese: "共同出資；插嘴、加入討論",
+    keywords: ["chip", "in"],
+    example: {
+      english: "Everyone in the office chipped in to buy a farewell gift for the retiring manager.",
+      chinese: "辦公室裡的每個人都共同出資，為即將退休的經理買了一份告別禮物。",
+      grammar_point: "to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "farewell", pos: "n.", chinese: "告別、餞行" },
+      { word: "contribute", pos: "v.", chinese: "貢獻、出資" },
+      { word: "retire", pos: "v.", chinese: "退休" }
+    ],
+    sentence_pattern: { pattern: "S + chipped in to + V + N + for + 人", example: "Would you like to chip in for the birthday cake?" }
+  },
+  {
+    phrase: "clear away",
+    type: "片語動詞",
+    chinese: "清除、收拾（桌面或場地）",
+    keywords: ["clear", "away"],
+    example: {
+      english: "Please clear away your books and notes before the exam papers are handed out.",
+      chinese: "請在發考卷之前把你的書本和筆記收好。",
+      grammar_point: "before + S + V（時間副詞子句，表動作先後）"
+    },
+    vocabulary: [
+      { word: "tidy", pos: "v.", chinese: "整理、收拾" },
+      { word: "remove", pos: "v.", chinese: "移除、清除" },
+      { word: "clutter", pos: "n.", chinese: "雜亂的東西" }
+    ],
+    sentence_pattern: { pattern: "Please clear away + N + before + S + V", example: "Let's clear away the dishes after dinner." }
+  },
+  {
+    phrase: "compile from",
+    type: "動詞 + 介系詞",
+    chinese: "從…彙整、整合（資料或資訊）",
+    keywords: ["compile", "from"],
+    example: {
+      english: "The report was compiled from data gathered across more than fifty schools nationwide.",
+      chinese: "這份報告是從全國超過五十所學校蒐集的數據中彙整而成的。",
+      grammar_point: "be compiled from + N（被動語態，表示資料來源）"
+    },
+    vocabulary: [
+      { word: "data", pos: "n.", chinese: "數據、資料" },
+      { word: "gather", pos: "v.", chinese: "蒐集、收集" },
+      { word: "nationwide", pos: "adv.", chinese: "全國性地" }
+    ],
+    sentence_pattern: { pattern: "N + was compiled from + N + across + N", example: "This dictionary was compiled from thousands of sources." }
+  },
+  {
+    phrase: "crowd out",
+    type: "片語動詞",
+    chinese: "排擠、取代（使無立足之地）",
+    keywords: ["crowd", "out"],
+    example: {
+      english: "Large supermarket chains have gradually crowded out many small local grocery stores.",
+      chinese: "大型連鎖超市已逐漸把許多小型本地雜貨店擠出市場。",
+      grammar_point: "現在完成式（have + p.p.，表示對現在有影響的過去動作）"
+    },
+    vocabulary: [
+      { word: "chain", pos: "n.", chinese: "連鎖店" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "replace", pos: "v.", chinese: "取代" }
+    ],
+    sentence_pattern: { pattern: "N + have crowded out + N", example: "Social media has crowded out traditional news sources." }
+  },
+  {
+    phrase: "divide up",
+    type: "片語動詞",
+    chinese: "分配、分割（成若干部分）",
+    keywords: ["divide", "up"],
+    example: {
+      english: "The team leader divided up the tasks evenly so that everyone had an equal share of work.",
+      chinese: "組長把工作平均分配，讓每個人都有相同份量的任務。",
+      grammar_point: "so that + S + V（目的子句，表示目的或結果）"
+    },
+    vocabulary: [
+      { word: "evenly", pos: "adv.", chinese: "平均地、均等地" },
+      { word: "distribute", pos: "v.", chinese: "分配、分發" },
+      { word: "share", pos: "n.", chinese: "份額、份量" }
+    ],
+    sentence_pattern: { pattern: "S + divided up + N + so that + S + V", example: "Let's divide up the work and finish it faster." }
+  },
+  {
+    phrase: "drive off",
+    type: "片語動詞",
+    chinese: "驅趕；開車離去",
+    keywords: ["drive", "off"],
+    example: {
+      english: "The loud alarm successfully drove off the intruder before any damage could be done.",
+      chinese: "響亮的警報在造成任何損害之前成功驅趕了入侵者。",
+      grammar_point: "before + S + could + V（在…能夠…之前）"
+    },
+    vocabulary: [
+      { word: "intruder", pos: "n.", chinese: "入侵者" },
+      { word: "alarm", pos: "n.", chinese: "警報" },
+      { word: "repel", pos: "v.", chinese: "驅趕、擊退" }
+    ],
+    sentence_pattern: { pattern: "N + drove off + N + before + S + could + V", example: "He got in his car and drove off without a word." }
+  },
+  {
+    phrase: "drive up",
+    type: "片語動詞",
+    chinese: "推高（價格或數字）；開車抵達",
+    keywords: ["drive", "up"],
+    example: {
+      english: "The sudden shortage of raw materials drove up the prices of everyday goods significantly.",
+      chinese: "原材料的突然短缺大幅推高了日常商品的價格。",
+      grammar_point: "過去簡單式（表示已發生的因果關係）"
+    },
+    vocabulary: [
+      { word: "shortage", pos: "n.", chinese: "短缺、不足" },
+      { word: "raw material", pos: "n.", chinese: "原材料" },
+      { word: "inflate", pos: "v.", chinese: "使膨脹、推高" }
+    ],
+    sentence_pattern: { pattern: "N + drove up + N + significantly", example: "High demand is driving up property prices." }
+  },
+  {
+    phrase: "drop back",
+    type: "片語動詞",
+    chinese: "落後、退後；返回",
+    keywords: ["drop", "back"],
+    example: {
+      english: "The lead runner dropped back in the final kilometre due to exhaustion and finished third.",
+      chinese: "領先的選手因體力耗盡在最後一公里落後，最終以第三名完賽。",
+      grammar_point: "due to + N（由於…，介系詞片語表原因）"
+    },
+    vocabulary: [
+      { word: "exhaustion", pos: "n.", chinese: "精疲力竭" },
+      { word: "lag", pos: "v.", chinese: "落後、滯後" },
+      { word: "pace", pos: "n.", chinese: "速度、步調" }
+    ],
+    sentence_pattern: { pattern: "S + dropped back due to + N + and + V", example: "He dropped back to let the others catch up." }
+  },
+  {
+    phrase: "ease off",
+    type: "片語動詞",
+    chinese: "（壓力、疼痛）減輕；放鬆力道",
+    keywords: ["ease", "off"],
+    example: {
+      english: "The heavy rain began to ease off in the late afternoon, allowing the match to continue.",
+      chinese: "大雨在傍晚時分開始減弱，比賽得以繼續進行。",
+      grammar_point: "allowing + O + to + V（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "subside", pos: "v.", chinese: "減退、平息" },
+      { word: "pressure", pos: "n.", chinese: "壓力" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" }
+    ],
+    sentence_pattern: { pattern: "N + began to ease off, allowing + O + to + V", example: "The boss eased off once the deadline had passed." }
+  },
+  {
+    phrase: "ease up",
+    type: "片語動詞",
+    chinese: "放鬆、減輕（壓力或努力程度）",
+    keywords: ["ease", "up"],
+    example: {
+      english: "The doctor advised him to ease up on work and take more time to rest each day.",
+      chinese: "醫生建議他減少工作量，每天多花時間休息。",
+      grammar_point: "advise + 人 + to + V（建議某人做某事）"
+    },
+    vocabulary: [
+      { word: "workload", pos: "n.", chinese: "工作量" },
+      { word: "relax", pos: "v.", chinese: "放鬆" },
+      { word: "recover", pos: "v.", chinese: "恢復" }
+    ],
+    sentence_pattern: { pattern: "S + advised + 人 + to ease up on + N", example: "You need to ease up — you've been working too hard." }
+  },
+  {
+    phrase: "factor in",
+    type: "片語動詞",
+    chinese: "將…納入考量、把…計算在內",
+    keywords: ["factor", "in"],
+    example: {
+      english: "When planning your budget, make sure you factor in unexpected expenses like repairs.",
+      chinese: "在規劃預算時，請確保你將維修等意外支出納入考量。",
+      grammar_point: "when + V-ing（時間副詞子句的省略形式）"
+    },
+    vocabulary: [
+      { word: "budget", pos: "n.", chinese: "預算" },
+      { word: "unexpected", pos: "adj.", chinese: "意外的、預料之外的" },
+      { word: "consider", pos: "v.", chinese: "考慮" }
+    ],
+    sentence_pattern: { pattern: "Make sure S + factor(s) in + N + when + V-ing", example: "Did you factor in the cost of shipping?" }
+  },
+  {
+    phrase: "fly away",
+    type: "片語動詞",
+    chinese: "飛走；（時間）飛逝",
+    keywords: ["fly", "away"],
+    example: {
+      english: "The birds flew away the moment we stepped onto the grass, startled by the noise.",
+      chinese: "我們一踏上草地，那些鳥兒便被噪音驚嚇而立刻飛走了。",
+      grammar_point: "the moment + S + V（一…就…，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "startle", pos: "v.", chinese: "使受驚、嚇到" },
+      { word: "scatter", pos: "v.", chinese: "四散、驅散" },
+      { word: "flock", pos: "n.", chinese: "（鳥）群" }
+    ],
+    sentence_pattern: { pattern: "N + flew away the moment + S + V", example: "Time flies away when you're having fun." }
+  },
+  {
+    phrase: "fly out",
+    type: "片語動詞",
+    chinese: "飛往（某地）出發；派人搭機前往",
+    keywords: ["fly", "out"],
+    example: {
+      english: "The company flew out its top engineers to fix the technical problems at the overseas factory.",
+      chinese: "公司將頂尖工程師飛送到海外工廠，以解決技術問題。",
+      grammar_point: "fly out + 人 + to + 地方（派遣某人搭機前往）"
+    },
+    vocabulary: [
+      { word: "engineer", pos: "n.", chinese: "工程師" },
+      { word: "overseas", pos: "adj.", chinese: "海外的" },
+      { word: "dispatch", pos: "v.", chinese: "派遣、發送" }
+    ],
+    sentence_pattern: { pattern: "S + flew out + 人 + to + V + N", example: "She flew out to Tokyo for a week-long conference." }
+  },
+  {
+    phrase: "focus in",
+    type: "片語動詞",
+    chinese: "聚焦於、將注意力集中在",
+    keywords: ["focus", "in"],
+    example: {
+      english: "The documentary focuses in on the daily struggles of families living in extreme poverty.",
+      chinese: "這部紀錄片聚焦於生活在極度貧困中的家庭所面臨的日常困境。",
+      grammar_point: "focus in on + N（聚焦於某一特定議題）"
+    },
+    vocabulary: [
+      { word: "documentary", pos: "n.", chinese: "紀錄片" },
+      { word: "poverty", pos: "n.", chinese: "貧困、貧窮" },
+      { word: "concentrate", pos: "v.", chinese: "集中、專注" }
+    ],
+    sentence_pattern: { pattern: "N + focuses in on + N", example: "Let's focus in on the key issues one by one." }
+  },
+  {
+    phrase: "follow along",
+    type: "片語動詞",
+    chinese: "跟著做、一起進行；看著（教材）跟上",
+    keywords: ["follow", "along"],
+    example: {
+      english: "Please open your textbooks to page twenty and follow along as I read the passage aloud.",
+      chinese: "請翻開課本第二十頁，在我大聲朗讀文章時跟著看。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "passage", pos: "n.", chinese: "文章、段落" },
+      { word: "aloud", pos: "adv.", chinese: "大聲地、出聲地" },
+      { word: "participate", pos: "v.", chinese: "參與、跟隨" }
+    ],
+    sentence_pattern: { pattern: "Follow along as + S + V + O", example: "It's easy to follow along once you understand the pattern." }
+  },
+  {
+    phrase: "go in for",
+    type: "片語動詞",
+    chinese: "參加（比賽）；喜好、熱衷於",
+    keywords: ["go", "in", "for"],
+    example: {
+      english: "She decided to go in for the national essay competition after her teacher encouraged her.",
+      chinese: "在老師的鼓勵下，她決定參加全國作文比賽。",
+      grammar_point: "after + S + V（時間副詞子句，表動作先後）"
+    },
+    vocabulary: [
+      { word: "competition", pos: "n.", chinese: "比賽、競賽" },
+      { word: "encourage", pos: "v.", chinese: "鼓勵" },
+      { word: "participate", pos: "v.", chinese: "參加、參與" }
+    ],
+    sentence_pattern: { pattern: "S + decided to go in for + N + after + S + V", example: "Do you go in for outdoor sports or indoor activities?" }
+  },
+  {
+    phrase: "harden up",
+    type: "片語動詞",
+    chinese: "變堅強、使更堅韌",
+    keywords: ["harden", "up"],
+    example: {
+      english: "Going through difficult experiences can harden you up and prepare you for future challenges.",
+      chinese: "經歷艱難的事情能讓你變得更堅強，為未來的挑戰做好準備。",
+      grammar_point: "can + V（情態動詞表可能性）；and + V（連接兩個平行動作）"
+    },
+    vocabulary: [
+      { word: "resilient", pos: "adj.", chinese: "有韌性的、能復原的" },
+      { word: "toughen", pos: "v.", chinese: "使堅強、使強硬" },
+      { word: "challenge", pos: "n.", chinese: "挑戰" }
+    ],
+    sentence_pattern: { pattern: "V-ing + can harden + 人 + up and + V", example: "You need to harden up if you want to survive in this industry." }
+  },
+  {
+    phrase: "inform of",
+    type: "動詞 + 介系詞",
+    chinese: "通知、告知（某人某事）",
+    keywords: ["inform", "of"],
+    example: {
+      english: "Please inform us of any changes to your schedule at least two days in advance.",
+      chinese: "請至少提前兩天通知我們您的行程有任何變動。",
+      grammar_point: "at least + 時間 + in advance（至少提前…，表示時間要求）"
+    },
+    vocabulary: [
+      { word: "notify", pos: "v.", chinese: "通知" },
+      { word: "schedule", pos: "n.", chinese: "行程、時間表" },
+      { word: "advance", pos: "n.", chinese: "事先、提前" }
+    ],
+    sentence_pattern: { pattern: "Please inform + 人 + of + N + at least + 時間 + in advance", example: "We were not informed of the decision until it was too late." }
+  },
+  {
+    phrase: "integrate into",
+    type: "動詞 + 介系詞",
+    chinese: "融入、整合到（某個群體或系統）",
+    keywords: ["integrate", "into"],
+    example: {
+      english: "It took the new employee several months to fully integrate into the company culture.",
+      chinese: "這位新員工花了幾個月才完全融入公司文化。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "culture", pos: "n.", chinese: "文化" },
+      { word: "adapt", pos: "v.", chinese: "適應" },
+      { word: "assimilate", pos: "v.", chinese: "融入、同化" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to integrate into + N", example: "Technology has been integrated into every part of our daily lives." }
+  },
+  {
+    phrase: "lie around",
+    type: "片語動詞",
+    chinese: "閒躺著、無所事事；（東西）散亂放置",
+    keywords: ["lie", "around"],
+    example: {
+      english: "Don't leave your valuables lying around in public places where anyone can take them.",
+      chinese: "不要把你的貴重物品隨意放在公共場所，以免任何人都能拿走。",
+      grammar_point: "where + 關係副詞子句（修飾先行詞 public places）"
+    },
+    vocabulary: [
+      { word: "valuables", pos: "n.", chinese: "貴重物品（常用複數）" },
+      { word: "scattered", pos: "adj.", chinese: "散亂的" },
+      { word: "careless", pos: "adj.", chinese: "粗心的、不小心的" }
+    ],
+    sentence_pattern: { pattern: "Don't leave + N + lying around in + 地方", example: "He spent the whole day lying around doing nothing." }
+  },
+  {
+    phrase: "log in",
+    type: "片語動詞",
+    chinese: "登入（系統或帳號）",
+    keywords: ["log", "in"],
+    example: {
+      english: "You need to log in with your student ID and password to access the online learning platform.",
+      chinese: "你需要用學生證號碼和密碼登入才能使用線上學習平台。",
+      grammar_point: "need to + V（需要做某事）；to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "password", pos: "n.", chinese: "密碼" },
+      { word: "account", pos: "n.", chinese: "帳號" },
+      { word: "access", pos: "v.", chinese: "存取、使用" }
+    ],
+    sentence_pattern: { pattern: "S + need(s) to log in with + N + to + V", example: "Please log in before you start the test." }
+  },
+  {
+    phrase: "log out",
+    type: "片語動詞",
+    chinese: "登出（系統或帳號）",
+    keywords: ["log", "out"],
+    example: {
+      english: "Always remember to log out of your account when using a shared or public computer.",
+      chinese: "使用共用或公共電腦時，務必記得登出你的帳號。",
+      grammar_point: "when + V-ing（時間副詞子句的省略形式）"
+    },
+    vocabulary: [
+      { word: "account", pos: "n.", chinese: "帳號" },
+      { word: "security", pos: "n.", chinese: "安全性" },
+      { word: "shared", pos: "adj.", chinese: "共用的" }
+    ],
+    sentence_pattern: { pattern: "Always remember to log out of + N + when + V-ing", example: "Did you log out before you left the office?" }
+  },
+  {
+    phrase: "look around",
+    type: "片語動詞",
+    chinese: "四處張望；到處看看、參觀",
+    keywords: ["look", "around"],
+    example: {
+      english: "We arrived early at the museum and had plenty of time to look around every exhibit.",
+      chinese: "我們早早抵達博物館，有充裕的時間參觀每一個展覽。",
+      grammar_point: "had + N + to + V（有…去做某事，表示充裕條件）"
+    },
+    vocabulary: [
+      { word: "exhibit", pos: "n.", chinese: "展品、展覽" },
+      { word: "explore", pos: "v.", chinese: "探索、參觀" },
+      { word: "browse", pos: "v.", chinese: "瀏覽、隨意看看" }
+    ],
+    sentence_pattern: { pattern: "S + had + N + to look around + N", example: "Feel free to look around while I get the paperwork ready." }
+  },
+  {
+    phrase: "lose out on",
+    type: "片語動詞",
+    chinese: "錯失（機會或好處）",
+    keywords: ["lose", "out", "on"],
+    example: {
+      english: "If you don't apply for the scholarship now, you may lose out on a great opportunity.",
+      chinese: "如果你現在不申請獎學金，你可能會錯失一個絕佳的機會。",
+      grammar_point: "If + S + V, S + may + V（第一條件句，表示可能的結果）"
+    },
+    vocabulary: [
+      { word: "scholarship", pos: "n.", chinese: "獎學金" },
+      { word: "opportunity", pos: "n.", chinese: "機會" },
+      { word: "miss", pos: "v.", chinese: "錯過" }
+    ],
+    sentence_pattern: { pattern: "If + S + V, S + may lose out on + N", example: "Act quickly or you'll lose out on the early-bird discount." }
+  },
+  {
+    phrase: "meet up",
+    type: "片語動詞",
+    chinese: "（約好）碰面、相聚",
+    keywords: ["meet", "up"],
+    example: {
+      english: "We arranged to meet up for coffee after work to catch up on everything we had missed.",
+      chinese: "我們約好下班後碰面喝咖啡，聊聊彼此錯過的一切。",
+      grammar_point: "arrange to + V（安排做某事）；to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "arrange", pos: "v.", chinese: "安排、約定" },
+      { word: "catch up", pos: "phr. v.", chinese: "敘舊、趕上" },
+      { word: "gather", pos: "v.", chinese: "聚集" }
+    ],
+    sentence_pattern: { pattern: "S + arranged to meet up + 時間/地點 + to + V", example: "Do you want to meet up this weekend?" }
+  },
+  {
+    phrase: "merge with",
+    type: "動詞 + 介系詞",
+    chinese: "與…合併、融合",
+    keywords: ["merge", "with"],
+    example: {
+      english: "The small regional airline merged with a larger carrier to expand its international routes.",
+      chinese: "這家小型地區航空公司與一家較大的航空公司合併，以擴展其國際航線。",
+      grammar_point: "to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "carrier", pos: "n.", chinese: "航空公司、運營商" },
+      { word: "expand", pos: "v.", chinese: "擴展、擴大" },
+      { word: "combine", pos: "v.", chinese: "合併、結合" }
+    ],
+    sentence_pattern: { pattern: "S + merged with + N + to + V", example: "The two departments will merge with each other next quarter." }
+  },
+  {
+    phrase: "open out",
+    type: "片語動詞",
+    chinese: "展開、打開；（道路或空間）變寬闊",
+    keywords: ["open", "out"],
+    example: {
+      english: "The narrow path opened out into a wide valley filled with wildflowers and tall trees.",
+      chinese: "狹窄的小徑延伸開來，變成一片開滿野花和高大樹木的寬闊山谷。",
+      grammar_point: "filled with + N（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "valley", pos: "n.", chinese: "山谷" },
+      { word: "wildflower", pos: "n.", chinese: "野花" },
+      { word: "expand", pos: "v.", chinese: "擴展、變寬" }
+    ],
+    sentence_pattern: { pattern: "N + opened out into + N", example: "The map opens out to show the entire region." }
+  },
+  {
+    phrase: "pass along",
+    type: "片語動詞",
+    chinese: "傳遞、轉告（資訊或物品）",
+    keywords: ["pass", "along"],
+    example: {
+      english: "Could you please pass along this message to the rest of the team before tomorrow's meeting?",
+      chinese: "你能在明天的會議之前把這個消息轉告給團隊其他成員嗎？",
+      grammar_point: "Could you + V（禮貌請求句型）；before + N（介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "message", pos: "n.", chinese: "訊息、消息" },
+      { word: "relay", pos: "v.", chinese: "轉達、傳遞" },
+      { word: "communicate", pos: "v.", chinese: "溝通、傳達" }
+    ],
+    sentence_pattern: { pattern: "Could you pass along + N + to + 人 + before + N?", example: "Please pass along my regards to your family." }
+  },
+  {
+    phrase: "pick over",
+    type: "片語動詞",
+    chinese: "仔細挑選；逐一檢查（挑出最好的）",
+    keywords: ["pick", "over"],
+    example: {
+      english: "Shoppers at the market picked over the fruit carefully before deciding what to buy.",
+      chinese: "市場上的購物者仔細挑選水果，然後才決定要買什麼。",
+      grammar_point: "before + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "examine", pos: "v.", chinese: "仔細檢查" },
+      { word: "select", pos: "v.", chinese: "挑選、選擇" },
+      { word: "inspect", pos: "v.", chinese: "檢視、審查" }
+    ],
+    sentence_pattern: { pattern: "S + picked over + N + before + V-ing", example: "The critics picked over every detail of the new policy." }
+  },
+  {
+    phrase: "place on",
+    type: "動詞 + 介系詞",
+    chinese: "將…放在；對…施加（責任、壓力）",
+    keywords: ["place", "on"],
+    example: {
+      english: "Too much pressure placed on children at an early age can affect their long-term wellbeing.",
+      chinese: "在幼年時期對孩子施加過多壓力，可能會影響他們的長期身心健康。",
+      grammar_point: "can + V（情態動詞表可能性）；placed on（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "pressure", pos: "n.", chinese: "壓力" },
+      { word: "wellbeing", pos: "n.", chinese: "身心健康" },
+      { word: "responsibility", pos: "n.", chinese: "責任" }
+    ],
+    sentence_pattern: { pattern: "N + placed on + 人 + can + V + N", example: "Please place your order on the counter." }
+  },
+  {
+    phrase: "plan for",
+    type: "動詞 + 介系詞",
+    chinese: "為…做計劃、預先規劃",
+    keywords: ["plan", "for"],
+    example: {
+      english: "It is wise to plan for the future while you are still young and full of energy.",
+      chinese: "趁著年輕精力充沛時為未來做規劃是明智之舉。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；while + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "wise", pos: "adj.", chinese: "明智的" },
+      { word: "retirement", pos: "n.", chinese: "退休" },
+      { word: "prepare", pos: "v.", chinese: "準備、規劃" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to plan for + N + while + S + V", example: "Always plan for unexpected emergencies." }
+  },
+  {
+    phrase: "play up",
+    type: "片語動詞",
+    chinese: "強調、誇大；（機器）出問題；（小孩）搗蛋",
+    keywords: ["play", "up"],
+    example: {
+      english: "The media tends to play up negative stories because they attract more attention from the public.",
+      chinese: "媒體傾向於誇大負面報導，因為這些報導能吸引更多大眾的關注。",
+      grammar_point: "because + S + V（原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "exaggerate", pos: "v.", chinese: "誇大、誇張" },
+      { word: "attention", pos: "v.", chinese: "注意、關注" },
+      { word: "emphasize", pos: "v.", chinese: "強調" }
+    ],
+    sentence_pattern: { pattern: "S + tends to play up + N + because + S + V", example: "My knee has been playing up since the marathon." }
+  },
+  {
+    phrase: "present with",
+    type: "動詞 + 介系詞",
+    chinese: "贈送（某人某物）；使（某人）面臨（問題或挑戰）",
+    keywords: ["present", "with"],
+    example: {
+      english: "The retiring principal was presented with a bouquet of flowers and a heartfelt card.",
+      chinese: "即將退休的校長收到了一束鮮花和一張充滿心意的卡片。",
+      grammar_point: "be presented with + N（被動語態，表示被贈予）"
+    },
+    vocabulary: [
+      { word: "bouquet", pos: "n.", chinese: "花束" },
+      { word: "heartfelt", pos: "adj.", chinese: "衷心的、誠摯的" },
+      { word: "award", pos: "v.", chinese: "頒發、授予" }
+    ],
+    sentence_pattern: { pattern: "S + was presented with + N", example: "This situation presents us with a unique opportunity." }
+  },
+  {
+    phrase: "proceed with",
+    type: "動詞 + 介系詞",
+    chinese: "繼續進行、著手進行",
+    keywords: ["proceed", "with"],
+    example: {
+      english: "After receiving approval from the board, the team was ready to proceed with the expansion plan.",
+      chinese: "在獲得董事會批准後，團隊準備好繼續推進擴張計畫。",
+      grammar_point: "after + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "approval", pos: "n.", chinese: "批准、同意" },
+      { word: "expansion", pos: "n.", chinese: "擴張、擴展" },
+      { word: "continue", pos: "v.", chinese: "繼續" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing, S + was ready to proceed with + N", example: "We will proceed with the meeting as planned." }
+  },
+  {
+    phrase: "provide for",
+    type: "動詞 + 介系詞",
+    chinese: "供養、撫養；為…做準備",
+    keywords: ["provide", "for"],
+    example: {
+      english: "He worked two jobs in order to provide for his family after losing his main source of income.",
+      chinese: "在失去主要收入來源後，他做了兩份工作以養活家人。",
+      grammar_point: "in order to + V（為了…，表示目的）"
+    },
+    vocabulary: [
+      { word: "support", pos: "v.", chinese: "支持、供養" },
+      { word: "income", pos: "n.", chinese: "收入" },
+      { word: "sustain", pos: "v.", chinese: "維持、供給" }
+    ],
+    sentence_pattern: { pattern: "S + V + in order to provide for + N", example: "Parents have a duty to provide for their children." }
+  },
+  {
+    phrase: "reach for",
+    type: "動詞 + 介系詞",
+    chinese: "伸手去拿；努力追求",
+    keywords: ["reach", "for"],
+    example: {
+      english: "She reached for her phone the moment she heard the notification sound go off.",
+      chinese: "她一聽到通知聲響起，就立刻伸手去拿手機。",
+      grammar_point: "the moment + S + V（一…就…，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "notification", pos: "n.", chinese: "通知" },
+      { word: "grab", pos: "v.", chinese: "抓取、伸手拿" },
+      { word: "aspire", pos: "v.", chinese: "渴望、追求" }
+    ],
+    sentence_pattern: { pattern: "S + reached for + N + the moment + S + V", example: "Always reach for your goals no matter how difficult they seem." }
+  },
+  {
+    phrase: "reduce to",
+    type: "動詞 + 介系詞",
+    chinese: "使降低至；使淪落為；（使）感動落淚",
+    keywords: ["reduce", "to"],
+    example: {
+      english: "The powerful speech reduced many members of the audience to tears within just a few minutes.",
+      chinese: "那場震撼人心的演講在短短幾分鐘內就讓許多觀眾感動落淚。",
+      grammar_point: "reduce + 人 + to tears（使某人感動/難過落淚，固定搭配）"
+    },
+    vocabulary: [
+      { word: "audience", pos: "n.", chinese: "觀眾、聽眾" },
+      { word: "within", pos: "prep.", chinese: "在…之內" },
+      { word: "overwhelm", pos: "v.", chinese: "使不知所措、壓倒" }
+    ],
+    sentence_pattern: { pattern: "N + reduced + 人 + to + N + within + 時間", example: "The factory fire was reduced to ashes overnight." }
+  },
+  {
+    phrase: "remain with",
+    type: "動詞 + 介系詞",
+    chinese: "留在…身邊；（責任）由…承擔",
+    keywords: ["remain", "with"],
+    example: {
+      english: "Final responsibility for the project will remain with the project manager until completion.",
+      chinese: "專案的最終責任將由專案經理承擔，直到完成為止。",
+      grammar_point: "will + V（未來式）；until + N（直到…為止）"
+    },
+    vocabulary: [
+      { word: "responsibility", pos: "n.", chinese: "責任" },
+      { word: "completion", pos: "n.", chinese: "完成、竣工" },
+      { word: "accountability", pos: "n.", chinese: "問責、責任歸屬" }
+    ],
+    sentence_pattern: { pattern: "N + will remain with + 人 + until + N", example: "The children will remain with their grandmother during the holidays." }
+  },
+  {
+    phrase: "switch over",
+    type: "片語動詞",
+    chinese: "轉換（頻道、系統）；改換（到另一方）",
+    keywords: ["switch", "over"],
+    example: {
+      english: "Many businesses have switched over to cloud-based systems to improve efficiency and cut costs.",
+      chinese: "許多企業已切換至雲端系統，以提升效率並降低成本。",
+      grammar_point: "現在完成式（have + p.p.，表示對現在有影響的過去動作）；to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "cloud-based", pos: "adj.", chinese: "雲端的" },
+      { word: "efficiency", pos: "n.", chinese: "效率" },
+      { word: "transition", pos: "n.", chinese: "轉換、過渡" }
+    ],
+    sentence_pattern: { pattern: "S + have switched over to + N + to + V", example: "Can you switch over to the other channel?" }
+  },
+  {
+    phrase: "toss out",
+    type: "片語動詞",
+    chinese: "扔掉、丟棄；否決（想法）",
+    keywords: ["toss", "out"],
+    example: {
+      english: "She tossed out all the old magazines that had been piling up in the corner for years.",
+      chinese: "她把堆在角落裡多年的舊雜誌全部扔掉了。",
+      grammar_point: "that + 關係子句（修飾先行詞 magazines）；that had been + V-ing（過去完成進行式）"
+    },
+    vocabulary: [
+      { word: "discard", pos: "v.", chinese: "丟棄、處理掉" },
+      { word: "clutter", pos: "n.", chinese: "雜亂的東西" },
+      { word: "pile up", pos: "phr. v.", chinese: "堆積" }
+    ],
+    sentence_pattern: { pattern: "S + tossed out + N + that had been + V-ing", example: "The committee tossed out the proposal without discussion." }
+  },
+  {
+    phrase: "vary from",
+    type: "動詞 + 介系詞",
+    chinese: "因…而異、與…有所不同",
+    keywords: ["vary", "from"],
+    example: {
+      english: "The climate varies greatly from region to region, making it hard to predict the weather.",
+      chinese: "氣候因地區而異，差異極大，使得天氣難以預測。",
+      grammar_point: "from + N + to + N（從…到…，表示範圍或差異）"
+    },
+    vocabulary: [
+      { word: "climate", pos: "n.", chinese: "氣候" },
+      { word: "region", pos: "n.", chinese: "地區、區域" },
+      { word: "differ", pos: "v.", chinese: "不同、有差異" }
+    ],
+    sentence_pattern: { pattern: "N + varies greatly from + N + to + N", example: "Results can vary from person to person." }
+  },
+  {
+    phrase: "accuse of",
+    type: "動詞 + 介系詞",
+    chinese: "指控、accusation（某人做了某事）",
+    keywords: ["accuse", "of"],
+    example: {
+      english: "The politician was accused of accepting bribes from several large construction companies.",
+      chinese: "這名政治人物被指控接受多家大型建設公司的賄賂。",
+      grammar_point: "be accused of + V-ing（被動語態，表示被指控做某事）"
+    },
+    vocabulary: [
+      { word: "bribe", pos: "n.", chinese: "賄賂" },
+      { word: "corrupt", pos: "adj.", chinese: "腐敗的" },
+      { word: "charge", pos: "v.", chinese: "控告、指控" }
+    ],
+    sentence_pattern: { pattern: "S + was accused of + V-ing + N", example: "He was accused of cheating on the exam." }
+  },
+  {
+    phrase: "add in",
+    type: "片語動詞",
+    chinese: "加入、納入（額外的東西）",
+    keywords: ["add", "in"],
+    example: {
+      english: "Don't forget to add in the service charge when you calculate the total cost of the meal.",
+      chinese: "計算餐點總費用時，別忘了把服務費加進去。",
+      grammar_point: "when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "service charge", pos: "n.", chinese: "服務費" },
+      { word: "calculate", pos: "v.", chinese: "計算" },
+      { word: "include", pos: "v.", chinese: "包含、納入" }
+    ],
+    sentence_pattern: { pattern: "Don't forget to add in + N + when + S + V", example: "She added in a few extra examples to make it clearer." }
+  },
+  {
+    phrase: "arise from",
+    type: "動詞 + 介系詞",
+    chinese: "由…產生、起因於",
+    keywords: ["arise", "from"],
+    example: {
+      english: "Many health problems can arise from a lack of sleep over a long period of time.",
+      chinese: "長期睡眠不足可能會引發許多健康問題。",
+      grammar_point: "can + V（情態動詞表可能性）；over + 時間（在某段時間內）"
+    },
+    vocabulary: [
+      { word: "lack", pos: "n.", chinese: "缺乏、不足" },
+      { word: "stem from", pos: "phr. v.", chinese: "源自、起因於" },
+      { word: "consequence", pos: "n.", chinese: "後果、結果" }
+    ],
+    sentence_pattern: { pattern: "N + can arise from + N + over + 時間", example: "Conflicts often arise from misunderstandings between people." }
+  },
+  {
+    phrase: "attribute to",
+    type: "動詞 + 介系詞",
+    chinese: "將…歸因於、認為…是由…所造成",
+    keywords: ["attribute", "to"],
+    example: {
+      english: "Doctors attribute the rise in childhood obesity largely to poor diet and lack of exercise.",
+      chinese: "醫生將兒童肥胖率的上升主要歸因於飲食不良和缺乏運動。",
+      grammar_point: "attribute + N + to + N（把…歸因於…）"
+    },
+    vocabulary: [
+      { word: "obesity", pos: "n.", chinese: "肥胖" },
+      { word: "largely", pos: "adv.", chinese: "主要地、大體上" },
+      { word: "credit", pos: "v.", chinese: "歸功於" }
+    ],
+    sentence_pattern: { pattern: "S + attribute(s) + N + largely to + N", example: "Her success is attributed to years of hard work and dedication." }
+  },
+  {
+    phrase: "back into",
+    type: "片語動詞",
+    chinese: "倒車進入；重新捲入（困境）",
+    keywords: ["back", "into"],
+    example: {
+      english: "He carefully backed the car into the narrow parking space without hitting the walls.",
+      chinese: "他小心翼翼地把車倒入狹窄的停車格，沒有碰到牆壁。",
+      grammar_point: "without + V-ing（沒有…地，表示方式）"
+    },
+    vocabulary: [
+      { word: "narrow", pos: "adj.", chinese: "狹窄的" },
+      { word: "reverse", pos: "v.", chinese: "倒車、逆行" },
+      { word: "parking space", pos: "n.", chinese: "停車格" }
+    ],
+    sentence_pattern: { pattern: "S + backed + N + into + N + without + V-ing", example: "Don't back yourself into a corner during the negotiation." }
+  },
+  {
+    phrase: "bargain for",
+    type: "動詞 + 介系詞",
+    chinese: "預料到、料想到（常用於否定）；議價",
+    keywords: ["bargain", "for"],
+    example: {
+      english: "The project turned out to be far more complex than anyone had bargained for.",
+      chinese: "這個專案結果比任何人預料的都要複雜得多。",
+      grammar_point: "far more + adj + than + S + had bargained for（遠比預期的更…）"
+    },
+    vocabulary: [
+      { word: "expect", pos: "v.", chinese: "預期、預料" },
+      { word: "complex", pos: "adj.", chinese: "複雜的" },
+      { word: "anticipate", pos: "v.", chinese: "預料、期待" }
+    ],
+    sentence_pattern: { pattern: "N + turned out to be far more + adj + than + S + had bargained for", example: "I got more than I bargained for when I took this job." }
+  },
+  {
+    phrase: "be aware of",
+    type: "片語動詞",
+    chinese: "意識到、知道",
+    keywords: ["be", "aware", "of"],
+    example: {
+      english: "Students should be aware of the risks of sharing personal information on social media.",
+      chinese: "學生應該意識到在社群媒體上分享個人資訊的風險。",
+      grammar_point: "should + be + adj（情態動詞表建議）；of + V-ing（介系詞後接動名詞）"
+    },
+    vocabulary: [
+      { word: "risk", pos: "n.", chinese: "風險" },
+      { word: "conscious", pos: "adj.", chinese: "有意識的、清醒的" },
+      { word: "recognize", pos: "v.", chinese: "認識到、承認" }
+    ],
+    sentence_pattern: { pattern: "S + should be aware of + N/V-ing", example: "Are you aware of the changes to the schedule?" }
+  },
+  {
+    phrase: "be faced with",
+    type: "片語動詞",
+    chinese: "面臨、面對（困難或挑戰）",
+    keywords: ["be", "faced", "with"],
+    example: {
+      english: "Many young graduates are faced with the challenge of finding stable employment in a tough market.",
+      chinese: "許多應屆畢業生面臨在嚴峻就業市場中尋找穩定工作的挑戰。",
+      grammar_point: "be faced with + N（被動語態，表示所面臨的處境）"
+    },
+    vocabulary: [
+      { word: "graduate", pos: "n.", chinese: "畢業生" },
+      { word: "stable", pos: "adj.", chinese: "穩定的" },
+      { word: "challenge", pos: "n.", chinese: "挑戰" }
+    ],
+    sentence_pattern: { pattern: "S + are faced with + N + of + V-ing", example: "When faced with failure, don't give up." }
+  },
+  {
+    phrase: "be keen on",
+    type: "片語動詞",
+    chinese: "熱衷於、非常喜歡",
+    keywords: ["be", "keen", "on"],
+    example: {
+      english: "She has always been keen on photography and spends her weekends exploring the city with her camera.",
+      chinese: "她一直對攝影很感興趣，週末都帶著相機探索城市。",
+      grammar_point: "has always been（現在完成式加頻率副詞，表示持續的習慣）"
+    },
+    vocabulary: [
+      { word: "photography", pos: "n.", chinese: "攝影" },
+      { word: "enthusiastic", pos: "adj.", chinese: "熱情的、熱衷的" },
+      { word: "passionate", pos: "adj.", chinese: "充滿熱情的" }
+    ],
+    sentence_pattern: { pattern: "S + has always been keen on + N + and + V", example: "He's not very keen on the idea of moving abroad." }
+  },
+  {
+    phrase: "be made of",
+    type: "片語動詞",
+    chinese: "由…製成、由…構成",
+    keywords: ["be", "made", "of"],
+    example: {
+      english: "This lightweight backpack is made of recycled plastic bottles, making it both eco-friendly and durable.",
+      chinese: "這款輕量背包由回收塑膠瓶製成，既環保又耐用。",
+      grammar_point: "making it + adj（分詞構句，表示結果）；both A and B（既…又…）"
+    },
+    vocabulary: [
+      { word: "recycled", pos: "adj.", chinese: "回收的、再生的" },
+      { word: "durable", pos: "adj.", chinese: "耐用的" },
+      { word: "material", pos: "n.", chinese: "材料、材質" }
+    ],
+    sentence_pattern: { pattern: "N + is made of + N, making it + adj + and + adj", example: "What is this table made of? It looks like solid oak." }
+  },
+  {
+    phrase: "be tired of",
+    type: "片語動詞",
+    chinese: "對…感到厭倦、受夠了",
+    keywords: ["be", "tired", "of"],
+    example: {
+      english: "After years of commuting two hours each day, he was tired of wasting so much time on the road.",
+      chinese: "每天通勤兩小時長達數年後，他已厭倦了在路上浪費這麼多時間。",
+      grammar_point: "after + 時間 + of + V-ing（在…時間的…之後）"
+    },
+    vocabulary: [
+      { word: "commute", pos: "v.", chinese: "通勤" },
+      { word: "fed up", pos: "adj.", chinese: "厭倦的（口語）" },
+      { word: "exhausted", pos: "adj.", chinese: "精疲力竭的" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + V-ing, S + was tired of + V-ing", example: "I'm tired of hearing the same excuses every time." }
+  },
+  {
+    phrase: "be worn out",
+    type: "片語動詞",
+    chinese: "精疲力竭；（物品）磨損破舊",
+    keywords: ["be", "worn", "out"],
+    example: {
+      english: "By the end of the long hike, every member of the group was completely worn out.",
+      chinese: "漫長的健行結束時，團隊裡的每個成員都精疲力竭。",
+      grammar_point: "by the end of + N（在…結束時，介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "exhausted", pos: "adj.", chinese: "精疲力竭的" },
+      { word: "hike", pos: "n.", chinese: "健行、遠足" },
+      { word: "drained", pos: "adj.", chinese: "耗盡的、筋疲力盡的" }
+    ],
+    sentence_pattern: { pattern: "By the end of + N, S + was completely worn out", example: "These old shoes are worn out — I need a new pair." }
+  },
+  {
+    phrase: "blow in",
+    type: "片語動詞",
+    chinese: "突然出現、順道闖入；（風）吹入",
+    keywords: ["blow", "in"],
+    example: {
+      english: "An old friend blew in unexpectedly last night and we ended up talking until midnight.",
+      chinese: "一位老朋友昨晚突然出現，我們最後聊到半夜。",
+      grammar_point: "ended up + V-ing（最終以…收場）"
+    },
+    vocabulary: [
+      { word: "unexpected", pos: "adj.", chinese: "出乎意料的" },
+      { word: "arrive", pos: "v.", chinese: "抵達、到來" },
+      { word: "drop by", pos: "phr. v.", chinese: "順道拜訪" }
+    ],
+    sentence_pattern: { pattern: "S + blew in + 時間 + and S + ended up + V-ing", example: "A cold wind blew in from the north overnight." }
+  },
+  {
+    phrase: "boil over",
+    type: "片語動詞",
+    chinese: "（液體）沸騰溢出；（情緒）爆發失控",
+    keywords: ["boil", "over"],
+    example: {
+      english: "The soup boiled over while she was distracted by a phone call and made a mess of the stove.",
+      chinese: "她被電話分心時，湯沸騰溢出來，把爐子弄得一團糟。",
+      grammar_point: "while + S + V（時間副詞子句，表示同時發生的動作）"
+    },
+    vocabulary: [
+      { word: "distracted", pos: "adj.", chinese: "分心的" },
+      { word: "overflow", pos: "v.", chinese: "溢出、滿溢" },
+      { word: "tension", pos: "n.", chinese: "緊張情緒、張力" }
+    ],
+    sentence_pattern: { pattern: "N + boiled over while + S + V", example: "Tensions finally boiled over at the end of the heated debate." }
+  },
+  {
+    phrase: "book in",
+    type: "片語動詞",
+    chinese: "預約（登記）；辦理入住",
+    keywords: ["book", "in"],
+    example: {
+      english: "Could you book me in for a dental check-up sometime next week if there is availability?",
+      chinese: "如果有空檔的話，你能幫我預約下週某天的牙科檢查嗎？",
+      grammar_point: "Could you + V（禮貌請求句型）；if + S + V（條件子句）"
+    },
+    vocabulary: [
+      { word: "appointment", pos: "n.", chinese: "預約、約診" },
+      { word: "availability", pos: "n.", chinese: "空檔、可預約性" },
+      { word: "reserve", pos: "v.", chinese: "預訂、保留" }
+    ],
+    sentence_pattern: { pattern: "Could you book + 人 + in for + N + if + S + V?", example: "I need to book in for a service at the garage." }
+  },
+  {
+    phrase: "browse through",
+    type: "片語動詞",
+    chinese: "隨意翻閱、瀏覽（書籍或網頁）",
+    keywords: ["browse", "through"],
+    example: {
+      english: "She spent an hour browsing through travel magazines before deciding on a destination.",
+      chinese: "她花了一個小時隨意翻閱旅遊雜誌，然後才決定目的地。",
+      grammar_point: "before + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "magazine", pos: "n.", chinese: "雜誌" },
+      { word: "destination", pos: "n.", chinese: "目的地" },
+      { word: "skim", pos: "v.", chinese: "略讀、瀏覽" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + browsing through + N + before + V-ing", example: "I like to browse through bookshops on weekends." }
+  },
+  {
+    phrase: "bump up",
+    type: "片語動詞",
+    chinese: "提升、調高（數量或等級）",
+    keywords: ["bump", "up"],
+    example: {
+      english: "The airline bumped us up to business class because the economy section was overbooked.",
+      chinese: "因為經濟艙超賣，航空公司將我們升等到商務艙。",
+      grammar_point: "because + S + V（原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "upgrade", pos: "v.", chinese: "升等、升級" },
+      { word: "overbooked", pos: "adj.", chinese: "超額預訂的" },
+      { word: "increase", pos: "v.", chinese: "增加、提高" }
+    ],
+    sentence_pattern: { pattern: "S + bumped + 人 + up to + N + because + S + V", example: "They bumped up the price without any warning." }
+  },
+  {
+    phrase: "call upon",
+    type: "片語動詞",
+    chinese: "呼籲、要求；正式邀請（某人發言或行動）",
+    keywords: ["call", "upon"],
+    example: {
+      english: "The chairperson called upon all members to submit their proposals before the end of the month.",
+      chinese: "主席呼籲所有成員在月底前提交他們的提案。",
+      grammar_point: "call upon + 人 + to + V（呼籲某人做某事）"
+    },
+    vocabulary: [
+      { word: "chairperson", pos: "n.", chinese: "主席、主持人" },
+      { word: "proposal", pos: "n.", chinese: "提案、建議" },
+      { word: "urge", pos: "v.", chinese: "敦促、呼籲" }
+    ],
+    sentence_pattern: { pattern: "S + called upon + 人 + to + V + N + before + N", example: "We are called upon to help those in need." }
+  },
+  {
+    phrase: "change into",
+    type: "片語動詞",
+    chinese: "換上（衣服）；變成、轉變為",
+    keywords: ["change", "into"],
+    example: {
+      english: "Please change into your gym clothes before the physical education class begins.",
+      chinese: "請在體育課開始前換上運動服。",
+      grammar_point: "before + N + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "transform", pos: "v.", chinese: "轉變、改變" },
+      { word: "uniform", pos: "n.", chinese: "制服" },
+      { word: "convert", pos: "v.", chinese: "轉換、改變" }
+    ],
+    sentence_pattern: { pattern: "Please change into + N + before + N + V", example: "The caterpillar changes into a butterfly over time." }
+  },
+  {
+    phrase: "comment on",
+    type: "動詞 + 介系詞",
+    chinese: "對…發表評論、就…表達意見",
+    keywords: ["comment", "on"],
+    example: {
+      english: "The professor asked each student to comment on the strengths and weaknesses of the essay.",
+      chinese: "教授要求每位學生就這篇文章的優缺點發表評論。",
+      grammar_point: "ask + 人 + to + V（要求某人做某事）"
+    },
+    vocabulary: [
+      { word: "strength", pos: "n.", chinese: "優點、長處" },
+      { word: "weakness", pos: "n.", chinese: "缺點、弱點" },
+      { word: "feedback", pos: "n.", chinese: "回饋、評語" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to comment on + N", example: "The minister refused to comment on the allegations." }
+  },
+  {
+    phrase: "compare with",
+    type: "動詞 + 介系詞",
+    chinese: "與…相比較",
+    keywords: ["compare", "with"],
+    example: {
+      english: "When you compare this year's results with last year's, the improvement is clearly significant.",
+      chinese: "當你把今年的成績與去年的相比較時，進步顯然是相當顯著的。",
+      grammar_point: "when + S + V（時間副詞子句）；clearly + adj（副詞修飾形容詞加強語氣）"
+    },
+    vocabulary: [
+      { word: "improvement", pos: "n.", chinese: "進步、改善" },
+      { word: "significant", pos: "adj.", chinese: "顯著的、重大的" },
+      { word: "contrast", pos: "v.", chinese: "對比、形成對照" }
+    ],
+    sentence_pattern: { pattern: "When S + compare(s) + N + with + N, + N + be + clearly + adj", example: "How does this model compare with the previous version?" }
+  },
+  {
+    phrase: "compete with",
+    type: "動詞 + 介系詞",
+    chinese: "與…競爭",
+    keywords: ["compete", "with"],
+    example: {
+      english: "Small local businesses often struggle to compete with large international corporations on price.",
+      chinese: "小型本地企業在價格上常常難以與大型跨國企業競爭。",
+      grammar_point: "struggle to + V（努力做某事卻有困難）；on + N（在…方面）"
+    },
+    vocabulary: [
+      { word: "corporation", pos: "n.", chinese: "企業、公司" },
+      { word: "struggle", pos: "v.", chinese: "掙扎、努力" },
+      { word: "rival", pos: "n.", chinese: "競爭對手" }
+    ],
+    sentence_pattern: { pattern: "S + struggle(s) to compete with + N + on + N", example: "It's hard to compete with someone who has so much more experience." }
+  },
+  {
+    phrase: "connect with",
+    type: "動詞 + 介系詞",
+    chinese: "與…建立聯繫；與…產生共鳴",
+    keywords: ["connect", "with"],
+    example: {
+      english: "A good teacher knows how to connect with students and make learning feel relevant to their lives.",
+      chinese: "好老師懂得如何與學生建立聯繫，讓學習與他們的生活息息相關。",
+      grammar_point: "know how to + V（知道如何做某事）；make + O + V（使某人/某事…）"
+    },
+    vocabulary: [
+      { word: "relate", pos: "v.", chinese: "有關聯、產生共鳴" },
+      { word: "relevant", pos: "adj.", chinese: "相關的、切題的" },
+      { word: "bond", pos: "v.", chinese: "建立連結、結合" }
+    ],
+    sentence_pattern: { pattern: "S + knows how to connect with + N + and + V", example: "I really connected with the main character in that novel." }
+  },
+  {
+    phrase: "convert to",
+    type: "動詞 + 介系詞",
+    chinese: "轉換為、改信（某宗教或信念）",
+    keywords: ["convert", "to"],
+    example: {
+      english: "The old factory was converted to a modern art gallery that attracts thousands of visitors each year.",
+      chinese: "那座舊工廠被改建為一座現代藝術畫廊，每年吸引數千名遊客。",
+      grammar_point: "be converted to + N（被動語態，表示被改建或轉換）；that + 關係子句（修飾先行詞）"
+    },
+    vocabulary: [
+      { word: "gallery", pos: "n.", chinese: "畫廊、美術館" },
+      { word: "transform", pos: "v.", chinese: "改造、轉變" },
+      { word: "renovate", pos: "v.", chinese: "翻新、改建" }
+    ],
+    sentence_pattern: { pattern: "N + was converted to + N + that + V", example: "She converted to vegetarianism after watching a documentary." }
+  },
+  {
+    phrase: "depend upon",
+    type: "動詞 + 介系詞",
+    chinese: "依賴、取決於",
+    keywords: ["depend", "upon"],
+    example: {
+      english: "Whether the outdoor event is held will depend upon the weather forecast for that day.",
+      chinese: "戶外活動是否舉行將取決於當天的天氣預報。",
+      grammar_point: "whether + S + V（名詞子句作主詞）"
+    },
+    vocabulary: [
+      { word: "forecast", pos: "n.", chinese: "預報、預測" },
+      { word: "rely", pos: "v.", chinese: "依靠、仰賴" },
+      { word: "conditional", pos: "adj.", chinese: "有條件的、視情況而定的" }
+    ],
+    sentence_pattern: { pattern: "Whether + S + V + will depend upon + N", example: "You can depend upon her to keep her word." }
+  },
+  {
+    phrase: "distinguish from",
+    type: "動詞 + 介系詞",
+    chinese: "區分、辨別（A 與 B 的不同）",
+    keywords: ["distinguish", "from"],
+    example: {
+      english: "It can be difficult to distinguish genuine leather from high-quality synthetic materials.",
+      chinese: "要區分真皮和高品質合成材料可能很困難。",
+      grammar_point: "It can be + adj + to + V（虛主詞句型，表示難易程度）"
+    },
+    vocabulary: [
+      { word: "genuine", pos: "adj.", chinese: "真正的、真實的" },
+      { word: "synthetic", pos: "adj.", chinese: "合成的、人造的" },
+      { word: "differentiate", pos: "v.", chinese: "區別、辨別" }
+    ],
+    sentence_pattern: { pattern: "It can be + adj + to distinguish + N + from + N", example: "Can you distinguish a crow from a raven?" }
+  },
+  {
+    phrase: "draw away",
+    type: "片語動詞",
+    chinese: "拉開距離；吸引離開；逐漸退開",
+    keywords: ["draw", "away"],
+    example: {
+      english: "The leading cyclist drew away from the rest of the group in the final stretch of the race.",
+      chinese: "領先的單車選手在比賽最後一段路程中與其他人拉開了距離。",
+      grammar_point: "in the final + N（在最後的…，介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "stretch", pos: "n.", chinese: "一段路程、一段時間" },
+      { word: "gap", pos: "n.", chinese: "差距、間隔" },
+      { word: "distance", pos: "v.", chinese: "與…拉開距離" }
+    ],
+    sentence_pattern: { pattern: "S + drew away from + N + in + N", example: "She slowly drew away from her old social circle." }
+  },
+  {
+    phrase: "dream of",
+    type: "動詞 + 介系詞",
+    chinese: "夢想、渴望（某事）",
+    keywords: ["dream", "of"],
+    example: {
+      english: "As a child, he used to dream of becoming an astronaut and exploring outer space.",
+      chinese: "小時候，他曾夢想成為一名太空人並探索外太空。",
+      grammar_point: "used to + V（過去習慣，表示過去曾做的事）"
+    },
+    vocabulary: [
+      { word: "astronaut", pos: "n.", chinese: "太空人" },
+      { word: "aspire", pos: "v.", chinese: "渴望、有志於" },
+      { word: "ambition", pos: "n.", chinese: "抱負、志向" }
+    ],
+    sentence_pattern: { pattern: "S + used to dream of + V-ing + and + V-ing", example: "She dreams of opening her own bakery one day." }
+  },
+  {
+    phrase: "drift apart",
+    type: "片語動詞",
+    chinese: "（關係）漸漸疏遠、分離",
+    keywords: ["drift", "apart"],
+    example: {
+      english: "After graduation, many close friends drift apart as they move to different cities for work.",
+      chinese: "畢業後，許多親密的朋友因各自前往不同城市工作而逐漸疏遠。",
+      grammar_point: "as + S + V（隨著…，表示同步發展的副詞子句）"
+    },
+    vocabulary: [
+      { word: "graduation", pos: "n.", chinese: "畢業" },
+      { word: "distant", pos: "adj.", chinese: "疏遠的、遙遠的" },
+      { word: "separate", pos: "v.", chinese: "分離、分開" }
+    ],
+    sentence_pattern: { pattern: "S + drift apart as + S + V", example: "We drifted apart after she moved abroad." }
+  },
+  {
+    phrase: "drive into",
+    type: "片語動詞",
+    chinese: "開車進入；強迫陷入（困境）",
+    keywords: ["drive", "into"],
+    example: {
+      english: "The sudden economic crisis drove many small businesses into debt and eventually bankruptcy.",
+      chinese: "突如其來的經濟危機迫使許多小企業陷入債務，最終走向破產。",
+      grammar_point: "drove + 人/N + into + N（迫使某人/某事陷入某種狀態）"
+    },
+    vocabulary: [
+      { word: "bankruptcy", pos: "n.", chinese: "破產" },
+      { word: "debt", pos: "n.", chinese: "債務" },
+      { word: "crisis", pos: "n.", chinese: "危機" }
+    ],
+    sentence_pattern: { pattern: "N + drove + N + into + N", example: "Be careful not to drive into the oncoming lane." }
+  },
+  {
+    phrase: "drop down",
+    type: "片語動詞",
+    chinese: "下降、落下；（人）突然倒下",
+    keywords: ["drop", "down"],
+    example: {
+      english: "Temperatures dropped down sharply overnight, catching many people off guard.",
+      chinese: "氣溫一夜之間急劇下降，讓許多人措手不及。",
+      grammar_point: "catching + 人 + off guard（分詞構句，表示讓某人措手不及）"
+    },
+    vocabulary: [
+      { word: "temperature", pos: "n.", chinese: "溫度、氣溫" },
+      { word: "sharply", pos: "adv.", chinese: "急劇地、猛烈地" },
+      { word: "plunge", pos: "v.", chinese: "驟降、急跌" }
+    ],
+    sentence_pattern: { pattern: "N + dropped down + adv, catching + 人 + off guard", example: "Just drop down here and do twenty push-ups." }
+  },
+  {
+    phrase: "ease into",
+    type: "片語動詞",
+    chinese: "逐漸適應、緩緩進入（狀態）",
+    keywords: ["ease", "into"],
+    example: {
+      english: "It is important to ease into a new exercise routine gradually rather than pushing too hard at first.",
+      chinese: "逐步適應新的運動計畫非常重要，而不是一開始就過度勉強。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；rather than + V-ing（而非…）"
+    },
+    vocabulary: [
+      { word: "routine", pos: "n.", chinese: "例行公事、常規" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "adjust", pos: "v.", chinese: "調整、適應" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to ease into + N + rather than + V-ing", example: "She eased into conversation with the new colleagues slowly." }
+  },
+  {
+    phrase: "expand into",
+    type: "動詞 + 介系詞",
+    chinese: "擴展至（新市場或新領域）",
+    keywords: ["expand", "into"],
+    example: {
+      english: "The tech company plans to expand into the Southeast Asian market within the next two years.",
+      chinese: "這家科技公司計劃在未來兩年內擴展至東南亞市場。",
+      grammar_point: "plan to + V（計劃做某事）；within + 時間（在…之內）"
+    },
+    vocabulary: [
+      { word: "market", pos: "n.", chinese: "市場" },
+      { word: "venture", pos: "v.", chinese: "冒險進入" },
+      { word: "branch out", pos: "phr. v.", chinese: "拓展業務" }
+    ],
+    sentence_pattern: { pattern: "S + plans to expand into + N + within + 時間", example: "The brand expanded into clothing after its initial success in footwear." }
+  },
+  {
+    phrase: "expect from",
+    type: "動詞 + 介系詞",
+    chinese: "對…抱有期望、要求",
+    keywords: ["expect", "from"],
+    example: {
+      english: "Parents often expect too much from their children without understanding their individual abilities.",
+      chinese: "父母常常對孩子期望過高，卻不了解他們個別的能力。",
+      grammar_point: "without + V-ing（在沒有…的情況下，表示方式）"
+    },
+    vocabulary: [
+      { word: "individual", pos: "adj.", chinese: "個別的、個人的" },
+      { word: "demand", pos: "v.", chinese: "要求" },
+      { word: "pressure", pos: "n.", chinese: "壓力" }
+    ],
+    sentence_pattern: { pattern: "S + expect(s) too much from + N + without + V-ing", example: "What do you expect from this course?" }
+  },
+  {
+    phrase: "experiment with",
+    type: "動詞 + 介系詞",
+    chinese: "嘗試、試驗（新事物）",
+    keywords: ["experiment", "with"],
+    example: {
+      english: "The chef loves to experiment with unusual ingredients to create dishes that surprise his guests.",
+      chinese: "那位廚師喜歡嘗試不尋常的食材，以創造出讓賓客驚喜的料理。",
+      grammar_point: "to + V（不定詞片語表目的）；that + 關係子句（修飾先行詞 dishes）"
+    },
+    vocabulary: [
+      { word: "ingredient", pos: "n.", chinese: "食材、成分" },
+      { word: "innovative", pos: "adj.", chinese: "創新的" },
+      { word: "explore", pos: "v.", chinese: "探索、嘗試" }
+    ],
+    sentence_pattern: { pattern: "S + loves to experiment with + N + to + V", example: "Young artists should experiment with different styles." }
+  },
+  {
+    phrase: "explain away",
+    type: "片語動詞",
+    chinese: "為…辯解、用理由搪塞",
+    keywords: ["explain", "away"],
+    example: {
+      english: "He tried to explain away his long absence with a series of unconvincing excuses.",
+      chinese: "他試圖用一連串缺乏說服力的藉口搪塞他長期缺席的事。",
+      grammar_point: "try to + V（試圖做某事）；with + N（用…，介系詞片語表方式）"
+    },
+    vocabulary: [
+      { word: "absence", pos: "n.", chinese: "缺席、不在" },
+      { word: "unconvincing", pos: "adj.", chinese: "不具說服力的" },
+      { word: "justify", pos: "v.", chinese: "為…辯護" }
+    ],
+    sentence_pattern: { pattern: "S + tried to explain away + N + with + N", example: "You can't explain away the evidence with a simple apology." }
+  },
+  {
+    phrase: "focus upon",
+    type: "動詞 + 介系詞",
+    chinese: "將注意力集中於、專注於",
+    keywords: ["focus", "upon"],
+    example: {
+      english: "The research team decided to focus upon the long-term effects of screen time on children.",
+      chinese: "研究團隊決定專注於螢幕使用時間對兒童的長期影響。",
+      grammar_point: "decided to + V（決定做某事）；on + N（在…方面）"
+    },
+    vocabulary: [
+      { word: "research", pos: "n.", chinese: "研究" },
+      { word: "effect", pos: "n.", chinese: "影響、效果" },
+      { word: "concentrate", pos: "v.", chinese: "集中、專注" }
+    ],
+    sentence_pattern: { pattern: "S + decided to focus upon + N + of + N", example: "The new policy focuses upon reducing carbon emissions." }
+  },
+  {
+    phrase: "follow from",
+    type: "動詞 + 介系詞",
+    chinese: "由…得出結論；是…的必然結果",
+    keywords: ["follow", "from"],
+    example: {
+      english: "It follows from the data that a stricter policy on pollution is urgently needed.",
+      chinese: "從數據可以得出結論，迫切需要更嚴格的污染防治政策。",
+      grammar_point: "It follows from + N + that + S + V（由此得出…的結論）"
+    },
+    vocabulary: [
+      { word: "data", pos: "n.", chinese: "數據、資料" },
+      { word: "conclusion", pos: "n.", chinese: "結論" },
+      { word: "imply", pos: "v.", chinese: "暗示、意味著" }
+    ],
+    sentence_pattern: { pattern: "It follows from + N + that + S + V", example: "This argument follows logically from the evidence presented." }
+  },
+  {
+    phrase: "frown upon",
+    type: "片語動詞",
+    chinese: "不贊成、對…皺眉頭（表示不認可）",
+    keywords: ["frown", "upon"],
+    example: {
+      english: "Using a mobile phone during a meeting is generally frowned upon in professional settings.",
+      chinese: "在會議中使用手機在專業場合通常是不被認可的行為。",
+      grammar_point: "be frowned upon（被動語態，表示被普遍認為不妥）；in + N（在…場合）"
+    },
+    vocabulary: [
+      { word: "disapprove", pos: "v.", chinese: "不贊成、反對" },
+      { word: "professional", pos: "adj.", chinese: "專業的" },
+      { word: "etiquette", pos: "n.", chinese: "禮儀、規矩" }
+    ],
+    sentence_pattern: { pattern: "V-ing + is generally frowned upon in + N", example: "Littering in public is frowned upon in most countries." }
+  },
+  {
+    phrase: "give forth",
+    type: "片語動詞",
+    chinese: "發出（聲音、氣味、光）；發表（意見）",
+    keywords: ["give", "forth"],
+    example: {
+      english: "The old fireplace gave forth a warm glow that filled the entire room with a cosy feeling.",
+      chinese: "老壁爐發出溫暖的光芒，讓整個房間充滿了舒適的感覺。",
+      grammar_point: "that + 關係子句（修飾先行詞 glow）；filled with（使充滿）"
+    },
+    vocabulary: [
+      { word: "glow", pos: "n.", chinese: "光芒、柔和的光" },
+      { word: "emit", pos: "v.", chinese: "散發、發出" },
+      { word: "cosy", pos: "adj.", chinese: "舒適的、溫馨的" }
+    ],
+    sentence_pattern: { pattern: "N + gave forth + N + that + V", example: "The roses gave forth a sweet fragrance in the morning air." }
+  },
+  {
+    phrase: "go beyond",
+    type: "動詞 + 介系詞",
+    chinese: "超越、超出（範圍或限制）",
+    keywords: ["go", "beyond"],
+    example: {
+      english: "True kindness goes beyond simply following rules — it comes from genuine care for others.",
+      chinese: "真正的善意超越了單純遵守規則，它來自對他人真誠的關懷。",
+      grammar_point: "goes beyond + V-ing（超越做某事的層面）；it comes from（它源自…）"
+    },
+    vocabulary: [
+      { word: "genuine", pos: "adj.", chinese: "真誠的、真正的" },
+      { word: "exceed", pos: "v.", chinese: "超越、超出" },
+      { word: "limitation", pos: "n.", chinese: "限制、局限" }
+    ],
+    sentence_pattern: { pattern: "N + goes beyond + V-ing — it comes from + N", example: "His ambitions go beyond what most people dare to dream." }
+  },
+  {
+    phrase: "hand in hand",
+    type: "片語",
+    chinese: "手牽手；相互關聯、相輔相成",
+    keywords: ["hand", "in", "hand"],
+    example: {
+      english: "Economic development and environmental protection must go hand in hand if we want a sustainable future.",
+      chinese: "如果我們想要一個永續的未來，經濟發展和環境保護必須相輔相成。",
+      grammar_point: "must + V（情態動詞表必要性）；if + S + V（條件子句）"
+    },
+    vocabulary: [
+      { word: "sustainable", pos: "adj.", chinese: "永續的、可持續的" },
+      { word: "complement", pos: "v.", chinese: "補充、相輔相成" },
+      { word: "inseparable", pos: "adj.", chinese: "不可分割的" }
+    ],
+    sentence_pattern: { pattern: "N + and + N + must go hand in hand if + S + V", example: "The two children walked hand in hand across the playground." }
+  },
+  {
+    phrase: "happen upon",
+    type: "片語動詞",
+    chinese: "偶然發現、碰巧遇到",
+    keywords: ["happen", "upon"],
+    example: {
+      english: "While exploring the old town, she happened upon a tiny antique shop full of fascinating items.",
+      chinese: "在探索老城區時，她偶然發現了一家擺滿迷人物品的小古董店。",
+      grammar_point: "while + V-ing（時間副詞子句的省略形式）；full of（充滿…，形容詞片語）"
+    },
+    vocabulary: [
+      { word: "antique", pos: "n.", chinese: "古董" },
+      { word: "stumble upon", pos: "phr. v.", chinese: "偶然發現" },
+      { word: "fascinating", pos: "adj.", chinese: "迷人的、令人著迷的" }
+    ],
+    sentence_pattern: { pattern: "While + V-ing, S + happened upon + N + full of + N", example: "I happened upon an old letter while cleaning the attic." }
+  },
+  {
+    phrase: "hesitate over",
+    type: "動詞 + 介系詞",
+    chinese: "對…猶豫不決",
+    keywords: ["hesitate", "over"],
+    example: {
+      english: "Don't hesitate over small decisions — learn to trust your instincts and move forward.",
+      chinese: "不要在小決定上猶豫不決——學會相信你的直覺，勇往直前。",
+      grammar_point: "Don't + V（祈使句，表示建議或命令）；learn to + V（學著去做某事）"
+    },
+    vocabulary: [
+      { word: "instinct", pos: "n.", chinese: "直覺、本能" },
+      { word: "indecisive", pos: "adj.", chinese: "優柔寡斷的" },
+      { word: "waver", pos: "v.", chinese: "猶豫、動搖" }
+    ],
+    sentence_pattern: { pattern: "Don't hesitate over + N — learn to + V", example: "She hesitated over whether to accept the job offer." }
+  },
+  {
+    phrase: "hunger for",
+    type: "動詞 + 介系詞",
+    chinese: "渴望、強烈希望得到",
+    keywords: ["hunger", "for"],
+    example: {
+      english: "After years of hardship, the community hungers for stability, safety, and a better quality of life.",
+      chinese: "經歷多年的艱辛後，這個社區渴望穩定、安全和更好的生活品質。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）"
+    },
+    vocabulary: [
+      { word: "hardship", pos: "n.", chinese: "艱辛、困苦" },
+      { word: "crave", pos: "v.", chinese: "渴望、切望" },
+      { word: "stability", pos: "n.", chinese: "穩定性" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + hungers for + N", example: "Young people hunger for opportunities to prove themselves." }
+  },
+  {
+    phrase: "impose on",
+    type: "動詞 + 介系詞",
+    chinese: "強加於；打擾、麻煩（某人）",
+    keywords: ["impose", "on"],
+    example: {
+      english: "It is unfair to impose your personal beliefs on others who do not share the same views.",
+      chinese: "把你個人的信念強加於不認同相同觀點的人是不公平的。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；who + 關係子句（修飾先行詞 others）"
+    },
+    vocabulary: [
+      { word: "belief", pos: "n.", chinese: "信念、信仰" },
+      { word: "enforce", pos: "v.", chinese: "強制執行、強加" },
+      { word: "intrude", pos: "v.", chinese: "侵入、打擾" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to impose + N + on + 人 + who + V", example: "I don't want to impose on your hospitality." }
+  },
+  {
+    phrase: "increase by",
+    type: "動詞 + 介系詞",
+    chinese: "增加了（某數量或比例）",
+    keywords: ["increase", "by"],
+    example: {
+      english: "The number of international students enrolled at the university increased by thirty percent last year.",
+      chinese: "去年該大學就讀的國際學生人數增加了百分之三十。",
+      grammar_point: "increased by + 數量/百分比（增加了…，by 表示增加的幅度）"
+    },
+    vocabulary: [
+      { word: "enroll", pos: "v.", chinese: "入學、登記" },
+      { word: "percent", pos: "n.", chinese: "百分比" },
+      { word: "rise", pos: "v.", chinese: "上升、增加" }
+    ],
+    sentence_pattern: { pattern: "N + increased by + 數量 + 時間", example: "Our sales have increased by fifty percent this quarter." }
+  },
+  {
+    phrase: "lie back",
+    type: "片語動詞",
+    chinese: "向後躺、靠著休息",
+    keywords: ["lie", "back"],
+    example: {
+      english: "After a long and tiring day, she lay back on the sofa and closed her eyes to rest.",
+      chinese: "在漫長而疲憊的一天後，她向後躺在沙發上，閉上眼睛休息。",
+      grammar_point: "after + N（介系詞片語表時間）；and + V（連接兩個平行動作）"
+    },
+    vocabulary: [
+      { word: "recline", pos: "v.", chinese: "向後靠、斜躺" },
+      { word: "relax", pos: "v.", chinese: "放鬆" },
+      { word: "exhausted", pos: "adj.", chinese: "精疲力竭的" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + lay back on + N + and + V", example: "Just lie back and let the music wash over you." }
+  },
+  {
+    phrase: "link to",
+    type: "動詞 + 介系詞",
+    chinese: "與…相關聯；連結到",
+    keywords: ["link", "to"],
+    example: {
+      english: "Scientists have found strong evidence linking prolonged stress to a higher risk of heart disease.",
+      chinese: "科學家發現有力的證據，將長期壓力與較高的心臟病風險相關聯。",
+      grammar_point: "linking + N + to + N（分詞片語作後置修飾，表示關聯）"
+    },
+    vocabulary: [
+      { word: "prolonged", pos: "adj.", chinese: "長期的、持續的" },
+      { word: "evidence", pos: "n.", chinese: "證據" },
+      { word: "associate", pos: "v.", chinese: "與…聯繫、關聯" }
+    ],
+    sentence_pattern: { pattern: "S + found evidence linking + N + to + N", example: "This button links to the homepage of the website." }
+  },
+  {
+    phrase: "merge into",
+    type: "動詞 + 介系詞",
+    chinese: "融入、混入；合併成為",
+    keywords: ["merge", "into"],
+    example: {
+      english: "The shy new student gradually merged into the class and made several close friends over time.",
+      chinese: "那位害羞的新同學逐漸融入班級，並隨著時間結交了幾位親密的朋友。",
+      grammar_point: "gradually + V（副詞修飾動詞，表示漸進過程）；over time（隨著時間）"
+    },
+    vocabulary: [
+      { word: "blend", pos: "v.", chinese: "融合、混合" },
+      { word: "assimilate", pos: "v.", chinese: "融入、同化" },
+      { word: "integrate", pos: "v.", chinese: "整合、融合" }
+    ],
+    sentence_pattern: { pattern: "S + gradually merged into + N + and + V + over time", example: "The two lanes merge into one further ahead." }
+  },
+  {
+    phrase: "mix in",
+    type: "片語動詞",
+    chinese: "加入攪拌、混入；融入（群體）",
+    keywords: ["mix", "in"],
+    example: {
+      english: "Mix in the flour slowly until the batter is smooth and there are no lumps remaining.",
+      chinese: "慢慢加入麵粉攪拌，直到麵糊滑順且沒有剩餘的結塊。",
+      grammar_point: "until + S + V（直到…為止，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "batter", pos: "n.", chinese: "麵糊" },
+      { word: "lump", pos: "n.", chinese: "結塊、塊狀物" },
+      { word: "blend", pos: "v.", chinese: "混合、攪拌" }
+    ],
+    sentence_pattern: { pattern: "Mix in + N + until + S + V", example: "She mixed in easily with the new group of colleagues." }
+  },
+  {
+    phrase: "move along",
+    type: "片語動詞",
+    chinese: "繼續前進；（請人）移動、散開",
+    keywords: ["move", "along"],
+    example: {
+      english: "The police officer asked the crowd to move along and not block the entrance to the building.",
+      chinese: "警察要求人群繼續移動，不要堵住大樓入口。",
+      grammar_point: "ask + 人 + to + V（要求某人做某事）"
+    },
+    vocabulary: [
+      { word: "crowd", pos: "n.", chinese: "人群" },
+      { word: "entrance", pos: "n.", chinese: "入口" },
+      { word: "proceed", pos: "v.", chinese: "繼續前進" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to move along and not + V", example: "Let's move along — we still have a lot to cover today." }
+  },
+  {
+    phrase: "move towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…方向移動；逐漸走向",
+    keywords: ["move", "towards"],
+    example: {
+      english: "Many countries are now moving towards renewable energy to reduce their dependence on fossil fuels.",
+      chinese: "許多國家現在正逐漸走向可再生能源，以減少對化石燃料的依賴。",
+      grammar_point: "are + V-ing（現在進行式，表示正在進行的趨勢）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "renewable", pos: "adj.", chinese: "可再生的" },
+      { word: "dependence", pos: "n.", chinese: "依賴、依存" },
+      { word: "transition", pos: "n.", chinese: "過渡、轉變" }
+    ],
+    sentence_pattern: { pattern: "S + are moving towards + N + to + V", example: "We are moving towards a paperless office environment." }
+  },
+  {
+    phrase: "pass off",
+    type: "片語動詞",
+    chinese: "冒充、假冒；（事件）順利進行",
+    keywords: ["pass", "off"],
+    example: {
+      english: "He tried to pass off the counterfeit painting as an original work by a famous artist.",
+      chinese: "他試圖將那幅偽造的畫作冒充為一位著名藝術家的原作。",
+      grammar_point: "try to + V（試圖做某事）；as + N（以…的身分，表示冒充）"
+    },
+    vocabulary: [
+      { word: "counterfeit", pos: "adj.", chinese: "偽造的、假冒的" },
+      { word: "deceive", pos: "v.", chinese: "欺騙" },
+      { word: "authentic", pos: "adj.", chinese: "真實的、真品的" }
+    ],
+    sentence_pattern: { pattern: "S + tried to pass off + N + as + N", example: "The ceremony passed off without any problems." }
+  },
+  {
+    phrase: "pay into",
+    type: "動詞 + 介系詞",
+    chinese: "存入、繳款至（帳戶或基金）",
+    keywords: ["pay", "into"],
+    example: {
+      english: "Employees are required to pay into the company pension fund every month as part of their contract.",
+      chinese: "員工根據合約規定，每月須繳款至公司退休金基金。",
+      grammar_point: "are required to + V（被動語態，表示被要求做某事）；as part of + N（作為…的一部分）"
+    },
+    vocabulary: [
+      { word: "pension", pos: "n.", chinese: "退休金、養老金" },
+      { word: "contribute", pos: "v.", chinese: "貢獻、繳納" },
+      { word: "fund", pos: "n.", chinese: "基金、資金" }
+    ],
+    sentence_pattern: { pattern: "S + are required to pay into + N + every + 時間", example: "She pays into a savings account every month." }
+  },
+  {
+    phrase: "phase in",
+    type: "片語動詞",
+    chinese: "逐步引入、分階段實施",
+    keywords: ["phase", "in"],
+    example: {
+      english: "The new regulations will be phased in gradually over the next three years to give businesses time to adapt.",
+      chinese: "新法規將在未來三年內逐步實施，以給予企業時間來適應。",
+      grammar_point: "will be phased in（被動語態）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "regulation", pos: "n.", chinese: "法規、規定" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "implement", pos: "v.", chinese: "實施、執行" }
+    ],
+    sentence_pattern: { pattern: "N + will be phased in + adv + over + 時間 + to + V", example: "The new system will be phased in starting next quarter." }
+  },
+  {
+    phrase: "pick apart",
+    type: "片語動詞",
+    chinese: "逐一批評、詳細分析（找出缺陷）",
+    keywords: ["pick", "apart"],
+    example: {
+      english: "The professor picked apart every argument in the student's essay during the feedback session.",
+      chinese: "教授在回饋課上逐一批評了學生論文中的每一個論點。",
+      grammar_point: "during + N（介系詞片語表時間）"
+    },
+    vocabulary: [
+      { word: "critique", pos: "v.", chinese: "批評、評析" },
+      { word: "argument", pos: "n.", chinese: "論點、論證" },
+      { word: "analyze", pos: "v.", chinese: "分析" }
+    ],
+    sentence_pattern: { pattern: "S + picked apart + N + during + N", example: "Critics picked apart the film's weak storyline." }
+  },
+  {
+    phrase: "play off",
+    type: "片語動詞",
+    chinese: "利用（對立面）相互制衡；加賽決勝",
+    keywords: ["play", "off"],
+    example: {
+      english: "The manager cleverly played off the two competing suppliers against each other to get a better price.",
+      chinese: "經理巧妙地利用兩家競爭供應商相互角力，以獲得更好的價格。",
+      grammar_point: "play + N + off against + N（使兩方相互對立以獲利）"
+    },
+    vocabulary: [
+      { word: "supplier", pos: "n.", chinese: "供應商" },
+      { word: "competing", pos: "adj.", chinese: "競爭的" },
+      { word: "leverage", pos: "v.", chinese: "利用、槓桿操作" }
+    ],
+    sentence_pattern: { pattern: "S + played off + N + against + N + to + V", example: "The two teams will play off for third place tomorrow." }
+  },
+  {
+    phrase: "point towards",
+    type: "動詞 + 介系詞",
+    chinese: "指向；暗示、表明",
+    keywords: ["point", "towards"],
+    example: {
+      english: "All the evidence collected so far points towards a significant link between diet and mental health.",
+      chinese: "迄今蒐集的所有證據都指向飲食與心理健康之間存在顯著的關聯。",
+      grammar_point: "collected so far（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "evidence", pos: "n.", chinese: "證據" },
+      { word: "indicate", pos: "v.", chinese: "表明、指出" },
+      { word: "significant", pos: "adj.", chinese: "顯著的、重大的" }
+    ],
+    sentence_pattern: { pattern: "N + points towards + N + between + N + and + N", example: "The arrow points towards the nearest exit." }
+  },
+  {
+    phrase: "profit by",
+    type: "動詞 + 介系詞",
+    chinese: "從…中獲益、藉由…得到好處",
+    keywords: ["profit", "by"],
+    example: {
+      english: "A wise person learns to profit by their past mistakes rather than simply feeling ashamed of them.",
+      chinese: "聰明的人學會從過去的錯誤中獲益，而非只是對其感到羞愧。",
+      grammar_point: "rather than + V-ing（而非…，表示對比）"
+    },
+    vocabulary: [
+      { word: "wise", pos: "adj.", chinese: "明智的" },
+      { word: "benefit", pos: "v.", chinese: "獲益、得益" },
+      { word: "ashamed", pos: "adj.", chinese: "感到羞愧的" }
+    ],
+    sentence_pattern: { pattern: "S + learns to profit by + N + rather than + V-ing", example: "We should profit by the experience of those who came before us." }
+  },
+  {
+    phrase: "provide with",
+    type: "動詞 + 介系詞",
+    chinese: "提供（某人某物）",
+    keywords: ["provide", "with"],
+    example: {
+      english: "The school provides all students with free textbooks and learning materials at the start of each year.",
+      chinese: "學校在每學年開始時為所有學生提供免費的教科書和學習材料。",
+      grammar_point: "provide + 人 + with + N（提供某人某物）；at the start of + N（在…開始時）"
+    },
+    vocabulary: [
+      { word: "textbook", pos: "n.", chinese: "教科書" },
+      { word: "material", pos: "n.", chinese: "材料、資料" },
+      { word: "supply", pos: "v.", chinese: "供應、提供" }
+    ],
+    sentence_pattern: { pattern: "S + provides + 人 + with + N + at the start of + N", example: "The company provides employees with health insurance." }
+  },
+  {
+    phrase: "put behind",
+    type: "片語動詞",
+    chinese: "將…拋在腦後、忘掉（不愉快的過去）",
+    keywords: ["put", "behind"],
+    example: {
+      english: "After a painful breakup, it took her months to put the difficult experience behind her.",
+      chinese: "在痛苦的分手之後，她花了幾個月才將那段艱難的經歷拋在腦後。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "breakup", pos: "n.", chinese: "分手" },
+      { word: "overcome", pos: "v.", chinese: "克服、超越" },
+      { word: "move on", pos: "phr. v.", chinese: "繼續前進、放下" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to put + N + behind + 人", example: "It's time to put the past behind you and start fresh." }
+  },
+  {
+    phrase: "put into",
+    type: "片語動詞",
+    chinese: "投入（時間、精力）；將…放入",
+    keywords: ["put", "into"],
+    example: {
+      english: "You can clearly see the effort and passion she put into every painting she creates.",
+      chinese: "你可以清楚地看到她在所創作的每一幅畫中投入的努力和熱情。",
+      grammar_point: "she put into（關係子句省略關代，修飾先行詞 effort and passion）"
+    },
+    vocabulary: [
+      { word: "effort", pos: "n.", chinese: "努力、心力" },
+      { word: "passion", pos: "n.", chinese: "熱情" },
+      { word: "invest", pos: "v.", chinese: "投入、投資" }
+    ],
+    sentence_pattern: { pattern: "S + can see the + N + S + put into + N", example: "You get out what you put into it." }
+  },
+  {
+    phrase: "read into",
+    type: "片語動詞",
+    chinese: "過度解讀、把…理解為（比實際更多的意思）",
+    keywords: ["read", "into"],
+    example: {
+      english: "Don't read too much into his silence — he was probably just tired after a long day.",
+      chinese: "不要過度解讀他的沉默——他很可能只是在漫長的一天後感到疲倦。",
+      grammar_point: "Don't + V（祈使句，表示建議）；probably（副詞，表示可能性）"
+    },
+    vocabulary: [
+      { word: "interpret", pos: "v.", chinese: "詮釋、解讀" },
+      { word: "assume", pos: "v.", chinese: "假設、臆測" },
+      { word: "overanalyze", pos: "v.", chinese: "過度分析" }
+    ],
+    sentence_pattern: { pattern: "Don't read too much into + N — S + probably + V", example: "I think you're reading too much into what she said." }
+  },
+  {
+    phrase: "reason about",
+    type: "動詞 + 介系詞",
+    chinese: "就…進行推理、理性思考",
+    keywords: ["reason", "about"],
+    example: {
+      english: "Children should be taught how to reason about ethical problems from an early age.",
+      chinese: "應該從小教導孩子如何對道德問題進行理性思考。",
+      grammar_point: "should be taught + how to + V（被動語態，表示應被教導如何做）"
+    },
+    vocabulary: [
+      { word: "ethical", pos: "adj.", chinese: "道德的、倫理的" },
+      { word: "logic", pos: "n.", chinese: "邏輯" },
+      { word: "analyze", pos: "v.", chinese: "分析" }
+    ],
+    sentence_pattern: { pattern: "S + should be taught how to reason about + N", example: "It's important to reason carefully about the consequences of your actions." }
+  },
+  {
+    phrase: "refer back",
+    type: "片語動詞",
+    chinese: "再次查閱、回頭參考；退回（給原單位）",
+    keywords: ["refer", "back"],
+    example: {
+      english: "If you are unsure about any of the rules, please refer back to the guidelines provided at the start.",
+      chinese: "如果您對任何規則不確定，請回頭參考一開始提供的指引。",
+      grammar_point: "If + S + V（條件子句）；provided at the start（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "guideline", pos: "n.", chinese: "指引、準則" },
+      { word: "consult", pos: "v.", chinese: "查閱、請教" },
+      { word: "review", pos: "v.", chinese: "複習、回顧" }
+    ],
+    sentence_pattern: { pattern: "If + S + V, please refer back to + N", example: "You can always refer back to your notes during the open-book test." }
+  },
+  {
+    phrase: "reflect upon",
+    type: "動詞 + 介系詞",
+    chinese: "深思、反省（某事）",
+    keywords: ["reflect", "upon"],
+    example: {
+      english: "Taking time to reflect upon your experiences helps you grow as a person and avoid past mistakes.",
+      chinese: "花時間反省自己的經歷有助於你個人成長，並避免重蹈過去的錯誤。",
+      grammar_point: "Taking time to + V（動名詞片語作主詞）；helps + 人 + V（幫助某人做某事）"
+    },
+    vocabulary: [
+      { word: "ponder", pos: "v.", chinese: "深思、琢磨" },
+      { word: "growth", pos: "n.", chinese: "成長" },
+      { word: "introspect", pos: "v.", chinese: "自我反省、內省" }
+    ],
+    sentence_pattern: { pattern: "V-ing + to reflect upon + N + helps + 人 + V", example: "She sat quietly by the lake, reflecting upon her life choices." }
+  },
+  {
+    phrase: "refocus on",
+    type: "動詞 + 介系詞",
+    chinese: "重新將注意力集中在、重新聚焦於",
+    keywords: ["refocus", "on"],
+    example: {
+      english: "After a short break, the team refocused on the main objective and worked with renewed energy.",
+      chinese: "短暫休息後，團隊重新聚焦於主要目標，並以煥然一新的活力繼續工作。",
+      grammar_point: "after + N（介系詞片語表時間）；with + N（帶著…，表示伴隨狀態）"
+    },
+    vocabulary: [
+      { word: "objective", pos: "n.", chinese: "目標" },
+      { word: "renewed", pos: "adj.", chinese: "重新振作的、煥然一新的" },
+      { word: "redirect", pos: "v.", chinese: "重新導向、重新聚焦" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + refocused on + N + and + V", example: "Let's refocus on what really matters here." }
+  },
+  {
+    phrase: "remain on",
+    type: "動詞 + 介系詞",
+    chinese: "繼續留在；持續關注",
+    keywords: ["remain", "on"],
+    example: {
+      english: "The suspect was ordered to remain on the property and not leave until further notice.",
+      chinese: "嫌疑人被命令繼續留在該處，直至另行通知前不得離開。",
+      grammar_point: "was ordered to + V（被動語態，表示被命令做某事）；until further notice（直至另行通知）"
+    },
+    vocabulary: [
+      { word: "suspect", pos: "n.", chinese: "嫌疑人" },
+      { word: "property", pos: "n.", chinese: "財產、場所" },
+      { word: "notice", pos: "n.", chinese: "通知" }
+    ],
+    sentence_pattern: { pattern: "S + was ordered to remain on + N + until + N", example: "Please remain on the line while I transfer your call." }
+  },
+  {
+    phrase: "report on",
+    type: "動詞 + 介系詞",
+    chinese: "報導、匯報（某事）",
+    keywords: ["report", "on"],
+    example: {
+      english: "The journalist was sent overseas to report on the ongoing conflict and its impact on civilians.",
+      chinese: "那名記者被派往海外報導持續中的衝突及其對平民的影響。",
+      grammar_point: "was sent + to + V（被動語態，表示被派遣做某事）"
+    },
+    vocabulary: [
+      { word: "journalist", pos: "n.", chinese: "記者" },
+      { word: "conflict", pos: "n.", chinese: "衝突" },
+      { word: "civilian", pos: "n.", chinese: "平民" }
+    ],
+    sentence_pattern: { pattern: "S + was sent + 地點 + to report on + N", example: "Each student must report on a different country's culture." }
+  },
+  {
+    phrase: "result through",
+    type: "動詞 + 介系詞",
+    chinese: "藉由…產生、透過…所導致的結果",
+    keywords: ["result", "through"],
+    example: {
+      english: "The most lasting changes in society result through the dedicated efforts of ordinary people over time.",
+      chinese: "社會中最持久的變革是透過普通人長年累月的不懈努力而產生的。",
+      grammar_point: "over time（隨著時間，表示長期累積）"
+    },
+    vocabulary: [
+      { word: "lasting", pos: "adj.", chinese: "持久的、長久的" },
+      { word: "dedicated", pos: "adj.", chinese: "投入的、盡力的" },
+      { word: "achievement", pos: "n.", chinese: "成就" }
+    ],
+    sentence_pattern: { pattern: "N + result(s) through + N + over time", example: "Progress results through consistent daily effort." }
+  },
+  {
+    phrase: "scale back",
+    type: "片語動詞",
+    chinese: "縮減規模、降低幅度",
+    keywords: ["scale", "back"],
+    example: {
+      english: "Due to budget cuts, the company was forced to scale back its plans for the new headquarters.",
+      chinese: "由於預算削減，公司被迫縮減新總部的建設計畫。",
+      grammar_point: "due to + N（由於…，介系詞片語表原因）；was forced to + V（被迫做某事）"
+    },
+    vocabulary: [
+      { word: "headquarters", pos: "n.", chinese: "總部" },
+      { word: "reduce", pos: "v.", chinese: "縮減、減少" },
+      { word: "budget", pos: "n.", chinese: "預算" }
+    ],
+    sentence_pattern: { pattern: "Due to + N, S + was forced to scale back + N", example: "They decided to scale back the event due to bad weather." }
+  },
+  {
+    phrase: "scale up",
+    type: "片語動詞",
+    chinese: "擴大規模、提升產能",
+    keywords: ["scale", "up"],
+    example: {
+      english: "The startup is ready to scale up its production now that demand for its product has grown significantly.",
+      chinese: "這家新創公司已準備好擴大生產規模，因為其產品的需求已大幅增長。",
+      grammar_point: "now that + S + V（既然…，表示理由的副詞子句）"
+    },
+    vocabulary: [
+      { word: "startup", pos: "n.", chinese: "新創公司" },
+      { word: "production", pos: "n.", chinese: "生產" },
+      { word: "expand", pos: "v.", chinese: "擴大、擴展" }
+    ],
+    sentence_pattern: { pattern: "S + is ready to scale up + N + now that + S + V", example: "We need to scale up operations to meet growing demand." }
+  },
+  {
+    phrase: "search through",
+    type: "片語動詞",
+    chinese: "仔細翻找、逐一搜尋",
+    keywords: ["search", "through"],
+    example: {
+      english: "She searched through every drawer in the room but could not find the missing document.",
+      chinese: "她翻遍了房間裡的每一個抽屜，但還是找不到那份遺失的文件。",
+      grammar_point: "but + S + could not + V（轉折，表示結果不如預期）"
+    },
+    vocabulary: [
+      { word: "drawer", pos: "n.", chinese: "抽屜" },
+      { word: "rummage", pos: "v.", chinese: "翻找、搜尋" },
+      { word: "document", pos: "n.", chinese: "文件" }
+    ],
+    sentence_pattern: { pattern: "S + searched through + N + but + S + could not + V", example: "I searched through my bag but couldn't find my keys." }
+  },
+  {
+    phrase: "shift from",
+    type: "動詞 + 介系詞",
+    chinese: "從…轉變、由…移開",
+    keywords: ["shift", "from"],
+    example: {
+      english: "The company is shifting from traditional retail to online sales in response to changing consumer habits.",
+      chinese: "該公司正因應消費者習慣的改變，從傳統零售轉向線上銷售。",
+      grammar_point: "is + V-ing（現在進行式，表示正在進行的變化）；in response to + N（因應…）"
+    },
+    vocabulary: [
+      { word: "retail", pos: "n.", chinese: "零售" },
+      { word: "consumer", pos: "n.", chinese: "消費者" },
+      { word: "transition", pos: "n.", chinese: "過渡、轉變" }
+    ],
+    sentence_pattern: { pattern: "S + is shifting from + N + to + N + in response to + N", example: "Public opinion has shifted from support to opposition." }
+  },
+  {
+    phrase: "shoot for",
+    type: "片語動詞",
+    chinese: "以…為目標、力爭",
+    keywords: ["shoot", "for"],
+    example: {
+      english: "Don't settle for average when you have the talent and ability to shoot for the top.",
+      chinese: "當你擁有才能和能力時，不要甘於平庸，要以頂尖為目標。",
+      grammar_point: "when + S + V（時間副詞子句）；Don't settle for（不要滿足於，祈使句）"
+    },
+    vocabulary: [
+      { word: "aim", pos: "v.", chinese: "瞄準、以…為目標" },
+      { word: "ambition", pos: "n.", chinese: "抱負、志向" },
+      { word: "talent", pos: "n.", chinese: "才能、天賦" }
+    ],
+    sentence_pattern: { pattern: "Don't settle for + N + when + S + can shoot for + N", example: "We're shooting for a record-breaking sales figure this quarter." }
+  },
+  {
+    phrase: "speak against",
+    type: "動詞 + 介系詞",
+    chinese: "公開反對、發言反對",
+    keywords: ["speak", "against"],
+    example: {
+      english: "It takes great courage to speak against injustice, especially when others are unwilling to do so.",
+      chinese: "公開反對不公正需要極大的勇氣，尤其是在其他人不願意這樣做的時候。",
+      grammar_point: "It takes + N + to + V（需要…才能做某事）；especially when（尤其是當…）"
+    },
+    vocabulary: [
+      { word: "injustice", pos: "n.", chinese: "不公正" },
+      { word: "oppose", pos: "v.", chinese: "反對" },
+      { word: "courage", pos: "n.", chinese: "勇氣" }
+    ],
+    sentence_pattern: { pattern: "It takes + N + to speak against + N, especially when + S + V", example: "She was the only one who dared to speak against the policy." }
+  },
+  {
+    phrase: "speculate about",
+    type: "動詞 + 介系詞",
+    chinese: "就…進行推測、猜測",
+    keywords: ["speculate", "about"],
+    example: {
+      english: "It is too early to speculate about the cause of the accident before a full investigation is completed.",
+      chinese: "在全面調查完成之前，現在對事故原因進行推測還為時過早。",
+      grammar_point: "It is too + adj + to + V（太…而不能做某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "investigation", pos: "n.", chinese: "調查" },
+      { word: "assume", pos: "v.", chinese: "假設、臆測" },
+      { word: "rumour", pos: "n.", chinese: "謠言、傳言" }
+    ],
+    sentence_pattern: { pattern: "It is too early to speculate about + N + before + S + V", example: "The media began to speculate about who would win the election." }
+  },
+  {
+    phrase: "stand against",
+    type: "動詞 + 介系詞",
+    chinese: "反對、對抗；堅決抵制",
+    keywords: ["stand", "against"],
+    example: {
+      english: "Every citizen has a duty to stand against corruption and demand accountability from those in power.",
+      chinese: "每位公民都有責任反對腐敗，並要求掌權者負責。",
+      grammar_point: "has a duty to + V（有責任做某事）；those in power（掌權者，名詞片語）"
+    },
+    vocabulary: [
+      { word: "corruption", pos: "n.", chinese: "腐敗、貪污" },
+      { word: "accountability", pos: "n.", chinese: "問責" },
+      { word: "resist", pos: "v.", chinese: "抵抗、反對" }
+    ],
+    sentence_pattern: { pattern: "S + has a duty to stand against + N + and + V", example: "They stood against the proposed changes to the law." }
+  },
+  {
+    phrase: "steer away from",
+    type: "片語動詞",
+    chinese: "引導遠離、避開",
+    keywords: ["steer", "away", "from"],
+    example: {
+      english: "Parents should steer their children away from content that promotes violence or harmful behaviour.",
+      chinese: "父母應引導孩子遠離宣揚暴力或有害行為的內容。",
+      grammar_point: "steer + 人 + away from + N（引導某人遠離某事）；that + 關係子句（修飾先行詞 content）"
+    },
+    vocabulary: [
+      { word: "harmful", pos: "adj.", chinese: "有害的" },
+      { word: "avoid", pos: "v.", chinese: "避免、避開" },
+      { word: "influence", pos: "n.", chinese: "影響" }
+    ],
+    sentence_pattern: { pattern: "S + should steer + 人 + away from + N + that + V", example: "Try to steer away from arguments that go nowhere." }
+  },
+  {
+    phrase: "strive for",
+    type: "動詞 + 介系詞",
+    chinese: "努力追求、力求（某目標）",
+    keywords: ["strive", "for"],
+    example: {
+      english: "Great athletes constantly strive for improvement, never allowing themselves to become complacent.",
+      chinese: "偉大的運動員不斷努力追求進步，絕不讓自己變得自滿。",
+      grammar_point: "never + V-ing（分詞構句，表示同時的否定狀態）"
+    },
+    vocabulary: [
+      { word: "improvement", pos: "n.", chinese: "進步、改善" },
+      { word: "complacent", pos: "adj.", chinese: "自滿的" },
+      { word: "pursue", pos: "v.", chinese: "追求" }
+    ],
+    sentence_pattern: { pattern: "S + constantly strive(s) for + N, never + V-ing", example: "We should always strive for excellence in everything we do." }
+  },
+  {
+    phrase: "switch between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間切換",
+    keywords: ["switch", "between"],
+    example: {
+      english: "Skilled translators can switch between languages effortlessly without losing the original meaning.",
+      chinese: "熟練的譯者能毫不費力地在語言之間切換，同時不失去原意。",
+      grammar_point: "can + V（情態動詞表能力）；without + V-ing（在不…的情況下）"
+    },
+    vocabulary: [
+      { word: "effortlessly", pos: "adv.", chinese: "毫不費力地" },
+      { word: "translator", pos: "n.", chinese: "譯者" },
+      { word: "alternate", pos: "v.", chinese: "交替、輪換" }
+    ],
+    sentence_pattern: { pattern: "S + can switch between + N + without + V-ing", example: "She switches between working from home and going to the office." }
+  },
+  {
+    phrase: "tend to",
+    type: "動詞 + 介系詞",
+    chinese: "傾向於；照料、照顧",
+    keywords: ["tend", "to"],
+    example: {
+      english: "People who grew up in cities tend to feel uncomfortable when they are surrounded by silence.",
+      chinese: "在城市中長大的人往往在被寂靜包圍時感到不自在。",
+      grammar_point: "who + 關係子句（修飾先行詞 people）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "uncomfortable", pos: "adj.", chinese: "不自在的" },
+      { word: "incline", pos: "v.", chinese: "傾向" },
+      { word: "surrounded", pos: "adj.", chinese: "被包圍的" }
+    ],
+    sentence_pattern: { pattern: "S + who + V + tend(s) to + V + when + S + V", example: "Prices tend to rise during the holiday season." }
+  },
+  {
+    phrase: "throw into",
+    type: "片語動詞",
+    chinese: "使陷入（混亂、困境）；投入",
+    keywords: ["throw", "into"],
+    example: {
+      english: "The sudden resignation of the CEO threw the entire company into a state of confusion and uncertainty.",
+      chinese: "執行長突然辭職，使整個公司陷入混亂和不確定的狀態。",
+      grammar_point: "threw + N + into + N（使某事物陷入某種狀態）"
+    },
+    vocabulary: [
+      { word: "resignation", pos: "n.", chinese: "辭職" },
+      { word: "confusion", pos: "n.", chinese: "混亂、困惑" },
+      { word: "uncertainty", pos: "n.", chinese: "不確定性" }
+    ],
+    sentence_pattern: { pattern: "N + threw + N + into + N", example: "She threw herself into the new project with great enthusiasm." }
+  },
+  {
+    phrase: "understand from",
+    type: "動詞 + 介系詞",
+    chinese: "從…得知、理解為",
+    keywords: ["understand", "from"],
+    example: {
+      english: "I understand from your message that the meeting has been moved to Thursday afternoon.",
+      chinese: "我從你的訊息中得知，會議已改期至週四下午。",
+      grammar_point: "understand from + N + that + S + V（從某來源得知某事）"
+    },
+    vocabulary: [
+      { word: "gather", pos: "v.", chinese: "推斷、得知" },
+      { word: "infer", pos: "v.", chinese: "推斷、推論" },
+      { word: "interpret", pos: "v.", chinese: "理解、詮釋" }
+    ],
+    sentence_pattern: { pattern: "S + understand(s) from + N + that + S + V", example: "I understand from the report that sales have declined." }
+  },
+  {
+    phrase: "unite with",
+    type: "動詞 + 介系詞",
+    chinese: "與…聯合、團結",
+    keywords: ["unite", "with"],
+    example: {
+      english: "The two rival parties agreed to unite with each other in order to defeat their common opponent.",
+      chinese: "兩個對立的黨派同意彼此聯合，以擊敗共同的對手。",
+      grammar_point: "agreed to + V（同意做某事）；in order to + V（為了…，表目的）"
+    },
+    vocabulary: [
+      { word: "rival", pos: "adj.", chinese: "對立的、競爭的" },
+      { word: "opponent", pos: "n.", chinese: "對手" },
+      { word: "alliance", pos: "n.", chinese: "聯盟、同盟" }
+    ],
+    sentence_pattern: { pattern: "S + agreed to unite with + N + in order to + V", example: "Communities must unite with one another to overcome shared challenges." }
+  },
+  {
+    phrase: "vote against",
+    type: "動詞 + 介系詞",
+    chinese: "投票反對",
+    keywords: ["vote", "against"],
+    example: {
+      english: "A majority of council members voted against the proposed development project in the historic district.",
+      chinese: "大多數議員投票反對在歷史街區提出的開發計畫。",
+      grammar_point: "a majority of + N（大多數…）；proposed（過去分詞作形容詞，表示被提出的）"
+    },
+    vocabulary: [
+      { word: "majority", pos: "n.", chinese: "多數、大多數" },
+      { word: "council", pos: "n.", chinese: "議會、委員會" },
+      { word: "oppose", pos: "v.", chinese: "反對" }
+    ],
+    sentence_pattern: { pattern: "A majority of + N + voted against + N", example: "Citizens voted against the new tax proposal." }
+  },
+  {
+    phrase: "wait around",
+    type: "片語動詞",
+    chinese: "無所事事地等待、乾等",
+    keywords: ["wait", "around"],
+    example: {
+      english: "I don't want to wait around all afternoon for a reply that may never come.",
+      chinese: "我不想整個下午乾等一個可能永遠不會來的回覆。",
+      grammar_point: "don't want to + V（不想做某事）；that may never come（關係子句修飾先行詞 reply）"
+    },
+    vocabulary: [
+      { word: "idle", pos: "adj.", chinese: "閒置的、無所事事的" },
+      { word: "linger", pos: "v.", chinese: "逗留、磨蹭" },
+      { word: "impatient", pos: "adj.", chinese: "不耐煩的" }
+    ],
+    sentence_pattern: { pattern: "S + don't want to wait around + 時間 + for + N", example: "Stop waiting around and take action." }
+  },
+  {
+    phrase: "work against",
+    type: "動詞 + 介系詞",
+    chinese: "對…不利；阻礙、妨礙",
+    keywords: ["work", "against"],
+    example: {
+      english: "A lack of sleep and poor nutrition will work against your efforts to stay healthy and focused.",
+      chinese: "睡眠不足和營養不良將妨礙你保持健康和專注的努力。",
+      grammar_point: "will + V（未來式，表示預期的結果）；to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "nutrition", pos: "n.", chinese: "營養" },
+      { word: "undermine", pos: "v.", chinese: "削弱、妨礙" },
+      { word: "hinder", pos: "v.", chinese: "阻礙、妨礙" }
+    ],
+    sentence_pattern: { pattern: "N + will work against + N + to + V", example: "Time is working against us — we need to decide now." }
+  },
+  {
+    phrase: "work towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…努力、為…目標而工作",
+    keywords: ["work", "towards"],
+    example: {
+      english: "All members of the team are working towards the same goal of launching the app before the end of the year.",
+      chinese: "團隊所有成員都在朝著年底前發布應用程式的同一目標努力。",
+      grammar_point: "are + V-ing（現在進行式，表示持續進行的動作）；of + V-ing（介系詞後接動名詞）"
+    },
+    vocabulary: [
+      { word: "launch", pos: "v.", chinese: "發布、推出" },
+      { word: "goal", pos: "n.", chinese: "目標" },
+      { word: "collaborate", pos: "v.", chinese: "合作" }
+    ],
+    sentence_pattern: { pattern: "S + are working towards + N + of + V-ing", example: "We are all working towards a more equal society." }
+  },
+  {
+    phrase: "absorb into",
+    type: "動詞 + 介系詞",
+    chinese: "融入、被吸收進（群體或系統）",
+    keywords: ["absorb", "into"],
+    example: {
+      english: "New immigrants are often gradually absorbed into the local culture while maintaining their own identity.",
+      chinese: "新移民通常在保持自身身分認同的同時，逐漸融入當地文化。",
+      grammar_point: "are absorbed into（被動語態）；while + V-ing（在…的同時，表示同步動作）"
+    },
+    vocabulary: [
+      { word: "immigrant", pos: "n.", chinese: "移民" },
+      { word: "identity", pos: "n.", chinese: "身分認同" },
+      { word: "assimilate", pos: "v.", chinese: "同化、融入" }
+    ],
+    sentence_pattern: { pattern: "N + are absorbed into + N + while + V-ing", example: "The small company was absorbed into a larger corporation." }
+  },
+  {
+    phrase: "act upon",
+    type: "動詞 + 介系詞",
+    chinese: "根據…採取行動；對…起作用",
+    keywords: ["act", "upon"],
+    example: {
+      english: "Once you receive the instructions, it is important to act upon them without unnecessary delay.",
+      chinese: "一旦收到指示，立即採取行動而不做不必要的拖延是很重要的。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；It is + adj + to + V（虛主詞句型）"
+    },
+    vocabulary: [
+      { word: "instruction", pos: "n.", chinese: "指示、說明" },
+      { word: "delay", pos: "n.", chinese: "延誤、拖延" },
+      { word: "respond", pos: "v.", chinese: "回應、採取行動" }
+    ],
+    sentence_pattern: { pattern: "Once + S + V, it is + adj + to act upon + N", example: "The government promised to act upon the committee's recommendations." }
+  },
+  {
+    phrase: "add onto",
+    type: "片語動詞",
+    chinese: "附加到、加在…之上",
+    keywords: ["add", "onto"],
+    example: {
+      english: "The contractor will add a small storage room onto the back of the house during the renovation.",
+      chinese: "承包商將在翻修期間在房子後方增建一個小儲藏室。",
+      grammar_point: "will + V（未來式）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "contractor", pos: "n.", chinese: "承包商" },
+      { word: "renovation", pos: "n.", chinese: "翻修、整修" },
+      { word: "extension", pos: "n.", chinese: "擴建部分" }
+    ],
+    sentence_pattern: { pattern: "S + will add + N + onto + N + during + N", example: "They added a new chapter onto the second edition of the book." }
+  },
+  {
+    phrase: "agree upon",
+    type: "動詞 + 介系詞",
+    chinese: "就…達成一致、共同決定",
+    keywords: ["agree", "upon"],
+    example: {
+      english: "Both parties finally agreed upon a fair settlement after weeks of intense negotiation.",
+      chinese: "雙方在數週激烈談判後，終於就公平的和解條件達成了一致。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）"
+    },
+    vocabulary: [
+      { word: "settlement", pos: "n.", chinese: "和解、協議" },
+      { word: "negotiation", pos: "n.", chinese: "談判、協商" },
+      { word: "consensus", pos: "n.", chinese: "共識" }
+    ],
+    sentence_pattern: { pattern: "S + agreed upon + N + after + 時間 + of + N", example: "We need to agree upon a common set of rules." }
+  },
+  {
+    phrase: "align with",
+    type: "動詞 + 介系詞",
+    chinese: "與…一致、與…對齊",
+    keywords: ["align", "with"],
+    example: {
+      english: "The company's new strategy aligns with its long-term vision of becoming a global leader in clean energy.",
+      chinese: "公司的新策略與其成為全球清潔能源領導者的長期願景一致。",
+      grammar_point: "of + V-ing（介系詞後接動名詞，作名詞 vision 的同位語）"
+    },
+    vocabulary: [
+      { word: "strategy", pos: "n.", chinese: "策略" },
+      { word: "vision", pos: "n.", chinese: "願景" },
+      { word: "consistent", pos: "adj.", chinese: "一致的" }
+    ],
+    sentence_pattern: { pattern: "N + aligns with + N + of + V-ing", example: "Make sure your actions align with your stated values." }
+  },
+  {
+    phrase: "allow into",
+    type: "動詞 + 介系詞",
+    chinese: "允許進入、讓…進來",
+    keywords: ["allow", "into"],
+    example: {
+      english: "Children under the age of twelve are not allowed into the cinema without a parent or guardian.",
+      chinese: "十二歲以下的兒童不得在沒有父母或監護人陪同的情況下進入電影院。",
+      grammar_point: "are not allowed into（被動語態）；without + N（在沒有…的情況下）"
+    },
+    vocabulary: [
+      { word: "guardian", pos: "n.", chinese: "監護人" },
+      { word: "permit", pos: "v.", chinese: "允許" },
+      { word: "admission", pos: "n.", chinese: "入場、准許進入" }
+    ],
+    sentence_pattern: { pattern: "N + are not allowed into + N + without + N", example: "Only authorised staff are allowed into the server room." }
+  },
+  {
+    phrase: "appear before",
+    type: "動詞 + 介系詞",
+    chinese: "出現在…面前；（正式）出席（法庭或機構）",
+    keywords: ["appear", "before"],
+    example: {
+      english: "The company director was required to appear before the court to answer charges of financial fraud.",
+      chinese: "公司董事被要求出席法庭，就金融詐欺的指控作出答辯。",
+      grammar_point: "was required to + V（被動語態，表示被要求做某事）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "court", pos: "n.", chinese: "法院、法庭" },
+      { word: "charge", pos: "n.", chinese: "指控、罪名" },
+      { word: "fraud", pos: "n.", chinese: "詐欺" }
+    ],
+    sentence_pattern: { pattern: "S + was required to appear before + N + to + V", example: "The witness was called to appear before the committee." }
+  },
+  {
+    phrase: "apply onto",
+    type: "動詞 + 介系詞",
+    chinese: "塗抹在…上、敷在…上",
+    keywords: ["apply", "onto"],
+    example: {
+      english: "Apply the sunscreen evenly onto all exposed areas of skin at least twenty minutes before going outside.",
+      chinese: "在出門前至少二十分鐘，將防曬乳均勻地塗抹在所有裸露的皮膚上。",
+      grammar_point: "at least + 時間 + before + V-ing（至少在…之前做某事）"
+    },
+    vocabulary: [
+      { word: "sunscreen", pos: "n.", chinese: "防曬乳" },
+      { word: "evenly", pos: "adv.", chinese: "均勻地" },
+      { word: "exposed", pos: "adj.", chinese: "裸露的、暴露的" }
+    ],
+    sentence_pattern: { pattern: "Apply + N + evenly onto + N + before + V-ing", example: "Apply a thin layer of glue onto the surface before pressing them together." }
+  },
+  {
+    phrase: "arise out of",
+    type: "動詞 + 介系詞",
+    chinese: "由…引起、起因於",
+    keywords: ["arise", "out", "of"],
+    example: {
+      english: "Most conflicts in the workplace arise out of poor communication and unspoken expectations.",
+      chinese: "職場中的大多數衝突都起因於溝通不良和未說出口的期望。",
+      grammar_point: "most + N（大多數…）；unspoken（形容詞，未言明的）"
+    },
+    vocabulary: [
+      { word: "conflict", pos: "n.", chinese: "衝突" },
+      { word: "expectation", pos: "n.", chinese: "期望、預期" },
+      { word: "stem from", pos: "phr. v.", chinese: "源自、起因於" }
+    ],
+    sentence_pattern: { pattern: "N + arise(s) out of + N + and + N", example: "Many legal disputes arise out of unclear contract terms." }
+  },
+  {
+    phrase: "ask into",
+    type: "片語動詞",
+    chinese: "邀請進入、請人進來",
+    keywords: ["ask", "into"],
+    example: {
+      english: "The receptionist asked the applicants into the waiting room and offered them a glass of water.",
+      chinese: "接待員請申請者進入等候室，並提供他們一杯水。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "receptionist", pos: "n.", chinese: "接待員" },
+      { word: "applicant", pos: "n.", chinese: "申請者" },
+      { word: "invite", pos: "v.", chinese: "邀請" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + into + N + and + V", example: "She asked him into the office to discuss the matter privately." }
+  },
+  {
+    phrase: "assemble into",
+    type: "動詞 + 介系詞",
+    chinese: "組裝成、集合成",
+    keywords: ["assemble", "into"],
+    example: {
+      english: "The children were asked to assemble into groups of four before the outdoor activity began.",
+      chinese: "孩子們被要求在戶外活動開始前，分成每組四人的小組集合。",
+      grammar_point: "were asked to + V（被動語態）；before + N + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "group", pos: "n.", chinese: "小組、群組" },
+      { word: "gather", pos: "v.", chinese: "聚集" },
+      { word: "form", pos: "v.", chinese: "形成、組成" }
+    ],
+    sentence_pattern: { pattern: "S + were asked to assemble into + N + before + N + V", example: "The parts can be assembled into a complete unit in under an hour." }
+  },
+  {
+    phrase: "assign to",
+    type: "動詞 + 介系詞",
+    chinese: "分配給、指派（某人做某事）",
+    keywords: ["assign", "to"],
+    example: {
+      english: "Each intern was assigned to a different department so they could gain a broad range of experience.",
+      chinese: "每位實習生被分配到不同的部門，以便他們能獲得廣泛的經驗。",
+      grammar_point: "was assigned to（被動語態）；so + S + could + V（目的子句）"
+    },
+    vocabulary: [
+      { word: "intern", pos: "n.", chinese: "實習生" },
+      { word: "department", pos: "n.", chinese: "部門" },
+      { word: "allocate", pos: "v.", chinese: "分配、指派" }
+    ],
+    sentence_pattern: { pattern: "S + was assigned to + N + so + S + could + V", example: "Two officers were assigned to guard the entrance." }
+  },
+  {
+    phrase: "associate with",
+    type: "動詞 + 介系詞",
+    chinese: "與…交往；將…與…聯想在一起",
+    keywords: ["associate", "with"],
+    example: {
+      english: "Many people associate the smell of fresh bread with warm childhood memories of their grandmother's kitchen.",
+      chinese: "許多人將新鮮麵包的氣味與祖母廚房中溫馨的童年回憶聯想在一起。",
+      grammar_point: "associate + N + with + N（將…與…聯繫在一起）"
+    },
+    vocabulary: [
+      { word: "memory", pos: "n.", chinese: "記憶、回憶" },
+      { word: "connect", pos: "v.", chinese: "連結、聯繫" },
+      { word: "link", pos: "v.", chinese: "關聯、連結" }
+    ],
+    sentence_pattern: { pattern: "S + associate(s) + N + with + N", example: "Try not to associate with people who drag you down." }
+  },
+  {
+    phrase: "back upon",
+    type: "片語動詞",
+    chinese: "依靠、退回到；（建築）背向、緊臨",
+    keywords: ["back", "upon"],
+    example: {
+      english: "In times of crisis, it helps to have a strong support network that you can back upon without hesitation.",
+      chinese: "在危機時刻，擁有一個可以毫不猶豫依靠的強大支援網絡是很有幫助的。",
+      grammar_point: "that + 關係子句（修飾先行詞 network）；without + N（在沒有…的情況下）"
+    },
+    vocabulary: [
+      { word: "crisis", pos: "n.", chinese: "危機" },
+      { word: "rely", pos: "v.", chinese: "依靠、仰賴" },
+      { word: "hesitation", pos: "n.", chinese: "猶豫" }
+    ],
+    sentence_pattern: { pattern: "It helps to have + N + that + S + can back upon", example: "The cottage backs upon a peaceful stretch of woodland." }
+  },
+  {
+    phrase: "base on",
+    type: "動詞 + 介系詞",
+    chinese: "以…為基礎、根據…",
+    keywords: ["base", "on"],
+    example: {
+      english: "All decisions made in this company must be based on solid evidence rather than personal opinions.",
+      chinese: "這家公司做出的所有決定必須以確鑿的證據為基礎，而非個人意見。",
+      grammar_point: "must be based on（被動語態，表示必須以…為依據）；rather than + N（而非…）"
+    },
+    vocabulary: [
+      { word: "evidence", pos: "n.", chinese: "證據" },
+      { word: "solid", pos: "adj.", chinese: "確鑿的、可靠的" },
+      { word: "foundation", pos: "n.", chinese: "基礎、根據" }
+    ],
+    sentence_pattern: { pattern: "N + must be based on + N + rather than + N", example: "The film is based on a true story from the 1960s." }
+  },
+  {
+    phrase: "battle against",
+    type: "動詞 + 介系詞",
+    chinese: "與…抗爭、努力克服",
+    keywords: ["battle", "against"],
+    example: {
+      english: "She spent years battling against a rare illness while continuing to raise her two young children.",
+      chinese: "她一邊與罕見疾病抗爭多年，一邊繼續撫養兩個年幼的孩子。",
+      grammar_point: "while + V-ing（在…的同時，表示同步進行的動作）"
+    },
+    vocabulary: [
+      { word: "illness", pos: "n.", chinese: "疾病" },
+      { word: "struggle", pos: "v.", chinese: "掙扎、奮鬥" },
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + battling against + N + while + V-ing", example: "The firefighters battled against the strong winds to control the blaze." }
+  },
+  {
+    phrase: "be about to",
+    type: "片語動詞",
+    chinese: "即將、正要（做某事）",
+    keywords: ["be", "about", "to"],
+    example: {
+      english: "We were just about to leave for the airport when we realised someone had left their passport behind.",
+      chinese: "我們正要出發去機場時，才意識到有人把護照忘在後面了。",
+      grammar_point: "were just about to + V（正要做某事）；when + S + V（就在那時，時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "passport", pos: "n.", chinese: "護照" },
+      { word: "realise", pos: "v.", chinese: "意識到" },
+      { word: "imminent", pos: "adj.", chinese: "即將發生的" }
+    ],
+    sentence_pattern: { pattern: "S + was/were just about to + V + when + S + V", example: "I'm about to head out — can I call you back later?" }
+  },
+  {
+    phrase: "be carried away",
+    type: "片語動詞",
+    chinese: "因激動而失去理智；沖昏頭",
+    keywords: ["be", "carried", "away"],
+    example: {
+      english: "He got so carried away celebrating the victory that he forgot to thank the rest of his team.",
+      chinese: "他因慶祝勝利而太過忘乎所以，竟忘了感謝他的其他隊員。",
+      grammar_point: "got so + adj + that + S + V（如此…以至於…，結果副詞子句）"
+    },
+    vocabulary: [
+      { word: "celebrate", pos: "v.", chinese: "慶祝" },
+      { word: "overwhelmed", pos: "adj.", chinese: "不知所措的、激動不已的" },
+      { word: "restrain", pos: "v.", chinese: "克制、抑制" }
+    ],
+    sentence_pattern: { pattern: "S + got so carried away + V-ing + that + S + V", example: "Don't get carried away — stay focused on the plan." }
+  },
+  {
+    phrase: "be cut out for",
+    type: "片語動詞",
+    chinese: "天生適合、有做…的天賦",
+    keywords: ["be", "cut", "out", "for"],
+    example: {
+      english: "Not everyone is cut out for a career in medicine — it demands both intelligence and emotional strength.",
+      chinese: "不是每個人都天生適合從事醫學職業——它需要智慧和情感力量兼備。",
+      grammar_point: "Not everyone（並非每個人，部分否定）；both A and B（A 和 B 兩者兼備）"
+    },
+    vocabulary: [
+      { word: "suited", pos: "adj.", chinese: "適合的" },
+      { word: "demand", pos: "v.", chinese: "要求、需要" },
+      { word: "aptitude", pos: "n.", chinese: "天資、才能" }
+    ],
+    sentence_pattern: { pattern: "Not everyone is cut out for + N — it demands + N and + N", example: "I don't think I'm cut out for this kind of work." }
+  },
+  {
+    phrase: "be done with",
+    type: "片語動詞",
+    chinese: "做完、結束；與…斷絕關係",
+    keywords: ["be", "done", "with"],
+    example: {
+      english: "Once you are done with the assignment, please submit it through the online portal before midnight.",
+      chinese: "一旦你完成作業，請在午夜前透過線上入口網站提交。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；before + 時間（在…之前）"
+    },
+    vocabulary: [
+      { word: "assignment", pos: "n.", chinese: "作業、任務" },
+      { word: "submit", pos: "v.", chinese: "提交" },
+      { word: "portal", pos: "n.", chinese: "入口網站" }
+    ],
+    sentence_pattern: { pattern: "Once + S + be done with + N, please + V + before + 時間", example: "I'm done with this relationship — it's over." }
+  },
+  {
+    phrase: "be fed up with",
+    type: "片語動詞",
+    chinese: "對…感到厭煩、受夠了",
+    keywords: ["be", "fed", "up", "with"],
+    example: {
+      english: "She was completely fed up with being overlooked for promotion despite her outstanding performance.",
+      chinese: "儘管表現出色，她對一再被晉升所忽視感到徹底厭煩。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；being + p.p.（被動動名詞）"
+    },
+    vocabulary: [
+      { word: "overlook", pos: "v.", chinese: "忽視、忽略" },
+      { word: "promotion", pos: "n.", chinese: "晉升" },
+      { word: "exasperated", pos: "adj.", chinese: "惱怒的、極度不耐煩的" }
+    ],
+    sentence_pattern: { pattern: "S + was fed up with + V-ing + despite + N", example: "I'm fed up with making the same mistakes over and over." }
+  },
+  {
+    phrase: "be fond of",
+    type: "片語動詞",
+    chinese: "喜愛、喜歡",
+    keywords: ["be", "fond", "of"],
+    example: {
+      english: "My grandfather has always been fond of classical music and plays the piano every morning.",
+      chinese: "我祖父一直很喜愛古典音樂，每天早上都會彈鋼琴。",
+      grammar_point: "has always been（現在完成式加頻率副詞，表示持續的習慣）"
+    },
+    vocabulary: [
+      { word: "classical", pos: "adj.", chinese: "古典的" },
+      { word: "affection", pos: "n.", chinese: "喜愛、情感" },
+      { word: "passionate", pos: "adj.", chinese: "充滿熱情的" }
+    ],
+    sentence_pattern: { pattern: "S + has always been fond of + N + and + V", example: "She is very fond of her younger sister." }
+  },
+  {
+    phrase: "be in charge of",
+    type: "片語動詞",
+    chinese: "負責、主管",
+    keywords: ["be", "in", "charge", "of"],
+    example: {
+      english: "The senior editor is in charge of reviewing all articles before they are published on the website.",
+      chinese: "資深編輯負責在文章發布到網站前對所有文章進行審查。",
+      grammar_point: "before + S + V（時間副詞子句，表動作先後）；be published（被動語態）"
+    },
+    vocabulary: [
+      { word: "editor", pos: "n.", chinese: "編輯" },
+      { word: "responsible", pos: "adj.", chinese: "負責的" },
+      { word: "oversee", pos: "v.", chinese: "監督、負責" }
+    ],
+    sentence_pattern: { pattern: "S + is in charge of + V-ing + N + before + S + V", example: "Who is in charge of the project this week?" }
+  },
+  {
+    phrase: "be in favor of",
+    type: "片語動詞",
+    chinese: "贊成、支持",
+    keywords: ["be", "in", "favor", "of"],
+    example: {
+      english: "Most of the committee members were in favor of extending the deadline by one additional week.",
+      chinese: "大多數委員會成員贊成將截止日期延長一週。",
+      grammar_point: "were in favor of + V-ing（贊成做某事）；by + 數量（增加了…，表示幅度）"
+    },
+    vocabulary: [
+      { word: "committee", pos: "n.", chinese: "委員會" },
+      { word: "deadline", pos: "n.", chinese: "截止日期" },
+      { word: "support", pos: "v.", chinese: "支持" }
+    ],
+    sentence_pattern: { pattern: "S + were in favor of + V-ing + N + by + 數量", example: "Are you in favor of the proposed policy changes?" }
+  },
+  {
+    phrase: "be out of",
+    type: "片語動詞",
+    chinese: "用完、耗盡；不在…之內",
+    keywords: ["be", "out", "of"],
+    example: {
+      english: "We are completely out of coffee this morning, so could you pick some up on your way in?",
+      chinese: "我們今早咖啡完全用完了，你來的路上能幫我們買一些嗎？",
+      grammar_point: "so + could you + V（因此，能否…，表達委婉請求）；on your way in（在你來的路上）"
+    },
+    vocabulary: [
+      { word: "supply", pos: "n.", chinese: "存量、供應" },
+      { word: "exhausted", pos: "adj.", chinese: "耗盡的" },
+      { word: "stock", pos: "n.", chinese: "庫存" }
+    ],
+    sentence_pattern: { pattern: "S + be out of + N, so could you + V?", example: "The vending machine is out of order again." }
+  },
+  {
+    phrase: "be over with",
+    type: "片語動詞",
+    chinese: "結束了、完成了",
+    keywords: ["be", "over", "with"],
+    example: {
+      english: "Once the final exam is over with, the students plan to celebrate by going on a short trip together.",
+      chinese: "一旦期末考結束，學生們打算一起去短途旅行慶祝。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；by + V-ing（藉由…，表方式）"
+    },
+    vocabulary: [
+      { word: "celebrate", pos: "v.", chinese: "慶祝" },
+      { word: "relief", pos: "n.", chinese: "如釋重負、放鬆" },
+      { word: "conclude", pos: "v.", chinese: "結束、終結" }
+    ],
+    sentence_pattern: { pattern: "Once + N + be over with, S + plan to + V + by + V-ing", example: "I'll be glad when this project is over with." }
+  },
+  {
+    phrase: "be short of",
+    type: "片語動詞",
+    chinese: "缺乏、不足",
+    keywords: ["be", "short", "of"],
+    example: {
+      english: "The charity is short of volunteers this weekend and is urgently looking for people to help out.",
+      chinese: "這個慈善機構本週末志工人手不足，正緊急尋找願意幫忙的人。",
+      grammar_point: "is short of + N（缺乏…）；is looking for（現在進行式，表示正在尋找）"
+    },
+    vocabulary: [
+      { word: "volunteer", pos: "n.", chinese: "志工" },
+      { word: "urgently", pos: "adv.", chinese: "緊急地" },
+      { word: "insufficient", pos: "adj.", chinese: "不足的" }
+    ],
+    sentence_pattern: { pattern: "S + is short of + N + and is + V-ing", example: "We are short of time, so let's get started immediately." }
+  },
+  {
+    phrase: "bear down on",
+    type: "片語動詞",
+    chinese: "向…施壓；全力以赴；逼近",
+    keywords: ["bear", "down", "on"],
+    example: {
+      english: "The manager began to bear down on the team as the product launch deadline grew closer.",
+      chinese: "隨著產品發布截止日期越來越近，經理開始向團隊施壓。",
+      grammar_point: "as + S + V（隨著…，表示同步變化的副詞子句）"
+    },
+    vocabulary: [
+      { word: "pressure", pos: "n.", chinese: "壓力" },
+      { word: "deadline", pos: "n.", chinese: "截止日期" },
+      { word: "intensify", pos: "v.", chinese: "加強、加劇" }
+    ],
+    sentence_pattern: { pattern: "S + began to bear down on + N + as + S + V", example: "The storm was bearing down on the coastline fast." }
+  },
+  {
+    phrase: "beat around",
+    type: "片語動詞",
+    chinese: "拐彎抹角、迴避重點（常用 beat around the bush）",
+    keywords: ["beat", "around"],
+    example: {
+      english: "Stop beating around the bush and just tell me directly what the problem is.",
+      chinese: "別再拐彎抹角了，直接告訴我問題是什麼。",
+      grammar_point: "Stop + V-ing（祈使句，要求停止做某事）；and + V（連接兩個祈使動作）"
+    },
+    vocabulary: [
+      { word: "direct", pos: "adj.", chinese: "直接的" },
+      { word: "avoid", pos: "v.", chinese: "迴避" },
+      { word: "straightforward", pos: "adj.", chinese: "直接了當的" }
+    ],
+    sentence_pattern: { pattern: "Stop beating around the bush and + V", example: "Just say what you mean — don't beat around the bush." }
+  },
+  {
+    phrase: "bind to",
+    type: "動詞 + 介系詞",
+    chinese: "使受約束；將…綁在",
+    keywords: ["bind", "to"],
+    example: {
+      english: "Once you sign the contract, you will be legally bound to fulfil all the terms and conditions.",
+      chinese: "一旦你簽署合約，你將在法律上受到約束，必須履行所有條款和條件。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；will be bound to（被動語態，表示將受到約束）"
+    },
+    vocabulary: [
+      { word: "contract", pos: "n.", chinese: "合約" },
+      { word: "legally", pos: "adv.", chinese: "在法律上" },
+      { word: "obligation", pos: "n.", chinese: "義務、責任" }
+    ],
+    sentence_pattern: { pattern: "Once + S + V, S + will be bound to + V + N", example: "Members are bound to follow the rules of the organisation." }
+  },
+  {
+    phrase: "blow past",
+    type: "片語動詞",
+    chinese: "快速通過；超越（目標或限制）",
+    keywords: ["blow", "past"],
+    example: {
+      english: "The sports car blew past every other vehicle on the motorway without slowing down.",
+      chinese: "那輛跑車在高速公路上快速超越其他所有車輛，完全沒有減速。",
+      grammar_point: "without + V-ing（在不…的情況下，表示方式）"
+    },
+    vocabulary: [
+      { word: "motorway", pos: "n.", chinese: "高速公路（英式）" },
+      { word: "exceed", pos: "v.", chinese: "超越、超出" },
+      { word: "surpass", pos: "v.", chinese: "超越、勝過" }
+    ],
+    sentence_pattern: { pattern: "S + blew past + N + without + V-ing", example: "The company blew past its quarterly sales targets." }
+  },
+  {
+    phrase: "branch into",
+    type: "動詞 + 介系詞",
+    chinese: "進軍、拓展到（新領域）",
+    keywords: ["branch", "into"],
+    example: {
+      english: "After years of success in food delivery, the company decided to branch into grocery retail.",
+      chinese: "在外送服務取得多年成功後，該公司決定進軍雜貨零售業。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；decided to + V（決定做某事）"
+    },
+    vocabulary: [
+      { word: "expand", pos: "v.", chinese: "擴展" },
+      { word: "diversify", pos: "v.", chinese: "多元化、拓展" },
+      { word: "retail", pos: "n.", chinese: "零售" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + decided to branch into + N", example: "The clothing brand branched into home furnishings last year." }
+  },
+  {
+    phrase: "bring across",
+    type: "片語動詞",
+    chinese: "傳達（訊息或想法）；帶過來",
+    keywords: ["bring", "across"],
+    example: {
+      english: "The documentary uses personal stories to bring across the devastating impact of poverty on families.",
+      chinese: "這部紀錄片透過個人故事，傳達貧窮對家庭造成的毀滅性影響。",
+      grammar_point: "uses + N + to + V（使用…來做某事）；bring across = convey（傳達）"
+    },
+    vocabulary: [
+      { word: "convey", pos: "v.", chinese: "傳達、表達" },
+      { word: "devastating", pos: "adj.", chinese: "毀滅性的" },
+      { word: "impact", pos: "n.", chinese: "影響、衝擊" }
+    ],
+    sentence_pattern: { pattern: "N + uses + N + to bring across + N", example: "It's hard to bring across the scale of the problem in words alone." }
+  },
+  {
+    phrase: "build towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…努力累積；為…打基礎",
+    keywords: ["build", "towards"],
+    example: {
+      english: "Every small habit you develop today is building towards the person you will become in the future.",
+      chinese: "你今天培養的每一個小習慣，都在為你未來將成為的人打下基礎。",
+      grammar_point: "is + V-ing（現在進行式，表示持續進行的過程）；the person + you will become（關係子句修飾先行詞）"
+    },
+    vocabulary: [
+      { word: "habit", pos: "n.", chinese: "習慣" },
+      { word: "accumulate", pos: "v.", chinese: "累積" },
+      { word: "foundation", pos: "n.", chinese: "基礎" }
+    ],
+    sentence_pattern: { pattern: "N + is building towards + N + S + will + V", example: "All our efforts are building towards a sustainable future." }
+  },
+  {
+    phrase: "call across",
+    type: "片語動詞",
+    chinese: "隔著（距離）大聲呼喚",
+    keywords: ["call", "across"],
+    example: {
+      english: "She called across the crowded hall to get her friend's attention before the ceremony started.",
+      chinese: "在典禮開始前，她隔著擁擠的大廳大聲呼喚她朋友以引起對方注意。",
+      grammar_point: "before + N + V（時間副詞子句）；to + V（不定詞片語表目的）"
+    },
+    vocabulary: [
+      { word: "crowded", pos: "adj.", chinese: "擁擠的" },
+      { word: "attention", pos: "n.", chinese: "注意力" },
+      { word: "shout", pos: "v.", chinese: "大聲喊叫" }
+    ],
+    sentence_pattern: { pattern: "S + called across + N + to + V + before + N + V", example: "He called across the street to warn her about the icy pavement." }
+  },
+  {
+    phrase: "carry back",
+    type: "片語動詞",
+    chinese: "帶回；使回憶起（往事）",
+    keywords: ["carry", "back"],
+    example: {
+      english: "The familiar melody carried her back to her childhood summers spent by the sea.",
+      chinese: "那熟悉的旋律讓她回想起在海邊度過的童年夏日。",
+      grammar_point: "carried + 人 + back to + N（使某人回憶起…）；spent by（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "melody", pos: "n.", chinese: "旋律" },
+      { word: "nostalgia", pos: "n.", chinese: "懷舊、鄉愁" },
+      { word: "remind", pos: "v.", chinese: "使想起" }
+    ],
+    sentence_pattern: { pattern: "N + carried + 人 + back to + N", example: "The scent of pine trees carries me back to camping trips as a child." }
+  },
+  {
+    phrase: "catch onto",
+    type: "片語動詞",
+    chinese: "理解、領悟；（趨勢）流行起來",
+    keywords: ["catch", "onto"],
+    example: {
+      english: "It took the new employee a while to catch onto the company's unique way of managing projects.",
+      chinese: "新員工花了一些時間才理解公司獨特的專案管理方式。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費時間做某事）"
+    },
+    vocabulary: [
+      { word: "grasp", pos: "v.", chinese: "理解、掌握" },
+      { word: "unique", pos: "adj.", chinese: "獨特的" },
+      { word: "trend", pos: "n.", chinese: "趨勢、潮流" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to catch onto + N", example: "The new fashion trend is starting to catch onto among teenagers." }
+  },
+  {
+    phrase: "check against",
+    type: "動詞 + 介系詞",
+    chinese: "與…對照核查、比對",
+    keywords: ["check", "against"],
+    example: {
+      english: "Please check your answers against the answer key at the back of the book before submitting.",
+      chinese: "提交前，請將你的答案與書後的答案對照核查。",
+      grammar_point: "before + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "verify", pos: "v.", chinese: "核查、確認" },
+      { word: "compare", pos: "v.", chinese: "比較、對照" },
+      { word: "discrepancy", pos: "n.", chinese: "差異、不符之處" }
+    ],
+    sentence_pattern: { pattern: "Please check + N + against + N + before + V-ing", example: "The data must be checked against the original records." }
+  },
+  {
+    phrase: "choose between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間做選擇",
+    keywords: ["choose", "between"],
+    example: {
+      english: "It was difficult to choose between the two job offers, as both came with excellent benefits.",
+      chinese: "在兩份工作邀約之間做選擇很困難，因為兩者都提供了出色的福利。",
+      grammar_point: "It was + adj + to + V（虛主詞句型）；as + S + V（因為…，原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "option", pos: "n.", chinese: "選項、選擇" },
+      { word: "benefit", pos: "n.", chinese: "福利、好處" },
+      { word: "decide", pos: "v.", chinese: "決定" }
+    ],
+    sentence_pattern: { pattern: "It was + adj + to choose between + N, as + S + V", example: "You have to choose between quality and speed." }
+  },
+  {
+    phrase: "claim back",
+    type: "片語動詞",
+    chinese: "取回、索回（費用或物品）",
+    keywords: ["claim", "back"],
+    example: {
+      english: "You can claim back the tax you paid on business expenses at the end of the financial year.",
+      chinese: "你可以在財政年度結束時索回你在業務費用上所繳納的稅款。",
+      grammar_point: "can + V（情態動詞表許可）；at the end of + N（在…結束時）"
+    },
+    vocabulary: [
+      { word: "expense", pos: "n.", chinese: "費用、支出" },
+      { word: "refund", pos: "n.", chinese: "退款" },
+      { word: "reimburse", pos: "v.", chinese: "報銷、償還" }
+    ],
+    sentence_pattern: { pattern: "S + can claim back + N + at the end of + N", example: "Keep your receipts so you can claim back the costs later." }
+  },
+  {
+    phrase: "close behind",
+    type: "片語動詞",
+    chinese: "緊隨其後、在…後面關上",
+    keywords: ["close", "behind"],
+    example: {
+      english: "Make sure the gate closes behind you every time you enter, as the dog must not escape.",
+      chinese: "每次進入時務必確保大門在你身後關好，因為狗不能跑出去。",
+      grammar_point: "Make sure + S + V（確保…）；as + S + V（因為…，原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "gate", pos: "n.", chinese: "大門、柵門" },
+      { word: "escape", pos: "v.", chinese: "逃跑、跑出去" },
+      { word: "trailing", pos: "adj.", chinese: "落後的、跟隨的" }
+    ],
+    sentence_pattern: { pattern: "Make sure + N + closes behind + 人 + as + S + V", example: "The runner finished in second place, close behind the winner." }
+  },
+  {
+    phrase: "combine with",
+    type: "動詞 + 介系詞",
+    chinese: "與…結合、混合",
+    keywords: ["combine", "with"],
+    example: {
+      english: "Regular exercise, when combined with a balanced diet, can significantly reduce the risk of heart disease.",
+      chinese: "規律運動與均衡飲食相結合，可以顯著降低心臟病的風險。",
+      grammar_point: "when + p.p.（分詞構句，表示條件）；can + V（情態動詞表可能性）"
+    },
+    vocabulary: [
+      { word: "balanced", pos: "adj.", chinese: "均衡的" },
+      { word: "significantly", pos: "adv.", chinese: "顯著地" },
+      { word: "merge", pos: "v.", chinese: "結合、融合" }
+    ],
+    sentence_pattern: { pattern: "N, when combined with + N, can + V + N", example: "Combine the flour with the eggs to make the dough." }
+  },
+  {
+    phrase: "come ahead",
+    type: "片語動詞",
+    chinese: "領先；向前來",
+    keywords: ["come", "ahead"],
+    example: {
+      english: "Despite starting with fewer resources, the smaller team came ahead in the final ranking.",
+      chinese: "儘管一開始資源較少，較小的團隊最終在最終排名中領先。",
+      grammar_point: "despite + V-ing（儘管…，介系詞片語表讓步）；in the final + N（在最終的…中）"
+    },
+    vocabulary: [
+      { word: "ranking", pos: "n.", chinese: "排名" },
+      { word: "resource", pos: "n.", chinese: "資源" },
+      { word: "surpass", pos: "v.", chinese: "超越" }
+    ],
+    sentence_pattern: { pattern: "Despite + V-ing, S + came ahead in + N", example: "Come ahead and take a seat at the front." }
+  },
+  {
+    phrase: "come against",
+    type: "動詞 + 介系詞",
+    chinese: "遭遇、碰到（困難或對手）",
+    keywords: ["come", "against"],
+    example: {
+      english: "The reform team came against strong resistance from those who benefited from the old system.",
+      chinese: "改革團隊遭遇了來自那些從舊體制中獲益者的強烈抵制。",
+      grammar_point: "from + 人（表示來源）；who + 關係子句（修飾先行詞 those）"
+    },
+    vocabulary: [
+      { word: "resistance", pos: "n.", chinese: "抵制、抵抗" },
+      { word: "obstacle", pos: "n.", chinese: "障礙" },
+      { word: "opposition", pos: "n.", chinese: "反對、阻力" }
+    ],
+    sentence_pattern: { pattern: "S + came against + N + from + 人 + who + V", example: "Every entrepreneur comes against setbacks at some point." }
+  },
+  {
+    phrase: "comment upon",
+    type: "動詞 + 介系詞",
+    chinese: "就…發表評論、評述",
+    keywords: ["comment", "upon"],
+    example: {
+      english: "The judge was asked to comment upon the strengths of each performance before announcing the winner.",
+      chinese: "評審被要求在宣布得獎者之前，就每位表演者的優點發表評論。",
+      grammar_point: "was asked to + V（被動語態）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "performance", pos: "n.", chinese: "表現、表演" },
+      { word: "critique", pos: "v.", chinese: "評論、評析" },
+      { word: "remark", pos: "v.", chinese: "評述、說明" }
+    ],
+    sentence_pattern: { pattern: "S + was asked to comment upon + N + before + V-ing", example: "The spokesperson declined to comment upon the allegations." }
+  },
+  {
+    phrase: "communicate with",
+    type: "動詞 + 介系詞",
+    chinese: "與…溝通、聯繫",
+    keywords: ["communicate", "with"],
+    example: {
+      english: "It is essential to communicate clearly with your team members to avoid misunderstandings.",
+      chinese: "與團隊成員清楚溝通以避免誤解是至關重要的。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "essential", pos: "adj.", chinese: "至關重要的" },
+      { word: "misunderstanding", pos: "n.", chinese: "誤解" },
+      { word: "exchange", pos: "v.", chinese: "交流、互換" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to communicate + adv + with + N + to + V", example: "We need to communicate with clients regularly to build trust." }
+  },
+  {
+    phrase: "compete against",
+    type: "動詞 + 介系詞",
+    chinese: "與…競爭、對抗",
+    keywords: ["compete", "against"],
+    example: {
+      english: "Our school will compete against three other schools in the regional science competition next month.",
+      chinese: "我們學校下個月將在地區科學競賽中與另外三所學校競爭。",
+      grammar_point: "will + V（未來式）；in + N（在…競賽中）"
+    },
+    vocabulary: [
+      { word: "regional", pos: "adj.", chinese: "地區的、區域的" },
+      { word: "opponent", pos: "n.", chinese: "對手" },
+      { word: "rivalry", pos: "n.", chinese: "競爭、對抗" }
+    ],
+    sentence_pattern: { pattern: "S + will compete against + N + in + N + 時間", example: "It is tough to compete against companies with much larger budgets." }
+  },
+  {
+    phrase: "comply with",
+    type: "動詞 + 介系詞",
+    chinese: "遵守、服從（規定或要求）",
+    keywords: ["comply", "with"],
+    example: {
+      english: "All businesses operating in this country are required by law to comply with local environmental regulations.",
+      chinese: "在本國經營的所有企業依法必須遵守當地的環保法規。",
+      grammar_point: "are required by law to + V（依法必須做某事）"
+    },
+    vocabulary: [
+      { word: "regulation", pos: "n.", chinese: "法規、規定" },
+      { word: "adhere", pos: "v.", chinese: "遵守、堅持" },
+      { word: "obligation", pos: "n.", chinese: "義務" }
+    ],
+    sentence_pattern: { pattern: "S + are required by law to comply with + N", example: "Failure to comply with safety rules may result in serious penalties." }
+  },
+  {
+    phrase: "connect to",
+    type: "動詞 + 介系詞",
+    chinese: "連接到；與…產生聯繫",
+    keywords: ["connect", "to"],
+    example: {
+      english: "Make sure your device is connected to a secure Wi-Fi network before downloading any sensitive files.",
+      chinese: "在下載任何敏感檔案之前，請確保你的裝置已連接到安全的 Wi-Fi 網路。",
+      grammar_point: "Make sure + S + V（確保…）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "secure", pos: "adj.", chinese: "安全的" },
+      { word: "network", pos: "n.", chinese: "網路、網絡" },
+      { word: "link", pos: "v.", chinese: "連結、關聯" }
+    ],
+    sentence_pattern: { pattern: "Make sure + N + be connected to + N + before + V-ing", example: "This road connects to the main highway after the tunnel." }
+  },
+  {
+    phrase: "consider for",
+    type: "動詞 + 介系詞",
+    chinese: "考慮（某人或某物）擔任或用於",
+    keywords: ["consider", "for"],
+    example: {
+      english: "Her outstanding performance this year means she will be seriously considered for a promotion.",
+      chinese: "她今年出色的表現意味著她將被認真考慮晉升。",
+      grammar_point: "means + that + S + V（意味著…）；will be considered for（被動語態）"
+    },
+    vocabulary: [
+      { word: "outstanding", pos: "adj.", chinese: "出色的、傑出的" },
+      { word: "promotion", pos: "n.", chinese: "晉升" },
+      { word: "eligible", pos: "adj.", chinese: "符合資格的" }
+    ],
+    sentence_pattern: { pattern: "N + means + S + will be considered for + N", example: "Have you been considered for the leadership position?" }
+  },
+  {
+    phrase: "crash into",
+    type: "片語動詞",
+    chinese: "撞上、碰撞；闖入",
+    keywords: ["crash", "into"],
+    example: {
+      english: "The driver lost control on the icy road and crashed into the barrier on the side of the highway.",
+      chinese: "司機在結冰的道路上失控，撞上了高速公路旁的護欄。",
+      grammar_point: "on the + adj + N（在…的道路上，介系詞片語表情況）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "barrier", pos: "n.", chinese: "護欄、屏障" },
+      { word: "collision", pos: "n.", chinese: "碰撞" },
+      { word: "impact", pos: "n.", chinese: "撞擊、衝擊" }
+    ],
+    sentence_pattern: { pattern: "S + lost control and crashed into + N + on + N", example: "He crashed into a table while running through the room." }
+  },
+  {
+    phrase: "create from",
+    type: "動詞 + 介系詞",
+    chinese: "從…創造、以…為材料製作",
+    keywords: ["create", "from"],
+    example: {
+      english: "The artist created a stunning sculpture from pieces of scrap metal she found at a local junkyard.",
+      chinese: "那位藝術家用她在當地廢料場找到的廢金屬碎片創作了一件令人驚嘆的雕塑。",
+      grammar_point: "she found（關係子句省略關代，修飾先行詞 pieces）；at a local junkyard（介系詞片語表地點）"
+    },
+    vocabulary: [
+      { word: "stunning", pos: "adj.", chinese: "令人驚嘆的" },
+      { word: "sculpture", pos: "n.", chinese: "雕塑" },
+      { word: "scrap", pos: "n.", chinese: "廢料、碎片" }
+    ],
+    sentence_pattern: { pattern: "S + created + N + from + N + S + found + 地點", example: "This dish is created from simple ingredients you already have at home." }
+  },
+  {
+    phrase: "cut away",
+    type: "片語動詞",
+    chinese: "切除、割掉；剪掉多餘部分",
+    keywords: ["cut", "away"],
+    example: {
+      english: "The surgeon carefully cut away the damaged tissue to prevent the infection from spreading further.",
+      chinese: "外科醫生小心地切除了受損組織，以防感染進一步擴散。",
+      grammar_point: "to + V（不定詞表目的）；from + V-ing（防止…發生）"
+    },
+    vocabulary: [
+      { word: "surgeon", pos: "n.", chinese: "外科醫生" },
+      { word: "tissue", pos: "n.", chinese: "組織" },
+      { word: "infection", pos: "n.", chinese: "感染" }
+    ],
+    sentence_pattern: { pattern: "S + cut away + N + to prevent + N + from + V-ing", example: "Cut away the dead branches to help the tree grow stronger." }
+  },
+  {
+    phrase: "deal around",
+    type: "片語動詞",
+    chinese: "繞過問題處理；分發（牌）給在座眾人",
+    keywords: ["deal", "around"],
+    example: {
+      english: "Instead of addressing the issue directly, he kept dealing around it and confusing everyone in the meeting.",
+      chinese: "他沒有直接處理問題，而是一直繞著它打轉，讓會議中的每個人都感到困惑。",
+      grammar_point: "instead of + V-ing（而非…，表對比）；kept + V-ing（持續做某事）"
+    },
+    vocabulary: [
+      { word: "evade", pos: "v.", chinese: "迴避、規避" },
+      { word: "confuse", pos: "v.", chinese: "使困惑" },
+      { word: "circuitous", pos: "adj.", chinese: "迂迴的、繞彎的" }
+    ],
+    sentence_pattern: { pattern: "Instead of + V-ing, S + kept dealing around + N", example: "He dealt the cards around the table so everyone got five." }
+  },
+  {
+    phrase: "debate over",
+    type: "動詞 + 介系詞",
+    chinese: "就…進行辯論、爭論",
+    keywords: ["debate", "over"],
+    example: {
+      english: "Politicians have been debating over the best way to reform the healthcare system for many years.",
+      chinese: "政治人物多年來一直在就改革醫療保健體系的最佳方式進行辯論。",
+      grammar_point: "have been + V-ing（現在完成進行式，表示持續進行的動作）"
+    },
+    vocabulary: [
+      { word: "reform", pos: "v.", chinese: "改革" },
+      { word: "argument", pos: "n.", chinese: "論點、爭論" },
+      { word: "controversy", pos: "n.", chinese: "爭議" }
+    ],
+    sentence_pattern: { pattern: "S + have been debating over + N + for + 時間", example: "They debated over whether to accept the offer for hours." }
+  },
+  {
+    phrase: "declare for",
+    type: "動詞 + 介系詞",
+    chinese: "宣布支持、正式表態贊成",
+    keywords: ["declare", "for"],
+    example: {
+      english: "Several senior officials declared for the reform bill after the public pressure became impossible to ignore.",
+      chinese: "在公眾壓力變得無法忽視後，幾位高級官員宣布支持改革法案。",
+      grammar_point: "after + S + V（時間副詞子句，表動作先後）；became + adj + to + V（變得…難以…）"
+    },
+    vocabulary: [
+      { word: "official", pos: "n.", chinese: "官員" },
+      { word: "announce", pos: "v.", chinese: "宣布" },
+      { word: "endorse", pos: "v.", chinese: "背書、表態支持" }
+    ],
+    sentence_pattern: { pattern: "S + declared for + N + after + S + V", example: "He declared for the opposition party ahead of the election." }
+  },
+  {
+    phrase: "decrease by",
+    type: "動詞 + 介系詞",
+    chinese: "減少了（某數量或比例）",
+    keywords: ["decrease", "by"],
+    example: {
+      english: "The number of traffic accidents in the city decreased by twenty percent after the new speed limits were introduced.",
+      chinese: "新速限實施後，市內交通事故數量減少了百分之二十。",
+      grammar_point: "decreased by + 數量（減少了…，by 表示減少的幅度）；after + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "accident", pos: "n.", chinese: "事故" },
+      { word: "percent", pos: "n.", chinese: "百分比" },
+      { word: "reduction", pos: "n.", chinese: "減少、降低" }
+    ],
+    sentence_pattern: { pattern: "N + decreased by + 數量 + after + S + V", example: "Costs decreased by a third following the restructuring." }
+  },
+  {
+    phrase: "delay in",
+    type: "動詞 + 介系詞",
+    chinese: "在…方面拖延、耽誤",
+    keywords: ["delay", "in"],
+    example: {
+      english: "Any further delay in making a decision could result in the company losing the contract entirely.",
+      chinese: "做出決策方面的任何進一步拖延都可能導致公司完全失去這份合約。",
+      grammar_point: "any further + N（任何進一步的…）；could result in + N（可能導致…）"
+    },
+    vocabulary: [
+      { word: "procrastinate", pos: "v.", chinese: "拖延" },
+      { word: "consequence", pos: "n.", chinese: "後果" },
+      { word: "urgent", pos: "adj.", chinese: "緊急的" }
+    ],
+    sentence_pattern: { pattern: "Any further delay in + V-ing + could result in + N", example: "Don't delay in responding to the complaint." }
+  },
+  {
+    phrase: "depart on",
+    type: "動詞 + 介系詞",
+    chinese: "啟程、出發（某日或某旅程）",
+    keywords: ["depart", "on"],
+    example: {
+      english: "The expedition team is scheduled to depart on the fifteenth of March for their Antarctic research mission.",
+      chinese: "探險隊計劃在三月十五日出發，前往南極洲執行研究任務。",
+      grammar_point: "is scheduled to + V（預定做某事）；for + N（前往…，表目的地或目的）"
+    },
+    vocabulary: [
+      { word: "expedition", pos: "n.", chinese: "探險、遠征" },
+      { word: "scheduled", pos: "adj.", chinese: "預定的" },
+      { word: "mission", pos: "n.", chinese: "任務" }
+    ],
+    sentence_pattern: { pattern: "S + is scheduled to depart on + 日期 + for + N", example: "We depart on Sunday morning and arrive Tuesday evening." }
+  },
+  {
+    phrase: "derive benefit from",
+    type: "動詞片語",
+    chinese: "從…獲得益處",
+    keywords: ["derive", "benefit", "from"],
+    example: {
+      english: "Students who participate actively in class discussions derive far greater benefit from their education.",
+      chinese: "積極參與課堂討論的學生能從教育中獲得更大的益處。",
+      grammar_point: "who + 關係子句（修飾先行詞 students）；far + 比較級（遠比…更，加強語氣）"
+    },
+    vocabulary: [
+      { word: "participate", pos: "v.", chinese: "參與" },
+      { word: "actively", pos: "adv.", chinese: "積極地" },
+      { word: "gain", pos: "v.", chinese: "獲得、得到" }
+    ],
+    sentence_pattern: { pattern: "S + who + V + derive far greater benefit from + N", example: "We all derive benefit from living in a peaceful society." }
+  },
+  {
+    phrase: "determine from",
+    type: "動詞 + 介系詞",
+    chinese: "從…判斷、確定",
+    keywords: ["determine", "from"],
+    example: {
+      english: "It is difficult to determine from the available data whether the treatment is truly effective.",
+      chinese: "從現有數據很難判斷這種治療方法是否真的有效。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；whether + S + V（名詞子句，作動詞受詞）"
+    },
+    vocabulary: [
+      { word: "available", pos: "adj.", chinese: "可取得的、現有的" },
+      { word: "conclude", pos: "v.", chinese: "得出結論" },
+      { word: "evidence", pos: "n.", chinese: "證據" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to determine from + N + whether + S + V", example: "We can determine from the results that the experiment was a success." }
+  },
+  {
+    phrase: "deviate from",
+    type: "動詞 + 介系詞",
+    chinese: "偏離、背離（計畫或規範）",
+    keywords: ["deviate", "from"],
+    example: {
+      english: "The pilot was instructed never to deviate from the approved flight path under any circumstances.",
+      chinese: "飛行員被指示在任何情況下都不得偏離批准的飛行路線。",
+      grammar_point: "was instructed to + V（被動語態，表示被指示做某事）；under any circumstances（在任何情況下）"
+    },
+    vocabulary: [
+      { word: "approved", pos: "adj.", chinese: "批准的、核准的" },
+      { word: "stray", pos: "v.", chinese: "偏離、走偏" },
+      { word: "standard", pos: "n.", chinese: "標準" }
+    ],
+    sentence_pattern: { pattern: "S + was instructed never to deviate from + N + under any circumstances", example: "The report deviates significantly from the original brief." }
+  },
+  {
+    phrase: "dig around",
+    type: "片語動詞",
+    chinese: "四處翻找；深入調查",
+    keywords: ["dig", "around"],
+    example: {
+      english: "The journalist spent weeks digging around for evidence of corruption within the local government.",
+      chinese: "那名記者花了數週時間四處搜尋當地政府腐敗的證據。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；for + N（為了尋找…）"
+    },
+    vocabulary: [
+      { word: "corruption", pos: "n.", chinese: "腐敗、貪污" },
+      { word: "investigate", pos: "v.", chinese: "調查" },
+      { word: "uncover", pos: "v.", chinese: "揭露、發現" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + digging around for + N", example: "I dug around in the drawer but couldn't find the receipt." }
+  },
+  {
+    phrase: "direct towards",
+    type: "動詞 + 介系詞",
+    chinese: "引導向、將…指向",
+    keywords: ["direct", "towards"],
+    example: {
+      english: "The counsellor directed the student towards resources that could help improve his study skills.",
+      chinese: "輔導老師將那名學生引導至可以幫助改善其學習技巧的資源。",
+      grammar_point: "that + 關係子句（修飾先行詞 resources）；could + V（情態動詞表可能性）"
+    },
+    vocabulary: [
+      { word: "counsellor", pos: "n.", chinese: "輔導老師、顧問" },
+      { word: "resource", pos: "n.", chinese: "資源" },
+      { word: "guide", pos: "v.", chinese: "引導" }
+    ],
+    sentence_pattern: { pattern: "S + directed + 人 + towards + N + that + V", example: "Efforts should be directed towards finding a long-term solution." }
+  },
+  {
+    phrase: "disagree on",
+    type: "動詞 + 介系詞",
+    chinese: "在…方面意見不一、對…有異議",
+    keywords: ["disagree", "on"],
+    example: {
+      english: "The two experts disagree on the best approach to tackling climate change and reducing carbon emissions.",
+      chinese: "兩位專家在應對氣候變化和減少碳排放的最佳方法上意見不一。",
+      grammar_point: "disagree on + N（在…方面不同意）；on + V-ing（關於做某事）"
+    },
+    vocabulary: [
+      { word: "approach", pos: "n.", chinese: "方法、做法" },
+      { word: "emission", pos: "n.", chinese: "排放（物）" },
+      { word: "dispute", pos: "v.", chinese: "爭議、反對" }
+    ],
+    sentence_pattern: { pattern: "S + disagree(s) on + N + of + V-ing", example: "We disagree on how to divide the responsibilities." }
+  },
+  {
+    phrase: "divide among",
+    type: "動詞 + 介系詞",
+    chinese: "在（三者或以上）之間分配",
+    keywords: ["divide", "among"],
+    example: {
+      english: "The prize money was divided equally among the five winning teams at the end of the tournament.",
+      chinese: "獎金在錦標賽結束時平均分配給五支獲勝的隊伍。",
+      grammar_point: "was divided equally among（被動語態）；at the end of + N（在…結束時）"
+    },
+    vocabulary: [
+      { word: "equally", pos: "adv.", chinese: "平均地、均等地" },
+      { word: "distribute", pos: "v.", chinese: "分配、分發" },
+      { word: "tournament", pos: "n.", chinese: "錦標賽" }
+    ],
+    sentence_pattern: { pattern: "N + was divided equally among + N + at the end of + N", example: "Chores were divided among family members fairly." }
+  },
+  {
+    phrase: "double up",
+    type: "片語動詞",
+    chinese: "共用、疊用；彎身（大笑或疼痛）",
+    keywords: ["double", "up"],
+    example: {
+      english: "Due to the shortage of rooms, two of the delegates had to double up and share accommodation.",
+      chinese: "由於房間不足，兩位代表不得不共用一間住所。",
+      grammar_point: "due to + N（由於…，介系詞片語表原因）；had to + V（不得不做某事）"
+    },
+    vocabulary: [
+      { word: "delegate", pos: "n.", chinese: "代表" },
+      { word: "accommodation", pos: "n.", chinese: "住所、住宿" },
+      { word: "shortage", pos: "n.", chinese: "短缺" }
+    ],
+    sentence_pattern: { pattern: "Due to + N, S + had to double up and + V", example: "He doubled up with laughter when he heard the joke." }
+  },
+  {
+    phrase: "draw beside",
+    type: "動詞 + 介系詞",
+    chinese: "靠近、停在…旁邊",
+    keywords: ["draw", "beside"],
+    example: {
+      english: "The black limousine drew beside the kerb and a well-dressed woman stepped out calmly.",
+      chinese: "黑色豪華轎車靠近路邊停下，一位衣著得體的女士從容地走了出來。",
+      grammar_point: "and + S + V（對等連接詞連接兩個動作）；calmly（副詞修飾動詞）"
+    },
+    vocabulary: [
+      { word: "limousine", pos: "n.", chinese: "豪華轎車" },
+      { word: "kerb", pos: "n.", chinese: "路邊石、人行道邊緣（英式）" },
+      { word: "approach", pos: "v.", chinese: "靠近" }
+    ],
+    sentence_pattern: { pattern: "N + drew beside + N + and + S + V", example: "He drew his chair beside hers and whispered something." }
+  },
+  {
+    phrase: "drift into",
+    type: "片語動詞",
+    chinese: "不知不覺進入（某狀態）；漂入",
+    keywords: ["drift", "into"],
+    example: {
+      english: "Without a clear plan, many young adults drift into careers that don't truly fulfil them.",
+      chinese: "沒有明確計畫的情況下，許多年輕人不知不覺地進入了無法真正滿足他們的職業。",
+      grammar_point: "without + N（在沒有…的情況下）；that + 關係子句（修飾先行詞 careers）"
+    },
+    vocabulary: [
+      { word: "aimless", pos: "adj.", chinese: "漫無目的的" },
+      { word: "fulfil", pos: "v.", chinese: "實現、滿足" },
+      { word: "wander", pos: "v.", chinese: "漫遊、漂流" }
+    ],
+    sentence_pattern: { pattern: "Without + N, S + drift(s) into + N + that + V", example: "She drifted into a deep sleep on the long train journey." }
+  },
+  {
+    phrase: "drop upon",
+    type: "片語動詞",
+    chinese: "偶然發現；突然拜訪",
+    keywords: ["drop", "upon"],
+    example: {
+      english: "While sorting through old boxes, he dropped upon a collection of rare stamps from the 1940s.",
+      chinese: "在整理舊箱子時，他偶然發現了一批來自1940年代的珍稀郵票。",
+      grammar_point: "while + V-ing（時間副詞子句的省略形式）；from + 時間（來自某年代）"
+    },
+    vocabulary: [
+      { word: "rare", pos: "adj.", chinese: "珍稀的、罕見的" },
+      { word: "stumble upon", pos: "phr. v.", chinese: "偶然發現" },
+      { word: "collection", pos: "n.", chinese: "收藏品" }
+    ],
+    sentence_pattern: { pattern: "While + V-ing, S + dropped upon + N + from + 時間", example: "I dropped upon an old friend at the supermarket yesterday." }
+  },
+  {
+    phrase: "earn from",
+    type: "動詞 + 介系詞",
+    chinese: "從…賺得、藉由…獲得報酬",
+    keywords: ["earn", "from"],
+    example: {
+      english: "She earns a comfortable income from her freelance writing work for several online publications.",
+      chinese: "她從為幾家線上出版物撰寫自由稿件的工作中賺取了不錯的收入。",
+      grammar_point: "from + N（從…，表示來源）；for + N（為…，表示服務對象）"
+    },
+    vocabulary: [
+      { word: "freelance", pos: "adj.", chinese: "自由工作者的" },
+      { word: "income", pos: "n.", chinese: "收入" },
+      { word: "publication", pos: "n.", chinese: "出版物" }
+    ],
+    sentence_pattern: { pattern: "S + earns + N + from + V-ing + for + N", example: "How much do you earn from your part-time job?" }
+  },
+  {
+    phrase: "edge towards",
+    type: "動詞 + 介系詞",
+    chinese: "緩慢靠近；逐漸趨向",
+    keywords: ["edge", "towards"],
+    example: {
+      english: "The country is slowly edging towards an agreement on trade that could benefit millions of people.",
+      chinese: "該國正緩慢地趨向達成一項可能惠及數百萬人的貿易協議。",
+      grammar_point: "is + V-ing（現在進行式，表示緩慢進行的趨勢）；that + 關係子句（修飾先行詞 agreement）"
+    },
+    vocabulary: [
+      { word: "agreement", pos: "n.", chinese: "協議" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "approach", pos: "v.", chinese: "逼近、接近" }
+    ],
+    sentence_pattern: { pattern: "S + is edging towards + N + that + V", example: "He edged towards the exit without anyone noticing." }
+  },
+  {
+    phrase: "elaborate upon",
+    type: "動詞 + 介系詞",
+    chinese: "詳細說明、進一步闡述",
+    keywords: ["elaborate", "upon"],
+    example: {
+      english: "The professor asked the student to elaborate upon her research findings in greater detail during the presentation.",
+      chinese: "教授要求學生在簡報時更詳細地闡述她的研究發現。",
+      grammar_point: "asked + 人 + to + V（要求某人做某事）；in greater detail（更詳細地）"
+    },
+    vocabulary: [
+      { word: "findings", pos: "n.", chinese: "研究發現（常用複數）" },
+      { word: "expand", pos: "v.", chinese: "擴展、詳述" },
+      { word: "clarify", pos: "v.", chinese: "闡明、釐清" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to elaborate upon + N + in greater detail", example: "Could you elaborate upon what you mean by that statement?" }
+  },
+  {
+    phrase: "embark on",
+    type: "動詞 + 介系詞",
+    chinese: "開始、踏上（新計畫或旅程）",
+    keywords: ["embark", "on"],
+    example: {
+      english: "After years of careful preparation, the young explorer finally embarked on his solo journey around the world.",
+      chinese: "經過多年的細心準備，這位年輕的探險家終於踏上了他的環球獨自旅程。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；finally + V（副詞加強動作的完成感）"
+    },
+    vocabulary: [
+      { word: "explorer", pos: "n.", chinese: "探險家" },
+      { word: "solo", pos: "adj.", chinese: "獨自的" },
+      { word: "undertake", pos: "v.", chinese: "著手進行、承擔" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + finally embarked on + N", example: "The company embarked on an ambitious expansion plan last year." }
+  },
+  {
+    phrase: "emerge into",
+    type: "動詞 + 介系詞",
+    chinese: "進入、走進（某空間或狀態）",
+    keywords: ["emerge", "into"],
+    example: {
+      english: "After hours in the dark forest, the hikers emerged into a bright open meadow full of wildflowers.",
+      chinese: "在黑暗的森林中行走數小時後，登山者走進了一片開闊明亮、野花盛開的草地。",
+      grammar_point: "after + 時間 + in + 地點（在某地…之後）；full of（充滿…，形容詞片語）"
+    },
+    vocabulary: [
+      { word: "meadow", pos: "n.", chinese: "草地、牧場" },
+      { word: "appear", pos: "v.", chinese: "出現、顯現" },
+      { word: "transition", pos: "n.", chinese: "過渡、轉變" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + in + N, S + emerged into + N", example: "The caterpillar emerges into a butterfly after weeks in its cocoon." }
+  },
+  {
+    phrase: "emphasize on",
+    type: "動詞 + 介系詞",
+    chinese: "強調、著重於",
+    keywords: ["emphasize", "on"],
+    example: {
+      english: "The training programme emphasizes strongly on building practical skills rather than memorising theory.",
+      chinese: "這個培訓課程強調培養實際技能，而不是死記理論。",
+      grammar_point: "rather than + V-ing（而非…，表示對比）；strongly（副詞加強語氣）"
+    },
+    vocabulary: [
+      { word: "practical", pos: "adj.", chinese: "實際的、實用的" },
+      { word: "highlight", pos: "v.", chinese: "強調、突出" },
+      { word: "theory", pos: "n.", chinese: "理論" }
+    ],
+    sentence_pattern: { pattern: "N + emphasizes on + V-ing + rather than + V-ing", example: "The coach emphasized on teamwork throughout the training session." }
+  },
+  {
+    phrase: "encourage towards",
+    type: "動詞 + 介系詞",
+    chinese: "鼓勵（某人）朝向、引導走向",
+    keywords: ["encourage", "towards"],
+    example: {
+      english: "Good mentors encourage their students towards independent thinking rather than simply following instructions.",
+      chinese: "優秀的導師鼓勵學生走向獨立思考，而不只是遵從指示。",
+      grammar_point: "rather than + V-ing（而非…，表示對比）；independent（形容詞修飾名詞）"
+    },
+    vocabulary: [
+      { word: "mentor", pos: "n.", chinese: "導師、引路人" },
+      { word: "independent", pos: "adj.", chinese: "獨立的" },
+      { word: "motivate", pos: "v.", chinese: "激勵、促使" }
+    ],
+    sentence_pattern: { pattern: "S + encourage(s) + 人 + towards + N + rather than + V-ing", example: "Parents should encourage children towards their natural strengths." }
+  },
+  {
+    phrase: "escape into",
+    type: "片語動詞",
+    chinese: "逃入；沉浸於（某事物）以逃避現實",
+    keywords: ["escape", "into"],
+    example: {
+      english: "Reading novels allows her to escape into imaginary worlds and forget about her daily worries.",
+      chinese: "閱讀小說讓她能夠沉浸在虛構的世界中，忘卻日常的煩惱。",
+      grammar_point: "allows + 人 + to + V（讓某人能夠做某事）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "imaginary", pos: "adj.", chinese: "虛構的、想像中的" },
+      { word: "retreat", pos: "v.", chinese: "退入、逃到" },
+      { word: "immerse", pos: "v.", chinese: "沉浸" }
+    ],
+    sentence_pattern: { pattern: "V-ing + allows + 人 + to escape into + N + and + V", example: "He escaped into music whenever life became too stressful." }
+  },
+  {
+    phrase: "evolve from",
+    type: "動詞 + 介系詞",
+    chinese: "從…演變而來、由…發展而成",
+    keywords: ["evolve", "from"],
+    example: {
+      english: "The modern smartphone has evolved from the basic mobile phone of the early 1990s into a powerful computer.",
+      chinese: "現代智慧型手機從1990年代初期的基本手機演變成為一台功能強大的電腦。",
+      grammar_point: "has evolved from + N + into + N（從…演變成…，現在完成式表示發展的結果）"
+    },
+    vocabulary: [
+      { word: "transform", pos: "v.", chinese: "轉變、演變" },
+      { word: "develop", pos: "v.", chinese: "發展" },
+      { word: "origin", pos: "n.", chinese: "起源" }
+    ],
+    sentence_pattern: { pattern: "N + has evolved from + N + into + N", example: "Our partnership evolved from a chance meeting into a successful business." }
+  },
+  {
+    phrase: "excel at",
+    type: "動詞 + 介系詞",
+    chinese: "擅長、在…方面表現出色",
+    keywords: ["excel", "at"],
+    example: {
+      english: "She has always excelled at languages and was fluent in four of them before graduating from university.",
+      chinese: "她一直擅長語言，在大學畢業前就已流利掌握其中四種語言。",
+      grammar_point: "has always excelled（現在完成式加頻率副詞）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "fluent", pos: "adj.", chinese: "流利的" },
+      { word: "talented", pos: "adj.", chinese: "有才能的" },
+      { word: "outstanding", pos: "adj.", chinese: "出色的、傑出的" }
+    ],
+    sentence_pattern: { pattern: "S + has always excelled at + N + and + V", example: "He excels at problem-solving under pressure." }
+  },
+  {
+    phrase: "exchange with",
+    type: "動詞 + 介系詞",
+    chinese: "與…交換、互換",
+    keywords: ["exchange", "with"],
+    example: {
+      english: "The two schools regularly exchange students with each other to promote cultural understanding and friendship.",
+      chinese: "兩所學校定期互換學生，以促進文化理解和友誼。",
+      grammar_point: "regularly + V（副詞修飾動詞，表示規律性）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "promote", pos: "v.", chinese: "促進" },
+      { word: "cultural", pos: "adj.", chinese: "文化的" },
+      { word: "swap", pos: "v.", chinese: "互換、交換" }
+    ],
+    sentence_pattern: { pattern: "S + regularly exchange(s) + N + with + N + to + V", example: "They exchanged phone numbers with each other at the end of the conference." }
+  },
+  {
+    phrase: "expand upon",
+    type: "動詞 + 介系詞",
+    chinese: "進一步闡述、詳細說明",
+    keywords: ["expand", "upon"],
+    example: {
+      english: "The researcher was invited to expand upon her findings at the international conference next month.",
+      chinese: "這位研究員受邀在下個月的國際會議上進一步闡述她的研究發現。",
+      grammar_point: "was invited to + V（被動語態，表示被邀請做某事）"
+    },
+    vocabulary: [
+      { word: "findings", pos: "n.", chinese: "研究發現（常用複數）" },
+      { word: "elaborate", pos: "v.", chinese: "詳述、闡明" },
+      { word: "conference", pos: "n.", chinese: "會議" }
+    ],
+    sentence_pattern: { pattern: "S + was invited to expand upon + N + at + N", example: "Could you expand upon what you said earlier about the budget?" }
+  },
+  {
+    phrase: "fade into",
+    type: "片語動詞",
+    chinese: "逐漸消失融入；淡入",
+    keywords: ["fade", "into"],
+    example: {
+      english: "As the years passed, the painful memories slowly faded into the background of her daily life.",
+      chinese: "隨著歲月流逝，那些痛苦的記憶慢慢淡入她日常生活的背景中。",
+      grammar_point: "as + S + V（隨著…，副詞子句表同步變化）；slowly（副詞表漸進過程）"
+    },
+    vocabulary: [
+      { word: "memory", pos: "n.", chinese: "記憶" },
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "dissolve", pos: "v.", chinese: "消融、消失" }
+    ],
+    sentence_pattern: { pattern: "N + slowly faded into + N + as + S + V", example: "The old hero faded into obscurity after retiring from public life." }
+  },
+  {
+    phrase: "fall behind on",
+    type: "片語動詞",
+    chinese: "在…方面落後、拖欠",
+    keywords: ["fall", "behind", "on"],
+    example: {
+      english: "If you fall behind on your assignments, it becomes very difficult to catch up before the exam.",
+      chinese: "如果你的作業落後，要在考試前趕上就會變得非常困難。",
+      grammar_point: "If + S + V（條件子句）；it becomes + adj + to + V（虛主詞句型）"
+    },
+    vocabulary: [
+      { word: "assignment", pos: "n.", chinese: "作業、任務" },
+      { word: "overdue", pos: "adj.", chinese: "逾期的" },
+      { word: "catch up", pos: "phr. v.", chinese: "趕上" }
+    ],
+    sentence_pattern: { pattern: "If + S + fall behind on + N, it becomes + adj + to + V", example: "He fell behind on his rent payments after losing his job." }
+  },
+  {
+    phrase: "feel towards",
+    type: "動詞 + 介系詞",
+    chinese: "對…有某種感受、感情傾向",
+    keywords: ["feel", "towards"],
+    example: {
+      english: "It took her a long time to understand what she truly felt towards him after all they had been through.",
+      chinese: "在他們經歷了這一切之後，她花了很長時間才明白自己對他真正的感受。",
+      grammar_point: "what + S + V（間接問句作受詞）；after all + S + had + p.p.（在…之後）"
+    },
+    vocabulary: [
+      { word: "emotion", pos: "n.", chinese: "情感、感受" },
+      { word: "affection", pos: "n.", chinese: "情感、喜愛" },
+      { word: "attitude", pos: "n.", chinese: "態度" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to understand what S + felt towards + 人", example: "I'm not sure how I feel towards the idea of moving abroad." }
+  },
+  {
+    phrase: "figure among",
+    type: "動詞 + 介系詞",
+    chinese: "名列於、位在…之中",
+    keywords: ["figure", "among"],
+    example: {
+      english: "She figures among the most influential scientists of her generation, having published over a hundred papers.",
+      chinese: "她名列同代最具影響力的科學家之中，已發表超過一百篇論文。",
+      grammar_point: "having + p.p.（完成分詞構句，表示已完成的原因）"
+    },
+    vocabulary: [
+      { word: "influential", pos: "adj.", chinese: "有影響力的" },
+      { word: "generation", pos: "n.", chinese: "世代" },
+      { word: "rank", pos: "v.", chinese: "排名、名列" }
+    ],
+    sentence_pattern: { pattern: "S + figures among + N, having + p.p.", example: "This novel figures among the greatest works of the twentieth century." }
+  },
+  {
+    phrase: "find among",
+    type: "動詞 + 介系詞",
+    chinese: "在…之中發現、於…之間找到",
+    keywords: ["find", "among"],
+    example: {
+      english: "You can find among his early sketches several ideas that later became his most celebrated paintings.",
+      chinese: "在他早期的草圖中，你可以找到幾個後來成為他最受讚譽的畫作的想法。",
+      grammar_point: "that + 關係子句（修飾先行詞 ideas）；later + V（後來做了某事）"
+    },
+    vocabulary: [
+      { word: "sketch", pos: "n.", chinese: "草圖、素描" },
+      { word: "celebrated", pos: "adj.", chinese: "受讚譽的、著名的" },
+      { word: "discover", pos: "v.", chinese: "發現" }
+    ],
+    sentence_pattern: { pattern: "S + can find among + N + N + that + V", example: "You will find among the guests several well-known authors." }
+  },
+  {
+    phrase: "fit around",
+    type: "片語動詞",
+    chinese: "配合、遷就（時間或安排）",
+    keywords: ["fit", "around"],
+    example: {
+      english: "The flexible working arrangement allows employees to fit their schedules around family responsibilities.",
+      chinese: "彈性工作安排讓員工能夠根據家庭責任來調整自己的工作時間。",
+      grammar_point: "allows + 人 + to + V（讓某人能夠做某事）"
+    },
+    vocabulary: [
+      { word: "flexible", pos: "adj.", chinese: "彈性的" },
+      { word: "arrangement", pos: "n.", chinese: "安排" },
+      { word: "accommodate", pos: "v.", chinese: "配合、遷就" }
+    ],
+    sentence_pattern: { pattern: "N + allows + 人 + to fit + N + around + N", example: "Can you fit the meeting around my afternoon appointments?" }
+  },
+  {
+    phrase: "follow onto",
+    type: "片語動詞",
+    chinese: "接續進入；跟隨上去",
+    keywords: ["follow", "onto"],
+    example: {
+      english: "After the opening ceremony, the guests followed the host onto the stage for a group photograph.",
+      chinese: "開幕典禮結束後，賓客跟隨主持人走上舞台拍團體照。",
+      grammar_point: "after + N（介系詞片語表時間）；for + N（為了…，表目的）"
+    },
+    vocabulary: [
+      { word: "ceremony", pos: "n.", chinese: "典禮" },
+      { word: "stage", pos: "n.", chinese: "舞台" },
+      { word: "proceed", pos: "v.", chinese: "繼續前進、進入" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + followed + 人 + onto + N + for + N", example: "Follow onto the next page for further instructions." }
+  },
+  {
+    phrase: "force into",
+    type: "片語動詞",
+    chinese: "強迫進入；迫使（某人）做某事",
+    keywords: ["force", "into"],
+    example: {
+      english: "No one should be forced into making a major life decision when they are under extreme pressure.",
+      chinese: "任何人都不應在承受巨大壓力時被迫做出重大的人生決定。",
+      grammar_point: "be forced into + V-ing（被迫做某事，被動語態）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "pressure", pos: "n.", chinese: "壓力" },
+      { word: "coerce", pos: "v.", chinese: "強迫、脅迫" },
+      { word: "decision", pos: "n.", chinese: "決定" }
+    ],
+    sentence_pattern: { pattern: "S + should not be forced into + V-ing + when + S + V", example: "The company was forced into bankruptcy by mounting debts." }
+  },
+  {
+    phrase: "forge ahead",
+    type: "片語動詞",
+    chinese: "奮勇前進、大步推進",
+    keywords: ["forge", "ahead"],
+    example: {
+      english: "Despite the initial setbacks, the development team forged ahead with their plan and met the deadline.",
+      chinese: "儘管遭遇了最初的挫折，開發團隊仍奮勇推進計畫，並在截止日期前完成。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；and + V（連接兩個結果動作）"
+    },
+    vocabulary: [
+      { word: "setback", pos: "n.", chinese: "挫折、阻礙" },
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "determined", pos: "adj.", chinese: "堅定的" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + forged ahead with + N + and + V", example: "She decided to forge ahead with her plans despite the criticism." }
+  },
+  {
+    phrase: "founder on",
+    type: "動詞 + 介系詞",
+    chinese: "因…而失敗、在…上觸礁",
+    keywords: ["founder", "on"],
+    example: {
+      english: "The peace negotiations foundered on the issue of territorial boundaries, leaving both sides frustrated.",
+      chinese: "和平談判因領土邊界問題而觸礁，讓雙方都感到沮喪。",
+      grammar_point: "leaving + 人 + adj（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "negotiation", pos: "n.", chinese: "談判、協商" },
+      { word: "territorial", pos: "adj.", chinese: "領土的" },
+      { word: "collapse", pos: "v.", chinese: "崩潰、失敗" }
+    ],
+    sentence_pattern: { pattern: "N + foundered on + N, leaving + 人 + adj", example: "The project foundered on a lack of funding at the final stage." }
+  },
+  {
+    phrase: "gain from",
+    type: "動詞 + 介系詞",
+    chinese: "從…獲益、由…得到",
+    keywords: ["gain", "from"],
+    example: {
+      english: "There is much to be gained from listening carefully to people whose experiences differ from your own.",
+      chinese: "從認真聆聽與你經歷不同的人那裡，有很多可以獲益之處。",
+      grammar_point: "there is + N + to be + p.p.（有…可以被…）；whose（關係代名詞，表示所有關係）"
+    },
+    vocabulary: [
+      { word: "benefit", pos: "v.", chinese: "獲益" },
+      { word: "perspective", pos: "n.", chinese: "觀點、角度" },
+      { word: "insight", pos: "n.", chinese: "洞見、見解" }
+    ],
+    sentence_pattern: { pattern: "There is much to be gained from + V-ing + N", example: "What do you hope to gain from this experience?" }
+  },
+  {
+    phrase: "get around to",
+    type: "片語動詞",
+    chinese: "找到時間做、終於著手（做某事）",
+    keywords: ["get", "around", "to"],
+    example: {
+      english: "I've been meaning to call her for weeks but I just haven't gotten around to it yet.",
+      chinese: "我幾週來一直想打電話給她，但就是一直還沒找到時間去做。",
+      grammar_point: "have been meaning to + V（一直想做某事，表示持續的意圖）；haven't + p.p. + yet（尚未完成）"
+    },
+    vocabulary: [
+      { word: "procrastinate", pos: "v.", chinese: "拖延" },
+      { word: "eventually", pos: "adv.", chinese: "最終、終於" },
+      { word: "manage", pos: "v.", chinese: "設法做到" }
+    ],
+    sentence_pattern: { pattern: "S + have been meaning to + V + but S + haven't gotten around to it yet", example: "I'll get around to fixing the leak when I have a free afternoon." }
+  },
+  {
+    phrase: "get back on",
+    type: "片語動詞",
+    chinese: "重回（正軌）；重新上（交通工具）",
+    keywords: ["get", "back", "on"],
+    example: {
+      english: "After a difficult few months, she worked hard to get back on track with her studies.",
+      chinese: "在艱難的幾個月後，她努力讓自己的學業重回正軌。",
+      grammar_point: "after + N（介系詞片語表時間）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "track", pos: "n.", chinese: "正軌、軌道" },
+      { word: "recover", pos: "v.", chinese: "恢復" },
+      { word: "resume", pos: "v.", chinese: "重新開始" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + worked hard to get back on + N", example: "It took time to get back on his feet after the surgery." }
+  },
+  {
+    phrase: "give ground",
+    type: "片語動詞",
+    chinese: "讓步、退讓",
+    keywords: ["give", "ground"],
+    example: {
+      english: "Neither side was willing to give ground during the negotiations, causing the talks to stall.",
+      chinese: "談判期間雙方都不願讓步，導致會談陷入僵局。",
+      grammar_point: "neither + N + was willing to + V（兩者都不願意…）；causing + N + to + V（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "concede", pos: "v.", chinese: "讓步、承認" },
+      { word: "compromise", pos: "v.", chinese: "妥協" },
+      { word: "stall", pos: "v.", chinese: "陷入僵局" }
+    ],
+    sentence_pattern: { pattern: "Neither + N + was willing to give ground, causing + N + to + V", example: "The government finally gave ground on the tax reform proposal." }
+  },
+  {
+    phrase: "graduate into",
+    type: "動詞 + 介系詞",
+    chinese: "升級成為；逐漸進入（更高層次）",
+    keywords: ["graduate", "into"],
+    example: {
+      english: "What started as a small hobby gradually graduated into a full-time business with fifteen employees.",
+      chinese: "原本只是一個小嗜好，逐漸發展成一個擁有十五名員工的全職企業。",
+      grammar_point: "what + S + V（名詞子句作主詞）；gradually + V（副詞表漸進過程）"
+    },
+    vocabulary: [
+      { word: "evolve", pos: "v.", chinese: "演變、發展" },
+      { word: "transition", pos: "n.", chinese: "過渡、轉變" },
+      { word: "expand", pos: "v.", chinese: "擴展" }
+    ],
+    sentence_pattern: { pattern: "What started as + N + gradually graduated into + N", example: "She graduated into a senior management role after five years." }
+  },
+  {
+    phrase: "grasp at",
+    type: "動詞 + 介系詞",
+    chinese: "急忙抓取；拼命抓住（機會或希望）",
+    keywords: ["grasp", "at"],
+    example: {
+      english: "Desperate for a solution, the committee began grasping at any idea that might solve the funding crisis.",
+      chinese: "由於迫切需要解決方案，委員會開始拼命抓住任何可能解決資金危機的想法。",
+      grammar_point: "desperate for + N（迫切需要…）；that + 關係子句（修飾先行詞 idea）"
+    },
+    vocabulary: [
+      { word: "desperate", pos: "adj.", chinese: "迫切的、絕望的" },
+      { word: "seize", pos: "v.", chinese: "抓住、把握" },
+      { word: "opportunity", pos: "n.", chinese: "機會" }
+    ],
+    sentence_pattern: { pattern: "Desperate for + N, S + began grasping at + N + that + V", example: "Don't just grasp at the first offer you receive." }
+  },
+  {
+    phrase: "grow beyond",
+    type: "動詞 + 介系詞",
+    chinese: "超越成長；超出（原有的限制或框架）",
+    keywords: ["grow", "beyond"],
+    example: {
+      english: "The startup has grown beyond its original vision and now operates in more than thirty countries.",
+      chinese: "這家新創公司已超越了原本的願景，目前在超過三十個國家運營。",
+      grammar_point: "has grown beyond（現在完成式，表示對現在有影響的發展）；and now + V（現在的狀態）"
+    },
+    vocabulary: [
+      { word: "vision", pos: "n.", chinese: "願景" },
+      { word: "surpass", pos: "v.", chinese: "超越" },
+      { word: "expand", pos: "v.", chinese: "擴展" }
+    ],
+    sentence_pattern: { pattern: "N + has grown beyond + N + and now + V", example: "She has grown beyond the limitations she once placed on herself." }
+  },
+  {
+    phrase: "grow towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…成長、逐漸趨向",
+    keywords: ["grow", "towards"],
+    example: {
+      english: "With guidance and support, young people can grow towards becoming responsible and confident adults.",
+      chinese: "在引導和支持下，年輕人能夠逐漸成長為負責任且有自信的成年人。",
+      grammar_point: "with + N（有著…，介系詞片語表條件）；can + V（情態動詞表可能性）"
+    },
+    vocabulary: [
+      { word: "guidance", pos: "n.", chinese: "引導、指導" },
+      { word: "responsible", pos: "adj.", chinese: "負責任的" },
+      { word: "mature", pos: "v.", chinese: "成熟、成長" }
+    ],
+    sentence_pattern: { pattern: "With + N, S + can grow towards + V-ing", example: "The two countries are slowly growing towards a mutual understanding." }
+  },
+  {
+    phrase: "guide through",
+    type: "片語動詞",
+    chinese: "引導完成、帶領通過（過程或困難）",
+    keywords: ["guide", "through"],
+    example: {
+      english: "The experienced counsellor guided the family through the difficult process of grief and recovery.",
+      chinese: "有經驗的輔導員引導這個家庭走過悲痛和復原的艱難過程。",
+      grammar_point: "guide + 人 + through + N（引導某人走過某過程）"
+    },
+    vocabulary: [
+      { word: "counsellor", pos: "n.", chinese: "輔導員、顧問" },
+      { word: "grief", pos: "n.", chinese: "悲痛" },
+      { word: "navigate", pos: "v.", chinese: "引導、指引" }
+    ],
+    sentence_pattern: { pattern: "S + guided + 人 + through + N", example: "Let me guide you through the steps of the application process." }
+  },
+  {
+    phrase: "hand towards",
+    type: "動詞 + 介系詞",
+    chinese: "伸手遞向、將…遞給",
+    keywords: ["hand", "towards"],
+    example: {
+      english: "She smiled warmly and handed the bouquet towards the guest of honour at the front of the room.",
+      chinese: "她溫暖地微笑，將花束遞向坐在房間前方的貴賓。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）；at the front of + N（在…前方）"
+    },
+    vocabulary: [
+      { word: "bouquet", pos: "n.", chinese: "花束" },
+      { word: "gesture", pos: "n.", chinese: "手勢、姿態" },
+      { word: "extend", pos: "v.", chinese: "伸出、遞出" }
+    ],
+    sentence_pattern: { pattern: "S + V + and handed + N + towards + 人 + at + 地點", example: "He handed the document towards her across the table." }
+  },
+  {
+    phrase: "head towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…前進；走向（某方向或結果）",
+    keywords: ["head", "towards"],
+    example: {
+      english: "After lunch, the group headed towards the old lighthouse at the far end of the coastal path.",
+      chinese: "午餐後，這群人朝著海岸步道盡頭的老燈塔前進。",
+      grammar_point: "after + N（介系詞片語表時間）；at the far end of + N（在…的遠端）"
+    },
+    vocabulary: [
+      { word: "lighthouse", pos: "n.", chinese: "燈塔" },
+      { word: "coastal", pos: "adj.", chinese: "沿海的" },
+      { word: "direction", pos: "n.", chinese: "方向" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + headed towards + N + at + N", example: "The economy seems to be heading towards a recovery." }
+  },
+  {
+    phrase: "hope towards",
+    type: "動詞 + 介系詞",
+    chinese: "懷抱希望朝向、期望達到",
+    keywords: ["hope", "towards"],
+    example: {
+      english: "Despite the many setbacks, the community continues to hope towards a future of peace and stability.",
+      chinese: "儘管遭遇重重挫折，這個社群仍持續懷抱希望，期望邁向和平與穩定的未來。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；continues to + V（持續做某事）"
+    },
+    vocabulary: [
+      { word: "setback", pos: "n.", chinese: "挫折" },
+      { word: "stability", pos: "n.", chinese: "穩定" },
+      { word: "aspire", pos: "v.", chinese: "渴望、有志於" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + continues to hope towards + N", example: "We hope towards a day when everyone has access to clean water." }
+  },
+  {
+    phrase: "include among",
+    type: "動詞 + 介系詞",
+    chinese: "將…列入、納入…之中",
+    keywords: ["include", "among"],
+    example: {
+      english: "The school includes community service among the requirements for graduation each year.",
+      chinese: "學校將社區服務列入每年的畢業要求之中。",
+      grammar_point: "includes + N + among + N（將…納入…之中）"
+    },
+    vocabulary: [
+      { word: "requirement", pos: "n.", chinese: "要求、條件" },
+      { word: "graduation", pos: "n.", chinese: "畢業" },
+      { word: "incorporate", pos: "v.", chinese: "納入、包含" }
+    ],
+    sentence_pattern: { pattern: "S + includes + N + among + N", example: "She is included among the top ten finalists for the award." }
+  },
+  {
+    phrase: "increase towards",
+    type: "動詞 + 介系詞",
+    chinese: "逐漸增加至、朝…增長",
+    keywords: ["increase", "towards"],
+    example: {
+      english: "Global temperatures are steadily increasing towards levels that scientists consider extremely dangerous.",
+      chinese: "全球氣溫正穩定地朝科學家認為極度危險的水平增長。",
+      grammar_point: "are + V-ing（現在進行式，表示持續的趨勢）；that + 關係子句（修飾先行詞 levels）"
+    },
+    vocabulary: [
+      { word: "steadily", pos: "adv.", chinese: "穩定地" },
+      { word: "temperature", pos: "n.", chinese: "溫度、氣溫" },
+      { word: "threshold", pos: "n.", chinese: "門檻、臨界點" }
+    ],
+    sentence_pattern: { pattern: "N + are steadily increasing towards + N + that + S + V", example: "Support for the proposal is increasing towards a majority." }
+  },
+  {
+    phrase: "inquire about",
+    type: "動詞 + 介系詞",
+    chinese: "詢問、查詢（某事）",
+    keywords: ["inquire", "about"],
+    example: {
+      english: "Several parents called the school to inquire about the new policy on mobile phone use in class.",
+      chinese: "幾位家長打電話給學校，詢問有關課堂上使用手機的新政策。",
+      grammar_point: "called + 地點 + to + V（打電話到某地做某事）"
+    },
+    vocabulary: [
+      { word: "policy", pos: "n.", chinese: "政策" },
+      { word: "query", pos: "v.", chinese: "詢問、查詢" },
+      { word: "information", pos: "n.", chinese: "資訊" }
+    ],
+    sentence_pattern: { pattern: "S + called + 地點 + to inquire about + N", example: "I'd like to inquire about the availability of rooms next weekend." }
+  },
+  {
+    phrase: "insist upon",
+    type: "動詞 + 介系詞",
+    chinese: "堅持要求、堅決主張",
+    keywords: ["insist", "upon"],
+    example: {
+      english: "The client insists upon receiving a detailed written report before approving any further payments.",
+      chinese: "客戶堅持在批准任何進一步付款之前，必須收到一份詳細的書面報告。",
+      grammar_point: "insists upon + V-ing（堅持做某事）；before + V-ing（在…之前）"
+    },
+    vocabulary: [
+      { word: "detailed", pos: "adj.", chinese: "詳細的" },
+      { word: "demand", pos: "v.", chinese: "要求" },
+      { word: "approval", pos: "n.", chinese: "批准" }
+    ],
+    sentence_pattern: { pattern: "S + insists upon + V-ing + before + V-ing", example: "She insists upon punctuality at every team meeting." }
+  },
+  {
+    phrase: "involve around",
+    type: "動詞 + 介系詞",
+    chinese: "圍繞…展開、涉及",
+    keywords: ["involve", "around"],
+    example: {
+      english: "Most of the disputes in the office involve around miscommunication between departments.",
+      chinese: "辦公室裡大多數的糾紛都圍繞著部門之間的溝通不良展開。",
+      grammar_point: "most of + N（大多數…）；between + N（在…之間）"
+    },
+    vocabulary: [
+      { word: "dispute", pos: "n.", chinese: "糾紛、爭議" },
+      { word: "miscommunication", pos: "n.", chinese: "溝通不良" },
+      { word: "centre", pos: "v.", chinese: "以…為中心" }
+    ],
+    sentence_pattern: { pattern: "Most of + N + involve around + N + between + N", example: "The course involves around three hours of study per week." }
+  },
+  {
+    phrase: "keep along",
+    type: "片語動詞",
+    chinese: "沿著…繼續走；保持沿線",
+    keywords: ["keep", "along"],
+    example: {
+      english: "Keep along the river path for about two kilometres and you will reach the old stone bridge.",
+      chinese: "沿著河邊小徑走約兩公里，你就會到達那座古老的石橋。",
+      grammar_point: "Keep + V-ing（祈使句，表示持續做某事）；and + S + will + V（結果）"
+    },
+    vocabulary: [
+      { word: "path", pos: "n.", chinese: "小徑、路徑" },
+      { word: "kilometre", pos: "n.", chinese: "公里" },
+      { word: "continue", pos: "v.", chinese: "繼續" }
+    ],
+    sentence_pattern: { pattern: "Keep along + N + for + 距離 + and + S + will + V", example: "Keep along the fence until you reach the main gate." }
+  },
+  {
+    phrase: "keep within",
+    type: "動詞 + 介系詞",
+    chinese: "保持在…範圍之內",
+    keywords: ["keep", "within"],
+    example: {
+      english: "It is essential to keep spending within the approved budget to avoid running into financial difficulties.",
+      chinese: "將支出保持在核准預算範圍之內，以避免陷入財務困難，是至關重要的。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；to avoid + V-ing（為了避免做某事）"
+    },
+    vocabulary: [
+      { word: "budget", pos: "n.", chinese: "預算" },
+      { word: "limit", pos: "n.", chinese: "限制、上限" },
+      { word: "boundary", pos: "n.", chinese: "界限、範圍" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to keep + N + within + N + to avoid + V-ing", example: "Please keep your comments within the time limit of two minutes." }
+  },
+  {
+    phrase: "land upon",
+    type: "動詞 + 介系詞",
+    chinese: "降落在；偶然發現、想到",
+    keywords: ["land", "upon"],
+    example: {
+      english: "After hours of brainstorming, the creative team finally landed upon a concept that excited everyone.",
+      chinese: "經過數小時的腦力激盪，創意團隊終於想到了一個讓所有人都興奮的概念。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；that + 關係子句（修飾先行詞 concept）"
+    },
+    vocabulary: [
+      { word: "concept", pos: "n.", chinese: "概念、想法" },
+      { word: "brainstorm", pos: "v.", chinese: "腦力激盪" },
+      { word: "stumble upon", pos: "phr. v.", chinese: "偶然發現" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + finally landed upon + N + that + V", example: "The butterfly landed upon the flower and stayed perfectly still." }
+  },
+  {
+    phrase: "lash out",
+    type: "片語動詞",
+    chinese: "猛烈攻擊、突然爆發（言語或行為）",
+    keywords: ["lash", "out"],
+    example: {
+      english: "When he is under extreme stress, he tends to lash out at those closest to him without meaning to.",
+      chinese: "當他承受極大壓力時，他往往會在無意間對最親近的人發洩情緒。",
+      grammar_point: "when + S + V（時間副詞子句）；without + V-ing（在不…的情況下）"
+    },
+    vocabulary: [
+      { word: "outburst", pos: "n.", chinese: "情緒爆發" },
+      { word: "aggression", pos: "n.", chinese: "攻擊性" },
+      { word: "react", pos: "v.", chinese: "反應、回應" }
+    ],
+    sentence_pattern: { pattern: "When + S + V, S + tends to lash out at + 人 + without + V-ing", example: "She lashed out at the unfair criticism in front of the whole team." }
+  },
+  {
+    phrase: "launch from",
+    type: "動詞 + 介系詞",
+    chinese: "從…出發啟動；以…為基礎展開",
+    keywords: ["launch", "from"],
+    example: {
+      english: "The charity's annual campaign is launched from its headquarters and quickly spreads across the country.",
+      chinese: "這個慈善機構的年度活動從總部啟動，並迅速擴展至全國各地。",
+      grammar_point: "is launched from（被動語態）；and + V（連接兩個連續動作）"
+    },
+    vocabulary: [
+      { word: "headquarters", pos: "n.", chinese: "總部" },
+      { word: "campaign", pos: "n.", chinese: "活動、運動" },
+      { word: "initiate", pos: "v.", chinese: "啟動、發起" }
+    ],
+    sentence_pattern: { pattern: "N + is launched from + N + and + V", example: "The rocket was launched from the desert test facility at dawn." }
+  },
+  {
+    phrase: "lean upon",
+    type: "動詞 + 介系詞",
+    chinese: "依靠、仰賴；靠在…上",
+    keywords: ["lean", "upon"],
+    example: {
+      english: "During difficult times, it is natural to lean upon the people who know and care about you most.",
+      chinese: "在困難時期，依靠最了解你、最關心你的人是自然的事。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；who + 關係子句（修飾先行詞 people）"
+    },
+    vocabulary: [
+      { word: "rely", pos: "v.", chinese: "依靠、仰賴" },
+      { word: "support", pos: "n.", chinese: "支持、依靠" },
+      { word: "depend", pos: "v.", chinese: "依賴" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to lean upon + 人 + who + V", example: "He leaned upon his years of experience to guide the new team." }
+  },
+  {
+    phrase: "leave between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間留下（空間或時間）",
+    keywords: ["leave", "between"],
+    example: {
+      english: "When scheduling appointments, always leave enough time between each one to avoid running late.",
+      chinese: "在安排預約時，每次之間務必留有足夠的時間，以免延誤。",
+      grammar_point: "when + V-ing（時間副詞子句的省略形式）；to avoid + V-ing（為了避免…）"
+    },
+    vocabulary: [
+      { word: "schedule", pos: "v.", chinese: "安排、排程" },
+      { word: "gap", pos: "n.", chinese: "間隔、空隙" },
+      { word: "buffer", pos: "n.", chinese: "緩衝時間" }
+    ],
+    sentence_pattern: { pattern: "Always leave + N + between + N + to avoid + V-ing", example: "Leave some space between the furniture and the wall." }
+  },
+  {
+    phrase: "lie upon",
+    type: "動詞 + 介系詞",
+    chinese: "落在…身上（責任）；躺在…上",
+    keywords: ["lie", "upon"],
+    example: {
+      english: "The responsibility for ensuring student safety lies upon every member of the teaching staff.",
+      chinese: "確保學生安全的責任落在每一位教職員工身上。",
+      grammar_point: "the responsibility for + V-ing（做某事的責任）；lies upon + 人（責任落在某人身上）"
+    },
+    vocabulary: [
+      { word: "responsibility", pos: "n.", chinese: "責任" },
+      { word: "obligation", pos: "n.", chinese: "義務" },
+      { word: "rest", pos: "v.", chinese: "落在、取決於" }
+    ],
+    sentence_pattern: { pattern: "The responsibility for + V-ing + lies upon + 人", example: "A heavy burden lies upon those who lead others through crisis." }
+  },
+  {
+    phrase: "lift upon",
+    type: "動詞 + 介系詞",
+    chinese: "舉起放到…上；將…提升至",
+    keywords: ["lift", "upon"],
+    example: {
+      english: "The crowd lifted the champion upon their shoulders and cheered loudly as he held up the trophy.",
+      chinese: "人群將冠軍舉上肩膀，在他高舉獎杯時大聲歡呼。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）；as + S + V（當…的時候）"
+    },
+    vocabulary: [
+      { word: "champion", pos: "n.", chinese: "冠軍" },
+      { word: "trophy", pos: "n.", chinese: "獎杯" },
+      { word: "elevate", pos: "v.", chinese: "舉起、提升" }
+    ],
+    sentence_pattern: { pattern: "S + lifted + 人 + upon + N + and + V + as + S + V", example: "She lifted the child upon the counter so he could see better." }
+  },
+  {
+    phrase: "look beyond",
+    type: "動詞 + 介系詞",
+    chinese: "超越表面去看；著眼於更遠的事物",
+    keywords: ["look", "beyond"],
+    example: {
+      english: "A great leader knows how to look beyond short-term difficulties and focus on long-term goals.",
+      chinese: "偉大的領導者懂得如何超越短期困難，專注於長遠目標。",
+      grammar_point: "knows how to + V（知道如何做某事）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "obstacle", pos: "n.", chinese: "障礙" },
+      { word: "perspective", pos: "n.", chinese: "視野、觀點" },
+      { word: "foresight", pos: "n.", chinese: "遠見" }
+    ],
+    sentence_pattern: { pattern: "S + knows how to look beyond + N + and + V", example: "Try to look beyond appearances and judge people by their character." }
+  },
+  {
+    phrase: "look upon",
+    type: "動詞 + 介系詞",
+    chinese: "視為、看待；俯瞰",
+    keywords: ["look", "upon"],
+    example: {
+      english: "Many students look upon their time at university as the most transformative period of their lives.",
+      chinese: "許多學生將大學時光視為人生中最具轉化意義的一段時期。",
+      grammar_point: "look upon + N + as + N（將…視為…）"
+    },
+    vocabulary: [
+      { word: "transformative", pos: "adj.", chinese: "具有轉化意義的" },
+      { word: "regard", pos: "v.", chinese: "視為、看待" },
+      { word: "consider", pos: "v.", chinese: "認為、視為" }
+    ],
+    sentence_pattern: { pattern: "S + look(s) upon + N + as + N", example: "She looks upon every failure as a lesson worth learning." }
+  },
+  {
+    phrase: "matter to",
+    type: "動詞 + 介系詞",
+    chinese: "對…重要、對…有意義",
+    keywords: ["matter", "to"],
+    example: {
+      english: "Taking care of your mental health matters just as much to your overall wellbeing as physical fitness.",
+      chinese: "照顧你的心理健康對整體健康的重要性，就跟身體健康一樣。",
+      grammar_point: "just as much as（與…同樣重要，表示同等程度）"
+    },
+    vocabulary: [
+      { word: "wellbeing", pos: "n.", chinese: "健康、福祉" },
+      { word: "significant", pos: "adj.", chinese: "重要的、有意義的" },
+      { word: "priority", pos: "n.", chinese: "優先事項" }
+    ],
+    sentence_pattern: { pattern: "V-ing + matters just as much to + N + as + N", example: "Your opinion matters to us — please share your feedback." }
+  },
+  {
+    phrase: "measure against",
+    type: "動詞 + 介系詞",
+    chinese: "與…相比較衡量；以…為標準評估",
+    keywords: ["measure", "against"],
+    example: {
+      english: "Student progress should not always be measured against standardised tests but also against personal growth.",
+      chinese: "學生的進步不應總是以標準化測試來衡量，也應以個人成長來評估。",
+      grammar_point: "should not always be + p.p.（被動語態加否定，表示不應總是如此）；but also（不只是…而且也）"
+    },
+    vocabulary: [
+      { word: "standardised", pos: "adj.", chinese: "標準化的" },
+      { word: "benchmark", pos: "n.", chinese: "基準、標竿" },
+      { word: "evaluate", pos: "v.", chinese: "評估" }
+    ],
+    sentence_pattern: { pattern: "N + should not be measured against + N + but also + N", example: "Each employee's performance is measured against clear targets." }
+  },
+  {
+    phrase: "miss about",
+    type: "片語動詞",
+    chinese: "思念…的某方面；懷念…的點點滴滴",
+    keywords: ["miss", "about"],
+    example: {
+      english: "What she misses most about living abroad is the sense of independence and daily adventure.",
+      chinese: "她最懷念旅居海外的地方，是那種獨立感和日常的冒險趣味。",
+      grammar_point: "what + S + V（名詞子句作主詞）；most（最高級副詞，修飾動詞）"
+    },
+    vocabulary: [
+      { word: "independence", pos: "n.", chinese: "獨立" },
+      { word: "nostalgia", pos: "n.", chinese: "懷舊" },
+      { word: "cherish", pos: "v.", chinese: "珍惜" }
+    ],
+    sentence_pattern: { pattern: "What S + miss(es) most about + V-ing + is + N", example: "What do you miss most about your hometown?" }
+  },
+  {
+    phrase: "move between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間移動、穿梭",
+    keywords: ["move", "between"],
+    example: {
+      english: "She moves effortlessly between her roles as a mother, a teacher, and a community leader.",
+      chinese: "她毫不費力地在母親、老師和社區領袖的角色之間切換。",
+      grammar_point: "effortlessly（副詞表流暢自然）；as + N（作為…角色）"
+    },
+    vocabulary: [
+      { word: "effortlessly", pos: "adv.", chinese: "毫不費力地" },
+      { word: "transition", pos: "v.", chinese: "過渡、轉換" },
+      { word: "role", pos: "n.", chinese: "角色" }
+    ],
+    sentence_pattern: { pattern: "S + moves between + N, N, and + N", example: "He moves between London and Tokyo several times a year for work." }
+  },
+  {
+    phrase: "open towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝向…開放；面向、開口朝向",
+    keywords: ["open", "towards"],
+    example: {
+      english: "The large glass doors open towards the garden, flooding the living room with natural light.",
+      chinese: "大型玻璃門朝花園方向開啟，讓自然光充滿客廳。",
+      grammar_point: "flooding + N + with + N（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "flood", pos: "v.", chinese: "充滿、湧入" },
+      { word: "natural light", pos: "n.", chinese: "自然光" },
+      { word: "face", pos: "v.", chinese: "面向" }
+    ],
+    sentence_pattern: { pattern: "N + open(s) towards + N, flooding + N + with + N", example: "Try to stay open towards new ideas even when they challenge your beliefs." }
+  },
+  {
+    phrase: "operate within",
+    type: "動詞 + 介系詞",
+    chinese: "在…範圍內運作、在…框架下執行",
+    keywords: ["operate", "within"],
+    example: {
+      english: "All staff members are expected to operate within the ethical guidelines set by the organisation.",
+      chinese: "所有員工都應在組織所訂定的道德準則範圍內行事。",
+      grammar_point: "are expected to + V（被動語態，表示被期望做某事）；set by + N（由…訂定，過去分詞片語）"
+    },
+    vocabulary: [
+      { word: "ethical", pos: "adj.", chinese: "道德的" },
+      { word: "guideline", pos: "n.", chinese: "準則、指引" },
+      { word: "constraint", pos: "n.", chinese: "限制、約束" }
+    ],
+    sentence_pattern: { pattern: "S + are expected to operate within + N + set by + N", example: "The charity must operate within a strict legal framework." }
+  },
+  {
+    phrase: "originate from",
+    type: "動詞 + 介系詞",
+    chinese: "起源於、來自",
+    keywords: ["originate", "from"],
+    example: {
+      english: "Many of the spices used in local cuisine originate from tropical regions in Southeast Asia.",
+      chinese: "當地料理中使用的許多香料都起源於東南亞的熱帶地區。",
+      grammar_point: "used in（過去分詞片語作後置修飾）；in + 地點（在某地區）"
+    },
+    vocabulary: [
+      { word: "spice", pos: "n.", chinese: "香料" },
+      { word: "tropical", pos: "adj.", chinese: "熱帶的" },
+      { word: "derive", pos: "v.", chinese: "源自、來自" }
+    ],
+    sentence_pattern: { pattern: "N + originate(s) from + N", example: "This tradition originates from a harvest festival celebrated centuries ago." }
+  },
+  {
+    phrase: "part from",
+    type: "動詞 + 介系詞",
+    chinese: "與…分別、離別",
+    keywords: ["part", "from"],
+    example: {
+      english: "It is never easy to part from close friends when life takes you in completely different directions.",
+      chinese: "當生活將你們帶往截然不同的方向時，與親密的朋友分別從來都不容易。",
+      grammar_point: "It is never + adj + to + V（虛主詞句型）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "farewell", pos: "n.", chinese: "告別" },
+      { word: "separation", pos: "n.", chinese: "分離" },
+      { word: "bidding", pos: "v.", chinese: "道別" }
+    ],
+    sentence_pattern: { pattern: "It is never + adj + to part from + N + when + S + V", example: "She wept as she parted from her family at the airport." }
+  },
+  {
+    phrase: "pass between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間傳遞；在…之間發生",
+    keywords: ["pass", "between"],
+    example: {
+      english: "A knowing glance passed between the two old friends as they listened to the familiar story.",
+      chinese: "當他們聆聽那個熟悉的故事時，兩位老友之間交換了一個心照不宣的眼神。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）；knowing（形容詞，表示心照不宣的）"
+    },
+    vocabulary: [
+      { word: "glance", pos: "n.", chinese: "一瞥、眼神" },
+      { word: "exchange", pos: "v.", chinese: "交換" },
+      { word: "unspoken", pos: "adj.", chinese: "未言明的、心照不宣的" }
+    ],
+    sentence_pattern: { pattern: "N + passed between + N + as + S + V", example: "Very few words passed between them during the long drive home." }
+  },
+  {
+    phrase: "pick through",
+    type: "片語動詞",
+    chinese: "仔細挑揀；翻找篩選",
+    keywords: ["pick", "through"],
+    example: {
+      english: "The forensic team spent the entire morning picking through the wreckage for clues about the cause.",
+      chinese: "法醫團隊花了整個早上仔細翻找殘骸，尋找有關原因的線索。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；for + N（為了尋找…）"
+    },
+    vocabulary: [
+      { word: "forensic", pos: "adj.", chinese: "法醫的、鑑識的" },
+      { word: "wreckage", pos: "n.", chinese: "殘骸" },
+      { word: "sift", pos: "v.", chinese: "篩選、細查" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + picking through + N + for + N", example: "She picked through the pile of clothes looking for something to wear." }
+  },
+  {
+    phrase: "place among",
+    type: "動詞 + 介系詞",
+    chinese: "將…列於其中；歸類於…之列",
+    keywords: ["place", "among"],
+    example: {
+      english: "Critics have placed this novel among the finest works of contemporary fiction published this decade.",
+      chinese: "評論家已將這部小說列於本十年出版的當代小說最優秀作品之列。",
+      grammar_point: "have placed（現在完成式）；published this decade（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "critic", pos: "n.", chinese: "評論家" },
+      { word: "contemporary", pos: "adj.", chinese: "當代的" },
+      { word: "rank", pos: "v.", chinese: "排列、列於" }
+    ],
+    sentence_pattern: { pattern: "S + have placed + N + among + N + of + N", example: "Her achievement places her among the greatest athletes of all time." }
+  },
+  {
+    phrase: "plan around",
+    type: "動詞 + 介系詞",
+    chinese: "圍繞…做計畫；配合…安排",
+    keywords: ["plan", "around"],
+    example: {
+      english: "The entire holiday itinerary was planned around the children's schedules and energy levels.",
+      chinese: "整個假期行程都是圍繞著孩子們的時間安排和精力狀況來規劃的。",
+      grammar_point: "was planned around（被動語態）；and（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "itinerary", pos: "n.", chinese: "行程、旅遊計畫" },
+      { word: "accommodate", pos: "v.", chinese: "配合、遷就" },
+      { word: "schedule", pos: "n.", chinese: "時間表" }
+    ],
+    sentence_pattern: { pattern: "N + was planned around + N + and + N", example: "We plan our week around the children's school timetable." }
+  },
+  {
+    phrase: "point beyond",
+    type: "動詞 + 介系詞",
+    chinese: "指向更遠處；暗示更深的含義",
+    keywords: ["point", "beyond"],
+    example: {
+      english: "The author's choice of words points beyond the surface story to deeper themes of loss and redemption.",
+      chinese: "作者的用詞選擇指向表面故事之外，暗示著失落與救贖的更深層主題。",
+      grammar_point: "points beyond + N + to + N（從…指向…更深的意涵）"
+    },
+    vocabulary: [
+      { word: "redemption", pos: "n.", chinese: "救贖" },
+      { word: "theme", pos: "n.", chinese: "主題" },
+      { word: "imply", pos: "v.", chinese: "暗示" }
+    ],
+    sentence_pattern: { pattern: "N + points beyond + N + to + N", example: "Her question points beyond the immediate problem to something more fundamental." }
+  },
+  {
+    phrase: "prepare against",
+    type: "動詞 + 介系詞",
+    chinese: "為應對…做準備、防備",
+    keywords: ["prepare", "against"],
+    example: {
+      english: "Coastal communities must prepare against rising sea levels by building stronger flood defences.",
+      chinese: "沿海社區必須透過建造更堅固的防洪設施，為應對海平面上升做好準備。",
+      grammar_point: "must + V（情態動詞表必要性）；by + V-ing（藉由…，表方式）"
+    },
+    vocabulary: [
+      { word: "coastal", pos: "adj.", chinese: "沿海的" },
+      { word: "defence", pos: "n.", chinese: "防禦設施" },
+      { word: "anticipate", pos: "v.", chinese: "預期、防備" }
+    ],
+    sentence_pattern: { pattern: "S + must prepare against + N + by + V-ing", example: "We need to prepare against the possibility of a power outage." }
+  },
+  {
+    phrase: "press upon",
+    type: "動詞 + 介系詞",
+    chinese: "向…施壓；強行給予；縈繞於心",
+    keywords: ["press", "upon"],
+    example: {
+      english: "The weight of the decision pressed heavily upon him as he sat alone in the quiet office.",
+      chinese: "當他獨自坐在安靜的辦公室裡時，這個決定的重量沉重地壓在他心頭。",
+      grammar_point: "pressed heavily upon + 人（重重地壓在某人身上）；as + S + V（當…的時候）"
+    },
+    vocabulary: [
+      { word: "burden", pos: "n.", chinese: "負擔、重擔" },
+      { word: "weigh", pos: "v.", chinese: "壓重、使煩惱" },
+      { word: "responsibility", pos: "n.", chinese: "責任" }
+    ],
+    sentence_pattern: { pattern: "N + pressed heavily upon + 人 + as + S + V", example: "She pressed upon him the importance of making the right choice." }
+  },
+  {
+    phrase: "proceed from",
+    type: "動詞 + 介系詞",
+    chinese: "從…出發、由…產生",
+    keywords: ["proceed", "from"],
+    example: {
+      english: "All great achievements proceed from a combination of clear vision, hard work, and unwavering patience.",
+      chinese: "所有偉大的成就都源自清晰的願景、努力工作和堅定不移的耐心之結合。",
+      grammar_point: "proceed from + N（源自…、由…產生）；a combination of + N（…的結合）"
+    },
+    vocabulary: [
+      { word: "achievement", pos: "n.", chinese: "成就" },
+      { word: "unwavering", pos: "adj.", chinese: "堅定不移的" },
+      { word: "stem", pos: "v.", chinese: "源自" }
+    ],
+    sentence_pattern: { pattern: "N + proceed(s) from + N, N, and + N", example: "The solution proceeds from a clear understanding of the problem." }
+  },
+  {
+    phrase: "protect against",
+    type: "動詞 + 介系詞",
+    chinese: "防止、防護（某威脅或危害）",
+    keywords: ["protect", "against"],
+    example: {
+      english: "Wearing sunscreen every day helps protect your skin against the long-term damage caused by UV rays.",
+      chinese: "每天塗抹防曬乳有助於保護你的皮膚，免受紫外線造成的長期傷害。",
+      grammar_point: "helps + V（有助於做某事）；caused by + N（由…造成，過去分詞片語）"
+    },
+    vocabulary: [
+      { word: "sunscreen", pos: "n.", chinese: "防曬乳" },
+      { word: "UV rays", pos: "n.", chinese: "紫外線" },
+      { word: "shield", pos: "v.", chinese: "保護、遮擋" }
+    ],
+    sentence_pattern: { pattern: "V-ing + helps protect + N + against + N + caused by + N", example: "The vaccine protects against several strains of the virus." }
+  },
+  {
+    phrase: "push aside",
+    type: "片語動詞",
+    chinese: "把…推到一旁；忽視、壓抑（感受）",
+    keywords: ["push", "aside"],
+    example: {
+      english: "She pushed aside her personal feelings and focused entirely on completing the task professionally.",
+      chinese: "她把個人感受擺在一旁，全神貫注地以專業態度完成任務。",
+      grammar_point: "and + V（對等連接詞連接兩個動作）；entirely（副詞加強專注程度）"
+    },
+    vocabulary: [
+      { word: "suppress", pos: "v.", chinese: "壓抑、克制" },
+      { word: "professional", pos: "adj.", chinese: "專業的" },
+      { word: "disregard", pos: "v.", chinese: "忽視" }
+    ],
+    sentence_pattern: { pattern: "S + pushed aside + N + and + V + adv", example: "Don't push aside your doubts — they might be worth listening to." }
+  },
+  {
+    phrase: "push forward",
+    type: "片語動詞",
+    chinese: "推動前進；堅持推進",
+    keywords: ["push", "forward"],
+    example: {
+      english: "The team leader encouraged everyone to push forward with the project despite the technical difficulties.",
+      chinese: "組長鼓勵大家儘管遇到技術困難，仍要堅持推進這個專案。",
+      grammar_point: "encouraged + 人 + to + V（鼓勵某人做某事）；despite + N（儘管…）"
+    },
+    vocabulary: [
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "momentum", pos: "n.", chinese: "動力、勢頭" },
+      { word: "progress", pos: "v.", chinese: "推進、取得進展" }
+    ],
+    sentence_pattern: { pattern: "S + encouraged + 人 + to push forward with + N + despite + N", example: "We must push forward if we want to meet the deadline." }
+  },
+  {
+    phrase: "push through",
+    type: "片語動詞",
+    chinese: "強行通過；克服困難堅持到底",
+    keywords: ["push", "through"],
+    example: {
+      english: "She pushed through the pain and exhaustion to finish the marathon and cross the finish line.",
+      chinese: "她克服了疼痛和疲憊，完成了馬拉松並越過了終點線。",
+      grammar_point: "pushed through + N + and + N（克服兩個困難）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "exhaustion", pos: "n.", chinese: "精疲力竭" },
+      { word: "marathon", pos: "n.", chinese: "馬拉松" },
+      { word: "endure", pos: "v.", chinese: "忍受、堅持" }
+    ],
+    sentence_pattern: { pattern: "S + pushed through + N + and + N + to + V", example: "The legislation was pushed through parliament before the end of term." }
+  },
+  {
+    phrase: "reach beyond",
+    type: "動詞 + 介系詞",
+    chinese: "超越、延伸至…之外",
+    keywords: ["reach", "beyond"],
+    example: {
+      english: "The impact of her work reaches far beyond the scientific community and touches the lives of millions.",
+      chinese: "她研究工作的影響遠遠超越了科學界，觸及數百萬人的生活。",
+      grammar_point: "reaches far beyond + N（遠遠超越…）；and + V（連接兩個結果）"
+    },
+    vocabulary: [
+      { word: "impact", pos: "n.", chinese: "影響、衝擊" },
+      { word: "extend", pos: "v.", chinese: "延伸、擴及" },
+      { word: "transcend", pos: "v.", chinese: "超越" }
+    ],
+    sentence_pattern: { pattern: "N + reaches far beyond + N + and + V", example: "We should set goals that reach beyond our comfort zone." }
+  },
+  {
+    phrase: "reach towards",
+    type: "動詞 + 介系詞",
+    chinese: "伸手朝向；努力追求",
+    keywords: ["reach", "towards"],
+    example: {
+      english: "Every day she reaches towards her goal of becoming a published author by writing at least five hundred words.",
+      chinese: "她每天至少寫五百字，努力朝著成為出版作家的目標邁進。",
+      grammar_point: "by + V-ing（藉由…，表方式）；at least + 數量（至少…）"
+    },
+    vocabulary: [
+      { word: "published", pos: "adj.", chinese: "已出版的" },
+      { word: "aspire", pos: "v.", chinese: "渴望、有志於" },
+      { word: "strive", pos: "v.", chinese: "努力追求" }
+    ],
+    sentence_pattern: { pattern: "S + reach(es) towards + N + by + V-ing", example: "The child reached towards the jar of cookies on the top shelf." }
+  },
+  {
+    phrase: "reason through",
+    type: "動詞 + 介系詞",
+    chinese: "逐步推理解決；理性分析完畢",
+    keywords: ["reason", "through"],
+    example: {
+      english: "Before making any decision, take the time to reason through all the possible outcomes carefully.",
+      chinese: "在做任何決定之前，花時間仔細地逐步推理所有可能的結果。",
+      grammar_point: "before + V-ing（時間副詞片語，表動作先後）；take the time to + V（花時間做某事）"
+    },
+    vocabulary: [
+      { word: "outcome", pos: "n.", chinese: "結果、後果" },
+      { word: "analyze", pos: "v.", chinese: "分析" },
+      { word: "logic", pos: "n.", chinese: "邏輯" }
+    ],
+    sentence_pattern: { pattern: "Take the time to reason through + N + before + V-ing", example: "She reasoned through the problem step by step until she found the answer." }
+  },
+  {
+    phrase: "receive from",
+    type: "動詞 + 介系詞",
+    chinese: "從…收到、接受",
+    keywords: ["receive", "from"],
+    example: {
+      english: "The school received a generous donation from a former student who had gone on to become very successful.",
+      chinese: "這所學校收到了一位後來非常成功的校友所捐贈的慷慨捐款。",
+      grammar_point: "who + 關係子句（修飾先行詞 student）；had gone on to + V（繼而…）"
+    },
+    vocabulary: [
+      { word: "donation", pos: "n.", chinese: "捐款、捐贈" },
+      { word: "generous", pos: "adj.", chinese: "慷慨的" },
+      { word: "obtain", pos: "v.", chinese: "獲得" }
+    ],
+    sentence_pattern: { pattern: "S + received + N + from + 人 + who + V", example: "I received some very useful advice from my mentor last week." }
+  },
+  {
+    phrase: "recover to",
+    type: "動詞 + 介系詞",
+    chinese: "恢復至（某狀態或水準）",
+    keywords: ["recover", "to"],
+    example: {
+      english: "After months of rehabilitation, the athlete fully recovered to his previous level of performance.",
+      chinese: "經過幾個月的復健，這名運動員完全恢復到了之前的表現水準。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；fully（副詞加強恢復程度）"
+    },
+    vocabulary: [
+      { word: "rehabilitation", pos: "n.", chinese: "復健" },
+      { word: "previous", pos: "adj.", chinese: "之前的、以前的" },
+      { word: "restore", pos: "v.", chinese: "恢復、復原" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + fully recovered to + N", example: "The market recovered to its pre-crisis levels within two years." }
+  },
+  {
+    phrase: "reduce into",
+    type: "動詞 + 介系詞",
+    chinese: "化簡為；縮減成為",
+    keywords: ["reduce", "into"],
+    example: {
+      english: "Complex scientific theories should not always be reduced into oversimplified explanations for the public.",
+      chinese: "複雜的科學理論不應總是被化簡為對公眾過度簡化的解釋。",
+      grammar_point: "should not always be + p.p.（被動語態加否定，表示不應總是如此）"
+    },
+    vocabulary: [
+      { word: "oversimplified", pos: "adj.", chinese: "過度簡化的" },
+      { word: "condense", pos: "v.", chinese: "濃縮、精簡" },
+      { word: "distill", pos: "v.", chinese: "提煉、化簡" }
+    ],
+    sentence_pattern: { pattern: "N + should not be reduced into + N", example: "The long report was reduced into a one-page summary for the board." }
+  },
+  {
+    phrase: "reflect back",
+    type: "片語動詞",
+    chinese: "回顧、反思過去；反射回來",
+    keywords: ["reflect", "back"],
+    example: {
+      english: "When she reflects back on her early struggles, she feels grateful for every lesson they taught her.",
+      chinese: "當她回顧早年的艱辛時，她對那些磨難帶給她的每一課都感到感激。",
+      grammar_point: "when + S + V（時間副詞子句）；feels + adj + for + N（對…感到…）"
+    },
+    vocabulary: [
+      { word: "struggle", pos: "n.", chinese: "艱辛、掙扎" },
+      { word: "grateful", pos: "adj.", chinese: "感激的" },
+      { word: "introspect", pos: "v.", chinese: "自我反省" }
+    ],
+    sentence_pattern: { pattern: "When + S + reflect(s) back on + N, S + feel(s) + adj + for + N", example: "The mirror reflected the light back across the room." }
+  },
+  {
+    phrase: "remain about",
+    type: "動詞 + 介系詞",
+    chinese: "仍然關於、依然圍繞著",
+    keywords: ["remain", "about"],
+    example: {
+      english: "Despite many distractions, the core of the discussion must remain about finding a practical solution.",
+      chinese: "儘管有許多干擾，討論的核心必須仍然圍繞著找到一個實際可行的解決方案。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；must + V（情態動詞表必要性）"
+    },
+    vocabulary: [
+      { word: "distraction", pos: "n.", chinese: "干擾、分心的事物" },
+      { word: "practical", pos: "adj.", chinese: "實際的、可行的" },
+      { word: "focused", pos: "adj.", chinese: "專注的" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, N + must remain about + V-ing + N", example: "This policy debate must remain about what is best for the public." }
+  },
+  {
+    phrase: "remember about",
+    type: "動詞 + 介系詞",
+    chinese: "記起、想起（某事的細節）",
+    keywords: ["remember", "about"],
+    example: {
+      english: "What I remember most about that summer is the long walks we took along the quiet country roads.",
+      chinese: "我對那個夏天印象最深刻的，是我們沿著安靜鄉村小路所走的那些漫長散步。",
+      grammar_point: "what + S + V（名詞子句作主詞）；most（最高級副詞，修飾動詞）"
+    },
+    vocabulary: [
+      { word: "recall", pos: "v.", chinese: "回想、記起" },
+      { word: "vivid", pos: "adj.", chinese: "生動的、鮮明的" },
+      { word: "nostalgia", pos: "n.", chinese: "懷舊" }
+    ],
+    sentence_pattern: { pattern: "What S + remember(s) most about + N + is + N", example: "Do you remember anything about where you left your keys?" }
+  },
+  {
+    phrase: "reveal about",
+    type: "動詞 + 介系詞",
+    chinese: "揭露關於…的事、透露有關…的資訊",
+    keywords: ["reveal", "about"],
+    example: {
+      english: "What this data reveals about consumer behaviour has changed the way many companies approach marketing.",
+      chinese: "這些數據所揭露的消費者行為，已經改變了許多公司對待行銷的方式。",
+      grammar_point: "what + N + reveals about + N（名詞子句作主詞）；has changed（現在完成式）"
+    },
+    vocabulary: [
+      { word: "consumer", pos: "n.", chinese: "消費者" },
+      { word: "disclose", pos: "v.", chinese: "揭露、披露" },
+      { word: "insight", pos: "n.", chinese: "洞見" }
+    ],
+    sentence_pattern: { pattern: "What + N + reveals about + N + has + V + N", example: "What does this study reveal about the link between sleep and memory?" }
+  },
+  {
+    phrase: "run between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間穿梭運行；奔走於…之間",
+    keywords: ["run", "between"],
+    example: {
+      english: "A free shuttle bus runs between the hotel and the airport every thirty minutes throughout the day.",
+      chinese: "一輛免費接駁巴士每天全天每三十分鐘在飯店和機場之間來回運行。",
+      grammar_point: "every + 時間（每隔…，表示頻率）；throughout the day（整天、全天）"
+    },
+    vocabulary: [
+      { word: "shuttle", pos: "n.", chinese: "接駁車" },
+      { word: "operate", pos: "v.", chinese: "運行、運營" },
+      { word: "route", pos: "n.", chinese: "路線" }
+    ],
+    sentence_pattern: { pattern: "N + runs between + N + and + N + every + 時間", example: "She ran between the two offices all morning delivering documents." }
+  },
+  {
+    phrase: "save towards",
+    type: "動詞 + 介系詞",
+    chinese: "為…存錢、為某目標儲蓄",
+    keywords: ["save", "towards"],
+    example: {
+      english: "They have been saving towards a deposit on their first home for the past three years.",
+      chinese: "他們過去三年來一直在為第一棟房子的首付款存錢。",
+      grammar_point: "have been + V-ing（現在完成進行式，表示持續的動作）；for the past + 時間（過去…以來）"
+    },
+    vocabulary: [
+      { word: "deposit", pos: "n.", chinese: "首付款、存款" },
+      { word: "accumulate", pos: "v.", chinese: "累積" },
+      { word: "fund", pos: "v.", chinese: "為…提供資金" }
+    ],
+    sentence_pattern: { pattern: "S + have been saving towards + N + for the past + 時間", example: "I'm saving towards a trip to Japan next spring." }
+  },
+  {
+    phrase: "seek after",
+    type: "動詞 + 介系詞",
+    chinese: "尋求、追求（珍貴或難得之物）",
+    keywords: ["seek", "after"],
+    example: {
+      english: "True happiness is something that many people seek after their entire lives without ever truly finding it.",
+      chinese: "真正的幸福是許多人窮其一生追求卻從未真正找到的東西。",
+      grammar_point: "that + 關係子句（修飾先行詞 something）；without + V-ing（在不…的情況下）"
+    },
+    vocabulary: [
+      { word: "pursue", pos: "v.", chinese: "追求" },
+      { word: "elusive", pos: "adj.", chinese: "難以捉摸的" },
+      { word: "desire", pos: "v.", chinese: "渴望、追求" }
+    ],
+    sentence_pattern: { pattern: "N + is something that S + seek after + 時間 + without + V-ing", example: "This rare mineral is highly sought after by collectors worldwide." }
+  },
+  {
+    phrase: "select from",
+    type: "動詞 + 介系詞",
+    chinese: "從…中挑選",
+    keywords: ["select", "from"],
+    example: {
+      english: "Guests are invited to select from a wide range of dishes prepared fresh by our award-winning chef.",
+      chinese: "貴賓受邀從我們獲獎主廚新鮮烹製的各式菜餚中自由挑選。",
+      grammar_point: "are invited to + V（被動語態，表示被邀請做某事）；prepared fresh by（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "award-winning", pos: "adj.", chinese: "獲獎的" },
+      { word: "variety", pos: "n.", chinese: "多樣性、各種" },
+      { word: "choose", pos: "v.", chinese: "選擇" }
+    ],
+    sentence_pattern: { pattern: "S + are invited to select from + N + prepared by + N", example: "You can select from three different package options." }
+  },
+  {
+    phrase: "shift towards",
+    type: "動詞 + 介系詞",
+    chinese: "逐漸轉向、趨向",
+    keywords: ["shift", "towards"],
+    example: {
+      english: "Public opinion has gradually shifted towards greater support for renewable energy policies.",
+      chinese: "公眾輿論已逐漸轉向對可再生能源政策更大的支持。",
+      grammar_point: "has + p.p.（現在完成式，表示對現在有影響的轉變）；gradually（副詞表漸進過程）"
+    },
+    vocabulary: [
+      { word: "gradually", pos: "adv.", chinese: "逐漸地" },
+      { word: "tendency", pos: "n.", chinese: "趨向、傾向" },
+      { word: "transition", pos: "n.", chinese: "過渡、轉變" }
+    ],
+    sentence_pattern: { pattern: "N + has gradually shifted towards + N", example: "The team's strategy has shifted towards a more defensive approach." }
+  },
+  {
+    phrase: "shrink from",
+    type: "動詞 + 介系詞",
+    chinese: "退縮、迴避（困難或責任）",
+    keywords: ["shrink", "from"],
+    example: {
+      english: "A responsible leader must never shrink from making difficult decisions, even when they are unpopular.",
+      chinese: "一位負責任的領導者絕不能迴避做出困難的決定，即使這些決定不受歡迎。",
+      grammar_point: "must never + V（情態動詞加否定，表示絕不應該）；even when + S + V（即使當…）"
+    },
+    vocabulary: [
+      { word: "avoid", pos: "v.", chinese: "迴避" },
+      { word: "responsibility", pos: "n.", chinese: "責任" },
+      { word: "courageous", pos: "adj.", chinese: "勇敢的" }
+    ],
+    sentence_pattern: { pattern: "S + must never shrink from + V-ing + N, even when + S + V", example: "Don't shrink from speaking the truth when it matters most." }
+  },
+  {
+    phrase: "speak towards",
+    type: "動詞 + 介系詞",
+    chinese: "就…發言表態；對…議題表達立場",
+    keywords: ["speak", "towards"],
+    example: {
+      english: "The panel was asked to speak towards the growing concerns about data privacy in modern technology.",
+      chinese: "專家小組被要求就現代科技中日益增長的數據隱私問題發表意見。",
+      grammar_point: "was asked to + V（被動語態，表示被要求做某事）；growing（形容詞，表示日益增長的）"
+    },
+    vocabulary: [
+      { word: "panel", pos: "n.", chinese: "專家小組" },
+      { word: "concern", pos: "n.", chinese: "關切、疑慮" },
+      { word: "address", pos: "v.", chinese: "回應、針對" }
+    ],
+    sentence_pattern: { pattern: "S + was asked to speak towards + N + about + N", example: "She spoke towards the need for greater investment in public health." }
+  },
+  {
+    phrase: "stand upon",
+    type: "動詞 + 介系詞",
+    chinese: "站在…上；堅持（原則或立場）",
+    keywords: ["stand", "upon"],
+    example: {
+      english: "She stands firmly upon her principles and refuses to compromise no matter how great the pressure becomes.",
+      chinese: "她堅定地堅守自己的原則，無論壓力多大都拒絕妥協。",
+      grammar_point: "no matter how + adj + S + V（無論…多麼，讓步副詞子句）"
+    },
+    vocabulary: [
+      { word: "principle", pos: "n.", chinese: "原則" },
+      { word: "conviction", pos: "n.", chinese: "堅定信念" },
+      { word: "compromise", pos: "v.", chinese: "妥協" }
+    ],
+    sentence_pattern: { pattern: "S + stands upon + N + and + V + no matter how + adj + S + V", example: "The negotiator stood upon the original terms and refused to budge." }
+  },
+  {
+    phrase: "start from",
+    type: "動詞 + 介系詞",
+    chinese: "從…開始、以…為起點",
+    keywords: ["start", "from"],
+    example: {
+      english: "Every great journey starts from a single step taken with courage and a clear sense of direction.",
+      chinese: "每一段偉大的旅程都從一個以勇氣和清晰方向感邁出的第一步開始。",
+      grammar_point: "taken with + N（過去分詞片語作後置修飾）；a clear sense of + N（清晰的…感）"
+    },
+    vocabulary: [
+      { word: "courage", pos: "n.", chinese: "勇氣" },
+      { word: "direction", pos: "n.", chinese: "方向" },
+      { word: "foundation", pos: "n.", chinese: "基礎、起點" }
+    ],
+    sentence_pattern: { pattern: "N + starts from + N + taken with + N", example: "Let's start from the beginning and go through the plan again." }
+  },
+  {
+    phrase: "stay behind",
+    type: "片語動詞",
+    chinese: "留下來、不隨大家離去",
+    keywords: ["stay", "behind"],
+    example: {
+      english: "A few students were asked to stay behind after class to discuss their upcoming project presentations.",
+      chinese: "幾位學生被要求課後留下來，討論即將到來的專案簡報。",
+      grammar_point: "were asked to + V（被動語態）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "remain", pos: "v.", chinese: "留下、留在" },
+      { word: "presentation", pos: "n.", chinese: "簡報、報告" },
+      { word: "linger", pos: "v.", chinese: "逗留" }
+    ],
+    sentence_pattern: { pattern: "S + were asked to stay behind + 時間 + to + V", example: "I decided to stay behind while the others went on ahead." }
+  },
+  {
+    phrase: "stay within",
+    type: "動詞 + 介系詞",
+    chinese: "保持在…範圍內；留在…之內",
+    keywords: ["stay", "within"],
+    example: {
+      english: "All speakers are reminded to stay within their allotted time of ten minutes during the conference.",
+      chinese: "所有發言者被提醒在會議期間須在分配給他們的十分鐘時限內發言。",
+      grammar_point: "are reminded to + V（被動語態，表示被提醒做某事）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "allotted", pos: "adj.", chinese: "分配的、規定的" },
+      { word: "boundary", pos: "n.", chinese: "界限、範圍" },
+      { word: "limit", pos: "n.", chinese: "限制、上限" }
+    ],
+    sentence_pattern: { pattern: "S + are reminded to stay within + N + of + 數量 + during + N", example: "Please stay within the marked area at all times." }
+  },
+  {
+    phrase: "steer towards",
+    type: "動詞 + 介系詞",
+    chinese: "引導朝向、將…導向",
+    keywords: ["steer", "towards"],
+    example: {
+      english: "Good mentors steer their students towards opportunities that match their strengths and passions.",
+      chinese: "優秀的導師引導學生走向與他們的強項和熱情相符的機會。",
+      grammar_point: "that + 關係子句（修飾先行詞 opportunities）；match（動詞，表示與…相符）"
+    },
+    vocabulary: [
+      { word: "mentor", pos: "n.", chinese: "導師" },
+      { word: "guide", pos: "v.", chinese: "引導" },
+      { word: "opportunity", pos: "n.", chinese: "機會" }
+    ],
+    sentence_pattern: { pattern: "S + steer(s) + 人 + towards + N + that + V", example: "The therapist gently steered the conversation towards the real issue." }
+  },
+  {
+    phrase: "step beyond",
+    type: "動詞 + 介系詞",
+    chinese: "跨越、超出（某界限或框架）",
+    keywords: ["step", "beyond"],
+    example: {
+      english: "To grow as a person, you must be willing to step beyond your comfort zone and embrace uncertainty.",
+      chinese: "要在個人成長上有所進步，你必須願意跨越舒適圈，擁抱不確定性。",
+      grammar_point: "To + V（不定詞表目的）；must be willing to + V（必須願意做某事）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "comfort zone", pos: "n.", chinese: "舒適圈" },
+      { word: "embrace", pos: "v.", chinese: "擁抱、接受" },
+      { word: "boundary", pos: "n.", chinese: "界限" }
+    ],
+    sentence_pattern: { pattern: "To + V, S + must be willing to step beyond + N + and + V", example: "She stepped beyond her usual role to help the struggling team." }
+  },
+  {
+    phrase: "switch to",
+    type: "動詞 + 介系詞",
+    chinese: "切換到、轉換至",
+    keywords: ["switch", "to"],
+    example: {
+      english: "Many households have switched to LED lighting to reduce their electricity bills and energy consumption.",
+      chinese: "許多家庭已改用 LED 照明，以減少電費和能源消耗。",
+      grammar_point: "have switched to（現在完成式，表示已完成的轉換）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "electricity", pos: "n.", chinese: "電力、電費" },
+      { word: "consumption", pos: "n.", chinese: "消耗、使用量" },
+      { word: "transition", pos: "v.", chinese: "轉換、過渡" }
+    ],
+    sentence_pattern: { pattern: "S + have switched to + N + to + V", example: "Let's switch to a different topic before we run out of time." }
+  },
+  {
+    phrase: "take along",
+    type: "片語動詞",
+    chinese: "隨身攜帶、帶著一起去",
+    keywords: ["take", "along"],
+    example: {
+      english: "Remember to take along a light jacket when you go hiking, as the mountain weather can change quickly.",
+      chinese: "去健行時記得帶上一件薄外套，因為山上的天氣可能會快速變化。",
+      grammar_point: "Remember to + V（記得做某事）；as + S + V（因為…，原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "jacket", pos: "n.", chinese: "外套、夾克" },
+      { word: "essential", pos: "adj.", chinese: "必要的、必備的" },
+      { word: "hiking", pos: "n.", chinese: "健行" }
+    ],
+    sentence_pattern: { pattern: "Remember to take along + N + when + S + V, as + S + can + V", example: "She took her younger brother along to the concert." }
+  },
+  {
+    phrase: "talk of",
+    type: "動詞 + 介系詞",
+    chinese: "談論、談及",
+    keywords: ["talk", "of"],
+    example: {
+      english: "Everyone in the village talks of the old lighthouse keeper and the mysterious stories surrounding him.",
+      chinese: "村子裡的每個人都談論著那位老燈塔看守人以及圍繞著他的神秘故事。",
+      grammar_point: "surrounding + 人（現在分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "mysterious", pos: "adj.", chinese: "神秘的" },
+      { word: "legend", pos: "n.", chinese: "傳說" },
+      { word: "mention", pos: "v.", chinese: "提及、談到" }
+    ],
+    sentence_pattern: { pattern: "S + talks/talk of + 人 + and + N + surrounding + 人", example: "People have long talked of building a bridge across the bay." }
+  },
+  {
+    phrase: "think upon",
+    type: "動詞 + 介系詞",
+    chinese: "思考、深思（某事）",
+    keywords: ["think", "upon"],
+    example: {
+      english: "She sat quietly by the window and thought upon everything that had happened during the long difficult year.",
+      chinese: "她靜靜地坐在窗邊，深思在那漫長艱難的一年中所發生的一切。",
+      grammar_point: "that + 關係子句（修飾先行詞 everything）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "ponder", pos: "v.", chinese: "深思、琢磨" },
+      { word: "reflect", pos: "v.", chinese: "反思" },
+      { word: "contemplate", pos: "v.", chinese: "沉思、考慮" }
+    ],
+    sentence_pattern: { pattern: "S + sat + adv + and thought upon + N + that + V", example: "Take a moment to think upon what truly matters to you in life." }
+  },
+  {
+    phrase: "travel towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…旅行前進；走向",
+    keywords: ["travel", "towards"],
+    example: {
+      english: "The caravan slowly travelled towards the distant mountains as the golden sun began to set.",
+      chinese: "在金色太陽開始落下之際，篷車隊緩緩地朝著遠方的山脈前進。",
+      grammar_point: "as + S + V（隨著…，表同步動作的副詞子句）；began to + V（開始做某事）"
+    },
+    vocabulary: [
+      { word: "caravan", pos: "n.", chinese: "篷車隊、旅行車" },
+      { word: "distant", pos: "adj.", chinese: "遙遠的" },
+      { word: "journey", pos: "v.", chinese: "旅行" }
+    ],
+    sentence_pattern: { pattern: "N + slowly travelled towards + N + as + S + V", example: "We travelled towards the coast, stopping at small towns along the way." }
+  },
+  {
+    phrase: "turn upon",
+    type: "動詞 + 介系詞",
+    chinese: "突然轉向攻擊；取決於",
+    keywords: ["turn", "upon"],
+    example: {
+      english: "The outcome of the entire negotiation turns upon whether both sides can agree on the key financial terms.",
+      chinese: "整個談判的結果取決於雙方是否能就關鍵財務條款達成共識。",
+      grammar_point: "turns upon + whether + S + can + V（取決於…能否…）"
+    },
+    vocabulary: [
+      { word: "outcome", pos: "n.", chinese: "結果" },
+      { word: "hinge", pos: "v.", chinese: "取決於" },
+      { word: "negotiation", pos: "n.", chinese: "談判" }
+    ],
+    sentence_pattern: { pattern: "N + turns upon + whether + S + can + V", example: "The frightened animal turned upon its pursuer without warning." }
+  },
+  {
+    phrase: "volunteer for",
+    type: "動詞 + 介系詞",
+    chinese: "自願參加、主動擔任",
+    keywords: ["volunteer", "for"],
+    example: {
+      english: "She volunteered for the community clean-up programme every weekend throughout the entire summer.",
+      chinese: "整個夏天，她每個週末都自願參加社區清潔計畫。",
+      grammar_point: "every + 時間（每…，表示頻率）；throughout + N（在整個…期間）"
+    },
+    vocabulary: [
+      { word: "programme", pos: "n.", chinese: "計畫、方案（英式）" },
+      { word: "dedicate", pos: "v.", chinese: "奉獻、投入" },
+      { word: "commitment", pos: "n.", chinese: "承諾、投入" }
+    ],
+    sentence_pattern: { pattern: "S + volunteered for + N + every + 時間 + throughout + N", example: "Would anyone like to volunteer for the role of team leader?" }
+  },
+  {
+    phrase: "wait upon",
+    type: "動詞 + 介系詞",
+    chinese: "服侍、侍候；等候（正式）",
+    keywords: ["wait", "upon"],
+    example: {
+      english: "In the grand old hotel, dedicated staff wait upon guests from the moment they arrive until they depart.",
+      chinese: "在這座宏偉的老飯店裡，盡職的員工從客人抵達的那一刻起便服侍他們，直到他們離開。",
+      grammar_point: "from the moment + S + V + until + S + V（從…那一刻直到…）"
+    },
+    vocabulary: [
+      { word: "dedicated", pos: "adj.", chinese: "盡職的、專注的" },
+      { word: "serve", pos: "v.", chinese: "服務、服侍" },
+      { word: "attend", pos: "v.", chinese: "侍候、照料" }
+    ],
+    sentence_pattern: { pattern: "S + wait upon + 人 + from the moment + S + V + until + S + V", example: "We are waiting upon the final approval before we can proceed." }
+  },
+  {
+    phrase: "walk through",
+    type: "片語動詞",
+    chinese: "逐步說明、帶領了解；走過",
+    keywords: ["walk", "through"],
+    example: {
+      english: "The trainer walked the new employees through each step of the safety procedure before they started work.",
+      chinese: "培訓員在新員工開始工作前，逐步帶領他們了解每一個安全程序步驟。",
+      grammar_point: "walked + 人 + through + N（帶領某人了解某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "procedure", pos: "n.", chinese: "程序、步驟" },
+      { word: "demonstrate", pos: "v.", chinese: "示範、說明" },
+      { word: "guide", pos: "v.", chinese: "引導" }
+    ],
+    sentence_pattern: { pattern: "S + walked + 人 + through + N + before + S + V", example: "Could you walk me through how the system works?" }
+  },
+  {
+    phrase: "wander from",
+    type: "動詞 + 介系詞",
+    chinese: "偏離、漫遊離開",
+    keywords: ["wander", "from"],
+    example: {
+      english: "The speaker kept wandering from the main topic, making it difficult for the audience to follow.",
+      chinese: "演講者一直偏離主題，讓觀眾難以跟上。",
+      grammar_point: "kept + V-ing（持續做某事）；making it + adj + for + 人 + to + V（使某人難以做某事）"
+    },
+    vocabulary: [
+      { word: "digress", pos: "v.", chinese: "離題、偏離" },
+      { word: "stray", pos: "v.", chinese: "偏離、走偏" },
+      { word: "focus", pos: "n.", chinese: "焦點、重點" }
+    ],
+    sentence_pattern: { pattern: "S + kept wandering from + N, making it + adj + for + 人 + to + V", example: "Don't wander from the path or you might get lost in the forest." }
+  },
+  {
+    phrase: "work upon",
+    type: "動詞 + 介系詞",
+    chinese: "對…起作用；努力改善",
+    keywords: ["work", "upon"],
+    example: {
+      english: "The therapist worked upon the patient's anxiety gradually through a series of structured weekly sessions.",
+      chinese: "治療師透過一系列有組織的每週療程，逐漸對患者的焦慮症起到作用。",
+      grammar_point: "through + N（透過…，介系詞片語表方式）；gradually（副詞表漸進過程）"
+    },
+    vocabulary: [
+      { word: "therapist", pos: "n.", chinese: "治療師" },
+      { word: "anxiety", pos: "n.", chinese: "焦慮" },
+      { word: "structured", pos: "adj.", chinese: "有組織的、結構化的" }
+    ],
+    sentence_pattern: { pattern: "S + worked upon + N + gradually through + N", example: "She is working upon improving her public speaking skills." }
+  },
+  {
+    phrase: "account upon",
+    type: "動詞 + 介系詞",
+    chinese: "依靠、指望；就…作說明",
+    keywords: ["account", "upon"],
+    example: {
+      english: "You can account upon the support of your colleagues when times get tough in this organisation.",
+      chinese: "在這個組織中，當情況變得艱難時，你可以指望同事們的支持。",
+      grammar_point: "can + V（情態動詞表許可或可能性）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "rely", pos: "v.", chinese: "依靠、仰賴" },
+      { word: "colleague", pos: "n.", chinese: "同事" },
+      { word: "depend", pos: "v.", chinese: "依賴" }
+    ],
+    sentence_pattern: { pattern: "S + can account upon + N + when + S + V", example: "There are several factors we must account upon when planning the budget." }
+  },
+  {
+    phrase: "act around",
+    type: "片語動詞",
+    chinese: "繞過問題行事；在…周圍活動",
+    keywords: ["act", "around"],
+    example: {
+      english: "The team found clever ways to act around the bureaucratic restrictions and still deliver results on time.",
+      chinese: "團隊找到了聰明的方法繞過官僚限制，並仍然準時交出成果。",
+      grammar_point: "found + N + to + V（找到…來做某事）；and still + V（而且仍然…）"
+    },
+    vocabulary: [
+      { word: "bureaucratic", pos: "adj.", chinese: "官僚的" },
+      { word: "restriction", pos: "n.", chinese: "限制" },
+      { word: "workaround", pos: "n.", chinese: "變通方法" }
+    ],
+    sentence_pattern: { pattern: "S + found ways to act around + N + and still + V", example: "Stop acting around the issue and address it directly." }
+  },
+  {
+    phrase: "add before",
+    type: "動詞 + 介系詞",
+    chinese: "在…之前加入、在前面添加",
+    keywords: ["add", "before"],
+    example: {
+      english: "Always add a brief introduction before the main content so readers know what to expect from the piece.",
+      chinese: "在主要內容之前務必加上簡短的引言，讓讀者知道文章將帶給他們什麼。",
+      grammar_point: "Always + V（祈使句加頻率副詞，表示建議）；so + S + V（目的子句）"
+    },
+    vocabulary: [
+      { word: "introduction", pos: "n.", chinese: "引言、介紹" },
+      { word: "insert", pos: "v.", chinese: "插入、添加" },
+      { word: "precede", pos: "v.", chinese: "在…之前" }
+    ],
+    sentence_pattern: { pattern: "Always add + N + before + N + so + S + V", example: "Add a disclaimer before the terms and conditions section." }
+  },
+  {
+    phrase: "adjust towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…調整、逐步趨向",
+    keywords: ["adjust", "towards"],
+    example: {
+      english: "The company is adjusting its pricing strategy towards a more competitive and consumer-friendly model.",
+      chinese: "公司正在將其定價策略調整朝向更具競爭力且對消費者友善的模式。",
+      grammar_point: "is + V-ing（現在進行式，表示正在進行的調整）"
+    },
+    vocabulary: [
+      { word: "strategy", pos: "n.", chinese: "策略" },
+      { word: "competitive", pos: "adj.", chinese: "具競爭力的" },
+      { word: "modify", pos: "v.", chinese: "修改、調整" }
+    ],
+    sentence_pattern: { pattern: "S + is adjusting + N + towards + N", example: "We need to adjust our approach towards a more collaborative style." }
+  },
+  {
+    phrase: "advance on",
+    type: "動詞 + 介系詞",
+    chinese: "向…推進、逼近",
+    keywords: ["advance", "on"],
+    example: {
+      english: "The rescue team advanced on the flooded village as soon as the storm began to ease off.",
+      chinese: "救援隊在暴風雨開始減弱後，立即向受淹的村莊推進。",
+      grammar_point: "as soon as + S + V（一…就…，時間副詞子句）；began to + V（開始做某事）"
+    },
+    vocabulary: [
+      { word: "rescue", pos: "n.", chinese: "救援" },
+      { word: "approach", pos: "v.", chinese: "接近、逼近" },
+      { word: "flooded", pos: "adj.", chinese: "被淹沒的" }
+    ],
+    sentence_pattern: { pattern: "S + advanced on + N + as soon as + S + V", example: "The troops advanced on the enemy position at dawn." }
+  },
+  {
+    phrase: "advise against",
+    type: "動詞 + 介系詞",
+    chinese: "建議不要、勸阻",
+    keywords: ["advise", "against"],
+    example: {
+      english: "The doctor strongly advised against eating processed foods and recommended a balanced natural diet instead.",
+      chinese: "醫生強烈建議不要吃加工食品，並建議改以均衡的天然飲食代替。",
+      grammar_point: "strongly + V（副詞加強建議的語氣）；instead（副詞，表示代替）"
+    },
+    vocabulary: [
+      { word: "processed", pos: "adj.", chinese: "加工的" },
+      { word: "recommend", pos: "v.", chinese: "建議、推薦" },
+      { word: "discourage", pos: "v.", chinese: "勸阻、使沮喪" }
+    ],
+    sentence_pattern: { pattern: "S + strongly advised against + V-ing + and + V", example: "I would advise against making any hasty decisions right now." }
+  },
+  {
+    phrase: "advocate for",
+    type: "動詞 + 介系詞",
+    chinese: "倡導、為…發聲",
+    keywords: ["advocate", "for"],
+    example: {
+      english: "The non-profit organisation has spent decades advocating for the rights of marginalised communities.",
+      chinese: "這個非營利組織數十年來一直為邊緣化社群的權利發聲。",
+      grammar_point: "has spent + 時間 + V-ing（現在完成式，表示持續的行動）"
+    },
+    vocabulary: [
+      { word: "marginalised", pos: "adj.", chinese: "邊緣化的" },
+      { word: "champion", pos: "v.", chinese: "倡導、捍衛" },
+      { word: "rights", pos: "n.", chinese: "權利（常用複數）" }
+    ],
+    sentence_pattern: { pattern: "S + has spent + 時間 + advocating for + N", example: "She advocates for better mental health resources in schools." }
+  },
+  {
+    phrase: "agree around",
+    type: "動詞 + 介系詞",
+    chinese: "圍繞…達成共識",
+    keywords: ["agree", "around"],
+    example: {
+      english: "The committee managed to agree around a set of core values that would guide the organisation forward.",
+      chinese: "委員會設法就一套核心價值觀達成共識，這些價值觀將引導組織向前發展。",
+      grammar_point: "managed to + V（設法做到某事）；that + 關係子句（修飾先行詞 values）"
+    },
+    vocabulary: [
+      { word: "committee", pos: "n.", chinese: "委員會" },
+      { word: "consensus", pos: "n.", chinese: "共識" },
+      { word: "framework", pos: "n.", chinese: "框架" }
+    ],
+    sentence_pattern: { pattern: "S + managed to agree around + N + that + V", example: "Both teams agreed around a shared timeline for the project." }
+  },
+  {
+    phrase: "aid in",
+    type: "動詞 + 介系詞",
+    chinese: "協助、有助於",
+    keywords: ["aid", "in"],
+    example: {
+      english: "Regular physical exercise has been shown to aid in the prevention of many chronic health conditions.",
+      chinese: "規律的體育鍛鍊已被證明有助於預防許多慢性健康狀況。",
+      grammar_point: "has been shown to + V（現在完成式被動，表示已被證實）；aid in + V-ing（有助於做某事）"
+    },
+    vocabulary: [
+      { word: "prevention", pos: "n.", chinese: "預防" },
+      { word: "chronic", pos: "adj.", chinese: "慢性的、長期的" },
+      { word: "assist", pos: "v.", chinese: "協助" }
+    ],
+    sentence_pattern: { pattern: "N + has been shown to aid in + N + of + N", example: "Good nutrition aids in the recovery process after surgery." }
+  },
+  {
+    phrase: "aim towards",
+    type: "動詞 + 介系詞",
+    chinese: "以…為目標、朝…努力",
+    keywords: ["aim", "towards"],
+    example: {
+      english: "The new education policy aims towards creating equal opportunities for students from all backgrounds.",
+      chinese: "新的教育政策以為所有背景的學生創造平等機會為目標。",
+      grammar_point: "aims towards + V-ing（以做某事為目標）；from all backgrounds（來自各種背景）"
+    },
+    vocabulary: [
+      { word: "equal", pos: "adj.", chinese: "平等的" },
+      { word: "opportunity", pos: "n.", chinese: "機會" },
+      { word: "policy", pos: "n.", chinese: "政策" }
+    ],
+    sentence_pattern: { pattern: "N + aims towards + V-ing + N + for + 人", example: "Our campaign aims towards raising awareness of ocean pollution." }
+  },
+  {
+    phrase: "alert to",
+    type: "動詞 + 介系詞",
+    chinese: "提醒注意、使警覺",
+    keywords: ["alert", "to"],
+    example: {
+      english: "The security system alerts staff to any unusual activity detected inside or around the building.",
+      chinese: "安全系統會提醒員工注意在建築物內部或周圍偵測到的任何異常活動。",
+      grammar_point: "alerts + 人 + to + N（提醒某人注意某事）；detected inside or around（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "unusual", pos: "adj.", chinese: "異常的、不尋常的" },
+      { word: "detect", pos: "v.", chinese: "偵測、發現" },
+      { word: "notify", pos: "v.", chinese: "通知" }
+    ],
+    sentence_pattern: { pattern: "N + alerts + 人 + to + N + detected + 地點", example: "Please alert us to any changes in your availability." }
+  },
+  {
+    phrase: "align against",
+    type: "動詞 + 介系詞",
+    chinese: "聯合對抗、站在…的對立面",
+    keywords: ["align", "against"],
+    example: {
+      english: "Several member states aligned against the proposed policy, forming a powerful bloc within the organisation.",
+      chinese: "幾個成員國聯合對抗這項擬議政策，在組織內部形成了一個強大的集團。",
+      grammar_point: "forming + N（分詞構句，表示結果）；within + N（在…內部）"
+    },
+    vocabulary: [
+      { word: "bloc", pos: "n.", chinese: "集團、聯盟" },
+      { word: "oppose", pos: "v.", chinese: "反對" },
+      { word: "coalition", pos: "n.", chinese: "聯合、聯盟" }
+    ],
+    sentence_pattern: { pattern: "S + aligned against + N, forming + N + within + N", example: "The opposition parties aligned against the ruling government's budget." }
+  },
+  {
+    phrase: "allocate to",
+    type: "動詞 + 介系詞",
+    chinese: "分配給、撥給",
+    keywords: ["allocate", "to"],
+    example: {
+      english: "A significant portion of the annual budget has been allocated to improving the city's public transport network.",
+      chinese: "年度預算中的一大部分已被分配用於改善城市的公共交通網絡。",
+      grammar_point: "has been allocated to（被動語態，現在完成式）；improving（動名詞作介系詞受詞）"
+    },
+    vocabulary: [
+      { word: "portion", pos: "n.", chinese: "部分、比例" },
+      { word: "distribute", pos: "v.", chinese: "分配、分發" },
+      { word: "resource", pos: "n.", chinese: "資源" }
+    ],
+    sentence_pattern: { pattern: "N + has been allocated to + V-ing + N", example: "Each team member has been allocated to a specific task." }
+  },
+  {
+    phrase: "anchor to",
+    type: "動詞 + 介系詞",
+    chinese: "固定於、以…為依據；使扎根於",
+    keywords: ["anchor", "to"],
+    example: {
+      english: "Strong family relationships anchor children to a sense of identity and belonging throughout their lives.",
+      chinese: "穩固的家庭關係讓孩子在整個人生中牢牢扎根於身分認同感和歸屬感。",
+      grammar_point: "anchor + 人 + to + N（使某人扎根於某事）；throughout + N（貫穿整個…）"
+    },
+    vocabulary: [
+      { word: "identity", pos: "n.", chinese: "身分認同" },
+      { word: "belonging", pos: "n.", chinese: "歸屬感" },
+      { word: "ground", pos: "v.", chinese: "使扎根、使穩固" }
+    ],
+    sentence_pattern: { pattern: "N + anchors + 人 + to + N + throughout + N", example: "The team's success was anchored to clear communication and mutual trust." }
+  },
+  {
+    phrase: "answer upon",
+    type: "動詞 + 介系詞",
+    chinese: "就…作出回應；對…負責",
+    keywords: ["answer", "upon"],
+    example: {
+      english: "Every public official must be prepared to answer upon their decisions when called to account.",
+      chinese: "每一位公職人員都必須準備好在被要求問責時，就其決定作出回應。",
+      grammar_point: "must be prepared to + V（必須準備好做某事）；when + p.p.（時間副詞子句省略主詞）"
+    },
+    vocabulary: [
+      { word: "accountable", pos: "adj.", chinese: "負責的、應問責的" },
+      { word: "official", pos: "n.", chinese: "官員" },
+      { word: "respond", pos: "v.", chinese: "回應" }
+    ],
+    sentence_pattern: { pattern: "S + must be prepared to answer upon + N + when + V", example: "You will be asked to answer upon these choices at the review meeting." }
+  },
+  {
+    phrase: "appeal against",
+    type: "動詞 + 介系詞",
+    chinese: "對…提出上訴、申訴",
+    keywords: ["appeal", "against"],
+    example: {
+      english: "The defendant's legal team plans to appeal against the verdict and seek a retrial in a higher court.",
+      chinese: "被告的法律團隊計劃對裁決提出上訴，並在更高級法院尋求重審。",
+      grammar_point: "plans to + V（計劃做某事）；and + V（連接兩個平行動作）"
+    },
+    vocabulary: [
+      { word: "defendant", pos: "n.", chinese: "被告" },
+      { word: "verdict", pos: "n.", chinese: "裁決、判決" },
+      { word: "retrial", pos: "n.", chinese: "重審" }
+    ],
+    sentence_pattern: { pattern: "S + plans to appeal against + N + and + V", example: "She decided to appeal against the unfair dismissal from her job." }
+  },
+  {
+    phrase: "approach towards",
+    type: "動詞 + 介系詞",
+    chinese: "朝…靠近；逐漸走向",
+    keywords: ["approach", "towards"],
+    example: {
+      english: "As the deadline approaches towards the end of the month, the team must work with increasing urgency.",
+      chinese: "隨著截止日期逐漸接近月底，團隊必須以越來越緊迫的態度工作。",
+      grammar_point: "as + S + V（隨著…，副詞子句表同步變化）；with + N（帶著…，介系詞片語表態度）"
+    },
+    vocabulary: [
+      { word: "urgency", pos: "n.", chinese: "緊迫性" },
+      { word: "deadline", pos: "n.", chinese: "截止日期" },
+      { word: "near", pos: "v.", chinese: "接近" }
+    ],
+    sentence_pattern: { pattern: "As + N + approaches towards + N, S + must + V", example: "She approached towards the podium slowly and with great confidence." }
+  },
+  {
+    phrase: "approve of",
+    type: "動詞 + 介系詞",
+    chinese: "贊同、認可",
+    keywords: ["approve", "of"],
+    example: {
+      english: "Not all parents approve of the amount of time their children spend on video games and social media.",
+      chinese: "並非所有父母都認可孩子花在電玩和社群媒體上的時間。",
+      grammar_point: "Not all（並非所有，部分否定）；the amount of + N（…的數量）"
+    },
+    vocabulary: [
+      { word: "endorse", pos: "v.", chinese: "認可、背書" },
+      { word: "sanction", pos: "v.", chinese: "批准、認可" },
+      { word: "consent", pos: "v.", chinese: "同意" }
+    ],
+    sentence_pattern: { pattern: "Not all + N + approve of + N + S + V", example: "Do you approve of the changes they made to the original design?" }
+  },
+  {
+    phrase: "argue against",
+    type: "動詞 + 介系詞",
+    chinese: "反對、提出反對論點",
+    keywords: ["argue", "against"],
+    example: {
+      english: "Several leading economists have argued strongly against the proposed tax increase, citing its impact on growth.",
+      chinese: "幾位頂尖經濟學家強烈反對擬議的加稅，理由是其對經濟成長的影響。",
+      grammar_point: "have argued（現在完成式）；citing + N（分詞構句，表示理由）"
+    },
+    vocabulary: [
+      { word: "economist", pos: "n.", chinese: "經濟學家" },
+      { word: "oppose", pos: "v.", chinese: "反對" },
+      { word: "cite", pos: "v.", chinese: "引用、援引" }
+    ],
+    sentence_pattern: { pattern: "S + have argued against + N, citing + N", example: "Many residents argued against the plan to build a new motorway." }
+  },
+  {
+    phrase: "argue over",
+    type: "動詞 + 介系詞",
+    chinese: "為…爭論、就…起爭執",
+    keywords: ["argue", "over"],
+    example: {
+      english: "The two siblings argued over who should inherit the family home for months after their parents passed away.",
+      chinese: "兩個兄弟姊妹在父母去世後為誰應繼承家宅爭論了數月。",
+      grammar_point: "who + should + V（間接問句）；for + 時間（持續了多長時間）"
+    },
+    vocabulary: [
+      { word: "inherit", pos: "v.", chinese: "繼承" },
+      { word: "dispute", pos: "v.", chinese: "爭論" },
+      { word: "sibling", pos: "n.", chinese: "兄弟姊妹" }
+    ],
+    sentence_pattern: { pattern: "S + argued over + N + for + 時間 + after + S + V", example: "They argued over every minor detail of the contract for hours." }
+  },
+  {
+    phrase: "arise upon",
+    type: "動詞 + 介系詞",
+    chinese: "在…情況下出現、因…而產生",
+    keywords: ["arise", "upon"],
+    example: {
+      english: "New challenges can arise upon the introduction of any major change within a large organisation.",
+      chinese: "在大型組織內引入任何重大變革時，都可能出現新的挑戰。",
+      grammar_point: "can + V（情態動詞表可能性）；upon + N（在…時候，介系詞片語表觸發條件）"
+    },
+    vocabulary: [
+      { word: "introduction", pos: "n.", chinese: "引入、介紹" },
+      { word: "emerge", pos: "v.", chinese: "出現、浮現" },
+      { word: "unforeseen", pos: "adj.", chinese: "未預見的" }
+    ],
+    sentence_pattern: { pattern: "N + can arise upon + N + within + N", example: "Opportunities arise upon those who are prepared and stay alert." }
+  },
+  {
+    phrase: "arrange for",
+    type: "動詞 + 介系詞",
+    chinese: "安排、籌辦（某事或某人）",
+    keywords: ["arrange", "for"],
+    example: {
+      english: "The event coordinator arranged for a professional photographer to capture every moment of the ceremony.",
+      chinese: "活動統籌人安排了一位專業攝影師記錄典禮的每一個時刻。",
+      grammar_point: "arranged for + N + to + V（安排某人做某事）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "coordinator", pos: "n.", chinese: "統籌人、協調員" },
+      { word: "organise", pos: "v.", chinese: "組織、安排" },
+      { word: "ceremony", pos: "n.", chinese: "典禮" }
+    ],
+    sentence_pattern: { pattern: "S + arranged for + N + to + V + N", example: "Can you arrange for a car to pick us up at seven?" }
+  },
+  {
+    phrase: "assert over",
+    type: "動詞 + 介系詞",
+    chinese: "對…主張權威；強調",
+    keywords: ["assert", "over"],
+    example: {
+      english: "The manager needed to assert authority over the disruptive situation before it escalated any further.",
+      chinese: "經理需要在局勢進一步惡化之前，對這個混亂的情況主張其權威。",
+      grammar_point: "needed to + V（需要做某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "authority", pos: "n.", chinese: "權威、職權" },
+      { word: "disruptive", pos: "adj.", chinese: "破壞性的、混亂的" },
+      { word: "escalate", pos: "v.", chinese: "升級、惡化" }
+    ],
+    sentence_pattern: { pattern: "S + needed to assert + N + over + N + before + S + V", example: "He asserted control over the project after the previous manager resigned." }
+  },
+  {
+    phrase: "assist with",
+    type: "動詞 + 介系詞",
+    chinese: "協助、幫忙（某事）",
+    keywords: ["assist", "with"],
+    example: {
+      english: "The volunteer team assisted with the distribution of emergency supplies to families affected by the flood.",
+      chinese: "志工團隊協助將緊急物資分發給受洪水影響的家庭。",
+      grammar_point: "assisted with + N（協助某事）；affected by（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "distribution", pos: "n.", chinese: "分發、分配" },
+      { word: "volunteer", pos: "n.", chinese: "志工" },
+      { word: "support", pos: "v.", chinese: "支援、協助" }
+    ],
+    sentence_pattern: { pattern: "S + assisted with + N + of + N + affected by + N", example: "Could you assist with setting up the equipment before the event?" }
+  },
+  {
+    phrase: "attach to",
+    type: "動詞 + 介系詞",
+    chinese: "附上、依附於；對…產生依附感",
+    keywords: ["attach", "to"],
+    example: {
+      english: "Please attach to your application a copy of your most recent academic transcript and two references.",
+      chinese: "請在申請文件中附上您最近的成績單副本和兩封推薦信。",
+      grammar_point: "attach to + N（附在…上）；请祈使句 Please + V（請做某事）"
+    },
+    vocabulary: [
+      { word: "transcript", pos: "n.", chinese: "成績單" },
+      { word: "reference", pos: "n.", chinese: "推薦信" },
+      { word: "enclose", pos: "v.", chinese: "附上、附寄" }
+    ],
+    sentence_pattern: { pattern: "Please attach to + N + N + and + N", example: "Children often become deeply attached to comfort objects like stuffed animals." }
+  },
+  {
+    phrase: "back against",
+    type: "動詞 + 介系詞",
+    chinese: "背靠著；支持對抗",
+    keywords: ["back", "against"],
+    example: {
+      english: "He stood with his back against the wall and waited calmly as the crowd surged towards him.",
+      chinese: "他背靠著牆站立，在人群向他湧來時保持鎮定等待。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）；calmly（副詞修飾動詞）"
+    },
+    vocabulary: [
+      { word: "surge", pos: "v.", chinese: "湧動、突然增加" },
+      { word: "brace", pos: "v.", chinese: "穩住、支撐" },
+      { word: "cornered", pos: "adj.", chinese: "被逼到牆角的" }
+    ],
+    sentence_pattern: { pattern: "S + stood with + N + back against + N + as + S + V", example: "She backed against the door to stop anyone from entering." }
+  },
+  {
+    phrase: "bail from",
+    type: "片語動詞",
+    chinese: "逃離、退出（困境或承諾）",
+    keywords: ["bail", "from"],
+    example: {
+      english: "He decided to bail from the project at the last minute, leaving the rest of the team in a difficult position.",
+      chinese: "他在最後一刻決定退出這個專案，讓團隊其他成員陷入困境。",
+      grammar_point: "at the last minute（在最後一刻）；leaving + 人 + in + N（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "withdraw", pos: "v.", chinese: "退出、撤退" },
+      { word: "abandon", pos: "v.", chinese: "放棄" },
+      { word: "commitment", pos: "n.", chinese: "承諾" }
+    ],
+    sentence_pattern: { pattern: "S + decided to bail from + N + at the last minute, leaving + 人 + in + N", example: "She bailed from the deal when she saw how risky it had become." }
+  },
+  {
+    phrase: "balance between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間取得平衡",
+    keywords: ["balance", "between"],
+    example: {
+      english: "Finding a healthy balance between work and personal life is essential for long-term wellbeing.",
+      chinese: "在工作與個人生活之間找到健康的平衡，對長期的身心健康至關重要。",
+      grammar_point: "V-ing（動名詞片語作主詞）；is + adj + for + N（對…而言是…）"
+    },
+    vocabulary: [
+      { word: "essential", pos: "adj.", chinese: "至關重要的" },
+      { word: "wellbeing", pos: "n.", chinese: "身心健康" },
+      { word: "equilibrium", pos: "n.", chinese: "平衡" }
+    ],
+    sentence_pattern: { pattern: "V-ing + N + between + N + and + N + is + adj + for + N", example: "She tries to balance between her studies and her part-time job." }
+  },
+  {
+    phrase: "bargain over",
+    type: "動詞 + 介系詞",
+    chinese: "就…討價還價、談判",
+    keywords: ["bargain", "over"],
+    example: {
+      english: "The two sides bargained over the terms of the contract for several weeks before reaching a final agreement.",
+      chinese: "雙方就合約條款討價還價了數週，才最終達成協議。",
+      grammar_point: "bargained over + N（就…討價還價）；before + V-ing（在…之前）"
+    },
+    vocabulary: [
+      { word: "negotiate", pos: "v.", chinese: "談判、協商" },
+      { word: "terms", pos: "n.", chinese: "條款" },
+      { word: "agreement", pos: "n.", chinese: "協議" }
+    ],
+    sentence_pattern: { pattern: "S + bargained over + N + for + 時間 + before + V-ing", example: "Buyers and sellers often bargain over price at the local market." }
+  },
+  {
+    phrase: "be acquainted with",
+    type: "片語動詞",
+    chinese: "與…相識；熟悉",
+    keywords: ["be", "acquainted", "with"],
+    example: {
+      english: "She became acquainted with the local customs and traditions during her first year living abroad.",
+      chinese: "她在海外生活的第一年裡，逐漸熟悉了當地的習俗和傳統。",
+      grammar_point: "became acquainted with + N（逐漸熟悉…）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "familiar", pos: "adj.", chinese: "熟悉的" },
+      { word: "custom", pos: "n.", chinese: "習俗" },
+      { word: "tradition", pos: "n.", chinese: "傳統" }
+    ],
+    sentence_pattern: { pattern: "S + became acquainted with + N + during + N", example: "Are you acquainted with anyone on the new management team?" }
+  },
+  {
+    phrase: "be concerned about",
+    type: "片語動詞",
+    chinese: "對…感到擔憂、關切",
+    keywords: ["be", "concerned", "about"],
+    example: {
+      english: "Many parents are deeply concerned about the amount of time their children spend on screens each day.",
+      chinese: "許多父母對孩子每天花在螢幕上的時間深感擔憂。",
+      grammar_point: "are deeply concerned about + N（深感擔憂…）；the amount of + N（…的數量）"
+    },
+    vocabulary: [
+      { word: "worried", pos: "adj.", chinese: "擔心的" },
+      { word: "anxious", pos: "adj.", chinese: "焦慮的、擔憂的" },
+      { word: "wellbeing", pos: "n.", chinese: "健康、福祉" }
+    ],
+    sentence_pattern: { pattern: "S + are deeply concerned about + N + S + V", example: "We are concerned about the rising levels of pollution in the river." }
+  },
+  {
+    phrase: "be devoted to",
+    type: "片語動詞",
+    chinese: "致力於、獻身於；深愛",
+    keywords: ["be", "devoted", "to"],
+    example: {
+      english: "He has been devoted to teaching for over thirty years and is beloved by generations of students.",
+      chinese: "他三十多年來一直致力於教學，深受幾代學生的愛戴。",
+      grammar_point: "has been devoted to（現在完成式，表示持續的奉獻）；beloved by（被…所愛戴）"
+    },
+    vocabulary: [
+      { word: "dedicated", pos: "adj.", chinese: "投入的、奉獻的" },
+      { word: "committed", pos: "adj.", chinese: "堅定的、盡心盡力的" },
+      { word: "generation", pos: "n.", chinese: "世代" }
+    ],
+    sentence_pattern: { pattern: "S + has been devoted to + V-ing + for + 時間", example: "She is devoted to helping underprivileged children access quality education." }
+  },
+  {
+    phrase: "be disappointed in",
+    type: "片語動詞",
+    chinese: "對…感到失望",
+    keywords: ["be", "disappointed", "in"],
+    example: {
+      english: "The coach was deeply disappointed in the team's performance and called an urgent meeting afterwards.",
+      chinese: "教練對球隊的表現深感失望，事後召開了一次緊急會議。",
+      grammar_point: "was deeply disappointed in + N（對…深感失望）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "performance", pos: "n.", chinese: "表現" },
+      { word: "let down", pos: "phr. v.", chinese: "使失望" },
+      { word: "expectation", pos: "n.", chinese: "期望" }
+    ],
+    sentence_pattern: { pattern: "S + was deeply disappointed in + N + and + V", example: "I'm not angry — I'm just disappointed in the choice you made." }
+  },
+  {
+    phrase: "be disposed of",
+    type: "片語動詞",
+    chinese: "被處置、被丟棄",
+    keywords: ["be", "disposed", "of"],
+    example: {
+      english: "Hazardous medical waste must be disposed of safely according to strict environmental regulations.",
+      chinese: "危險的醫療廢棄物必須依據嚴格的環保法規安全地加以處置。",
+      grammar_point: "must be disposed of（被動語態，情態動詞加被動）；according to + N（依據…）"
+    },
+    vocabulary: [
+      { word: "hazardous", pos: "adj.", chinese: "危險的" },
+      { word: "waste", pos: "n.", chinese: "廢棄物" },
+      { word: "regulation", pos: "n.", chinese: "法規" }
+    ],
+    sentence_pattern: { pattern: "N + must be disposed of + adv + according to + N", example: "Old electronics should be disposed of at a certified recycling centre." }
+  },
+  {
+    phrase: "be engaged in",
+    type: "片語動詞",
+    chinese: "從事於、參與；忙於",
+    keywords: ["be", "engaged", "in"],
+    example: {
+      english: "The research team has been engaged in a long-term study on the effects of urban noise on mental health.",
+      chinese: "研究團隊一直從事一項關於城市噪音對心理健康影響的長期研究。",
+      grammar_point: "has been engaged in（現在完成進行式，表示持續進行的活動）"
+    },
+    vocabulary: [
+      { word: "involved", pos: "adj.", chinese: "參與的" },
+      { word: "participate", pos: "v.", chinese: "參與" },
+      { word: "conduct", pos: "v.", chinese: "進行、從事" }
+    ],
+    sentence_pattern: { pattern: "S + has been engaged in + N + on + N", example: "Both countries are engaged in ongoing diplomatic talks." }
+  },
+  {
+    phrase: "be enthusiastic about",
+    type: "片語動詞",
+    chinese: "對…熱衷、充滿熱情",
+    keywords: ["be", "enthusiastic", "about"],
+    example: {
+      english: "The students were genuinely enthusiastic about the new project and stayed late to continue working on it.",
+      chinese: "學生們對這個新專案充滿真誠的熱情，留到很晚繼續進行。",
+      grammar_point: "were enthusiastic about + N（對…充滿熱情）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "passionate", pos: "adj.", chinese: "熱情的" },
+      { word: "keen", pos: "adj.", chinese: "熱衷的" },
+      { word: "motivated", pos: "adj.", chinese: "有動力的" }
+    ],
+    sentence_pattern: { pattern: "S + were enthusiastic about + N + and + V", example: "She has always been enthusiastic about learning new languages." }
+  },
+  {
+    phrase: "be envious of",
+    type: "片語動詞",
+    chinese: "對…感到羨慕、嫉妒",
+    keywords: ["be", "envious", "of"],
+    example: {
+      english: "It is natural to sometimes feel envious of others, but channelling that feeling into motivation is wiser.",
+      chinese: "有時對他人感到羨慕是自然的，但把這種感覺轉化為動力才更明智。",
+      grammar_point: "It is + adj + to + V（虛主詞句型）；but + V-ing（轉折，表示更好的做法）"
+    },
+    vocabulary: [
+      { word: "jealous", pos: "adj.", chinese: "嫉妒的" },
+      { word: "covet", pos: "v.", chinese: "貪圖、垂涎" },
+      { word: "channel", pos: "v.", chinese: "引導、轉化" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to feel envious of + 人, but + V-ing is + adj", example: "He admits he was envious of his colleague's rapid promotion." }
+  },
+  {
+    phrase: "be excluded from",
+    type: "片語動詞",
+    chinese: "被排除在…之外",
+    keywords: ["be", "excluded", "from"],
+    example: {
+      english: "Children with special needs should never be excluded from participating in regular classroom activities.",
+      chinese: "有特殊需求的孩子絕不應被排除在參與正規課堂活動之外。",
+      grammar_point: "should never be excluded from（被動語態加否定）；V-ing（動名詞作介系詞受詞）"
+    },
+    vocabulary: [
+      { word: "marginalise", pos: "v.", chinese: "邊緣化" },
+      { word: "inclusion", pos: "n.", chinese: "融合、包容" },
+      { word: "participation", pos: "n.", chinese: "參與" }
+    ],
+    sentence_pattern: { pattern: "N + should never be excluded from + V-ing + N", example: "Several members were excluded from the vote due to a conflict of interest." }
+  },
+  {
+    phrase: "be familiar with",
+    type: "片語動詞",
+    chinese: "熟悉、了解",
+    keywords: ["be", "familiar", "with"],
+    example: {
+      english: "All applicants should be familiar with the company's products and services before attending the interview.",
+      chinese: "所有申請者在面試前應熟悉公司的產品和服務。",
+      grammar_point: "should be familiar with + N（應熟悉…）；before + V-ing（在…之前）"
+    },
+    vocabulary: [
+      { word: "acquainted", pos: "adj.", chinese: "熟悉的" },
+      { word: "knowledgeable", pos: "adj.", chinese: "有知識的、了解的" },
+      { word: "aware", pos: "adj.", chinese: "知曉的" }
+    ],
+    sentence_pattern: { pattern: "S + should be familiar with + N + before + V-ing", example: "Are you familiar with the terms and conditions of this agreement?" }
+  },
+  {
+    phrase: "be grateful for",
+    type: "片語動詞",
+    chinese: "對…心存感激",
+    keywords: ["be", "grateful", "for"],
+    example: {
+      english: "She is deeply grateful for the support she received from her friends during the most difficult period of her life.",
+      chinese: "她對在人生最艱難時期從朋友那裡得到的支持深感感激。",
+      grammar_point: "is deeply grateful for + N（對…深感感激）；she received（關係子句省略關代）"
+    },
+    vocabulary: [
+      { word: "thankful", pos: "adj.", chinese: "感謝的" },
+      { word: "appreciation", pos: "n.", chinese: "感激、欣賞" },
+      { word: "cherish", pos: "v.", chinese: "珍惜" }
+    ],
+    sentence_pattern: { pattern: "S + is deeply grateful for + N + S + received + 時間", example: "We are grateful for every opportunity we have been given." }
+  },
+  {
+    phrase: "be guilty of",
+    type: "片語動詞",
+    chinese: "對…有罪；犯有…的過失",
+    keywords: ["be", "guilty", "of"],
+    example: {
+      english: "The defendant was found guilty of fraud and sentenced to five years in prison by the court.",
+      chinese: "被告被裁定詐欺罪成立，並被法院判處五年有期徒刑。",
+      grammar_point: "was found guilty of + N（被裁定…罪成立，被動語態）；and + p.p.（連接兩個被動結果）"
+    },
+    vocabulary: [
+      { word: "fraud", pos: "n.", chinese: "詐欺" },
+      { word: "sentence", pos: "v.", chinese: "判決" },
+      { word: "verdict", pos: "n.", chinese: "裁決" }
+    ],
+    sentence_pattern: { pattern: "S + was found guilty of + N + and + p.p.", example: "We are all guilty of taking the people we love for granted sometimes." }
+  },
+  {
+    phrase: "be impressed by",
+    type: "片語動詞",
+    chinese: "對…印象深刻、被…打動",
+    keywords: ["be", "impressed", "by"],
+    example: {
+      english: "The panel of judges was deeply impressed by the young musician's technical skill and emotional maturity.",
+      chinese: "評審團對這位年輕音樂家的技術技巧和情感成熟度留下了深刻印象。",
+      grammar_point: "was deeply impressed by + N（對…留下深刻印象，被動語態）；and（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "maturity", pos: "n.", chinese: "成熟度" },
+      { word: "technical", pos: "adj.", chinese: "技術的" },
+      { word: "astonished", pos: "adj.", chinese: "驚嘆的" }
+    ],
+    sentence_pattern: { pattern: "S + was deeply impressed by + N + and + N", example: "I was impressed by how calmly she handled the difficult situation." }
+  },
+  {
+    phrase: "be inclined to",
+    type: "片語動詞",
+    chinese: "傾向於、有…的傾向",
+    keywords: ["be", "inclined", "to"],
+    example: {
+      english: "After reviewing all the evidence, the committee was inclined to rule in favour of the complainant.",
+      chinese: "在審查所有證據後，委員會傾向於作出有利於投訴人的裁決。",
+      grammar_point: "after + V-ing（時間副詞片語，表動作先後）；was inclined to + V（傾向於做某事）"
+    },
+    vocabulary: [
+      { word: "tendency", pos: "n.", chinese: "傾向" },
+      { word: "disposed", pos: "adj.", chinese: "有傾向的" },
+      { word: "prone", pos: "adj.", chinese: "容易的、傾向的" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing, S + was inclined to + V", example: "I'm inclined to agree with your assessment of the situation." }
+  },
+  {
+    phrase: "be indifferent to",
+    type: "片語動詞",
+    chinese: "對…漠不關心、毫不在意",
+    keywords: ["be", "indifferent", "to"],
+    example: {
+      english: "He seemed completely indifferent to the criticism and continued working in exactly the same way.",
+      chinese: "他似乎對批評完全漠不關心，並以完全相同的方式繼續工作。",
+      grammar_point: "seemed + adj（感官動詞加形容詞）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "unconcerned", pos: "adj.", chinese: "不關心的" },
+      { word: "apathetic", pos: "adj.", chinese: "冷漠的" },
+      { word: "dismissive", pos: "adj.", chinese: "漠視的" }
+    ],
+    sentence_pattern: { pattern: "S + seemed indifferent to + N + and + V", example: "She appeared indifferent to the praise and just kept working quietly." }
+  },
+  {
+    phrase: "be influenced by",
+    type: "片語動詞",
+    chinese: "受…影響",
+    keywords: ["be", "influenced", "by"],
+    example: {
+      english: "Her early writing style was heavily influenced by the great novelists she had read throughout her childhood.",
+      chinese: "她早期的寫作風格深受她在童年時期閱讀過的偉大小說家的影響。",
+      grammar_point: "was heavily influenced by + N（被動語態，深受…影響）；she had read（關係子句）"
+    },
+    vocabulary: [
+      { word: "shaped", pos: "adj.", chinese: "被塑造的" },
+      { word: "inspired", pos: "adj.", chinese: "受啟發的" },
+      { word: "affected", pos: "adj.", chinese: "受影響的" }
+    ],
+    sentence_pattern: { pattern: "N + was heavily influenced by + N + S + had + p.p.", example: "Young people are often influenced by the media they consume daily." }
+  },
+  {
+    phrase: "be inspired by",
+    type: "片語動詞",
+    chinese: "受…啟發、被…激勵",
+    keywords: ["be", "inspired", "by"],
+    example: {
+      english: "The architect said she was inspired by the natural landscape of the region when designing the building.",
+      chinese: "這位建築師說，她在設計這棟建築時，是受到該地區自然景觀的啟發。",
+      grammar_point: "said + that（間接引語省略 that）；when + V-ing（時間副詞子句省略形式）"
+    },
+    vocabulary: [
+      { word: "landscape", pos: "n.", chinese: "景觀、地貌" },
+      { word: "motivated", pos: "adj.", chinese: "被激勵的" },
+      { word: "creativity", pos: "n.", chinese: "創意、創造力" }
+    ],
+    sentence_pattern: { pattern: "S + was inspired by + N + when + V-ing", example: "Many great scientists were inspired by a single question that puzzled them." }
+  },
+  {
+    phrase: "be intent on",
+    type: "片語動詞",
+    chinese: "一心一意要做、決意",
+    keywords: ["be", "intent", "on"],
+    example: {
+      english: "Despite everyone's warnings, she was intent on completing the solo climb before the weather turned bad.",
+      chinese: "儘管所有人都提出警告，她仍一心想在天氣轉壞之前完成單人攀登。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "determined", pos: "adj.", chinese: "堅定的" },
+      { word: "resolute", pos: "adj.", chinese: "果斷的、堅決的" },
+      { word: "committed", pos: "adj.", chinese: "堅定投入的" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + was intent on + V-ing + before + S + V", example: "He is intent on finishing the report before he leaves the office today." }
+  },
+  {
+    phrase: "be involved in",
+    type: "片語動詞",
+    chinese: "參與、涉及",
+    keywords: ["be", "involved", "in"],
+    example: {
+      english: "Several senior officials were found to be involved in the corruption scandal that shook the government.",
+      chinese: "幾位高級官員被發現涉及那起震驚政府的貪腐醜聞。",
+      grammar_point: "were found to be + adj（被發現是…，被動語態）；that + 關係子句（修飾先行詞 scandal）"
+    },
+    vocabulary: [
+      { word: "corruption", pos: "n.", chinese: "腐敗、貪腐" },
+      { word: "scandal", pos: "n.", chinese: "醜聞" },
+      { word: "implicate", pos: "v.", chinese: "牽涉、使捲入" }
+    ],
+    sentence_pattern: { pattern: "S + were found to be involved in + N + that + V", example: "She has been involved in charity work for most of her adult life." }
+  },
+  {
+    phrase: "be jealous of",
+    type: "片語動詞",
+    chinese: "對…感到嫉妒",
+    keywords: ["be", "jealous", "of"],
+    example: {
+      english: "He admitted that he had been jealous of his brother's success for years but never expressed it openly.",
+      chinese: "他承認多年來一直嫉妒哥哥的成功，但從未公開表達過。",
+      grammar_point: "had been + adj（過去完成式，表示在過去某時間點之前持續的狀態）；but + V（轉折）"
+    },
+    vocabulary: [
+      { word: "envious", pos: "adj.", chinese: "羨慕的" },
+      { word: "resentful", pos: "adj.", chinese: "憤恨的" },
+      { word: "rivalry", pos: "n.", chinese: "競爭、對抗" }
+    ],
+    sentence_pattern: { pattern: "S + admitted that S + had been jealous of + N + for + 時間", example: "Try not to be jealous of what others have — focus on your own path." }
+  },
+  {
+    phrase: "be known for",
+    type: "片語動詞",
+    chinese: "以…著稱、因…聞名",
+    keywords: ["be", "known", "for"],
+    example: {
+      english: "The small coastal town is best known for its fresh seafood and stunning views of the harbour.",
+      chinese: "這個小沿海小鎮最以其新鮮海鮮和迷人的港口景色而聞名。",
+      grammar_point: "is best known for + N（以…最為著名）；and（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "renowned", pos: "adj.", chinese: "著名的、享有盛名的" },
+      { word: "reputation", pos: "n.", chinese: "聲譽、名聲" },
+      { word: "celebrated", pos: "adj.", chinese: "聞名的" }
+    ],
+    sentence_pattern: { pattern: "N + is best known for + N + and + N", example: "She is known for her kindness and willingness to help others." }
+  },
+  {
+    phrase: "be limited to",
+    type: "片語動詞",
+    chinese: "限於、僅限於",
+    keywords: ["be", "limited", "to"],
+    example: {
+      english: "Entry to the restricted area is limited to authorised personnel who hold a valid security clearance.",
+      chinese: "進入限制區域僅限於持有有效安全許可的授權人員。",
+      grammar_point: "is limited to + N（僅限於…，被動語態）；who + 關係子句（修飾先行詞 personnel）"
+    },
+    vocabulary: [
+      { word: "authorised", pos: "adj.", chinese: "授權的" },
+      { word: "restricted", pos: "adj.", chinese: "限制的" },
+      { word: "clearance", pos: "n.", chinese: "許可、通關" }
+    ],
+    sentence_pattern: { pattern: "N + is limited to + N + who + V", example: "This special offer is limited to the first fifty customers who sign up." }
+  },
+  {
+    phrase: "be occupied with",
+    type: "片語動詞",
+    chinese: "忙於、專注於",
+    keywords: ["be", "occupied", "with"],
+    example: {
+      english: "For most of the afternoon, she was so occupied with preparing the presentation that she forgot to eat.",
+      chinese: "下午大部分時間，她忙著準備簡報，以至於忘了吃東西。",
+      grammar_point: "was so + adj + with + N + that + S + V（如此忙於…以至於…，結果副詞子句）"
+    },
+    vocabulary: [
+      { word: "preoccupied", pos: "adj.", chinese: "全神貫注的" },
+      { word: "absorbed", pos: "adj.", chinese: "專注的、沉浸的" },
+      { word: "distracted", pos: "adj.", chinese: "分心的" }
+    ],
+    sentence_pattern: { pattern: "S + was so occupied with + V-ing + that + S + V", example: "He was fully occupied with managing three projects at the same time." }
+  },
+  {
+    phrase: "be opposed to",
+    type: "片語動詞",
+    chinese: "反對、不贊成",
+    keywords: ["be", "opposed", "to"],
+    example: {
+      english: "A large majority of residents are opposed to the development of a new industrial zone near the school.",
+      chinese: "大多數居民反對在學校附近開發新的工業區。",
+      grammar_point: "a large majority of + N（大多數的…）；are opposed to + N（反對…，被動語態）"
+    },
+    vocabulary: [
+      { word: "majority", pos: "n.", chinese: "多數" },
+      { word: "object", pos: "v.", chinese: "反對" },
+      { word: "resistance", pos: "n.", chinese: "抵制、阻力" }
+    ],
+    sentence_pattern: { pattern: "A majority of + N + are opposed to + N + near + N", example: "She is strongly opposed to any form of discrimination in the workplace." }
+  },
+  {
+    phrase: "be proud of",
+    type: "片語動詞",
+    chinese: "為…感到自豪",
+    keywords: ["be", "proud", "of"],
+    example: {
+      english: "Her parents are incredibly proud of her achievements and the person she has grown up to become.",
+      chinese: "她的父母對她的成就，以及她所成長成為的人，感到無比自豪。",
+      grammar_point: "are proud of + N（為…感到自豪）；she has grown up to become（關係子句，表示成長的結果）"
+    },
+    vocabulary: [
+      { word: "achievement", pos: "n.", chinese: "成就" },
+      { word: "pride", pos: "n.", chinese: "自豪、驕傲" },
+      { word: "admire", pos: "v.", chinese: "欽佩、讚賞" }
+    ],
+    sentence_pattern: { pattern: "S + are incredibly proud of + N + and + N", example: "You should be proud of how far you have come in such a short time." }
+  },
+  {
+    phrase: "be related to",
+    type: "片語動詞",
+    chinese: "與…有關聯；與…有親戚關係",
+    keywords: ["be", "related", "to"],
+    example: {
+      english: "Several of the health issues identified in the study were directly related to poor diet and lack of exercise.",
+      chinese: "研究中發現的幾個健康問題與不良飲食和缺乏運動直接相關。",
+      grammar_point: "were directly related to + N（與…直接相關，被動語態）；and（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "connected", pos: "adj.", chinese: "有關聯的" },
+      { word: "linked", pos: "adj.", chinese: "相連的" },
+      { word: "correlation", pos: "n.", chinese: "相關性" }
+    ],
+    sentence_pattern: { pattern: "N + were directly related to + N + and + N", example: "Is this new symptom related to the medication you started last week?" }
+  },
+  {
+    phrase: "be relieved of",
+    type: "片語動詞",
+    chinese: "被解除（職務或負擔）；對…感到如釋重負",
+    keywords: ["be", "relieved", "of"],
+    example: {
+      english: "The director was relieved of his duties following an internal investigation into his conduct at work.",
+      chinese: "這位主任在內部調查其工作行為後，被解除了職務。",
+      grammar_point: "was relieved of + N（被解除…，被動語態）；following + N（在…之後，介系詞片語）"
+    },
+    vocabulary: [
+      { word: "duty", pos: "n.", chinese: "職務、責任" },
+      { word: "investigation", pos: "n.", chinese: "調查" },
+      { word: "dismiss", pos: "v.", chinese: "解除、解雇" }
+    ],
+    sentence_pattern: { pattern: "S + was relieved of + N + following + N + into + N", example: "She was relieved of the burden of having to manage everything alone." }
+  },
+  {
+    phrase: "be resistant to",
+    type: "片語動詞",
+    chinese: "對…有抵抗力；抗拒、不接受",
+    keywords: ["be", "resistant", "to"],
+    example: {
+      english: "Some bacteria have become resistant to commonly used antibiotics, posing a serious threat to public health.",
+      chinese: "一些細菌已對常用的抗生素產生抗藥性，對公共健康構成嚴重威脅。",
+      grammar_point: "have become resistant to + N（已對…產生抵抗力）；posing（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "antibiotic", pos: "n.", chinese: "抗生素" },
+      { word: "immune", pos: "adj.", chinese: "免疫的、不受影響的" },
+      { word: "threat", pos: "n.", chinese: "威脅" }
+    ],
+    sentence_pattern: { pattern: "N + have become resistant to + N, posing + N + to + N", example: "He has always been resistant to change and prefers familiar routines." }
+  },
+  {
+    phrase: "be responsible for",
+    type: "片語動詞",
+    chinese: "對…負責、應承擔…的責任",
+    keywords: ["be", "responsible", "for"],
+    example: {
+      english: "Each team leader is responsible for ensuring that all members meet their deadlines and quality standards.",
+      chinese: "每位組長負責確保所有成員達到截止日期和品質標準。",
+      grammar_point: "is responsible for + V-ing（負責做某事）；and（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "accountable", pos: "adj.", chinese: "負有責任的" },
+      { word: "ensure", pos: "v.", chinese: "確保" },
+      { word: "standard", pos: "n.", chinese: "標準" }
+    ],
+    sentence_pattern: { pattern: "S + is responsible for + V-ing + N + and + N", example: "Who is responsible for ordering new supplies when stocks run low?" }
+  },
+  {
+    phrase: "be satisfied with",
+    type: "片語動詞",
+    chinese: "對…感到滿意",
+    keywords: ["be", "satisfied", "with"],
+    example: {
+      english: "The client was not fully satisfied with the initial design and requested several significant revisions.",
+      chinese: "客戶對初始設計不完全滿意，要求進行幾項重大修改。",
+      grammar_point: "was not fully satisfied with + N（對…不完全滿意）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "content", pos: "adj.", chinese: "滿足的、滿意的" },
+      { word: "revision", pos: "n.", chinese: "修改、修訂" },
+      { word: "pleased", pos: "adj.", chinese: "高興的、滿意的" }
+    ],
+    sentence_pattern: { pattern: "S + was not fully satisfied with + N + and + V", example: "Are you satisfied with the progress you have made so far this year?" }
+  },
+  {
+    phrase: "be shocked by",
+    type: "片語動詞",
+    chinese: "對…感到震驚",
+    keywords: ["be", "shocked", "by"],
+    example: {
+      english: "The entire community was deeply shocked by the sudden closure of the hospital that had served them for decades.",
+      chinese: "整個社區對那家服務他們數十年的醫院突然關閉深感震驚。",
+      grammar_point: "was deeply shocked by + N（被動語態，對…深感震驚）；that + 關係子句（修飾先行詞 hospital）"
+    },
+    vocabulary: [
+      { word: "stunned", pos: "adj.", chinese: "目瞪口呆的" },
+      { word: "devastated", pos: "adj.", chinese: "深受打擊的" },
+      { word: "closure", pos: "n.", chinese: "關閉" }
+    ],
+    sentence_pattern: { pattern: "S + was deeply shocked by + N + that + V", example: "I was shocked by how much things had changed since my last visit." }
+  },
+  {
+    phrase: "be similar to",
+    type: "片語動詞",
+    chinese: "與…相似、類似於",
+    keywords: ["be", "similar", "to"],
+    example: {
+      english: "The new policy is very similar to the one introduced last year, with only minor adjustments to the wording.",
+      chinese: "新政策與去年推出的那份非常相似，只是在措辭上做了一些細微的調整。",
+      grammar_point: "is similar to + N（與…相似）；with only + N（只有…，介系詞片語表差異）"
+    },
+    vocabulary: [
+      { word: "comparable", pos: "adj.", chinese: "可比較的、類似的" },
+      { word: "resemblance", pos: "n.", chinese: "相似性" },
+      { word: "adjustment", pos: "n.", chinese: "調整" }
+    ],
+    sentence_pattern: { pattern: "N + is similar to + N, with only + N + to + N", example: "Her symptoms are very similar to those of a common cold." }
+  },
+  {
+    phrase: "be skilled at",
+    type: "片語動詞",
+    chinese: "擅長、在…方面有技能",
+    keywords: ["be", "skilled", "at"],
+    example: {
+      english: "She is highly skilled at negotiating contracts and has successfully closed deals worth millions of dollars.",
+      chinese: "她在談判合約方面技術精湛，已成功締結了價值數百萬美元的交易。",
+      grammar_point: "is highly skilled at + V-ing（在…方面技術精湛）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "proficient", pos: "adj.", chinese: "精通的" },
+      { word: "expertise", pos: "n.", chinese: "專業知識" },
+      { word: "negotiate", pos: "v.", chinese: "談判、協商" }
+    ],
+    sentence_pattern: { pattern: "S + is highly skilled at + V-ing + and + V", example: "He is particularly skilled at finding creative solutions under pressure." }
+  },
+  {
+    phrase: "be suited for",
+    type: "片語動詞",
+    chinese: "適合、適任",
+    keywords: ["be", "suited", "for"],
+    example: {
+      english: "With her calm nature and excellent communication skills, she is perfectly suited for a career in counselling.",
+      chinese: "憑藉她平靜的個性和出色的溝通技巧，她非常適合從事輔導工作。",
+      grammar_point: "with + N（具備…，介系詞片語表條件）；is perfectly suited for + N（非常適合…）"
+    },
+    vocabulary: [
+      { word: "appropriate", pos: "adj.", chinese: "適合的" },
+      { word: "well-matched", pos: "adj.", chinese: "非常合適的" },
+      { word: "qualify", pos: "v.", chinese: "使具備資格" }
+    ],
+    sentence_pattern: { pattern: "With + N + and + N, S + is perfectly suited for + N", example: "This quiet neighbourhood is well suited for families with young children." }
+  },
+  {
+    phrase: "be surprised at",
+    type: "片語動詞",
+    chinese: "對…感到驚訝",
+    keywords: ["be", "surprised", "at"],
+    example: {
+      english: "We were all surprised at how quickly the new employee adapted to the company's working environment.",
+      chinese: "我們都對這位新員工適應公司工作環境的速度感到驚訝。",
+      grammar_point: "were surprised at + how + adv + S + V（對…有多快感到驚訝，感嘆語氣）"
+    },
+    vocabulary: [
+      { word: "astonished", pos: "adj.", chinese: "大為驚訝的" },
+      { word: "adapt", pos: "v.", chinese: "適應" },
+      { word: "unexpected", pos: "adj.", chinese: "意外的" }
+    ],
+    sentence_pattern: { pattern: "S + were surprised at how + adv + S + V", example: "Don't be surprised at the result — you worked incredibly hard for it." }
+  },
+  {
+    phrase: "be suspicious of",
+    type: "片語動詞",
+    chinese: "對…感到懷疑、起疑心",
+    keywords: ["be", "suspicious", "of"],
+    example: {
+      english: "The investigator became increasingly suspicious of the witness's story as more inconsistencies emerged.",
+      chinese: "隨著越來越多的矛盾之處浮現，調查員對這名證人的說法越來越起疑心。",
+      grammar_point: "became increasingly + adj（變得越來越…）；as + S + V（隨著…，副詞子句）"
+    },
+    vocabulary: [
+      { word: "inconsistency", pos: "n.", chinese: "矛盾、不一致之處" },
+      { word: "doubtful", pos: "adj.", chinese: "懷疑的" },
+      { word: "distrust", pos: "v.", chinese: "不信任" }
+    ],
+    sentence_pattern: { pattern: "S + became increasingly suspicious of + N + as + N + V", example: "Be suspicious of any offer that sounds too good to be true." }
+  },
+  {
+    phrase: "be tied to",
+    type: "片語動詞",
+    chinese: "與…密切相關；受…束縛",
+    keywords: ["be", "tied", "to"],
+    example: {
+      english: "His entire financial future is tied to the success of the business he has built over the last decade.",
+      chinese: "他整個財務未來都與他過去十年間所建立的事業的成功密切相關。",
+      grammar_point: "is tied to + N（與…緊密相連）；he has built（關係子句省略關代）"
+    },
+    vocabulary: [
+      { word: "linked", pos: "adj.", chinese: "相連的" },
+      { word: "dependent", pos: "adj.", chinese: "依賴的" },
+      { word: "bound", pos: "adj.", chinese: "受約束的" }
+    ],
+    sentence_pattern: { pattern: "N + is tied to + N + S + has + p.p.", example: "Her identity had become too closely tied to her job title." }
+  },
+  {
+    phrase: "be worthy of",
+    type: "片語動詞",
+    chinese: "值得、配得上",
+    keywords: ["be", "worthy", "of"],
+    example: {
+      english: "Every person is worthy of respect and dignity regardless of their background or circumstances.",
+      chinese: "無論背景或處境如何，每個人都值得被尊重和有尊嚴。",
+      grammar_point: "is worthy of + N（值得…）；regardless of + N（不論…，介系詞片語表讓步）"
+    },
+    vocabulary: [
+      { word: "deserving", pos: "adj.", chinese: "值得的" },
+      { word: "dignity", pos: "n.", chinese: "尊嚴" },
+      { word: "merit", pos: "v.", chinese: "值得、應得" }
+    ],
+    sentence_pattern: { pattern: "S + is worthy of + N + regardless of + N", example: "This project is worthy of the award it received." }
+  },
+  {
+    phrase: "blend into",
+    type: "片語動詞",
+    chinese: "融入、混入（環境或群體）",
+    keywords: ["blend", "into"],
+    example: {
+      english: "The undercover officer was trained to blend into the local community without attracting any attention.",
+      chinese: "這名臥底警察受過訓練，能夠融入當地社區而不引起任何注意。",
+      grammar_point: "was trained to + V（被訓練去做某事）；without + V-ing（在不…的情況下）"
+    },
+    vocabulary: [
+      { word: "undercover", pos: "adj.", chinese: "臥底的" },
+      { word: "assimilate", pos: "v.", chinese: "同化、融入" },
+      { word: "inconspicuous", pos: "adj.", chinese: "不顯眼的" }
+    ],
+    sentence_pattern: { pattern: "S + was trained to blend into + N + without + V-ing", example: "The new colour blends perfectly into the rest of the room's decor." }
+  },
+  {
+    phrase: "borrow against",
+    type: "動詞 + 介系詞",
+    chinese: "以…作抵押借款",
+    keywords: ["borrow", "against"],
+    example: {
+      english: "Many homeowners choose to borrow against the equity in their property to fund major renovations.",
+      chinese: "許多房主選擇以其房產的淨值作為抵押借款，為大型翻修提供資金。",
+      grammar_point: "choose to + V（選擇做某事）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "equity", pos: "n.", chinese: "淨值、資產淨值" },
+      { word: "collateral", pos: "n.", chinese: "抵押品" },
+      { word: "renovation", pos: "n.", chinese: "翻修" }
+    ],
+    sentence_pattern: { pattern: "S + choose(s) to borrow against + N + to + V", example: "It is risky to borrow against your home if you cannot keep up repayments." }
+  },
+  {
+    phrase: "bounce between",
+    type: "片語動詞",
+    chinese: "在…之間來回跳動；在…之間搖擺不定",
+    keywords: ["bounce", "between"],
+    example: {
+      english: "Throughout the week she bounced between excitement and anxiety about starting her new job on Monday.",
+      chinese: "整個星期她都在對週一開始新工作的興奮和焦慮之間搖擺不定。",
+      grammar_point: "bounced between + N + and + N（在…和…之間搖擺）；throughout + N（在整個…期間）"
+    },
+    vocabulary: [
+      { word: "waver", pos: "v.", chinese: "搖擺、猶豫" },
+      { word: "fluctuate", pos: "v.", chinese: "波動、起伏" },
+      { word: "anxiety", pos: "n.", chinese: "焦慮" }
+    ],
+    sentence_pattern: { pattern: "S + bounced between + N + and + N + about + V-ing", example: "The ball bounced between the two players before going out of bounds." }
+  },
+  {
+    phrase: "branch away",
+    type: "片語動詞",
+    chinese: "分叉離開；從…脫離另起爐灶",
+    keywords: ["branch", "away"],
+    example: {
+      english: "After years with the agency, she decided to branch away and establish her own independent consultancy.",
+      chinese: "在那家代理公司工作多年後，她決定脫離另起爐灶，建立自己的獨立顧問公司。",
+      grammar_point: "after + 時間 + with + N（在…工作了多年後）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "independent", pos: "adj.", chinese: "獨立的" },
+      { word: "consultancy", pos: "n.", chinese: "顧問公司" },
+      { word: "diverge", pos: "v.", chinese: "分歧、分叉" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + with + N, S + decided to branch away and + V", example: "The path branches away from the main road just past the old oak tree." }
+  },
+  {
+    phrase: "bump against",
+    type: "片語動詞",
+    chinese: "撞到、碰到；遭遇（阻礙）",
+    keywords: ["bump", "against"],
+    example: {
+      english: "The project kept bumping against regulatory barriers that slowed down every phase of development.",
+      chinese: "這個專案一再遭遇阻礙開發每個階段的監管障礙。",
+      grammar_point: "kept + V-ing（持續遭遇）；that + 關係子句（修飾先行詞 barriers）"
+    },
+    vocabulary: [
+      { word: "regulatory", pos: "adj.", chinese: "監管的" },
+      { word: "obstacle", pos: "n.", chinese: "障礙" },
+      { word: "encounter", pos: "v.", chinese: "遭遇、碰到" }
+    ],
+    sentence_pattern: { pattern: "S + kept bumping against + N + that + V", example: "She bumped against the edge of the table in the dark." }
+  },
+  {
+    phrase: "chase towards",
+    type: "動詞 + 介系詞",
+    chinese: "追向、朝…追去",
+    keywords: ["chase", "towards"],
+    example: {
+      english: "The excited dog chased towards the open field the moment it was let off the lead.",
+      chinese: "那隻興奮的狗一被放開繩子，立刻朝著開闊的田野追去。",
+      grammar_point: "the moment + S + V（一…就…，時間副詞子句）；was let off（被動語態，被放開）"
+    },
+    vocabulary: [
+      { word: "pursue", pos: "v.", chinese: "追趕" },
+      { word: "dash", pos: "v.", chinese: "衝向" },
+      { word: "lead", pos: "n.", chinese: "牽繩、皮帶" }
+    ],
+    sentence_pattern: { pattern: "S + chased towards + N + the moment + S + V", example: "The children chased towards the ice cream van as it came down the street." }
+  },
+  {
+    phrase: "clarify for",
+    type: "動詞 + 介系詞",
+    chinese: "為…說明清楚、為…釐清",
+    keywords: ["clarify", "for"],
+    example: {
+      english: "Could you please clarify for everyone what the exact requirements are for submitting the application?",
+      chinese: "能請你為大家說明清楚提交申請的確切要求是什麼嗎？",
+      grammar_point: "Could you please + V（禮貌請求句型）；what + S + V（間接問句作受詞）"
+    },
+    vocabulary: [
+      { word: "requirement", pos: "n.", chinese: "要求" },
+      { word: "explain", pos: "v.", chinese: "解釋、說明" },
+      { word: "elaborate", pos: "v.", chinese: "詳述" }
+    ],
+    sentence_pattern: { pattern: "Could you clarify for + 人 + what + N + V?", example: "Let me clarify for you exactly what is expected by the end of the week." }
+  },
+  {
+    phrase: "clash with",
+    type: "動詞 + 介系詞",
+    chinese: "與…衝突、起爭執；（顏色等）不協調",
+    keywords: ["clash", "with"],
+    example: {
+      english: "His bold management style often clashes with the more cautious approach preferred by senior leadership.",
+      chinese: "他大膽的管理風格常常與高層領導偏好的較為謹慎的做法相衝突。",
+      grammar_point: "often + V（副詞表頻率）；preferred by（過去分詞片語作後置修飾）"
+    },
+    vocabulary: [
+      { word: "conflict", pos: "v.", chinese: "衝突" },
+      { word: "contradict", pos: "v.", chinese: "與…相矛盾" },
+      { word: "tension", pos: "n.", chinese: "緊張關係" }
+    ],
+    sentence_pattern: { pattern: "N + often clashes with + N + preferred by + N", example: "Her new curtains clash badly with the colour of the walls." }
+  },
+  {
+    phrase: "cling onto",
+    type: "片語動詞",
+    chinese: "緊抓不放；執著於（過去或信念）",
+    keywords: ["cling", "onto"],
+    example: {
+      english: "Even after years had passed, she found herself clinging onto the hope that things would eventually improve.",
+      chinese: "即使多年過去，她發現自己仍緊抓著事情最終會好轉的希望不放。",
+      grammar_point: "found herself + V-ing（發現自己在做某事）；that + 名詞子句（作 hope 的同位語）"
+    },
+    vocabulary: [
+      { word: "grip", pos: "v.", chinese: "緊握、抓緊" },
+      { word: "persist", pos: "v.", chinese: "堅持、執著" },
+      { word: "reluctant", pos: "adj.", chinese: "不情願的" }
+    ],
+    sentence_pattern: { pattern: "S + found herself clinging onto + N + that + S + would + V", example: "Stop clinging onto the past and focus on building your future." }
+  },
+  {
+    phrase: "collect from",
+    type: "動詞 + 介系詞",
+    chinese: "從…收集、領取",
+    keywords: ["collect", "from"],
+    example: {
+      english: "Participants can collect their race packs from the registration desk on the morning of the event.",
+      chinese: "參賽者可在活動當天早上從報名處領取他們的參賽資料袋。",
+      grammar_point: "can + V（情態動詞表許可）；on the morning of + N（在…的早上）"
+    },
+    vocabulary: [
+      { word: "registration", pos: "n.", chinese: "報名、登記" },
+      { word: "retrieve", pos: "v.", chinese: "取回、領取" },
+      { word: "participant", pos: "n.", chinese: "參賽者、參與者" }
+    ],
+    sentence_pattern: { pattern: "S + can collect + N + from + N + on + 時間", example: "She collects her children from school every afternoon at three o'clock." }
+  },
+  {
+    phrase: "combat against",
+    type: "動詞 + 介系詞",
+    chinese: "對抗、抵抗（問題或威脅）",
+    keywords: ["combat", "against"],
+    example: {
+      english: "Governments around the world are taking stronger measures to combat against the rising tide of cybercrime.",
+      chinese: "世界各地的政府正在採取更有力的措施，以對抗日益猖獗的網路犯罪。",
+      grammar_point: "are taking + N（現在進行式，表示正在進行的動作）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "cybercrime", pos: "n.", chinese: "網路犯罪" },
+      { word: "countermeasure", pos: "n.", chinese: "反制措施" },
+      { word: "tackle", pos: "v.", chinese: "應對、處理" }
+    ],
+    sentence_pattern: { pattern: "S + are taking measures to combat against + N", example: "Communities must work together to combat against the spread of misinformation." }
+  },
+  {
+    phrase: "come into contact with",
+    type: "片語動詞",
+    chinese: "與…接觸、接觸到",
+    keywords: ["come", "into", "contact", "with"],
+    example: {
+      english: "Health workers who come into contact with infectious patients must follow strict protective protocols.",
+      chinese: "與傳染性患者接觸的醫療人員必須遵守嚴格的防護規程。",
+      grammar_point: "who + 關係子句（修飾先行詞 workers）；must + V（情態動詞表必要性）"
+    },
+    vocabulary: [
+      { word: "infectious", pos: "adj.", chinese: "傳染性的" },
+      { word: "protocol", pos: "n.", chinese: "規程、協議" },
+      { word: "exposure", pos: "n.", chinese: "接觸、暴露" }
+    ],
+    sentence_pattern: { pattern: "S + who come into contact with + N + must + V + N", example: "Wash your hands after coming into contact with any unknown substances." }
+  },
+  {
+    phrase: "commit to",
+    type: "動詞 + 介系詞",
+    chinese: "承諾、致力於；投入",
+    keywords: ["commit", "to"],
+    example: {
+      english: "Once you commit to a goal, it is important to stay consistent and resist the temptation to give up.",
+      chinese: "一旦你承諾了一個目標，保持一致性並抵抗放棄的誘惑是非常重要的。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；it is + adj + to + V（虛主詞句型）"
+    },
+    vocabulary: [
+      { word: "dedication", pos: "n.", chinese: "投入、奉獻" },
+      { word: "consistent", pos: "adj.", chinese: "一致的" },
+      { word: "pledge", pos: "v.", chinese: "承諾、保證" }
+    ],
+    sentence_pattern: { pattern: "Once + S + commit(s) to + N, it is + adj + to + V", example: "The government has committed to reducing carbon emissions by fifty percent." }
+  },
+  {
+    phrase: "compare against",
+    type: "動詞 + 介系詞",
+    chinese: "與…比較對照",
+    keywords: ["compare", "against"],
+    example: {
+      english: "The new product's performance was compared against industry benchmarks to determine if it met the required standards.",
+      chinese: "新產品的性能與行業基準進行了比較對照，以確定其是否符合所需標準。",
+      grammar_point: "was compared against + N（被動語態）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "benchmark", pos: "n.", chinese: "基準、標竿" },
+      { word: "evaluate", pos: "v.", chinese: "評估" },
+      { word: "standard", pos: "n.", chinese: "標準" }
+    ],
+    sentence_pattern: { pattern: "N + was compared against + N + to + V", example: "Always compare current results against the targets set at the start of the year." }
+  },
+  {
+    phrase: "conflict with",
+    type: "動詞 + 介系詞",
+    chinese: "與…衝突、相矛盾",
+    keywords: ["conflict", "with"],
+    example: {
+      english: "The new guidelines appear to conflict with the existing company policy on remote working arrangements.",
+      chinese: "新指導方針似乎與公司現有的遠距工作安排政策相衝突。",
+      grammar_point: "appear to + V（似乎做某事，感官動詞加不定詞）；on + N（關於…）"
+    },
+    vocabulary: [
+      { word: "contradict", pos: "v.", chinese: "與…相矛盾" },
+      { word: "inconsistent", pos: "adj.", chinese: "不一致的" },
+      { word: "clash", pos: "v.", chinese: "衝突" }
+    ],
+    sentence_pattern: { pattern: "N + appear(s) to conflict with + N + on + N", example: "His personal values conflict directly with the demands of his job." }
+  },
+  {
+    phrase: "consult with",
+    type: "動詞 + 介系詞",
+    chinese: "與…協商、諮詢",
+    keywords: ["consult", "with"],
+    example: {
+      english: "Before making any major changes to the curriculum, the principal consulted with teachers and parents alike.",
+      chinese: "在對課程進行任何重大變動之前，校長與教師和家長都進行了協商。",
+      grammar_point: "before + V-ing（時間副詞片語，表動作先後）；alike（副詞，表示兩者都）"
+    },
+    vocabulary: [
+      { word: "curriculum", pos: "n.", chinese: "課程" },
+      { word: "seek advice", pos: "v.", chinese: "尋求建議" },
+      { word: "collaborate", pos: "v.", chinese: "合作、協作" }
+    ],
+    sentence_pattern: { pattern: "Before + V-ing, S + consulted with + 人 + and + 人 + alike", example: "You should consult with a financial advisor before making any large investments." }
+  },
+  {
+    phrase: "contribute towards",
+    type: "動詞 + 介系詞",
+    chinese: "為…作出貢獻、有助於",
+    keywords: ["contribute", "towards"],
+    example: {
+      english: "Every small action you take to reduce waste contributes towards a healthier and more sustainable planet.",
+      chinese: "你為減少廢棄物所採取的每一個小行動，都有助於建立一個更健康、更永續的地球。",
+      grammar_point: "you take（關係子句省略關代，修飾先行詞 action）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "sustainable", pos: "adj.", chinese: "永續的" },
+      { word: "impact", pos: "n.", chinese: "影響" },
+      { word: "donate", pos: "v.", chinese: "捐獻、貢獻" }
+    ],
+    sentence_pattern: { pattern: "N + contributes towards + N + and + adj + N", example: "Regular exercise contributes towards both physical and mental wellbeing." }
+  },
+  {
+    phrase: "cope without",
+    type: "動詞 + 介系詞",
+    chinese: "在沒有…的情況下應對、沒有…也能撐過去",
+    keywords: ["cope", "without"],
+    example: {
+      english: "After the internet went down, the team struggled to cope without access to the shared online documents.",
+      chinese: "網路中斷後，團隊在無法存取共享線上文件的情況下苦苦應對。",
+      grammar_point: "after + S + V（時間副詞子句，表動作先後）；struggled to + V（費力地做某事）"
+    },
+    vocabulary: [
+      { word: "manage", pos: "v.", chinese: "應付、設法" },
+      { word: "adapt", pos: "v.", chinese: "適應" },
+      { word: "resilient", pos: "adj.", chinese: "有韌性的" }
+    ],
+    sentence_pattern: { pattern: "After + S + V, S + struggled to cope without + N", example: "I honestly don't know how I would cope without your support." }
+  },
+  {
+    phrase: "evaluate against",
+    type: "動詞 + 介系詞",
+    chinese: "依照…評估、以…為基準評量",
+    keywords: ["evaluate", "against"],
+    example: {
+      english: "Each candidate's performance during the interview will be evaluated against a clearly defined set of criteria.",
+      chinese: "每位候選人在面試中的表現將依照一套明確定義的標準進行評估。",
+      grammar_point: "will be evaluated against + N（被動語態，未來式）；clearly defined（複合形容詞）"
+    },
+    vocabulary: [
+      { word: "criteria", pos: "n.", chinese: "標準（複數）" },
+      { word: "assess", pos: "v.", chinese: "評估" },
+      { word: "benchmark", pos: "n.", chinese: "基準" }
+    ],
+    sentence_pattern: { pattern: "N + will be evaluated against + N + of + N", example: "All applications are evaluated against the same objective standards." }
+  },
+  {
+    phrase: "discover about",
+    type: "動詞 + 介系詞",
+    chinese: "發現、得知（關於…的事）",
+    keywords: ["discover", "about"],
+    example: {
+      english: "The more she reads, the more she discovers about the fascinating history of her own family's origins.",
+      chinese: "她讀得越多，就越能發現關於她自己家族起源的迷人歷史。",
+      grammar_point: "the more + S + V, the more + S + V（越…越…，比較級句型）"
+    },
+    vocabulary: [
+      { word: "uncover", pos: "v.", chinese: "揭露、發現" },
+      { word: "origin", pos: "n.", chinese: "起源、來源" },
+      { word: "fascinating", pos: "adj.", chinese: "迷人的、引人入勝的" }
+    ],
+    sentence_pattern: { pattern: "The more + S + V, the more + S + discovers about + N", example: "What have you discovered about the cause of the problem so far?" }
+  },
+  {
+    phrase: "discuss about",
+    type: "動詞 + 介系詞",
+    chinese: "討論、商討（某事）",
+    keywords: ["discuss", "about"],
+    example: {
+      english: "The management team met on Friday to discuss about the budget cuts and their impact on staffing levels.",
+      chinese: "管理團隊於週五召開會議，討論預算削減及其對人員編制水準的影響。",
+      grammar_point: "met + to + V（開會的目的）；and + N（連接兩個並列名詞）"
+    },
+    vocabulary: [
+      { word: "budget", pos: "n.", chinese: "預算" },
+      { word: "staffing", pos: "n.", chinese: "人員配置" },
+      { word: "deliberate", pos: "v.", chinese: "商議、深思" }
+    ],
+    sentence_pattern: { pattern: "S + met to discuss about + N + and + N", example: "We need to sit down and discuss about the next steps for the project." }
+  },
+  {
+    phrase: "distinguish between",
+    type: "動詞 + 介系詞",
+    chinese: "區分、辨別（兩者之間的差異）",
+    keywords: ["distinguish", "between"],
+    example: {
+      english: "Young children often find it difficult to distinguish between what is real and what is imaginary.",
+      chinese: "幼兒常常覺得難以區分什麼是真實的，什麼是虛構的。",
+      grammar_point: "find it + adj + to + V（覺得做某事…，虛受詞句型）；what is + adj（間接問句）"
+    },
+    vocabulary: [
+      { word: "differentiate", pos: "v.", chinese: "區別、辨別" },
+      { word: "imaginary", pos: "adj.", chinese: "虛構的、想像中的" },
+      { word: "discern", pos: "v.", chinese: "辨別、識別" }
+    ],
+    sentence_pattern: { pattern: "S + find(s) it + adj + to distinguish between + N + and + N", example: "It is crucial to distinguish between correlation and causation in research." }
+  },
+  {
+    phrase: "diversify into",
+    type: "動詞 + 介系詞",
+    chinese: "多元化進入、拓展至（新領域）",
+    keywords: ["diversify", "into"],
+    example: {
+      english: "The company diversified into renewable energy after years of relying solely on fossil fuel revenues.",
+      chinese: "這家公司在多年完全依賴化石燃料收入後，多元化進入了可再生能源領域。",
+      grammar_point: "after + 時間 + of + V-ing（在…時間的…之後）；solely（副詞，僅僅）"
+    },
+    vocabulary: [
+      { word: "expand", pos: "v.", chinese: "擴展" },
+      { word: "revenue", pos: "n.", chinese: "收入、收益" },
+      { word: "venture", pos: "v.", chinese: "冒險進入" }
+    ],
+    sentence_pattern: { pattern: "S + diversified into + N + after + 時間 + of + V-ing", example: "Smart investors diversify into different asset classes to reduce risk." }
+  },
+  {
+    phrase: "enjoy about",
+    type: "動詞 + 介系詞",
+    chinese: "喜歡…的某方面",
+    keywords: ["enjoy", "about"],
+    example: {
+      english: "What he enjoys most about working from home is the freedom to structure his own daily schedule.",
+      chinese: "他最喜歡在家工作的地方，是能夠自由安排自己每天日程的自由。",
+      grammar_point: "what + S + V（名詞子句作主詞）；most（最高級副詞，修飾動詞）"
+    },
+    vocabulary: [
+      { word: "appreciate", pos: "v.", chinese: "欣賞、珍惜" },
+      { word: "freedom", pos: "n.", chinese: "自由" },
+      { word: "structure", pos: "v.", chinese: "安排、組織" }
+    ],
+    sentence_pattern: { pattern: "What S + enjoys most about + V-ing + is + N", example: "What do you enjoy most about living in this city?" }
+  },
+  {
+    phrase: "establish between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間建立（關係或聯繫）",
+    keywords: ["establish", "between"],
+    example: {
+      english: "The research attempts to establish a clear link between childhood stress and adult mental health outcomes.",
+      chinese: "這項研究試圖在童年壓力與成人心理健康結果之間建立明確的聯繫。",
+      grammar_point: "attempts to + V（試圖做某事）；between + N + and + N（在…與…之間）"
+    },
+    vocabulary: [
+      { word: "connection", pos: "n.", chinese: "連結、聯繫" },
+      { word: "correlation", pos: "n.", chinese: "相關性" },
+      { word: "determine", pos: "v.", chinese: "確定、判斷" }
+    ],
+    sentence_pattern: { pattern: "S + attempts to establish + N + between + N + and + N", example: "We need to establish better communication between the two departments." }
+  },
+  {
+    phrase: "exchange between",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間交流、互換",
+    keywords: ["exchange", "between"],
+    example: {
+      english: "A regular exchange between schools in different countries helps students develop a global perspective.",
+      chinese: "不同國家學校之間的定期交流，有助於學生培養全球視野。",
+      grammar_point: "regular + N + between + N（定期的…之間的交流）；helps + 人 + V（幫助某人做某事）"
+    },
+    vocabulary: [
+      { word: "perspective", pos: "n.", chinese: "視野、觀點" },
+      { word: "bilateral", pos: "adj.", chinese: "雙邊的" },
+      { word: "foster", pos: "v.", chinese: "促進、培養" }
+    ],
+    sentence_pattern: { pattern: "N + between + N + helps + 人 + V + N", example: "There was a lively exchange between the two speakers on stage." }
+  },
+  {
+    phrase: "explore between",
+    type: "動詞 + 介系詞",
+    chinese: "探索…之間的（關係或差異）",
+    keywords: ["explore", "between"],
+    example: {
+      english: "The documentary explores the contrast between life in the city and life in remote rural communities.",
+      chinese: "這部紀錄片探索城市生活與偏遠農村社區生活之間的對比。",
+      grammar_point: "explores + N + between + N + and + N（探索…之間的…）"
+    },
+    vocabulary: [
+      { word: "contrast", pos: "n.", chinese: "對比、差異" },
+      { word: "rural", pos: "adj.", chinese: "農村的" },
+      { word: "investigate", pos: "v.", chinese: "調查、探索" }
+    ],
+    sentence_pattern: { pattern: "S + explores + N + between + N + and + N", example: "This paper explores the relationship between diet and cognitive function." }
+  },
+  {
+    phrase: "pass among",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間傳遞、散布",
+    keywords: ["pass", "among"],
+    example: {
+      english: "A sense of nervous excitement passed among the contestants as they waited backstage for the competition to begin.",
+      chinese: "選手們在後台等待比賽開始時，一股緊張又興奮的情緒在他們之間流傳。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）；waited + to + V（等待做某事）"
+    },
+    vocabulary: [
+      { word: "contestant", pos: "n.", chinese: "選手、參賽者" },
+      { word: "circulate", pos: "v.", chinese: "流傳、散布" },
+      { word: "murmur", pos: "v.", chinese: "低聲傳遞" }
+    ],
+    sentence_pattern: { pattern: "N + passed among + N + as + S + V", example: "The petition was passed among the residents for everyone to sign." }
+  },
+  {
+    phrase: "practice on",
+    type: "動詞 + 介系詞",
+    chinese: "在…身上練習、對…進行練習",
+    keywords: ["practice", "on"],
+    example: {
+      english: "Medical students are required to practice on simulation models before treating real patients in a clinic.",
+      chinese: "醫學生在診所治療真實患者之前，需要在模擬模型上進行練習。",
+      grammar_point: "are required to + V（被動語態，被要求做某事）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "simulation", pos: "n.", chinese: "模擬" },
+      { word: "rehearse", pos: "v.", chinese: "排練、練習" },
+      { word: "clinical", pos: "adj.", chinese: "臨床的" }
+    ],
+    sentence_pattern: { pattern: "S + are required to practice on + N + before + V-ing", example: "She practiced her speech on her family before the big presentation." }
+  },
+  {
+    phrase: "run among",
+    type: "動詞 + 介系詞",
+    chinese: "在…之間奔跑；在…之間流傳",
+    keywords: ["run", "among"],
+    example: {
+      english: "A rumour began to run among the staff that the office would be relocating to another city next year.",
+      chinese: "一個謠言開始在員工之間流傳，說辦公室明年將遷往另一座城市。",
+      grammar_point: "began to + V（開始做某事）；that + 名詞子句（作 rumour 的同位語）"
+    },
+    vocabulary: [
+      { word: "rumour", pos: "n.", chinese: "謠言、傳言" },
+      { word: "circulate", pos: "v.", chinese: "流傳" },
+      { word: "spread", pos: "v.", chinese: "散布、傳播" }
+    ],
+    sentence_pattern: { pattern: "N + began to run among + N + that + S + would + V", example: "The children ran freely among the trees in the park all afternoon." }
+  },
+  {
+    phrase: "abscond with",
+    type: "動詞 + 介系詞",
+    chinese: "攜帶…潛逃、盜走後逃跑",
+    keywords: ["abscond", "with"],
+    example: {
+      english: "The accountant absconded with nearly two million dollars of company funds before anyone noticed.",
+      chinese: "那名會計在任何人察覺之前，攜帶近兩百萬美元的公司資金潛逃。",
+      grammar_point: "before + S + V（時間副詞子句，表動作先後）；nearly（副詞，幾乎）"
+    },
+    vocabulary: [
+      { word: "flee", pos: "v.", chinese: "逃跑" },
+      { word: "embezzle", pos: "v.", chinese: "挪用公款" },
+      { word: "fund", pos: "n.", chinese: "資金" }
+    ],
+    sentence_pattern: { pattern: "S + absconded with + N + before + S + V", example: "The thief absconded with the jewellery before police could arrive." }
+  },
+  {
+    phrase: "agonize over",
+    type: "動詞 + 介系詞",
+    chinese: "為…苦惱、煎熬地思考",
+    keywords: ["agonize", "over"],
+    example: {
+      english: "She agonized over the decision for weeks before finally choosing to accept the job offer overseas.",
+      chinese: "她為這個決定苦惱了數週，最終才決定接受海外的工作邀約。",
+      grammar_point: "agonized over + N + for + 時間（為…苦惱了多長時間）；before + V-ing（之後才…）"
+    },
+    vocabulary: [
+      { word: "anguish", pos: "n.", chinese: "痛苦、煎熬" },
+      { word: "deliberate", pos: "v.", chinese: "深思熟慮" },
+      { word: "torment", pos: "v.", chinese: "使痛苦、折磨" }
+    ],
+    sentence_pattern: { pattern: "S + agonized over + N + for + 時間 + before + V-ing", example: "Stop agonizing over small details and just make a decision." }
+  },
+  {
+    phrase: "atone for",
+    type: "動詞 + 介系詞",
+    chinese: "為…贖罪、彌補（過失）",
+    keywords: ["atone", "for"],
+    example: {
+      english: "He spent years doing community service in an effort to atone for the mistakes he had made in his youth.",
+      chinese: "他花了多年時間從事社區服務，試圖彌補他年輕時所犯的錯誤。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；in an effort to + V（試圖做某事）"
+    },
+    vocabulary: [
+      { word: "repent", pos: "v.", chinese: "悔悟、懺悔" },
+      { word: "redemption", pos: "n.", chinese: "救贖、彌補" },
+      { word: "compensate", pos: "v.", chinese: "補償、彌補" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + V-ing + in an effort to atone for + N", example: "Nothing he did seemed enough to atone for the hurt he had caused." }
+  },
+  {
+    phrase: "awaken to",
+    type: "動詞 + 介系詞",
+    chinese: "意識到、開始覺察（某事實或問題）",
+    keywords: ["awaken", "to"],
+    example: {
+      english: "Society is slowly awakening to the serious consequences of ignoring mental health in the workplace.",
+      chinese: "社會正慢慢地開始意識到忽視職場心理健康的嚴重後果。",
+      grammar_point: "is + V-ing（現在進行式，表示正在進行的趨勢）；of + V-ing（介系詞後接動名詞）"
+    },
+    vocabulary: [
+      { word: "realise", pos: "v.", chinese: "意識到" },
+      { word: "consequence", pos: "n.", chinese: "後果" },
+      { word: "awareness", pos: "n.", chinese: "意識、認知" }
+    ],
+    sentence_pattern: { pattern: "S + is slowly awakening to + N + of + V-ing + N", example: "He only awakened to the danger when it was almost too late." }
+  },
+  {
+    phrase: "back onto",
+    type: "片語動詞",
+    chinese: "（建築或土地）背面緊鄰、後方朝向",
+    keywords: ["back", "onto"],
+    example: {
+      english: "The garden backs onto a quiet nature reserve, making it an incredibly peaceful place to relax.",
+      chinese: "花園後方緊鄰一片寧靜的自然保護區，使其成為一個非常寧靜的放鬆之地。",
+      grammar_point: "backs onto + N（後方緊鄰…）；making it + N（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "reserve", pos: "n.", chinese: "保護區" },
+      { word: "adjacent", pos: "adj.", chinese: "毗鄰的" },
+      { word: "border", pos: "v.", chinese: "與…接壤" }
+    ],
+    sentence_pattern: { pattern: "N + backs onto + N, making it + N + to + V", example: "Our house backs onto the park, so the children can play outside easily." }
+  },
+  {
+    phrase: "bargain with",
+    type: "動詞 + 介系詞",
+    chinese: "與…討價還價、談條件",
+    keywords: ["bargain", "with"],
+    example: {
+      english: "The union leaders spent months bargaining with the management over pay rises and improved working conditions.",
+      chinese: "工會領袖花了數月時間與管理層就加薪和改善工作條件進行談判。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；over + N（就…，表示談判主題）"
+    },
+    vocabulary: [
+      { word: "negotiate", pos: "v.", chinese: "談判、協商" },
+      { word: "union", pos: "n.", chinese: "工會" },
+      { word: "concession", pos: "n.", chinese: "讓步" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + bargaining with + 人 + over + N", example: "You can try bargaining with the seller at the market for a lower price." }
+  },
+  {
+    phrase: "bash into",
+    type: "片語動詞",
+    chinese: "猛撞、用力碰撞",
+    keywords: ["bash", "into"],
+    example: {
+      english: "He walked into the dark room and bashed into the corner of the bed before finding the light switch.",
+      chinese: "他走進黑暗的房間，在找到電燈開關之前，猛地撞上了床角。",
+      grammar_point: "walked into（進入）；before + V-ing（時間副詞片語，表動作先後）"
+    },
+    vocabulary: [
+      { word: "collide", pos: "v.", chinese: "碰撞" },
+      { word: "stumble", pos: "v.", chinese: "絆倒、踉蹌" },
+      { word: "impact", pos: "n.", chinese: "撞擊" }
+    ],
+    sentence_pattern: { pattern: "S + V + and bashed into + N + before + V-ing", example: "The shopping trolley bashed into the display stand and knocked everything over." }
+  },
+  {
+    phrase: "bask in",
+    type: "動詞 + 介系詞",
+    chinese: "沉浸在（陽光、榮耀）中；盡情享受",
+    keywords: ["bask", "in"],
+    example: {
+      english: "After winning the championship, the team basked in the glory and celebrated late into the night.",
+      chinese: "贏得冠軍後，球隊沉浸在榮耀之中，慶祝到深夜。",
+      grammar_point: "after + V-ing（時間副詞片語）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "glory", pos: "n.", chinese: "榮耀" },
+      { word: "revel", pos: "v.", chinese: "盡情享受" },
+      { word: "savour", pos: "v.", chinese: "細細品味、享受" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing, S + basked in + N + and + V", example: "She sat on the beach, basking in the warm afternoon sunshine." }
+  },
+  {
+    phrase: "blot out",
+    type: "片語動詞",
+    chinese: "遮蔽、遮擋；抹去（記憶）",
+    keywords: ["blot", "out"],
+    example: {
+      english: "Thick clouds blotted out the sun for most of the afternoon, making the outdoor event feel gloomy.",
+      chinese: "厚厚的雲層在下午大部分時間遮擋了陽光，讓戶外活動感覺陰鬱。",
+      grammar_point: "for most of + N（在…的大部分時間裡）；making + N + V（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "obscure", pos: "v.", chinese: "遮蔽、模糊" },
+      { word: "suppress", pos: "v.", chinese: "壓抑、抹去" },
+      { word: "gloomy", pos: "adj.", chinese: "陰鬱的" }
+    ],
+    sentence_pattern: { pattern: "N + blotted out + N + for + 時間, making + N + V", example: "He tried to blot out the painful memory but it kept coming back." }
+  },
+  {
+    phrase: "blurt out",
+    type: "片語動詞",
+    chinese: "脫口說出、不假思索地說出",
+    keywords: ["blurt", "out"],
+    example: {
+      english: "In her excitement, she blurted out the surprise party plans before anyone had the chance to stop her.",
+      chinese: "她在興奮之下，在任何人來得及阻止她之前，就脫口說出了驚喜派對的計畫。",
+      grammar_point: "in + N（在…的情緒下）；before + S + had the chance to + V（在某人來得及做某事之前）"
+    },
+    vocabulary: [
+      { word: "reveal", pos: "v.", chinese: "透露" },
+      { word: "impulsive", pos: "adj.", chinese: "衝動的" },
+      { word: "exclaim", pos: "v.", chinese: "驚呼" }
+    ],
+    sentence_pattern: { pattern: "In + N, S + blurted out + N + before + S + had the chance to + V", example: "He blurted out the answer without even raising his hand." }
+  },
+  {
+    phrase: "branch off",
+    type: "片語動詞",
+    chinese: "分支、岔開；（話題）岔開",
+    keywords: ["branch", "off"],
+    example: {
+      english: "The main road branches off into three separate lanes just before the entrance to the tunnel.",
+      chinese: "主幹道在進入隧道口之前，分岔成三條獨立的車道。",
+      grammar_point: "branches off into + N（分岔成…）；just before + N（就在…之前）"
+    },
+    vocabulary: [
+      { word: "diverge", pos: "v.", chinese: "分叉、岔開" },
+      { word: "separate", pos: "v.", chinese: "分開" },
+      { word: "fork", pos: "v.", chinese: "分叉" }
+    ],
+    sentence_pattern: { pattern: "N + branches off into + N + just before + N", example: "The conversation branched off into a completely different topic." }
+  },
+  {
+    phrase: "breeze through",
+    type: "片語動詞",
+    chinese: "輕鬆完成、毫不費力地通過",
+    keywords: ["breeze", "through"],
+    example: {
+      english: "She breezed through the entrance exam without revising much because the content came naturally to her.",
+      chinese: "她沒有多少複習就輕鬆通過了入學考試，因為這些內容對她來說得心應手。",
+      grammar_point: "without + V-ing（在不…的情況下）；because + S + V（原因副詞子句）"
+    },
+    vocabulary: [
+      { word: "effortless", pos: "adj.", chinese: "毫不費力的" },
+      { word: "sail through", pos: "phr. v.", chinese: "輕鬆通過" },
+      { word: "accomplish", pos: "v.", chinese: "完成" }
+    ],
+    sentence_pattern: { pattern: "S + breezed through + N + without + V-ing + because + S + V", example: "He breezed through the interview and was offered the job on the spot." }
+  },
+  {
+    phrase: "budget for",
+    type: "動詞 + 介系詞",
+    chinese: "為…編列預算、預先撥款",
+    keywords: ["budget", "for"],
+    example: {
+      english: "The event planners forgot to budget for the cost of hiring a professional sound system for the venue.",
+      chinese: "活動策劃人忘記為租用場地專業音響系統的費用編列預算。",
+      grammar_point: "forgot to + V（忘記做某事）；for + N（為了…，表示對象）"
+    },
+    vocabulary: [
+      { word: "allocate", pos: "v.", chinese: "分配、撥款" },
+      { word: "expense", pos: "n.", chinese: "費用、支出" },
+      { word: "financial", pos: "adj.", chinese: "財務的" }
+    ],
+    sentence_pattern: { pattern: "S + forgot to budget for + N + of + V-ing", example: "Always budget for unexpected costs when planning a large event." }
+  },
+  {
+    phrase: "bulk up",
+    type: "片語動詞",
+    chinese: "增加體重和肌肉；使增大",
+    keywords: ["bulk", "up"],
+    example: {
+      english: "The young athlete worked with a nutritionist to bulk up safely before the competitive season began.",
+      chinese: "這位年輕運動員與營養師合作，在競賽季節開始前安全地增強體魄。",
+      grammar_point: "worked with + 人（與某人合作）；to + V（不定詞表目的）；before + N + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "muscle", pos: "n.", chinese: "肌肉" },
+      { word: "nutritionist", pos: "n.", chinese: "營養師" },
+      { word: "physique", pos: "n.", chinese: "體格、體魄" }
+    ],
+    sentence_pattern: { pattern: "S + worked with + 人 + to bulk up + adv + before + N + V", example: "He spent the off-season trying to bulk up for next year's competition." }
+  },
+  {
+    phrase: "buzz around",
+    type: "片語動詞",
+    chinese: "忙碌穿梭、嗡嗡地飛來飛去；（消息）流傳",
+    keywords: ["buzz", "around"],
+    example: {
+      english: "Staff were buzzing around the office all morning preparing for the important client visit in the afternoon.",
+      chinese: "員工整個早上都在辦公室裡忙碌穿梭，為下午重要的客戶來訪做準備。",
+      grammar_point: "were + V-ing（過去進行式，表示持續的動作）；preparing for（分詞構句，表目的）"
+    },
+    vocabulary: [
+      { word: "bustle", pos: "v.", chinese: "忙碌穿梭" },
+      { word: "flit", pos: "v.", chinese: "飛來飛去" },
+      { word: "rumour", pos: "n.", chinese: "謠言、傳言" }
+    ],
+    sentence_pattern: { pattern: "S + were buzzing around + 地點 + preparing for + N", example: "Rumours were buzzing around the office about a possible merger." }
+  },
+  {
+    phrase: "cash out",
+    type: "片語動詞",
+    chinese: "兌現、套現；退出獲利",
+    keywords: ["cash", "out"],
+    example: {
+      english: "After holding the shares for over ten years, he decided to cash out and use the profits to retire early.",
+      chinese: "在持有股票超過十年後，他決定套現，並用收益提早退休。",
+      grammar_point: "after + V-ing + for + 時間（在做了某事…時間後）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "liquidate", pos: "v.", chinese: "變現、清算" },
+      { word: "profit", pos: "n.", chinese: "收益" },
+      { word: "investment", pos: "n.", chinese: "投資" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing + for + 時間, S + decided to cash out and + V", example: "Many early investors chose to cash out when the company went public." }
+  },
+  {
+    phrase: "check up",
+    type: "片語動詞",
+    chinese: "查核、了解狀況；進行健康檢查",
+    keywords: ["check", "up"],
+    example: {
+      english: "The nurse called to check up on the patient and make sure she was following her prescribed recovery plan.",
+      chinese: "護理師打電話查詢患者的狀況，確認她正在遵循規定的康復計畫。",
+      grammar_point: "called to + V（打電話做某事）；and + V（連接兩個目的動作）"
+    },
+    vocabulary: [
+      { word: "monitor", pos: "v.", chinese: "監測、追蹤" },
+      { word: "prescribed", pos: "adj.", chinese: "規定的、處方的" },
+      { word: "follow-up", pos: "n.", chinese: "後續追蹤" }
+    ],
+    sentence_pattern: { pattern: "S + called to check up on + 人 + and + V", example: "My manager checks up on the team's progress at the end of every week." }
+  },
+  {
+    phrase: "clamp down",
+    type: "片語動詞",
+    chinese: "嚴厲取締、加強管制",
+    keywords: ["clamp", "down"],
+    example: {
+      english: "The authorities clamped down on illegal street vendors after complaints from local business owners increased.",
+      chinese: "在當地業主的投訴增加後，當局嚴厲取締了非法街頭攤販。",
+      grammar_point: "clamped down on + N（嚴厲取締…）；after + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "crackdown", pos: "n.", chinese: "嚴厲取締" },
+      { word: "enforce", pos: "v.", chinese: "執行、強制實施" },
+      { word: "restriction", pos: "n.", chinese: "限制" }
+    ],
+    sentence_pattern: { pattern: "S + clamped down on + N + after + S + V", example: "The school clamped down on mobile phone use during class hours." }
+  },
+  {
+    phrase: "clutter up",
+    type: "片語動詞",
+    chinese: "弄得雜亂、堆滿（使空間混亂）",
+    keywords: ["clutter", "up"],
+    example: {
+      english: "Old boxes and broken equipment had cluttered up the storage room to the point where nothing could be found.",
+      chinese: "舊箱子和損壞的設備已將儲藏室弄得雜亂不堪，到了什麼都找不到的地步。",
+      grammar_point: "had + p.p.（過去完成式，表示先前動作的結果）；to the point where + S + V（到…的地步）"
+    },
+    vocabulary: [
+      { word: "messy", pos: "adj.", chinese: "雜亂的" },
+      { word: "disorder", pos: "n.", chinese: "混亂、無序" },
+      { word: "accumulate", pos: "v.", chinese: "堆積" }
+    ],
+    sentence_pattern: { pattern: "N + had cluttered up + N + to the point where + S + V", example: "Don't clutter up your desk with things you don't need every day." }
+  },
+  {
+    phrase: "come clean",
+    type: "片語動詞",
+    chinese: "坦白交代、承認實情",
+    keywords: ["come", "clean"],
+    example: {
+      english: "After weeks of denying it, he finally came clean about his involvement in the financial irregularities.",
+      chinese: "在否認了數週後，他終於坦白了自己涉及財務違規的事情。",
+      grammar_point: "after + 時間 + of + V-ing（在否認了…時間後）；came clean about + N（坦白關於…）"
+    },
+    vocabulary: [
+      { word: "confess", pos: "v.", chinese: "坦白、承認" },
+      { word: "admit", pos: "v.", chinese: "承認" },
+      { word: "irregularity", pos: "n.", chinese: "違規、不正當行為" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + V-ing, S + finally came clean about + N", example: "It's better to come clean now than to let the truth come out later." }
+  },
+  {
+    phrase: "conjure up",
+    type: "片語動詞",
+    chinese: "喚起（記憶或畫面）；憑空變出",
+    keywords: ["conjure", "up"],
+    example: {
+      english: "The smell of fresh bread always conjures up warm memories of spending weekends at her grandmother's house.",
+      chinese: "新鮮麵包的氣味總是喚起她在祖母家度過週末的溫馨記憶。",
+      grammar_point: "always + V（副詞表頻率）；of + V-ing（介系詞後接動名詞）"
+    },
+    vocabulary: [
+      { word: "evoke", pos: "v.", chinese: "喚起、引發" },
+      { word: "nostalgia", pos: "n.", chinese: "懷舊" },
+      { word: "vivid", pos: "adj.", chinese: "生動的" }
+    ],
+    sentence_pattern: { pattern: "N + always conjures up + N + of + V-ing", example: "The old photograph conjured up memories of a much simpler time." }
+  },
+  {
+    phrase: "crowd around",
+    type: "片語動詞",
+    chinese: "聚集在…周圍、圍攏",
+    keywords: ["crowd", "around"],
+    example: {
+      english: "Curious onlookers crowded around the street performer as he began his spectacular fire-breathing act.",
+      chinese: "好奇的旁觀者在街頭藝人開始他壯觀的噴火表演時紛紛圍攏過來。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）；began + N（開始…）"
+    },
+    vocabulary: [
+      { word: "onlooker", pos: "n.", chinese: "旁觀者" },
+      { word: "gather", pos: "v.", chinese: "聚集" },
+      { word: "spectacular", pos: "adj.", chinese: "壯觀的" }
+    ],
+    sentence_pattern: { pattern: "S + crowded around + N + as + S + V", example: "The students crowded around the notice board to see the exam results." }
+  },
+  {
+    phrase: "cruise through",
+    type: "片語動詞",
+    chinese: "輕鬆通過、悠閒駛過",
+    keywords: ["cruise", "through"],
+    example: {
+      english: "He cruised through the written examination with ease, finishing a full thirty minutes before the time was up.",
+      chinese: "他輕鬆通過了筆試，在時間結束前整整提前了三十分鐘完成。",
+      grammar_point: "with ease（輕鬆地，介系詞片語表方式）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "effortless", pos: "adj.", chinese: "毫不費力的" },
+      { word: "sail through", pos: "phr. v.", chinese: "輕鬆通過" },
+      { word: "breeze", pos: "v.", chinese: "輕鬆完成" }
+    ],
+    sentence_pattern: { pattern: "S + cruised through + N + with ease, finishing + 時間 + before + S + V", example: "The experienced driver cruised through the heavy traffic without stress." }
+  },
+  {
+    phrase: "crumble under",
+    type: "片語動詞",
+    chinese: "在…下崩潰、瓦解",
+    keywords: ["crumble", "under"],
+    example: {
+      english: "The ancient wall finally crumbled under the pressure of years of erosion and neglect.",
+      chinese: "那面古牆終於在多年侵蝕和疏於維護的壓力下崩塌了。",
+      grammar_point: "finally + V（副詞表最終結果）；under + N（在…壓力下）"
+    },
+    vocabulary: [
+      { word: "collapse", pos: "v.", chinese: "崩潰、倒塌" },
+      { word: "erosion", pos: "n.", chinese: "侵蝕" },
+      { word: "deteriorate", pos: "v.", chinese: "惡化、崩解" }
+    ],
+    sentence_pattern: { pattern: "S + finally crumbled under + N + of + N", example: "She crumbled under the pressure of managing everything on her own." }
+  },
+  {
+    phrase: "crunch down",
+    type: "片語動詞",
+    chinese: "用力壓縮；蹲低身體",
+    keywords: ["crunch", "down"],
+    example: {
+      english: "The hikers crunched down behind the bushes to avoid being spotted by the grazing deer ahead.",
+      chinese: "登山者蹲低躲在灌木叢後面，以避免被前方正在吃草的鹿發現。",
+      grammar_point: "to + V（不定詞表目的）；being + p.p.（被動動名詞，被…發現）"
+    },
+    vocabulary: [
+      { word: "crouch", pos: "v.", chinese: "蹲低" },
+      { word: "compress", pos: "v.", chinese: "壓縮" },
+      { word: "graze", pos: "v.", chinese: "吃草" }
+    ],
+    sentence_pattern: { pattern: "S + crunched down behind + N + to avoid + V-ing + by + N", example: "He crunched down the cardboard boxes to make more room in the bin." }
+  },
+  {
+    phrase: "dial back",
+    type: "片語動詞",
+    chinese: "降低程度、減少（強度或行為）",
+    keywords: ["dial", "back"],
+    example: {
+      english: "The coach asked the player to dial back his aggression on the field before he received another penalty.",
+      chinese: "教練要求那名球員在場上降低他的攻擊性，以免再次受到處罰。",
+      grammar_point: "asked + 人 + to + V（要求某人做某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "reduce", pos: "v.", chinese: "降低、減少" },
+      { word: "aggression", pos: "n.", chinese: "攻擊性" },
+      { word: "moderate", pos: "v.", chinese: "節制、緩和" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to dial back + N + before + S + V", example: "The government decided to dial back its spending during the recession." }
+  },
+  {
+    phrase: "dig out",
+    type: "片語動詞",
+    chinese: "挖出；費力找出（久未使用的東西）",
+    keywords: ["dig", "out"],
+    example: {
+      english: "It took her ages to dig out the old contract from the bottom of the filing cabinet in the storeroom.",
+      chinese: "她花了很長時間才從儲藏室文件櫃的最底層翻出那份舊合約。",
+      grammar_point: "It took + 人 + 時間 + to + V（花費某人時間做某事）；from + N（從…）"
+    },
+    vocabulary: [
+      { word: "retrieve", pos: "v.", chinese: "取回、找出" },
+      { word: "unearth", pos: "v.", chinese: "挖出、發掘" },
+      { word: "locate", pos: "v.", chinese: "找到" }
+    ],
+    sentence_pattern: { pattern: "It took + 人 + 時間 + to dig out + N + from + N", example: "Can you dig out the old photos from when we were at university?" }
+  },
+  {
+    phrase: "dish out",
+    type: "片語動詞",
+    chinese: "分發、大量給予；（非正式）批評或懲罰",
+    keywords: ["dish", "out"],
+    example: {
+      english: "The supervisor was quick to dish out criticism but rarely offered praise when the team performed well.",
+      chinese: "那位主管動不動就批評別人，但在團隊表現良好時卻很少給予讚美。",
+      grammar_point: "was quick to + V（動不動就做某事）；but + V（轉折）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "distribute", pos: "v.", chinese: "分發" },
+      { word: "criticism", pos: "n.", chinese: "批評" },
+      { word: "lavish", pos: "v.", chinese: "大量給予" }
+    ],
+    sentence_pattern: { pattern: "S + was quick to dish out + N + but + V + when + S + V", example: "Volunteers dished out hot meals to the flood victims at the shelter." }
+  },
+  {
+    phrase: "double back",
+    type: "片語動詞",
+    chinese: "原路折返、走回頭路",
+    keywords: ["double", "back"],
+    example: {
+      english: "Realising she had left her bag at the café, she doubled back quickly before the shop closed for lunch.",
+      chinese: "她意識到把包落在咖啡館裡，便在商店午休關門之前迅速折返。",
+      grammar_point: "realising + S + had + p.p.（分詞構句，表示原因）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "retrace", pos: "v.", chinese: "沿原路走回" },
+      { word: "reverse", pos: "v.", chinese: "折返" },
+      { word: "route", pos: "n.", chinese: "路線" }
+    ],
+    sentence_pattern: { pattern: "Realising + S + had + p.p., S + doubled back + adv + before + S + V", example: "The fox doubled back on its tracks to confuse the hunting dogs." }
+  },
+  {
+    phrase: "double down",
+    type: "片語動詞",
+    chinese: "加倍努力；堅持（有爭議的立場）",
+    keywords: ["double", "down"],
+    example: {
+      english: "Instead of backing down from the criticism, the politician chose to double down on his original statement.",
+      chinese: "這位政治人物沒有在批評聲浪中退縮，反而選擇加倍堅持他原來的聲明。",
+      grammar_point: "instead of + V-ing（而非…，表對比）；chose to + V（選擇做某事）"
+    },
+    vocabulary: [
+      { word: "persist", pos: "v.", chinese: "堅持" },
+      { word: "intensify", pos: "v.", chinese: "加強" },
+      { word: "commitment", pos: "n.", chinese: "承諾、投入" }
+    ],
+    sentence_pattern: { pattern: "Instead of + V-ing, S + chose to double down on + N", example: "When things got tough, the team doubled down on their efforts." }
+  },
+  {
+    phrase: "draw lots",
+    type: "片語動詞",
+    chinese: "抽籤決定",
+    keywords: ["draw", "lots"],
+    example: {
+      english: "Since no one could agree on who should go first, they decided to draw lots to make it fair.",
+      chinese: "由於沒有人能就誰應該先去達成共識，他們決定抽籤以示公平。",
+      grammar_point: "since + S + V（既然…，原因副詞子句）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "random", pos: "adj.", chinese: "隨機的" },
+      { word: "determine", pos: "v.", chinese: "決定" },
+      { word: "impartial", pos: "adj.", chinese: "公正的" }
+    ],
+    sentence_pattern: { pattern: "Since + S + V, S + decided to draw lots to + V", example: "They drew lots to decide which team would present their findings first." }
+  },
+  {
+    phrase: "drift away",
+    type: "片語動詞",
+    chinese: "漸漸遠離、隨波飄走",
+    keywords: ["drift", "away"],
+    example: {
+      english: "As the years passed after graduation, he found that many of his closest friendships slowly drifted away.",
+      chinese: "畢業後隨著歲月流逝，他發現許多最親密的友誼慢慢地淡去了。",
+      grammar_point: "as + S + V（隨著…，副詞子句表同步變化）；found that + S + V（發現…）"
+    },
+    vocabulary: [
+      { word: "fade", pos: "v.", chinese: "消退、淡化" },
+      { word: "estranged", pos: "adj.", chinese: "疏遠的" },
+      { word: "distance", pos: "v.", chinese: "與…拉開距離" }
+    ],
+    sentence_pattern: { pattern: "As + S + V, S + found that + N + slowly drifted away", example: "The small boat drifted away from the shore in the strong current." }
+  },
+  {
+    phrase: "duck out",
+    type: "片語動詞",
+    chinese: "悄悄溜走、臨時迴避（責任）",
+    keywords: ["duck", "out"],
+    example: {
+      english: "He ducked out of the boring meeting early by pretending he had an urgent call to take.",
+      chinese: "他假裝有緊急電話要接，提早從那場無聊的會議中悄悄溜走了。",
+      grammar_point: "by + V-ing（藉由…，表示方式）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "slip away", pos: "phr. v.", chinese: "悄悄溜走" },
+      { word: "evade", pos: "v.", chinese: "逃避" },
+      { word: "commitment", pos: "n.", chinese: "承諾" }
+    ],
+    sentence_pattern: { pattern: "S + ducked out of + N + by + V-ing", example: "She always finds a way to duck out of doing the washing up." }
+  },
+  {
+    phrase: "dwell upon",
+    type: "動詞 + 介系詞",
+    chinese: "過多糾結於、反覆思考（消極的事）",
+    keywords: ["dwell", "upon"],
+    example: {
+      english: "There is no point dwelling upon past failures when you have the opportunity to learn and move forward.",
+      chinese: "當你有機會學習並向前邁進時，糾結於過去的失敗毫無意義。",
+      grammar_point: "There is no point + V-ing（做某事毫無意義）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "ruminate", pos: "v.", chinese: "反覆思索" },
+      { word: "fixate", pos: "v.", chinese: "過分專注" },
+      { word: "regret", pos: "n.", chinese: "遺憾" }
+    ],
+    sentence_pattern: { pattern: "There is no point dwelling upon + N + when + S + V", example: "Try not to dwell upon mistakes — focus on what you can do better." }
+  },
+  {
+    phrase: "edge in",
+    type: "片語動詞",
+    chinese: "緩緩插入、擠進去；（話語）插進去",
+    keywords: ["edge", "in"],
+    example: {
+      english: "She waited patiently for a gap in the conversation before edging in a comment about the proposal.",
+      chinese: "她耐心等待對話中的空隙，然後緩緩插入一句關於提案的評論。",
+      grammar_point: "before + V-ing（時間副詞片語）；waited for + N（等待…）"
+    },
+    vocabulary: [
+      { word: "interject", pos: "v.", chinese: "插話、打斷" },
+      { word: "squeeze", pos: "v.", chinese: "擠進" },
+      { word: "opportunity", pos: "n.", chinese: "機會" }
+    ],
+    sentence_pattern: { pattern: "S + waited for + N + before edging in + N", example: "He managed to edge his car in between two larger vehicles." }
+  },
+  {
+    phrase: "egg on",
+    type: "片語動詞",
+    chinese: "慫恿、煽動（某人做某事）",
+    keywords: ["egg", "on"],
+    example: {
+      english: "His friends egged him on to attempt the dare, even though he knew it was a foolish idea.",
+      chinese: "他的朋友們慫恿他去嘗試那個挑戰，儘管他知道這是個愚蠢的主意。",
+      grammar_point: "egged + 人 + on + to + V（慫恿某人做某事）；even though + S + V（讓步副詞子句）"
+    },
+    vocabulary: [
+      { word: "encourage", pos: "v.", chinese: "鼓勵" },
+      { word: "provoke", pos: "v.", chinese: "激起、挑釁" },
+      { word: "dare", pos: "n.", chinese: "大膽的挑戰" }
+    ],
+    sentence_pattern: { pattern: "S + egged + 人 + on to + V, even though + S + V", example: "The crowd egged on the street performer to try a more dangerous trick." }
+  },
+  {
+    phrase: "embark upon",
+    type: "動詞 + 介系詞",
+    chinese: "著手展開、踏上（旅程或計畫）",
+    keywords: ["embark", "upon"],
+    example: {
+      english: "The university has embarked upon an ambitious programme to double its research output within five years.",
+      chinese: "該大學已著手展開一項雄心勃勃的計畫，目標是在五年內將研究成果翻倍。",
+      grammar_point: "has embarked upon（現在完成式，表示已開始的行動）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "ambitious", pos: "adj.", chinese: "雄心勃勃的" },
+      { word: "undertake", pos: "v.", chinese: "著手進行" },
+      { word: "initiative", pos: "n.", chinese: "倡議、主動行動" }
+    ],
+    sentence_pattern: { pattern: "S + has embarked upon + N + to + V + within + 時間", example: "She embarked upon a new chapter of her life with courage and optimism." }
+  },
+  {
+    phrase: "end off",
+    type: "片語動詞",
+    chinese: "以…作結尾、結束（某活動）",
+    keywords: ["end", "off"],
+    example: {
+      english: "The conference ended off on a high note with a powerful keynote speech from the guest of honour.",
+      chinese: "這場會議以嘉賓的一場精彩主題演講完美落幕，留下了美好的收尾。",
+      grammar_point: "ended off on + a high note（以美好的方式結束，固定搭配）；with + N（以…，表示方式）"
+    },
+    vocabulary: [
+      { word: "conclude", pos: "v.", chinese: "結束、作總結" },
+      { word: "keynote", pos: "adj.", chinese: "主題的、重點的" },
+      { word: "memorable", pos: "adj.", chinese: "難忘的" }
+    ],
+    sentence_pattern: { pattern: "N + ended off on a high note with + N + from + N", example: "Let's end off the evening with a toast to everyone's hard work." }
+  },
+  {
+    phrase: "enforce upon",
+    type: "動詞 + 介系詞",
+    chinese: "強制施加於、強迫（某人）接受",
+    keywords: ["enforce", "upon"],
+    example: {
+      english: "New rules were enforced upon all staff members following the series of workplace safety incidents.",
+      chinese: "在一系列工作場所安全事故發生後，新規定被強制施加於所有員工。",
+      grammar_point: "were enforced upon（被動語態）；following + N（在…之後，介系詞片語）"
+    },
+    vocabulary: [
+      { word: "impose", pos: "v.", chinese: "強加、施加" },
+      { word: "mandate", pos: "v.", chinese: "強制要求" },
+      { word: "compliance", pos: "n.", chinese: "遵從" }
+    ],
+    sentence_pattern: { pattern: "N + were enforced upon + 人 + following + N", example: "Strict rules were enforced upon visitors to protect the ancient site." }
+  },
+  {
+    phrase: "even out",
+    type: "片語動詞",
+    chinese: "使均等、趨於平穩",
+    keywords: ["even", "out"],
+    example: {
+      english: "After a rocky start, the team's performance began to even out and results became more consistent.",
+      chinese: "在艱難的開始後，團隊的表現開始趨於平穩，成績也變得更加一致。",
+      grammar_point: "after + N（介系詞片語表時間）；began to + V（開始做某事）；and + V（連接兩個結果）"
+    },
+    vocabulary: [
+      { word: "stabilise", pos: "v.", chinese: "穩定、使平穩" },
+      { word: "consistent", pos: "adj.", chinese: "一致的" },
+      { word: "balance", pos: "v.", chinese: "使平衡" }
+    ],
+    sentence_pattern: { pattern: "After + N, N + began to even out and + V", example: "Use a scraper to even out the frosting across the top of the cake." }
+  },
+  {
+    phrase: "fake out",
+    type: "片語動詞",
+    chinese: "欺騙、假動作迷惑",
+    keywords: ["fake", "out"],
+    example: {
+      english: "The basketball player faked out the defender with a quick shoulder movement before driving to the basket.",
+      chinese: "這名籃球員用一個快速的肩部動作假動作迷惑了防守者，然後切入籃下。",
+      grammar_point: "faked out + 人 + with + N（用…迷惑某人）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "deceive", pos: "v.", chinese: "欺騙" },
+      { word: "feint", pos: "n.", chinese: "假動作" },
+      { word: "manoeuvre", pos: "n.", chinese: "動作、策略" }
+    ],
+    sentence_pattern: { pattern: "S + faked out + 人 + with + N + before + V-ing", example: "The magician completely faked out the audience with his sleight of hand." }
+  },
+  {
+    phrase: "fill around",
+    type: "片語動詞",
+    chinese: "在…周圍填充；填補空隙",
+    keywords: ["fill", "around"],
+    example: {
+      english: "Once the main pipe is in position, use sand to fill around it firmly before laying the concrete on top.",
+      chinese: "主管道定位後，在鋪上混凝土之前，先用沙子在其周圍緊密填充。",
+      grammar_point: "Once + S + V（一旦…，時間副詞子句）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "pack", pos: "v.", chinese: "填塞、緊塞" },
+      { word: "surround", pos: "v.", chinese: "環繞" },
+      { word: "concrete", pos: "n.", chinese: "混凝土" }
+    ],
+    sentence_pattern: { pattern: "Once + N + V, use + N + to fill around + N + before + V-ing", example: "Fill around the edges with sealant to prevent any water from getting in." }
+  },
+  {
+    phrase: "fire back",
+    type: "片語動詞",
+    chinese: "立即反擊、迅速回應（批評或攻擊）",
+    keywords: ["fire", "back"],
+    example: {
+      english: "When the journalist questioned his integrity, the minister fired back with a sharp and detailed rebuttal.",
+      chinese: "當記者質疑他的誠信時，部長立即以犀利而詳細的反駁予以回擊。",
+      grammar_point: "when + S + V（時間副詞子句）；fired back with + N（以…反擊）"
+    },
+    vocabulary: [
+      { word: "rebuttal", pos: "n.", chinese: "反駁" },
+      { word: "retaliate", pos: "v.", chinese: "反擊、報復" },
+      { word: "integrity", pos: "n.", chinese: "誠信、正直" }
+    ],
+    sentence_pattern: { pattern: "When + S + V, S + fired back with + N", example: "She fired back at the criticism with a calm but firm response." }
+  },
+  {
+    phrase: "flock together",
+    type: "片語動詞",
+    chinese: "聚集在一起、成群結隊",
+    keywords: ["flock", "together"],
+    example: {
+      english: "Tourists from all over the world flock together in the old town square during the summer festival season.",
+      chinese: "夏季節慶期間，來自世界各地的遊客聚集在老城廣場。",
+      grammar_point: "from all over the world（來自世界各地）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "gather", pos: "v.", chinese: "聚集" },
+      { word: "congregate", pos: "v.", chinese: "集合、聚集" },
+      { word: "assemble", pos: "v.", chinese: "集合" }
+    ],
+    sentence_pattern: { pattern: "N + from + 地點 + flock together + 地點 + during + N", example: "Birds of a feather flock together — we attract people similar to ourselves." }
+  },
+  {
+    phrase: "floor it",
+    type: "片語動詞",
+    chinese: "踩油門加速、全速前進",
+    keywords: ["floor", "it"],
+    example: {
+      english: "Seeing the traffic lights turn green, the driver floored it to make it through the junction in time.",
+      chinese: "看到交通燈轉綠，司機一踩油門全速通過路口，及時趕上了。",
+      grammar_point: "V-ing（分詞構句，表示原因）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "accelerate", pos: "v.", chinese: "加速" },
+      { word: "junction", pos: "n.", chinese: "路口、交叉點" },
+      { word: "throttle", pos: "n.", chinese: "油門" }
+    ],
+    sentence_pattern: { pattern: "V-ing, S + floored it to + V + in time", example: "We're running late — just floor it and we might still make the flight." }
+  },
+  {
+    phrase: "follow suit",
+    type: "片語動詞",
+    chinese: "跟著做、仿效",
+    keywords: ["follow", "suit"],
+    example: {
+      english: "When the market leader reduced its prices, every other company in the industry quickly followed suit.",
+      chinese: "當市場領導者降價後，行業中的每家其他公司都迅速跟著仿效。",
+      grammar_point: "when + S + V（時間副詞子句）；quickly + V（副詞表迅速的反應）"
+    },
+    vocabulary: [
+      { word: "imitate", pos: "v.", chinese: "模仿" },
+      { word: "conform", pos: "v.", chinese: "遵從、仿效" },
+      { word: "competitor", pos: "n.", chinese: "競爭對手" }
+    ],
+    sentence_pattern: { pattern: "When + S + V, S + quickly followed suit", example: "One student started applauding and the rest of the audience followed suit." }
+  },
+  {
+    phrase: "gang up",
+    type: "片語動詞",
+    chinese: "聯合對付、結夥欺負（某人）",
+    keywords: ["gang", "up"],
+    example: {
+      english: "The smaller suppliers ganged up against the dominant retailer to negotiate fairer trading terms together.",
+      chinese: "較小的供應商聯合起來對抗那家強勢的零售商，共同談判更公平的交易條款。",
+      grammar_point: "ganged up against + N（聯合對抗…）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "unite", pos: "v.", chinese: "聯合" },
+      { word: "bully", pos: "v.", chinese: "欺負" },
+      { word: "coalition", pos: "n.", chinese: "聯盟" }
+    ],
+    sentence_pattern: { pattern: "S + ganged up against + N + to + V + together", example: "It isn't fair when a group of people gang up on one individual." }
+  },
+  {
+    phrase: "gear towards",
+    type: "動詞 + 介系詞",
+    chinese: "針對…設計、以…為對象",
+    keywords: ["gear", "towards"],
+    example: {
+      english: "The new training programme is geared towards helping experienced employees develop leadership skills.",
+      chinese: "這個新培訓課程針對幫助有經驗的員工發展領導技能而設計。",
+      grammar_point: "is geared towards + V-ing（針對做某事而設計，被動語態）"
+    },
+    vocabulary: [
+      { word: "target", pos: "v.", chinese: "以…為目標" },
+      { word: "tailor", pos: "v.", chinese: "量身打造" },
+      { word: "designed", pos: "adj.", chinese: "設計的" }
+    ],
+    sentence_pattern: { pattern: "N + is geared towards + V-ing + N", example: "This course is geared towards beginners with no prior experience." }
+  },
+  {
+    phrase: "give ground to",
+    type: "動詞片語",
+    chinese: "向…讓步、退讓給",
+    keywords: ["give", "ground", "to"],
+    example: {
+      english: "The lead negotiator refused to give ground to the opposing team on the issue of intellectual property rights.",
+      chinese: "首席談判代表拒絕在智慧財產權問題上向對方讓步。",
+      grammar_point: "refused to + V（拒絕做某事）；on + N（在…問題上）"
+    },
+    vocabulary: [
+      { word: "concede", pos: "v.", chinese: "讓步" },
+      { word: "yield", pos: "v.", chinese: "退讓、屈服" },
+      { word: "intellectual property", pos: "n.", chinese: "智慧財產權" }
+    ],
+    sentence_pattern: { pattern: "S + refused to give ground to + 人 + on + N", example: "Neither side was willing to give ground to the other during talks." }
+  },
+  {
+    phrase: "glide through",
+    type: "片語動詞",
+    chinese: "輕盈滑過；輕鬆度過",
+    keywords: ["glide", "through"],
+    example: {
+      english: "The experienced presenter glided through the complex material as if it were the simplest thing in the world.",
+      chinese: "那位有經驗的演講者輕鬆地帶過了那些複雜的內容，彷彿那是世界上最簡單的事。",
+      grammar_point: "as if + S + V（彷彿…，假設語氣）；the simplest thing in the world（最高級表達）"
+    },
+    vocabulary: [
+      { word: "effortless", pos: "adj.", chinese: "毫不費力的" },
+      { word: "navigate", pos: "v.", chinese: "輕鬆應對" },
+      { word: "seamless", pos: "adj.", chinese: "流暢的、無縫的" }
+    ],
+    sentence_pattern: { pattern: "S + glided through + N + as if + S + V", example: "The skater glided through the routine without a single mistake." }
+  },
+  {
+    phrase: "gloss through",
+    type: "片語動詞",
+    chinese: "粗略瀏覽、草草帶過",
+    keywords: ["gloss", "through"],
+    example: {
+      english: "He glossed through the contract without reading it carefully and missed several important clauses.",
+      chinese: "他粗略瀏覽了合約，沒有仔細閱讀，因而遺漏了幾個重要條款。",
+      grammar_point: "without + V-ing（在不…的情況下）；and + V（連接兩個結果）"
+    },
+    vocabulary: [
+      { word: "skim", pos: "v.", chinese: "略讀、粗覽" },
+      { word: "overlook", pos: "v.", chinese: "忽略、遺漏" },
+      { word: "clause", pos: "n.", chinese: "條款" }
+    ],
+    sentence_pattern: { pattern: "S + glossed through + N + without + V-ing + and + V", example: "Don't gloss through the instructions — read every step carefully." }
+  },
+  {
+    phrase: "gross out",
+    type: "片語動詞",
+    chinese: "使感到噁心、令人作嘔",
+    keywords: ["gross", "out"],
+    example: {
+      english: "The graphic description of the injury in the report grossed out several members of the audience.",
+      chinese: "報告中對傷口的詳細描述讓幾名觀眾感到噁心。",
+      grammar_point: "grossed out + 人（令某人感到噁心）；in + N（在…之中）"
+    },
+    vocabulary: [
+      { word: "disgust", pos: "v.", chinese: "使厭惡" },
+      { word: "revolting", pos: "adj.", chinese: "令人作嘔的" },
+      { word: "nauseate", pos: "v.", chinese: "使反胃" }
+    ],
+    sentence_pattern: { pattern: "N + grossed out + 人 + in + N", example: "The smell from the rubbish bin completely grossed everyone out." }
+  },
+  {
+    phrase: "ground in",
+    type: "片語動詞",
+    chinese: "以…為基礎、紮根於",
+    keywords: ["ground", "in"],
+    example: {
+      english: "Effective teaching must be grounded in a genuine understanding of how children learn at different stages.",
+      chinese: "有效的教學必須紮根於對兒童在不同階段如何學習的真正理解。",
+      grammar_point: "must be grounded in + N（必須以…為基礎，被動語態）；how + S + V（間接問句）"
+    },
+    vocabulary: [
+      { word: "rooted", pos: "adj.", chinese: "紮根的、植基於" },
+      { word: "foundation", pos: "n.", chinese: "基礎" },
+      { word: "genuine", pos: "adj.", chinese: "真正的" }
+    ],
+    sentence_pattern: { pattern: "N + must be grounded in + N + of + how + S + V", example: "All policy decisions should be grounded in solid evidence and research." }
+  },
+  {
+    phrase: "grow away",
+    type: "片語動詞",
+    chinese: "（關係）逐漸疏遠、漸行漸遠",
+    keywords: ["grow", "away"],
+    example: {
+      english: "As teenagers develop their own identities, it is natural for them to grow away from their parents.",
+      chinese: "隨著青少年發展出自己的身分認同，他們與父母逐漸疏遠是自然的現象。",
+      grammar_point: "as + S + V（隨著…，副詞子句）；it is + adj + for + 人 + to + V（虛主詞句型）"
+    },
+    vocabulary: [
+      { word: "drift apart", pos: "phr. v.", chinese: "漸漸疏遠" },
+      { word: "independence", pos: "n.", chinese: "獨立" },
+      { word: "distance", pos: "v.", chinese: "拉開距離" }
+    ],
+    sentence_pattern: { pattern: "As + S + V, it is + adj + for + 人 + to grow away from + 人", example: "Old friends sometimes grow away from each other without even noticing." }
+  },
+  {
+    phrase: "gut through",
+    type: "片語動詞",
+    chinese: "硬撐過去、咬牙完成（艱難任務）",
+    keywords: ["gut", "through"],
+    example: {
+      english: "Despite feeling exhausted and ill, she gutted through the final week of rehearsals before opening night.",
+      chinese: "儘管感到筋疲力竭又生病，她仍咬牙撐過了首演前最後一週的排練。",
+      grammar_point: "despite + V-ing（儘管…，介系詞片語表讓步）；before + N（在…之前）"
+    },
+    vocabulary: [
+      { word: "endure", pos: "v.", chinese: "忍受、撐過" },
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "rehearsal", pos: "n.", chinese: "排練" }
+    ],
+    sentence_pattern: { pattern: "Despite + V-ing, S + gutted through + N + before + N", example: "You just have to gut through the difficult early stages and things get easier." }
+  },
+  {
+    phrase: "haul in",
+    type: "片語動詞",
+    chinese: "拖拉進來；（警方）帶回審問",
+    keywords: ["haul", "in"],
+    example: {
+      english: "The fishing crew hauled in a surprisingly large catch despite the rough weather conditions that morning.",
+      chinese: "儘管那天早上天氣惡劣，漁船船員仍拖拉進了一批出乎意料的大豐收。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；that + 時間（那天早上）"
+    },
+    vocabulary: [
+      { word: "drag", pos: "v.", chinese: "拖拉" },
+      { word: "catch", pos: "n.", chinese: "漁獲、收穫" },
+      { word: "reel", pos: "v.", chinese: "捲收" }
+    ],
+    sentence_pattern: { pattern: "S + hauled in + N + despite + N + that + 時間", example: "The police hauled him in for questioning after new evidence emerged." }
+  },
+  {
+    phrase: "haul off",
+    type: "片語動詞",
+    chinese: "強行帶走；（口語）用力揮打",
+    keywords: ["haul", "off"],
+    example: {
+      english: "Security guards hauled off the protester who had managed to get past the entrance barriers.",
+      chinese: "保安人員強行帶走了成功突破入口護欄的抗議者。",
+      grammar_point: "hauled off + 人（強行帶走某人）；who + 關係子句（修飾先行詞 protester）"
+    },
+    vocabulary: [
+      { word: "remove", pos: "v.", chinese: "移除、帶走" },
+      { word: "protester", pos: "n.", chinese: "抗議者" },
+      { word: "forcibly", pos: "adv.", chinese: "強制地" }
+    ],
+    sentence_pattern: { pattern: "S + hauled off + 人 + who + V", example: "The broken sofa was hauled off to the dump by the removal team." }
+  },
+  {
+    phrase: "head in",
+    type: "片語動詞",
+    chinese: "往裡走、進入",
+    keywords: ["head", "in"],
+    example: {
+      english: "The temperature outside dropped sharply, so the children headed in from the garden before dinner.",
+      chinese: "外面氣溫急劇下降，孩子們在晚餐前從花園裡走進了屋內。",
+      grammar_point: "so + S + V（因此…）；before + N（在…之前）"
+    },
+    vocabulary: [
+      { word: "enter", pos: "v.", chinese: "進入" },
+      { word: "retreat", pos: "v.", chinese: "退入" },
+      { word: "indoors", pos: "adv.", chinese: "在室內" }
+    ],
+    sentence_pattern: { pattern: "N + dropped, so S + headed in from + N + before + N", example: "It's getting dark — let's head in and start making supper." }
+  },
+  {
+    phrase: "hone in",
+    type: "片語動詞",
+    chinese: "鎖定、聚焦於（目標）",
+    keywords: ["hone", "in"],
+    example: {
+      english: "After weeks of broad research, the team finally honed in on the most promising solution to the problem.",
+      chinese: "在數週的廣泛研究之後，團隊終於鎖定了最有潛力的問題解決方案。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；finally + V（副詞表最終結果）"
+    },
+    vocabulary: [
+      { word: "focus", pos: "v.", chinese: "聚焦、專注" },
+      { word: "pinpoint", pos: "v.", chinese: "精確鎖定" },
+      { word: "zero in", pos: "phr. v.", chinese: "瞄準、鎖定" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + finally honed in on + N", example: "The detective honed in on the most suspicious detail in the witness statement." }
+  },
+  {
+    phrase: "hop on",
+    type: "片語動詞",
+    chinese: "跳上、搭乘（交通工具）；迅速開始",
+    keywords: ["hop", "on"],
+    example: {
+      english: "She hopped on the first available bus and arrived at the venue just minutes before the show started.",
+      chinese: "她跳上了第一班可搭乘的公車，在表演開始前幾分鐘抵達了場地。",
+      grammar_point: "hopped on + N（搭上…）；just + 時間 + before + N（就在…之前）"
+    },
+    vocabulary: [
+      { word: "board", pos: "v.", chinese: "搭乘、登上" },
+      { word: "commute", pos: "v.", chinese: "通勤" },
+      { word: "venue", pos: "n.", chinese: "場地" }
+    ],
+    sentence_pattern: { pattern: "S + hopped on + N + and + V + just before + N + V", example: "Just hop on the number five tram and get off at the central station." }
+  },
+  {
+    phrase: "huddle around",
+    type: "片語動詞",
+    chinese: "圍攏聚集在一起、擠在…周圍",
+    keywords: ["huddle", "around"],
+    example: {
+      english: "The hikers huddled around the campfire to keep warm as the mountain temperature dropped after sunset.",
+      chinese: "登山者在日落後山上氣溫下降時，圍聚在營火旁取暖。",
+      grammar_point: "to + V（不定詞表目的）；as + S + V（隨著…，副詞子句）"
+    },
+    vocabulary: [
+      { word: "cluster", pos: "v.", chinese: "聚集成群" },
+      { word: "campfire", pos: "n.", chinese: "營火" },
+      { word: "warmth", pos: "n.", chinese: "溫暖" }
+    ],
+    sentence_pattern: { pattern: "S + huddled around + N + to + V + as + N + V", example: "The children huddled around the teacher to look at the illustrated book." }
+  },
+  {
+    phrase: "hustle through",
+    type: "片語動詞",
+    chinese: "匆忙完成、趕快通過",
+    keywords: ["hustle", "through"],
+    example: {
+      english: "The tour guide hustled the group through the museum to make sure they caught their afternoon coach.",
+      chinese: "導遊催促整個團隊匆忙穿越博物館，確保他們趕上了下午的旅遊巴士。",
+      grammar_point: "hustled + 人 + through + N（催促某人匆忙通過某地）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "rush", pos: "v.", chinese: "催促、匆忙" },
+      { word: "expedite", pos: "v.", chinese: "加速完成" },
+      { word: "coach", pos: "n.", chinese: "長途巴士" }
+    ],
+    sentence_pattern: { pattern: "S + hustled + 人 + through + N + to + V", example: "She hustled through her morning routine to avoid being late again." }
+  },
+  {
+    phrase: "ink out",
+    type: "片語動詞",
+    chinese: "用墨水塗掉、劃掉（文字）",
+    keywords: ["ink", "out"],
+    example: {
+      english: "The editor inked out several sensitive paragraphs before the document was cleared for public release.",
+      chinese: "編輯在文件獲准公開發布之前，用墨水塗掉了幾個敏感段落。",
+      grammar_point: "before + S + V（時間副詞子句）；was cleared for（被批准用於…，被動語態）"
+    },
+    vocabulary: [
+      { word: "redact", pos: "v.", chinese: "刪除、塗黑（文件）" },
+      { word: "censor", pos: "v.", chinese: "審查、刪除" },
+      { word: "sensitive", pos: "adj.", chinese: "敏感的" }
+    ],
+    sentence_pattern: { pattern: "S + inked out + N + before + S + V", example: "He inked out the old address and wrote the correct one above it." }
+  },
+  {
+    phrase: "kick around",
+    type: "片語動詞",
+    chinese: "隨意討論（想法）；閒晃",
+    keywords: ["kick", "around"],
+    example: {
+      english: "We spent the afternoon kicking around ideas for the new campaign before settling on one clear direction.",
+      chinese: "我們花了一個下午隨意討論新廣告活動的想法，最後才確定了一個明確的方向。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "brainstorm", pos: "v.", chinese: "腦力激盪" },
+      { word: "toss around", pos: "phr. v.", chinese: "隨意討論" },
+      { word: "direction", pos: "n.", chinese: "方向" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + kicking around + N + before + V-ing", example: "Let's kick around a few options before we make any final decisions." }
+  },
+  {
+    phrase: "kneel before",
+    type: "動詞 + 介系詞",
+    chinese: "跪在…前面；臣服於",
+    keywords: ["kneel", "before"],
+    example: {
+      english: "In the ceremony, each knight kneeled before the monarch to receive the honour of being knighted.",
+      chinese: "在典禮上，每位騎士跪在君主面前，接受封爵的榮耀。",
+      grammar_point: "kneeled before + N（跪在…面前）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "monarch", pos: "n.", chinese: "君主" },
+      { word: "ceremony", pos: "n.", chinese: "典禮" },
+      { word: "honour", pos: "n.", chinese: "榮耀" }
+    ],
+    sentence_pattern: { pattern: "S + kneeled before + N + to + V", example: "He refused to kneel before anyone, no matter how powerful they were." }
+  },
+  {
+    phrase: "lash onto",
+    type: "片語動詞",
+    chinese: "緊緊捆綁在…上；猛力抓住",
+    keywords: ["lash", "onto"],
+    example: {
+      english: "The sailors lashed the cargo onto the deck with thick ropes before the storm fully hit the vessel.",
+      chinese: "水手們在暴風雨完全襲擊船隻之前，用粗繩將貨物緊緊捆綁在甲板上。",
+      grammar_point: "lashed + N + onto + N + with + N（用…把…捆在…上）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "secure", pos: "v.", chinese: "固定、綁牢" },
+      { word: "rope", pos: "n.", chinese: "繩索" },
+      { word: "vessel", pos: "n.", chinese: "船隻" }
+    ],
+    sentence_pattern: { pattern: "S + lashed + N + onto + N + with + N + before + S + V", example: "Lash the tent poles onto the backpack so they don't slide out." }
+  },
+  {
+    phrase: "launch at",
+    type: "動詞 + 介系詞",
+    chinese: "向…發起攻擊；朝…猛撲",
+    keywords: ["launch", "at"],
+    example: {
+      english: "The debate moderator was surprised when one candidate suddenly launched a sharp personal attack at the other.",
+      chinese: "當一名候選人突然向另一名候選人發起尖銳的人身攻擊時，辯論主持人感到非常驚訝。",
+      grammar_point: "was surprised when + S + V（時間副詞子句）；suddenly + V（副詞加強突然性）"
+    },
+    vocabulary: [
+      { word: "attack", pos: "v.", chinese: "攻擊" },
+      { word: "assault", pos: "v.", chinese: "猛力攻擊" },
+      { word: "moderator", pos: "n.", chinese: "主持人" }
+    ],
+    sentence_pattern: { pattern: "S + was surprised when + S + launched + N + at + 人", example: "The dog launched itself at the intruder the moment it sensed danger." }
+  },
+  {
+    phrase: "lean into",
+    type: "片語動詞",
+    chinese: "全力投入；靠向（某事物）",
+    keywords: ["lean", "into"],
+    example: {
+      english: "Instead of avoiding the criticism, she leaned into it and used the feedback to improve her performance.",
+      chinese: "她沒有迴避批評，反而全力投入其中，利用反饋來提升她的表現。",
+      grammar_point: "instead of + V-ing（而非…，表對比）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "embrace", pos: "v.", chinese: "擁抱、全力投入" },
+      { word: "commit", pos: "v.", chinese: "投入" },
+      { word: "feedback", pos: "n.", chinese: "反饋" }
+    ],
+    sentence_pattern: { pattern: "Instead of + V-ing, S + leaned into + N + and + V", example: "When the work got hard, he leaned into the challenge rather than stepping back." }
+  },
+  {
+    phrase: "level up",
+    type: "片語動詞",
+    chinese: "提升技能或水準；升級",
+    keywords: ["level", "up"],
+    example: {
+      english: "She enrolled in an advanced course to level up her data analysis skills and increase her market value.",
+      chinese: "她報名參加了一門進階課程，以提升她的數據分析技能並增加她的市場價值。",
+      grammar_point: "enrolled in + N（報名參加…）；to + V（不定詞表目的）；and + V（連接兩個目的）"
+    },
+    vocabulary: [
+      { word: "upgrade", pos: "v.", chinese: "升級、提升" },
+      { word: "advance", pos: "v.", chinese: "進步、提升" },
+      { word: "competence", pos: "n.", chinese: "能力、技能" }
+    ],
+    sentence_pattern: { pattern: "S + enrolled in + N + to level up + N + and + V", example: "If you want to level up in your career, continuous learning is essential." }
+  },
+  {
+    phrase: "light on",
+    type: "片語動詞",
+    chinese: "偶然發現、碰巧想到",
+    keywords: ["light", "on"],
+    example: {
+      english: "While reviewing old research notes, the scientist lit on an overlooked variable that changed everything.",
+      chinese: "在審閱舊研究筆記時，這位科學家偶然發現了一個被忽視的變數，改變了一切。",
+      grammar_point: "while + V-ing（時間副詞子句的省略形式）；that + 關係子句（修飾先行詞 variable）"
+    },
+    vocabulary: [
+      { word: "stumble upon", pos: "phr. v.", chinese: "偶然發現" },
+      { word: "variable", pos: "n.", chinese: "變數" },
+      { word: "overlooked", pos: "adj.", chinese: "被忽視的" }
+    ],
+    sentence_pattern: { pattern: "While + V-ing, S + lit on + N + that + V", example: "She lit on the perfect title for her novel while reading in the bath." }
+  },
+  {
+    phrase: "load up",
+    type: "片語動詞",
+    chinese: "裝載、大量載入；盡情取用",
+    keywords: ["load", "up"],
+    example: {
+      english: "The volunteers loaded up the van with supplies before setting off for the flood-affected communities.",
+      chinese: "志工們在出發前往受洪水影響的社區之前，將物資裝載進廂型車。",
+      grammar_point: "loaded up + N + with + N（在…裡裝滿…）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "fill", pos: "v.", chinese: "裝滿" },
+      { word: "supply", pos: "n.", chinese: "物資、補給" },
+      { word: "van", pos: "n.", chinese: "廂型車" }
+    ],
+    sentence_pattern: { pattern: "S + loaded up + N + with + N + before + V-ing", example: "Load up your plate — there is plenty of food for everyone." }
+  },
+  {
+    phrase: "look past",
+    type: "片語動詞",
+    chinese: "忽視、不計較；看穿表面",
+    keywords: ["look", "past"],
+    example: {
+      english: "A truly open-minded person can look past surface differences and appreciate the value in everyone.",
+      chinese: "一個真正心胸開闊的人能夠忽視表面上的差異，欣賞每個人身上的價值。",
+      grammar_point: "can + V（情態動詞表能力）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "overlook", pos: "v.", chinese: "忽視" },
+      { word: "open-minded", pos: "adj.", chinese: "心胸開闊的" },
+      { word: "appreciate", pos: "v.", chinese: "欣賞、體認" }
+    ],
+    sentence_pattern: { pattern: "S + can look past + N + and + V + N + in + 人", example: "Try to look past his awkward manner — he genuinely means well." }
+  },
+  {
+    phrase: "lure into",
+    type: "動詞 + 介系詞",
+    chinese: "引誘進入、誘騙（某人）去做",
+    keywords: ["lure", "into"],
+    example: {
+      english: "The fraudulent website lured unsuspecting users into entering their personal banking details.",
+      chinese: "那個詐騙網站引誘毫無戒心的用戶輸入他們的個人銀行資料。",
+      grammar_point: "lured + 人 + into + V-ing（引誘某人做某事）；unsuspecting（形容詞，毫無戒心的）"
+    },
+    vocabulary: [
+      { word: "entice", pos: "v.", chinese: "引誘、誘使" },
+      { word: "fraudulent", pos: "adj.", chinese: "詐騙的、欺詐的" },
+      { word: "deceive", pos: "v.", chinese: "欺騙" }
+    ],
+    sentence_pattern: { pattern: "N + lured + 人 + into + V-ing + N", example: "Don't be lured into making a hasty decision by a limited-time offer." }
+  },
+  {
+    phrase: "map through",
+    type: "片語動詞",
+    chinese: "規劃、逐步梳理（流程或路線）",
+    keywords: ["map", "through"],
+    example: {
+      english: "The project manager mapped through every phase of the development process to identify potential bottlenecks.",
+      chinese: "專案經理逐步梳理了開發流程的每個階段，以找出潛在的瓶頸。",
+      grammar_point: "mapped through + N（逐步梳理…）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "outline", pos: "v.", chinese: "概述、規劃" },
+      { word: "bottleneck", pos: "n.", chinese: "瓶頸" },
+      { word: "systematic", pos: "adj.", chinese: "有系統的" }
+    ],
+    sentence_pattern: { pattern: "S + mapped through + N + to + V + N", example: "Let's map through the user journey before we start designing the interface." }
+  },
+  {
+    phrase: "max out",
+    type: "片語動詞",
+    chinese: "達到極限、用盡（信用額度或能力）",
+    keywords: ["max", "out"],
+    example: {
+      english: "He had maxed out three credit cards by the end of the year and was struggling to pay the minimum balances.",
+      chinese: "他在年底前已刷爆了三張信用卡，正苦苦掙扎於支付最低還款額。",
+      grammar_point: "had + p.p.（過去完成式，表示在過去某時間點之前發生的動作）；and + V-ing（連接並列動作）"
+    },
+    vocabulary: [
+      { word: "exhaust", pos: "v.", chinese: "耗盡" },
+      { word: "credit limit", pos: "n.", chinese: "信用額度" },
+      { word: "capacity", pos: "n.", chinese: "容量、能力上限" }
+    ],
+    sentence_pattern: { pattern: "S + had maxed out + N + by + N + and + V-ing", example: "Don't max out your energy in the first half — save some for the finish." }
+  },
+  {
+    phrase: "melt away",
+    type: "片語動詞",
+    chinese: "逐漸消散、融化消失",
+    keywords: ["melt", "away"],
+    example: {
+      english: "After soaking in the warm bath for twenty minutes, all her tension and stress seemed to melt away.",
+      chinese: "在溫熱的浴缸裡浸泡二十分鐘後，她所有的緊張和壓力似乎都慢慢消散了。",
+      grammar_point: "after + V-ing + for + 時間（在做了某事…時間後）；seemed to + V（似乎…）"
+    },
+    vocabulary: [
+      { word: "dissolve", pos: "v.", chinese: "消散、溶解" },
+      { word: "tension", pos: "n.", chinese: "緊張" },
+      { word: "evaporate", pos: "v.", chinese: "蒸發、消失" }
+    ],
+    sentence_pattern: { pattern: "After + V-ing + for + 時間, N + seemed to melt away", example: "With good music playing, the hours seem to melt away effortlessly." }
+  },
+  {
+    phrase: "melt down",
+    type: "片語動詞",
+    chinese: "（情緒）崩潰；（物質）熔化",
+    keywords: ["melt", "down"],
+    example: {
+      english: "Overwhelmed by the pressure of the final exams, the student completely melted down in the library.",
+      chinese: "在期末考試的壓力下，那名學生在圖書館裡徹底情緒崩潰了。",
+      grammar_point: "overwhelmed by + N（分詞構句，表示原因）；completely + V（副詞加強語氣）"
+    },
+    vocabulary: [
+      { word: "breakdown", pos: "n.", chinese: "崩潰" },
+      { word: "overwhelmed", pos: "adj.", chinese: "不知所措的" },
+      { word: "collapse", pos: "v.", chinese: "崩潰" }
+    ],
+    sentence_pattern: { pattern: "Overwhelmed by + N, S + completely melted down + 地點", example: "The child melted down in the supermarket when he was told he couldn't have a toy." }
+  },
+  {
+    phrase: "mess around",
+    type: "片語動詞",
+    chinese: "胡鬧、虛度時間；戲弄（某人）",
+    keywords: ["mess", "around"],
+    example: {
+      english: "Stop messing around and focus on finishing the report — the deadline is only two hours away.",
+      chinese: "別再胡鬧了，專心完成報告——截止期限只剩兩小時了。",
+      grammar_point: "Stop + V-ing（祈使句，要求停止做某事）；the deadline is only + 時間 + away（截止期限只剩…）"
+    },
+    vocabulary: [
+      { word: "procrastinate", pos: "v.", chinese: "拖延" },
+      { word: "distract", pos: "v.", chinese: "分心" },
+      { word: "fooling around", pos: "phr.", chinese: "胡鬧、玩耍" }
+    ],
+    sentence_pattern: { pattern: "Stop messing around and + V — N + is only + 時間 + away", example: "He was just messing around with a guitar when he accidentally wrote a hit song." }
+  },
+  {
+    phrase: "mess up",
+    type: "片語動詞",
+    chinese: "搞砸、弄亂；犯錯",
+    keywords: ["mess", "up"],
+    example: {
+      english: "He completely messed up the presentation by forgetting to save the latest version of the slides.",
+      chinese: "他因為忘記儲存最新版本的投影片，把整個簡報搞得一塌糊塗。",
+      grammar_point: "by + V-ing（藉由…，表示方式或原因）；the latest version of + N（最新版本的…）"
+    },
+    vocabulary: [
+      { word: "ruin", pos: "v.", chinese: "毀掉、搞砸" },
+      { word: "blunder", pos: "n.", chinese: "大錯、失誤" },
+      { word: "recover", pos: "v.", chinese: "恢復、補救" }
+    ],
+    sentence_pattern: { pattern: "S + completely messed up + N + by + V-ing + N", example: "Sorry I messed up — I'll make sure it doesn't happen again." }
+  },
+  {
+    phrase: "miss on",
+    type: "動詞 + 介系詞",
+    chinese: "錯過（機會或好事）、未能把握",
+    keywords: ["miss", "on"],
+    example: {
+      english: "By leaving the conference early, she missed on the chance to network with several key industry figures.",
+      chinese: "由於提早離開會議，她錯過了與幾位業界關鍵人物建立人脈的機會。",
+      grammar_point: "by + V-ing（藉由…，表示原因）；the chance to + V（做某事的機會）"
+    },
+    vocabulary: [
+      { word: "overlook", pos: "v.", chinese: "忽略、錯過" },
+      { word: "opportunity", pos: "n.", chinese: "機會" },
+      { word: "network", pos: "v.", chinese: "建立人脈" }
+    ],
+    sentence_pattern: { pattern: "By + V-ing, S + missed on + N + to + V", example: "Don't miss on this limited opportunity to apply for the scholarship." }
+  },
+  {
+    phrase: "mull over",
+    type: "片語動詞",
+    chinese: "仔細思考、反覆琢磨",
+    keywords: ["mull", "over"],
+    example: {
+      english: "She spent the entire weekend mulling over the job offer before finally deciding to accept it.",
+      chinese: "她花了整個週末反覆琢磨那份工作邀約，最後才決定接受。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "ponder", pos: "v.", chinese: "深思、琢磨" },
+      { word: "deliberate", pos: "v.", chinese: "仔細考慮" },
+      { word: "weigh", pos: "v.", chinese: "權衡" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + mulling over + N + before + V-ing", example: "Take some time to mull over the proposal before giving your answer." }
+  },
+  {
+    phrase: "muscle through",
+    type: "片語動詞",
+    chinese: "靠意志力硬撐過去、強行完成",
+    keywords: ["muscle", "through"],
+    example: {
+      english: "Despite the injury, the athlete muscled through the final round and secured a place on the podium.",
+      chinese: "儘管受傷，這名運動員仍硬撐著完成了最後一輪比賽，並確保了站上頒獎台的位置。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "podium", pos: "n.", chinese: "頒獎台" },
+      { word: "determination", pos: "n.", chinese: "決心" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + muscled through + N + and + V", example: "We just have to muscle through the difficult part and things will get easier." }
+  },
+  {
+    phrase: "note upon",
+    type: "動詞 + 介系詞",
+    chinese: "就…加以記述、特別指出",
+    keywords: ["note", "upon"],
+    example: {
+      english: "The reviewer noted upon several significant inconsistencies in the data that required further investigation.",
+      chinese: "審查員特別指出數據中幾個需要進一步調查的重大不一致之處。",
+      grammar_point: "noted upon + N（特別指出…）；that + 關係子句（修飾先行詞 inconsistencies）"
+    },
+    vocabulary: [
+      { word: "highlight", pos: "v.", chinese: "強調、指出" },
+      { word: "inconsistency", pos: "n.", chinese: "不一致之處" },
+      { word: "remark", pos: "v.", chinese: "評述、指出" }
+    ],
+    sentence_pattern: { pattern: "S + noted upon + N + that + V", example: "The professor noted upon the student's exceptional use of evidence in the essay." }
+  },
+  {
+    phrase: "nudge towards",
+    type: "動詞 + 介系詞",
+    chinese: "輕輕推動朝向、引導走向",
+    keywords: ["nudge", "towards"],
+    example: {
+      english: "The counsellor gently nudged the student towards considering careers that matched her natural strengths.",
+      chinese: "輔導老師輕輕引導這名學生去考慮符合她天賦優勢的職業。",
+      grammar_point: "nudged + 人 + towards + V-ing（引導某人朝…）；that + 關係子句（修飾先行詞 careers）"
+    },
+    vocabulary: [
+      { word: "encourage", pos: "v.", chinese: "鼓勵" },
+      { word: "steer", pos: "v.", chinese: "引導" },
+      { word: "gently", pos: "adv.", chinese: "輕輕地、溫和地" }
+    ],
+    sentence_pattern: { pattern: "S + gently nudged + 人 + towards + V-ing + N", example: "Good design can nudge people towards making healthier food choices." }
+  },
+  {
+    phrase: "open onto",
+    type: "片語動詞",
+    chinese: "通向、朝向（某空間）",
+    keywords: ["open", "onto"],
+    example: {
+      english: "The large French doors open onto a terrace with a breathtaking view of the valley below.",
+      chinese: "大型法式門通向一個俯瞰下方山谷、令人嘆為觀止的露台。",
+      grammar_point: "open onto + N（通向…）；with + N（帶有…，介系詞片語表特徵）"
+    },
+    vocabulary: [
+      { word: "terrace", pos: "n.", chinese: "露台" },
+      { word: "breathtaking", pos: "adj.", chinese: "令人嘆為觀止的" },
+      { word: "overlook", pos: "v.", chinese: "俯瞰" }
+    ],
+    sentence_pattern: { pattern: "N + opens onto + N + with + N", example: "The kitchen opens onto a small courtyard where the family eats in summer." }
+  },
+  {
+    phrase: "opt into",
+    type: "片語動詞",
+    chinese: "選擇加入、主動參與",
+    keywords: ["opt", "into"],
+    example: {
+      english: "Employees can opt into the company's flexible working scheme by submitting a written request to HR.",
+      chinese: "員工可以向人力資源部提交書面申請，選擇加入公司的彈性工作計畫。",
+      grammar_point: "can + V（情態動詞表許可）；by + V-ing（藉由…，表示方式）"
+    },
+    vocabulary: [
+      { word: "enrol", pos: "v.", chinese: "報名、加入" },
+      { word: "scheme", pos: "n.", chinese: "計畫、方案" },
+      { word: "voluntary", pos: "adj.", chinese: "自願的" }
+    ],
+    sentence_pattern: { pattern: "S + can opt into + N + by + V-ing + N", example: "Users must actively opt into receiving marketing emails." }
+  },
+  {
+    phrase: "overcome with",
+    type: "片語動詞",
+    chinese: "被…所淹沒、深受…所影響（情感）",
+    keywords: ["overcome", "with"],
+    example: {
+      english: "When her name was announced as the winner, she was overcome with joy and burst into tears.",
+      chinese: "當她的名字被宣布為得獎者時，她被喜悅所淹沒，忍不住哭了起來。",
+      grammar_point: "when + S + V（時間副詞子句）；was overcome with + N（被…所淹沒，被動語態）"
+    },
+    vocabulary: [
+      { word: "overwhelmed", pos: "adj.", chinese: "不知所措的、深受感動的" },
+      { word: "emotion", pos: "n.", chinese: "情感" },
+      { word: "burst into tears", pos: "phr.", chinese: "突然哭泣" }
+    ],
+    sentence_pattern: { pattern: "When + S + V, S + was overcome with + N + and + V", example: "He was overcome with grief when he heard the devastating news." }
+  },
+  {
+    phrase: "overflow with",
+    type: "動詞 + 介系詞",
+    chinese: "充滿、洋溢著（情感或事物）",
+    keywords: ["overflow", "with"],
+    example: {
+      english: "Her heart overflowed with gratitude as she accepted the award on behalf of her entire team.",
+      chinese: "當她代表整個團隊接受獎項時，她的心中充滿了感激之情。",
+      grammar_point: "as + S + V（當…的時候，時間副詞子句）；on behalf of + N（代表…）"
+    },
+    vocabulary: [
+      { word: "brim", pos: "v.", chinese: "滿溢" },
+      { word: "gratitude", pos: "n.", chinese: "感激" },
+      { word: "abundant", pos: "adj.", chinese: "充裕的" }
+    ],
+    sentence_pattern: { pattern: "N + overflowed with + N + as + S + V", example: "The venue was overflowing with excited fans long before the concert began." }
+  },
+  {
+    phrase: "pair off",
+    type: "片語動詞",
+    chinese: "配對成雙、（讓人）兩兩分組",
+    keywords: ["pair", "off"],
+    example: {
+      english: "The dance instructor asked students to pair off with a partner before the lesson officially began.",
+      chinese: "舞蹈老師要求學生在課程正式開始前兩兩配對找一個舞伴。",
+      grammar_point: "asked + 人 + to + V（要求某人做某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "partner", pos: "n.", chinese: "夥伴、搭檔" },
+      { word: "match", pos: "v.", chinese: "配對" },
+      { word: "instructor", pos: "n.", chinese: "教練、老師" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to pair off + before + S + V", example: "The students paired off to rehearse their dialogue for the oral exam." }
+  },
+  {
+    phrase: "pair up",
+    type: "片語動詞",
+    chinese: "搭檔合作、兩兩配對",
+    keywords: ["pair", "up"],
+    example: {
+      english: "The teacher encouraged shy students to pair up with more outgoing classmates for the group project.",
+      chinese: "老師鼓勵害羞的學生在小組專案中與較外向的同學搭檔合作。",
+      grammar_point: "encouraged + 人 + to + V（鼓勵某人做某事）；for + N（為了…）"
+    },
+    vocabulary: [
+      { word: "collaborate", pos: "v.", chinese: "合作" },
+      { word: "outgoing", pos: "adj.", chinese: "外向的" },
+      { word: "teamwork", pos: "n.", chinese: "團隊合作" }
+    ],
+    sentence_pattern: { pattern: "S + encouraged + 人 + to pair up with + 人 + for + N", example: "Why don't we pair up and tackle this problem together?" }
+  },
+  {
+    phrase: "pan out",
+    type: "片語動詞",
+    chinese: "（計畫或情況）發展順利、結果如何",
+    keywords: ["pan", "out"],
+    example: {
+      english: "The business partnership did not pan out as hoped, and both parties agreed to go their separate ways.",
+      chinese: "這次商業合夥沒有如預期般順利，雙方同意各走各的路。",
+      grammar_point: "did not pan out as + p.p.（未如…般發展）；and + S + V（連接兩個結果）"
+    },
+    vocabulary: [
+      { word: "unfold", pos: "v.", chinese: "展開、發展" },
+      { word: "outcome", pos: "n.", chinese: "結果" },
+      { word: "dissolve", pos: "v.", chinese: "解散、終止" }
+    ],
+    sentence_pattern: { pattern: "N + did not pan out as + p.p., and + S + V", example: "Nobody knew how the negotiations would pan out in the end." }
+  },
+  {
+    phrase: "peel away",
+    type: "片語動詞",
+    chinese: "剝落、逐層揭去；脫離（群體）",
+    keywords: ["peel", "away"],
+    example: {
+      english: "Over time, the old paint began to peel away from the exterior walls of the historic building.",
+      chinese: "隨著時間流逝，舊油漆開始從那棟歷史建築的外牆上剝落。",
+      grammar_point: "over time（隨著時間，表示漸進過程）；began to + V（開始做某事）"
+    },
+    vocabulary: [
+      { word: "flake", pos: "v.", chinese: "剝落、片落" },
+      { word: "deteriorate", pos: "v.", chinese: "惡化、剝損" },
+      { word: "exterior", pos: "adj.", chinese: "外部的" }
+    ],
+    sentence_pattern: { pattern: "Over time, N + began to peel away from + N", example: "One by one, supporters began to peel away from the failing campaign." }
+  },
+  {
+    phrase: "peel off",
+    type: "片語動詞",
+    chinese: "剝去（外層）；脫去（衣物）；分離",
+    keywords: ["peel", "off"],
+    example: {
+      english: "After the long run, she peeled off her sweaty clothes and stepped straight into a hot shower.",
+      chinese: "漫長的跑步結束後，她脫去汗濕的衣物，直接走進了熱水淋浴間。",
+      grammar_point: "after + N（介系詞片語表時間）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "remove", pos: "v.", chinese: "脫去、移除" },
+      { word: "strip", pos: "v.", chinese: "剝去" },
+      { word: "layer", pos: "n.", chinese: "層" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + peeled off + N + and + V", example: "Peel off the protective film before using the screen for the first time." }
+  },
+  {
+    phrase: "pepper with",
+    type: "動詞 + 介系詞",
+    chinese: "用…密集攻擊；大量加入",
+    keywords: ["pepper", "with"],
+    example: {
+      english: "The journalist peppered the minister with sharp questions about the handling of the public health crisis.",
+      chinese: "記者就公共衛生危機的處理方式，向部長連珠炮地提出犀利問題。",
+      grammar_point: "peppered + 人 + with + N（向某人連珠炮地…）；about + N（關於…）"
+    },
+    vocabulary: [
+      { word: "bombard", pos: "v.", chinese: "連珠炮地詢問" },
+      { word: "query", pos: "n.", chinese: "問題" },
+      { word: "relentless", pos: "adj.", chinese: "無情的、不間斷的" }
+    ],
+    sentence_pattern: { pattern: "S + peppered + 人 + with + N + about + N", example: "Her speech was peppered with humorous anecdotes that kept the audience engaged." }
+  },
+  {
+    phrase: "phase through",
+    type: "片語動詞",
+    chinese: "分階段通過、逐步完成",
+    keywords: ["phase", "through"],
+    example: {
+      english: "The construction project will be phased through three distinct stages over the next two years.",
+      chinese: "建設項目將在未來兩年內分三個不同階段逐步完成。",
+      grammar_point: "will be phased through（被動語態，未來式）；over + 時間（在…期間）"
+    },
+    vocabulary: [
+      { word: "stage", pos: "n.", chinese: "階段" },
+      { word: "sequential", pos: "adj.", chinese: "依序的、循序漸進的" },
+      { word: "implement", pos: "v.", chinese: "實施" }
+    ],
+    sentence_pattern: { pattern: "N + will be phased through + N + over + 時間", example: "New staff are phased through an induction programme during their first month." }
+  },
+  {
+    phrase: "pitch in",
+    type: "片語動詞",
+    chinese: "共同出力、主動幫忙",
+    keywords: ["pitch", "in"],
+    example: {
+      english: "Everyone pitched in to help clean up the community park after the weekend festival had ended.",
+      chinese: "週末節慶結束後，每個人都主動幫忙清理社區公園。",
+      grammar_point: "pitched in to + V（主動幫忙做某事）；after + N + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "contribute", pos: "v.", chinese: "貢獻、出力" },
+      { word: "volunteer", pos: "v.", chinese: "自願幫忙" },
+      { word: "collective", pos: "adj.", chinese: "集體的" }
+    ],
+    sentence_pattern: { pattern: "S + pitched in to + V + N + after + N + V", example: "If everyone pitches in, we can finish this in half the time." }
+  },
+  {
+    phrase: "play out",
+    type: "片語動詞",
+    chinese: "（事件）逐漸展開；發展到最後",
+    keywords: ["play", "out"],
+    example: {
+      english: "The tense final minutes of the championship game played out in silence as the whole stadium held its breath.",
+      chinese: "錦標賽決賽緊張的最後幾分鐘在全場屏息中靜靜展開。",
+      grammar_point: "played out + in + N（在…中展開）；as + S + V（當…的時候，副詞子句）"
+    },
+    vocabulary: [
+      { word: "unfold", pos: "v.", chinese: "展開、發展" },
+      { word: "tense", pos: "adj.", chinese: "緊張的" },
+      { word: "scenario", pos: "n.", chinese: "情景、情況" }
+    ],
+    sentence_pattern: { pattern: "N + played out in + N + as + S + V", example: "Nobody could predict how the dramatic events would play out in the end." }
+  },
+  {
+    phrase: "pop out",
+    type: "片語動詞",
+    chinese: "突然出現；快速外出一趟",
+    keywords: ["pop", "out"],
+    example: {
+      english: "She popped out to the corner shop during her lunch break to grab a sandwich and some fruit.",
+      chinese: "她在午休時間快速外出去了轉角的小商店，買了一份三明治和一些水果。",
+      grammar_point: "popped out to + N（快速外出去某地）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "dash out", pos: "phr. v.", chinese: "快速外出" },
+      { word: "errand", pos: "n.", chinese: "差事、短程外出" },
+      { word: "briefly", pos: "adv.", chinese: "短暫地" }
+    ],
+    sentence_pattern: { pattern: "S + popped out to + N + during + N + to + V", example: "Sorry I missed your call — I just popped out to get some fresh air." }
+  },
+  {
+    phrase: "pry into",
+    type: "動詞 + 介系詞",
+    chinese: "窺探、打聽（他人隱私）",
+    keywords: ["pry", "into"],
+    example: {
+      english: "It is considered rude to pry into someone's personal finances or family relationships uninvited.",
+      chinese: "在未受邀請的情況下打聽他人的個人財務或家庭關係被認為是不禮貌的行為。",
+      grammar_point: "It is + p.p. + to + V（虛主詞句型，被認為做某事是…）；uninvited（副詞，未受邀請地）"
+    },
+    vocabulary: [
+      { word: "intrude", pos: "v.", chinese: "侵入、打擾" },
+      { word: "nosy", pos: "adj.", chinese: "愛打聽的" },
+      { word: "privacy", pos: "n.", chinese: "隱私" }
+    ],
+    sentence_pattern: { pattern: "It is + adj + to pry into + N + or + N", example: "The investigation team pried into the company's financial records for weeks." }
+  },
+  {
+    phrase: "pull along",
+    type: "片語動詞",
+    chinese: "拖著走、帶領前行",
+    keywords: ["pull", "along"],
+    example: {
+      english: "The toddler pulled along her favourite toy elephant as she waddled across the living room floor.",
+      chinese: "那個蹣跚學步的孩子拖著她最喜愛的玩具大象，一搖一擺地走過客廳地板。",
+      grammar_point: "pulled along + N（拖著…）；as + S + V（當…的時候，副詞子句）"
+    },
+    vocabulary: [
+      { word: "drag", pos: "v.", chinese: "拖拉" },
+      { word: "waddle", pos: "v.", chinese: "蹣跚而行" },
+      { word: "motivate", pos: "v.", chinese: "激勵、帶動" }
+    ],
+    sentence_pattern: { pattern: "S + pulled along + N + as + S + V", example: "She managed to pull the whole team along with her infectious enthusiasm." }
+  },
+  {
+    phrase: "push on",
+    type: "片語動詞",
+    chinese: "繼續前進、堅持下去",
+    keywords: ["push", "on"],
+    example: {
+      english: "Despite the exhausting terrain and fading light, the expedition team pushed on towards the summit.",
+      chinese: "儘管地形令人筋疲力竭且光線越來越暗，探險隊仍堅持向山頂前進。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；towards + N（朝向…）"
+    },
+    vocabulary: [
+      { word: "persevere", pos: "v.", chinese: "堅持不懈" },
+      { word: "terrain", pos: "n.", chinese: "地形" },
+      { word: "summit", pos: "n.", chinese: "山頂" }
+    ],
+    sentence_pattern: { pattern: "Despite + N + and + N, S + pushed on towards + N", example: "It's getting late but we need to push on if we want to finish tonight." }
+  },
+  {
+    phrase: "rack up",
+    type: "片語動詞",
+    chinese: "累積、大量積累（得分、債務等）",
+    keywords: ["rack", "up"],
+    example: {
+      english: "The startup racked up enormous debts in its first two years before finally turning a profit.",
+      chinese: "這家新創公司在最終轉虧為盈之前，頭兩年累積了龐大的債務。",
+      grammar_point: "racked up + N（累積了…）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "accumulate", pos: "v.", chinese: "累積" },
+      { word: "debt", pos: "n.", chinese: "債務" },
+      { word: "profit", pos: "n.", chinese: "利潤" }
+    ],
+    sentence_pattern: { pattern: "S + racked up + N + before + V-ing + N", example: "She racked up an impressive number of victories in her first season." }
+  },
+  {
+    phrase: "rake in",
+    type: "片語動詞",
+    chinese: "大量賺取（金錢）",
+    keywords: ["rake", "in"],
+    example: {
+      english: "The blockbuster film raked in over two hundred million dollars in its opening weekend worldwide.",
+      chinese: "這部強檔電影在全球首映週末就大賺了超過兩億美元。",
+      grammar_point: "raked in + N（賺進了…）；in + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "earn", pos: "v.", chinese: "賺取" },
+      { word: "profit", pos: "v.", chinese: "獲利" },
+      { word: "blockbuster", pos: "n.", chinese: "強檔影片" }
+    ],
+    sentence_pattern: { pattern: "S + raked in + N + in + N", example: "That online course is raking in thousands of new subscribers every week." }
+  },
+  {
+    phrase: "rattle off",
+    type: "片語動詞",
+    chinese: "快速流利地說出、背誦",
+    keywords: ["rattle", "off"],
+    example: {
+      english: "The child rattled off the entire list of capital cities without pausing once, impressing her teacher.",
+      chinese: "那個孩子一口氣流利地背出了所有首都城市的名稱，沒有停頓一次，令她的老師印象深刻。",
+      grammar_point: "rattled off + N（流利地說出…）；without + V-ing（在不…的情況下）；V-ing（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "recite", pos: "v.", chinese: "背誦" },
+      { word: "fluently", pos: "adv.", chinese: "流利地" },
+      { word: "impress", pos: "v.", chinese: "給…留下深刻印象" }
+    ],
+    sentence_pattern: { pattern: "S + rattled off + N + without + V-ing, V-ing + N", example: "She rattled off a long list of reasons why the plan would not work." }
+  },
+  {
+    phrase: "reel in",
+    type: "片語動詞",
+    chinese: "捲線釣上來；吸引、拉攏",
+    keywords: ["reel", "in"],
+    example: {
+      english: "The salesperson reeled in three major clients in one week through a combination of charm and persistence.",
+      chinese: "那名銷售人員憑藉魅力與毅力的結合，在一週內拉攏了三個大客戶。",
+      grammar_point: "reeled in + N（拉攏了…）；through + N（透過…，表方式）"
+    },
+    vocabulary: [
+      { word: "attract", pos: "v.", chinese: "吸引" },
+      { word: "persistence", pos: "n.", chinese: "毅力" },
+      { word: "client", pos: "n.", chinese: "客戶" }
+    ],
+    sentence_pattern: { pattern: "S + reeled in + N + through + N + and + N", example: "The discount offer reeled in a huge number of new customers." }
+  },
+  {
+    phrase: "reel off",
+    type: "片語動詞",
+    chinese: "滔滔不絕地說出、連續列舉",
+    keywords: ["reel", "off"],
+    example: {
+      english: "The expert reeled off a series of impressive statistics to support her argument during the debate.",
+      chinese: "這位專家在辯論中滔滔不絕地列出一系列令人印象深刻的統計數據來支持她的論點。",
+      grammar_point: "reeled off + N（連續列出…）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "list", pos: "v.", chinese: "列舉" },
+      { word: "statistic", pos: "n.", chinese: "統計數據" },
+      { word: "fluent", pos: "adj.", chinese: "流暢的" }
+    ],
+    sentence_pattern: { pattern: "S + reeled off + N + to + V + N + during + N", example: "He can reel off the names of every player in the tournament from memory." }
+  },
+  {
+    phrase: "reign over",
+    type: "動詞 + 介系詞",
+    chinese: "統治、君臨於；主宰",
+    keywords: ["reign", "over"],
+    example: {
+      english: "Queen Victoria reigned over the British Empire for over sixty years, one of the longest in history.",
+      chinese: "維多利亞女王統治大英帝國超過六十年，是歷史上任期最長的君主之一。",
+      grammar_point: "reigned over + N + for + 時間（統治…長達…）；one of the + 最高級（最…之一）"
+    },
+    vocabulary: [
+      { word: "monarch", pos: "n.", chinese: "君主" },
+      { word: "empire", pos: "n.", chinese: "帝國" },
+      { word: "sovereign", pos: "adj.", chinese: "最高統治的" }
+    ],
+    sentence_pattern: { pattern: "S + reigned over + N + for + 時間, one of the + 最高級 + in + N", example: "The champion has reigned over the sport for nearly a decade." }
+  },
+  {
+    phrase: "rein in",
+    type: "片語動詞",
+    chinese: "控制、約束（使其不過分）",
+    keywords: ["rein", "in"],
+    example: {
+      english: "The central bank moved to rein in inflation by raising interest rates for the third consecutive month.",
+      chinese: "央行透過連續第三個月上調利率，採取行動遏制通貨膨脹。",
+      grammar_point: "moved to + V（採取行動做某事）；by + V-ing（藉由…，表方式）"
+    },
+    vocabulary: [
+      { word: "control", pos: "v.", chinese: "控制" },
+      { word: "inflation", pos: "n.", chinese: "通貨膨脹" },
+      { word: "curb", pos: "v.", chinese: "抑制、遏制" }
+    ],
+    sentence_pattern: { pattern: "S + moved to rein in + N + by + V-ing + N", example: "The manager tried to rein in spending after the budget overran significantly." }
+  },
+  {
+    phrase: "rub off",
+    type: "片語動詞",
+    chinese: "（習慣或特質）感染、影響到他人；擦去",
+    keywords: ["rub", "off"],
+    example: {
+      english: "Her positive attitude and boundless energy seemed to rub off on everyone around her over time.",
+      chinese: "她積極的態度和無限的活力似乎隨著時間感染了她周圍的每個人。",
+      grammar_point: "seemed to + V（似乎做某事）；on + 人（影響到某人）；over time（隨著時間）"
+    },
+    vocabulary: [
+      { word: "influence", pos: "v.", chinese: "影響" },
+      { word: "contagious", pos: "adj.", chinese: "感染性的、傳染的" },
+      { word: "boundless", pos: "adj.", chinese: "無限的" }
+    ],
+    sentence_pattern: { pattern: "N + seemed to rub off on + 人 + over time", example: "I hope some of his discipline and focus will rub off on the rest of the team." }
+  },
+  {
+    phrase: "rule over",
+    type: "動詞 + 介系詞",
+    chinese: "統治、支配",
+    keywords: ["rule", "over"],
+    example: {
+      english: "The ancient king ruled over a vast territory that stretched from the mountains to the sea.",
+      chinese: "那位古代國王統治著一片從山脈延伸至大海的廣闊領土。",
+      grammar_point: "ruled over + N（統治…）；that + 關係子句（修飾先行詞 territory）"
+    },
+    vocabulary: [
+      { word: "govern", pos: "v.", chinese: "統治、管治" },
+      { word: "territory", pos: "n.", chinese: "領土" },
+      { word: "dominate", pos: "v.", chinese: "支配、主宰" }
+    ],
+    sentence_pattern: { pattern: "S + ruled over + N + that + V", example: "Fear should never be used to rule over others in a healthy organisation." }
+  },
+  {
+    phrase: "rush out",
+    type: "片語動詞",
+    chinese: "匆忙推出；急忙衝出",
+    keywords: ["rush", "out"],
+    example: {
+      english: "The software company rushed out a patch to fix the critical security vulnerability before more users were affected.",
+      chinese: "這家軟體公司匆忙推出了一個補丁，以在更多用戶受到影響之前修復嚴重的安全漏洞。",
+      grammar_point: "rushed out + N（匆忙推出…）；to + V（不定詞表目的）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "patch", pos: "n.", chinese: "補丁、修補程式" },
+      { word: "vulnerability", pos: "n.", chinese: "漏洞、弱點" },
+      { word: "hasty", pos: "adj.", chinese: "倉促的" }
+    ],
+    sentence_pattern: { pattern: "S + rushed out + N + to + V + before + S + V", example: "She rushed out of the meeting to take an urgent call from her client." }
+  },
+  {
+    phrase: "scrape together",
+    type: "片語動詞",
+    chinese: "費力湊集（金錢或資源）",
+    keywords: ["scrape", "together"],
+    example: {
+      english: "The family scraped together every spare coin they had to pay for their youngest daughter's school trip.",
+      chinese: "這個家庭費力湊集了他們所有多餘的零錢，為最小的女兒支付學校旅遊費用。",
+      grammar_point: "scraped together + N（費力湊集…）；they had（關係子句省略關代）；to + V（不定詞表目的）"
+    },
+    vocabulary: [
+      { word: "accumulate", pos: "v.", chinese: "積累、湊集" },
+      { word: "resourceful", pos: "adj.", chinese: "足智多謀的" },
+      { word: "barely", pos: "adv.", chinese: "勉強地" }
+    ],
+    sentence_pattern: { pattern: "S + scraped together + N + to + V + N", example: "We barely scraped together enough money to cover the repair costs." }
+  },
+  {
+    phrase: "shake down",
+    type: "片語動詞",
+    chinese: "敲詐勒索；徹底搜查；逐漸磨合",
+    keywords: ["shake", "down"],
+    example: {
+      english: "The corrupt officers were arrested after evidence emerged that they had been shaking down local business owners.",
+      chinese: "在腐敗警察一直敲詐當地業主的證據浮現後，他們遭到了逮捕。",
+      grammar_point: "were arrested after + N + V（在…之後被逮捕）；had been + V-ing（過去完成進行式）"
+    },
+    vocabulary: [
+      { word: "extort", pos: "v.", chinese: "勒索、敲詐" },
+      { word: "corrupt", pos: "adj.", chinese: "腐敗的" },
+      { word: "evidence", pos: "n.", chinese: "證據" }
+    ],
+    sentence_pattern: { pattern: "S + were arrested after + N + V + that + S + had been + V-ing + N", example: "Give the new system a week to shake down before making any major changes." }
+  },
+  {
+    phrase: "shrug off",
+    type: "片語動詞",
+    chinese: "一笑置之、不當一回事；擺脫",
+    keywords: ["shrug", "off"],
+    example: {
+      english: "Despite the harsh public criticism, the director shrugged off the negative reviews and continued with her vision.",
+      chinese: "儘管遭受嚴厲的公眾批評，這位導演一笑置之那些負面評論，繼續堅持她的創作理念。",
+      grammar_point: "despite + N（儘管…，介系詞片語表讓步）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "dismiss", pos: "v.", chinese: "不理會、無視" },
+      { word: "criticism", pos: "n.", chinese: "批評" },
+      { word: "resilient", pos: "adj.", chinese: "有韌性的" }
+    ],
+    sentence_pattern: { pattern: "Despite + N, S + shrugged off + N + and + V", example: "He shrugged off the minor injury and carried on playing until the final whistle." }
+  },
+  {
+    phrase: "side step",
+    type: "片語動詞",
+    chinese: "迴避、巧妙繞過（問題或責任）",
+    keywords: ["side", "step"],
+    example: {
+      english: "The politician cleverly sidestepped the journalist's question by redirecting the conversation to a different topic.",
+      chinese: "這位政客巧妙地迴避了記者的問題，將話題引導到另一個議題上。",
+      grammar_point: "sidestepped + N（迴避了…）；by + V-ing（藉由…，表方式）"
+    },
+    vocabulary: [
+      { word: "evade", pos: "v.", chinese: "迴避" },
+      { word: "deflect", pos: "v.", chinese: "轉移（注意力）" },
+      { word: "redirect", pos: "v.", chinese: "引導至另一方向" }
+    ],
+    sentence_pattern: { pattern: "S + sidestepped + N + by + V-ing + N", example: "She always finds a way to sidestep responsibility when things go wrong." }
+  },
+  {
+    phrase: "simmer down",
+    type: "片語動詞",
+    chinese: "平靜下來、冷靜（激動情緒）",
+    keywords: ["simmer", "down"],
+    example: {
+      english: "After a heated argument, both sides were asked to simmer down before continuing the discussion.",
+      chinese: "在激烈的爭論之後，雙方都被要求先平靜下來，再繼續討論。",
+      grammar_point: "after + N（介系詞片語表時間）；were asked to + V（被動語態，被要求做某事）；before + V-ing（時間副詞片語）"
+    },
+    vocabulary: [
+      { word: "calm down", pos: "phr. v.", chinese: "冷靜下來" },
+      { word: "heated", pos: "adj.", chinese: "激烈的" },
+      { word: "composure", pos: "n.", chinese: "鎮定" }
+    ],
+    sentence_pattern: { pattern: "After + N, S + were asked to simmer down + before + V-ing", example: "Give him a few minutes to simmer down before you try talking to him again." }
+  },
+  {
+    phrase: "skim over",
+    type: "片語動詞",
+    chinese: "粗略掃視、草草略過",
+    keywords: ["skim", "over"],
+    example: {
+      english: "She skimmed over the lengthy report and picked out only the key figures she needed for the meeting.",
+      chinese: "她粗略掃視了這份冗長的報告，只挑出了她開會所需的關鍵數字。",
+      grammar_point: "skimmed over + N（粗略掃視了…）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "glance", pos: "v.", chinese: "瞥視、快速瀏覽" },
+      { word: "extract", pos: "v.", chinese: "提取、挑出" },
+      { word: "thorough", pos: "adj.", chinese: "仔細的、徹底的" }
+    ],
+    sentence_pattern: { pattern: "S + skimmed over + N + and + V + N", example: "Don't just skim over the instructions — there are important details at the end." }
+  },
+  {
+    phrase: "skip over",
+    type: "片語動詞",
+    chinese: "跳過、略過（某部分）",
+    keywords: ["skip", "over"],
+    example: {
+      english: "The presenter skipped over the technical details to keep the audience engaged and focused on the main message.",
+      chinese: "演講者略過了技術細節，以保持觀眾的投入並專注於主要訊息。",
+      grammar_point: "skipped over + N（略過了…）；to + V（不定詞表目的）；and + V（連接兩個目的）"
+    },
+    vocabulary: [
+      { word: "omit", pos: "v.", chinese: "略去、省略" },
+      { word: "bypass", pos: "v.", chinese: "跳過" },
+      { word: "engaged", pos: "adj.", chinese: "專注投入的" }
+    ],
+    sentence_pattern: { pattern: "S + skipped over + N + to + V + N + and + V", example: "Feel free to skip over any sections that are not relevant to your situation." }
+  },
+  {
+    phrase: "snap out",
+    type: "片語動詞",
+    chinese: "突然振作起來、從（消極狀態）中甦醒",
+    keywords: ["snap", "out"],
+    example: {
+      english: "Her friends encouraged her to snap out of her sadness and take the first step towards rebuilding her life.",
+      chinese: "她的朋友們鼓勵她從悲傷中振作起來，邁出重建生活的第一步。",
+      grammar_point: "snap out of + N（從…中振作）；and + V（連接兩個動作）；towards + V-ing（朝向做某事）"
+    },
+    vocabulary: [
+      { word: "recover", pos: "v.", chinese: "恢復" },
+      { word: "motivate", pos: "v.", chinese: "激勵" },
+      { word: "rebuild", pos: "v.", chinese: "重建" }
+    ],
+    sentence_pattern: { pattern: "S + encouraged + 人 + to snap out of + N + and + V", example: "You need to snap out of this negativity and start focusing on solutions." }
+  },
+  {
+    phrase: "sound off",
+    type: "片語動詞",
+    chinese: "大聲表達意見、暢所欲言（有時帶抱怨意味）",
+    keywords: ["sound", "off"],
+    example: {
+      english: "The public forum gave residents the chance to sound off about the proposed highway expansion in their area.",
+      chinese: "這場公眾論壇給了居民機會，就該地區擬議的公路擴建計畫暢所欲言。",
+      grammar_point: "gave + 人 + the chance to + V（給某人機會做某事）；about + N（關於…）"
+    },
+    vocabulary: [
+      { word: "voice", pos: "v.", chinese: "表達（意見）" },
+      { word: "forum", pos: "n.", chinese: "論壇" },
+      { word: "grievance", pos: "n.", chinese: "不滿、申訴" }
+    ],
+    sentence_pattern: { pattern: "N + gave + 人 + the chance to sound off about + N", example: "He is always sounding off about how the company is being mismanaged." }
+  },
+  {
+    phrase: "spill over",
+    type: "片語動詞",
+    chinese: "溢出；（問題或情緒）蔓延擴散",
+    keywords: ["spill", "over"],
+    example: {
+      english: "The conflict in the border region began to spill over into neighbouring countries, alarming world leaders.",
+      chinese: "邊境地區的衝突開始蔓延到鄰近國家，讓全球領導人感到警惕。",
+      grammar_point: "began to + V（開始做某事）；V-ing（分詞構句，表示結果）"
+    },
+    vocabulary: [
+      { word: "spread", pos: "v.", chinese: "蔓延" },
+      { word: "overflow", pos: "v.", chinese: "溢出" },
+      { word: "neighbouring", pos: "adj.", chinese: "鄰近的" }
+    ],
+    sentence_pattern: { pattern: "N + began to spill over into + N, V-ing + N", example: "Stress from work can easily spill over into your personal relationships." }
+  },
+  {
+    phrase: "spin off",
+    type: "片語動詞",
+    chinese: "衍生出；（公司）分拆成獨立部門",
+    keywords: ["spin", "off"],
+    example: {
+      english: "The popular television series spun off two new shows that attracted an entirely different demographic of viewers.",
+      chinese: "這部受歡迎的電視劇衍生出了兩部新節目，吸引了完全不同的觀眾人群。",
+      grammar_point: "spun off + N（衍生出了…）；that + 關係子句（修飾先行詞 shows）"
+    },
+    vocabulary: [
+      { word: "derivative", pos: "n.", chinese: "衍生物、衍生作品" },
+      { word: "demographic", pos: "n.", chinese: "人口統計群體" },
+      { word: "subsidiary", pos: "n.", chinese: "子公司" }
+    ],
+    sentence_pattern: { pattern: "N + spun off + N + that + V + N", example: "The research led to a technology that was spun off into a successful new company." }
+  },
+  {
+    phrase: "squeeze in",
+    type: "片語動詞",
+    chinese: "擠出時間安排；勉強擠入",
+    keywords: ["squeeze", "in"],
+    example: {
+      english: "The doctor managed to squeeze in one last appointment before the clinic closed for the evening.",
+      chinese: "醫生設法在診所晚間關門前擠出時間安排了最後一個預約。",
+      grammar_point: "managed to + V（設法做到某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "fit in", pos: "phr. v.", chinese: "找時間安排" },
+      { word: "schedule", pos: "v.", chinese: "排入時間表" },
+      { word: "accommodate", pos: "v.", chinese: "容納、安排" }
+    ],
+    sentence_pattern: { pattern: "S + managed to squeeze in + N + before + S + V", example: "Can you squeeze in a quick meeting between two and three this afternoon?" }
+  },
+  {
+    phrase: "stand down",
+    type: "片語動詞",
+    chinese: "讓步退下；（軍事）解除戒備；辭職",
+    keywords: ["stand", "down"],
+    example: {
+      english: "The chairman announced he would stand down from his position at the end of the financial year.",
+      chinese: "董事長宣布他將在財政年度結束時卸任。",
+      grammar_point: "announced + S + would + V（宣布…將做某事）；at the end of + N（在…結束時）"
+    },
+    vocabulary: [
+      { word: "resign", pos: "v.", chinese: "辭職、卸任" },
+      { word: "withdraw", pos: "v.", chinese: "退出、撤退" },
+      { word: "successor", pos: "n.", chinese: "繼任者" }
+    ],
+    sentence_pattern: { pattern: "S + announced S + would stand down from + N + at the end of + N", example: "The troops were ordered to stand down after the ceasefire was declared." }
+  },
+  {
+    phrase: "sweep through",
+    type: "片語動詞",
+    chinese: "迅速席捲、快速通過",
+    keywords: ["sweep", "through"],
+    example: {
+      english: "A wave of excitement swept through the crowd when the legendary performer finally appeared on stage.",
+      chinese: "當這位傳奇表演者終於登上舞台時，一陣興奮的浪潮席捲了人群。",
+      grammar_point: "swept through + N（席捲了…）；when + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "wave", pos: "n.", chinese: "浪潮" },
+      { word: "surge", pos: "v.", chinese: "湧動、席捲" },
+      { word: "legendary", pos: "adj.", chinese: "傳奇的" }
+    ],
+    sentence_pattern: { pattern: "N + swept through + N + when + S + V", example: "A cold wind swept through the valley as the storm approached from the north." }
+  },
+  {
+    phrase: "swing by",
+    type: "片語動詞",
+    chinese: "順道拜訪、順路過去",
+    keywords: ["swing", "by"],
+    example: {
+      english: "I'll swing by the supermarket on my way home and pick up whatever we need for tonight's dinner.",
+      chinese: "我回家路上會順道去一下超市，買我們今晚晚餐所需要的東西。",
+      grammar_point: "on my way home（在回家的路上）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "stop by", pos: "phr. v.", chinese: "順道拜訪" },
+      { word: "detour", pos: "n.", chinese: "繞道" },
+      { word: "errand", pos: "n.", chinese: "差事" }
+    ],
+    sentence_pattern: { pattern: "S + will swing by + N + on the way + and + V", example: "Can you swing by my place and drop off those documents before noon?" }
+  },
+  {
+    phrase: "tail off",
+    type: "片語動詞",
+    chinese: "逐漸減少、消退",
+    keywords: ["tail", "off"],
+    example: {
+      english: "Enthusiasm for the new product tailed off sharply after the initial wave of media coverage died down.",
+      chinese: "在最初的媒體報導熱潮平息後，對這個新產品的熱情急劇消退。",
+      grammar_point: "tailed off + adv（逐漸消退）；after + N + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "diminish", pos: "v.", chinese: "減少、消退" },
+      { word: "wane", pos: "v.", chinese: "衰退" },
+      { word: "coverage", pos: "n.", chinese: "媒體報導" }
+    ],
+    sentence_pattern: { pattern: "N + tailed off after + N + V", example: "His voice tailed off as he struggled to find the right words to continue." }
+  },
+  {
+    phrase: "tide over",
+    type: "片語動詞",
+    chinese: "幫助度過（困難時期）",
+    keywords: ["tide", "over"],
+    example: {
+      english: "The emergency fund was set up to tide small businesses over during periods of unexpected financial hardship.",
+      chinese: "這個緊急基金的設立是為了幫助小企業在意外財務困難時期度過難關。",
+      grammar_point: "was set up to + V（被動語態，設立目的）；during + N（在…期間）"
+    },
+    vocabulary: [
+      { word: "sustain", pos: "v.", chinese: "維持、支撐" },
+      { word: "hardship", pos: "n.", chinese: "困難、艱苦" },
+      { word: "emergency", pos: "adj.", chinese: "緊急的" }
+    ],
+    sentence_pattern: { pattern: "N + was set up to tide + 人 + over during + N", example: "Could you lend me some money to tide me over until I get paid?" }
+  },
+  {
+    phrase: "tone down",
+    type: "片語動詞",
+    chinese: "緩和語氣、降低（強度）",
+    keywords: ["tone", "down"],
+    example: {
+      english: "The editor asked the writer to tone down some of the more inflammatory language before the article was published.",
+      chinese: "編輯要求撰稿人在文章發布前，緩和一些較為煽動性的措辭。",
+      grammar_point: "asked + 人 + to + V（要求某人做某事）；before + S + V（時間副詞子句）"
+    },
+    vocabulary: [
+      { word: "moderate", pos: "v.", chinese: "緩和、節制" },
+      { word: "inflammatory", pos: "adj.", chinese: "煽動性的" },
+      { word: "soften", pos: "v.", chinese: "軟化、緩和" }
+    ],
+    sentence_pattern: { pattern: "S + asked + 人 + to tone down + N + before + S + V", example: "You might want to tone down your remarks before presenting to senior management." }
+  },
+  {
+    phrase: "toss around",
+    type: "片語動詞",
+    chinese: "隨意討論（想法）；拋來拋去",
+    keywords: ["toss", "around"],
+    example: {
+      english: "The creative team spent an hour tossing around ideas for the new advertising campaign without reaching a conclusion.",
+      chinese: "創意團隊花了一個小時隨意討論新廣告活動的想法，但沒有得出結論。",
+      grammar_point: "spent + 時間 + V-ing（花時間做某事）；without + V-ing（在不…的情況下）"
+    },
+    vocabulary: [
+      { word: "brainstorm", pos: "v.", chinese: "腦力激盪" },
+      { word: "deliberate", pos: "v.", chinese: "商議" },
+      { word: "concept", pos: "n.", chinese: "概念" }
+    ],
+    sentence_pattern: { pattern: "S + spent + 時間 + tossing around + N + without + V-ing", example: "Let's toss around a few ideas before we commit to a final direction." }
+  },
+  {
+    phrase: "touch upon",
+    type: "動詞 + 介系詞",
+    chinese: "簡略提及、略談",
+    keywords: ["touch", "upon"],
+    example: {
+      english: "The keynote speaker touched upon several important issues but did not explore any of them in great depth.",
+      chinese: "主題演講者略略提及了幾個重要議題，但沒有深入探討其中任何一個。",
+      grammar_point: "touched upon + N（略略提及了…）；but + V（轉折）；in great depth（深入地）"
+    },
+    vocabulary: [
+      { word: "mention", pos: "v.", chinese: "提及" },
+      { word: "address", pos: "v.", chinese: "提到、處理" },
+      { word: "briefly", pos: "adv.", chinese: "簡短地" }
+    ],
+    sentence_pattern: { pattern: "S + touched upon + N + but + did not + V + in + N", example: "The report touches upon environmental concerns but focuses mainly on economic data." }
+  },
+  {
+    phrase: "trickle down",
+    type: "片語動詞",
+    chinese: "逐漸向下傳遞、滴流而下",
+    keywords: ["trickle", "down"],
+    example: {
+      english: "Economists debate whether wealth created at the top of society truly trickles down to benefit those at the bottom.",
+      chinese: "經濟學家們爭論，在社會頂層創造的財富是否真的能向下滲透，使底層的人受益。",
+      grammar_point: "debate + whether + S + V（爭論…是否…）；truly（副詞加強語氣）"
+    },
+    vocabulary: [
+      { word: "permeate", pos: "v.", chinese: "滲透、蔓延" },
+      { word: "distribute", pos: "v.", chinese: "分配" },
+      { word: "inequality", pos: "n.", chinese: "不平等" }
+    ],
+    sentence_pattern: { pattern: "S + debate whether + N + truly trickles down to + V + 人", example: "It takes time for new policies to trickle down to affect everyday life." }
+  },
+  {
+    phrase: "trump up",
+    type: "片語動詞",
+    chinese: "捏造、虛構（指控或藉口）",
+    keywords: ["trump", "up"],
+    example: {
+      english: "The accused maintained that the charges against him had been trumped up by his political rivals.",
+      chinese: "被告堅稱對他的指控是由他的政治對手捏造的。",
+      grammar_point: "maintained that + S + V（堅稱…）；had been trumped up by + 人（被動語態，過去完成式）"
+    },
+    vocabulary: [
+      { word: "fabricate", pos: "v.", chinese: "捏造、偽造" },
+      { word: "charge", pos: "n.", chinese: "指控" },
+      { word: "rival", pos: "n.", chinese: "對手" }
+    ],
+    sentence_pattern: { pattern: "S + maintained that + N + had been trumped up by + N", example: "The whole scandal appeared to be trumped up to damage her reputation." }
+  },
+  {
+    phrase: "tucker out",
+    type: "片語動詞",
+    chinese: "使精疲力竭（口語）",
+    keywords: ["tucker", "out"],
+    example: {
+      english: "Three hours of swimming in the sea completely tuckered out the young children before lunchtime.",
+      chinese: "在海裡游泳三小時讓年幼的孩子們在午餐前就已精疲力竭。",
+      grammar_point: "tuckered out + 人（使某人精疲力竭）；before + N（在…之前）"
+    },
+    vocabulary: [
+      { word: "exhaust", pos: "v.", chinese: "使疲憊" },
+      { word: "drain", pos: "v.", chinese: "耗盡（體力）" },
+      { word: "fatigue", pos: "n.", chinese: "疲勞" }
+    ],
+    sentence_pattern: { pattern: "時間 + of + V-ing + completely tuckered out + 人 + before + N", example: "All that gardening has tuckered me out — I need a rest." }
+  },
+  {
+    phrase: "veer off",
+    type: "片語動詞",
+    chinese: "突然偏離、轉向",
+    keywords: ["veer", "off"],
+    example: {
+      english: "The driver veered off the main road to avoid a large pothole and ended up in a ditch.",
+      chinese: "司機為了避開一個大坑洞突然偏離了主幹道，最後陷入了排水溝。",
+      grammar_point: "veered off + N（偏離了…）；to + V（不定詞表目的）；and + V（連接兩個動作）"
+    },
+    vocabulary: [
+      { word: "swerve", pos: "v.", chinese: "猛打方向盤偏離" },
+      { word: "deviate", pos: "v.", chinese: "偏離" },
+      { word: "pothole", pos: "n.", chinese: "路面坑洞" }
+    ],
+    sentence_pattern: { pattern: "S + veered off + N + to + V + N + and + V", example: "The conversation veered off topic as soon as someone mentioned the merger." }
+  },
+  {
+    phrase: "whittle down",
+    type: "片語動詞",
+    chinese: "逐步削減、縮小（數量或範圍）",
+    keywords: ["whittle", "down"],
+    example: {
+      english: "After three rounds of interviews, the panel had whittled down the list of candidates to just five finalists.",
+      chinese: "經過三輪面試後，評審小組已將候選人名單逐步縮小至僅剩五位決選者。",
+      grammar_point: "after + N + of + N（在…輪的…之後）；had + p.p.（過去完成式）"
+    },
+    vocabulary: [
+      { word: "reduce", pos: "v.", chinese: "縮小、削減" },
+      { word: "finalist", pos: "n.", chinese: "決選者" },
+      { word: "shortlist", pos: "v.", chinese: "列入候選名單" }
+    ],
+    sentence_pattern: { pattern: "After + N + of + N, S + had whittled down + N + to + N", example: "We need to whittle down our options before the budget meeting on Friday." }
+  },
+  {
+    phrase: "wither away",
+    type: "片語動詞",
+    chinese: "逐漸凋零、衰退消亡",
+    keywords: ["wither", "away"],
+    example: {
+      english: "Without regular investment and innovation, even the strongest industries can wither away over time.",
+      chinese: "沒有定期投資和創新，即使是最強大的產業也可能隨著時間逐漸凋零。",
+      grammar_point: "without + N（在沒有…的情況下）；even + N（即使是…）；can + V（情態動詞表可能性）"
+    },
+    vocabulary: [
+      { word: "decline", pos: "v.", chinese: "衰退" },
+      { word: "deteriorate", pos: "v.", chinese: "惡化" },
+      { word: "fade", pos: "v.", chinese: "消退" }
+    ],
+    sentence_pattern: { pattern: "Without + N, even + N + can wither away + over time", example: "Old traditions wither away when they are no longer passed on to younger generations." }
+  },
+  {
+    phrase: "zero in",
+    type: "片語動詞",
+    chinese: "鎖定目標、集中焦點於",
+    keywords: ["zero", "in"],
+    example: {
+      english: "After months of broad analysis, the researchers finally zeroed in on the specific gene responsible for the condition.",
+      chinese: "經過幾個月的廣泛分析，研究人員終於鎖定了造成這種疾病的特定基因。",
+      grammar_point: "after + 時間 + of + N（在…時間的…之後）；finally + V（副詞表最終結果）"
+    },
+    vocabulary: [
+      { word: "focus", pos: "v.", chinese: "聚焦" },
+      { word: "pinpoint", pos: "v.", chinese: "精確鎖定" },
+      { word: "gene", pos: "n.", chinese: "基因" }
+    ],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + finally zeroed in on + N", example: "Investigators zeroed in on the suspect after reviewing the security footage." }
   }
 ]; // <--- 大陣列的結尾！
