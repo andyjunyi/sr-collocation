@@ -259,9 +259,13 @@ function HomePage() {
   const handleSearch = () => {
     const q = query.trim()
     if (!q) return
+    setResults([])
+    setSelectedType(null)
+    setExpandedCards(new Set())
+    setSearched(false)
     const isEnglish = /[a-zA-Z]/.test(q)
     const wordRegex = isEnglish ? new RegExp(`\\b${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i') : null
-        const matches = collocationData.filter((item) =>
+    const matches = collocationData.filter((item) =>
       isEnglish
         ? wordRegex.test(item.phrase) || (item.keywords && item.keywords.some((k) => wordRegex.test(k)))
         : item.chinese.includes(q)
@@ -269,7 +273,6 @@ function HomePage() {
     setResults(matches)
     setSearched(true)
     setLastQuery(q)
-    setSelectedType(null)
     setExpandedCards(buildExpanded(matches))
   }
 
@@ -330,16 +333,10 @@ function HomePage() {
           <h1 className="text-2xl sm:text-3xl font-bold mb-1 tracking-tight">
             英文搭配詞學習網站
           </h1>
-          <div className="flex items-center justify-between mb-5">
+          <div className="mb-5">
             <p className="text-blue-200 text-sm">
               專為台灣高中生設計・大學學測必備
             </p>
-            <Link
-              to="/checker"
-              className="text-blue-200 hover:text-white text-xs whitespace-nowrap border border-blue-400 rounded-lg px-3 py-1.5 hover:border-white transition-colors"
-            >
-              比對工具
-            </Link>
           </div>
 
           {/* Search Box */}
