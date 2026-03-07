@@ -92776,6 +92776,800 @@ export const collocationData = [
       { word: "flawlessly", pos: "adv.", chinese: "完美地" }
     ],
     sentence_pattern: { pattern: "N + integrated with + N + like a dream — no + N + and no + N", example: "The new hire fitted into the team like a dream from her very first day." }
+  },
+{
+    phrase: "eager to please",
+    type: "形容詞片語",
+    chinese: "急於取悅他人、一心想讓人滿意",
+    keywords: ["eager", "to", "please"],
+    example: {
+      english: "The new employee was so eager to please that he sometimes forgot to voice his own opinions.",
+      chinese: "這位新進員工非常急於取悅所有人，有時甚至忘了表達自己真正的意見。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + was so eager to please that + S + V", example: "Children who are too eager to please may struggle to develop their own sense of identity." }
+  },
+  {
+    phrase: "keen and eager",
+    type: "形容詞片語",
+    chinese: "熱切又渴望、充滿幹勁",
+    keywords: ["keen", "and", "eager"],
+    example: {
+      english: "The batch of interns arrived keen and eager to learn, bringing a fresh energy to the entire office.",
+      chinese: "這批實習生既熱切又渴望學習，讓整個辦公室都充滿了活力。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + arrived keen and eager to + V, V-ing + N", example: "She was keen and eager at the start of the course but lost motivation after the first few weeks." }
+  },
+  {
+    phrase: "overly eager",
+    type: "副詞 + 形容詞",
+    chinese: "過於急切、太心急",
+    keywords: ["overly", "eager"],
+    example: {
+      english: "He came across as overly eager during the negotiation, which let the other side sense how desperate he was.",
+      chinese: "他在談判中表現得過於急切，讓對方察覺到他迫切需要達成協議。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + came across as overly eager during + N, which + V", example: "Try not to seem overly eager when applying for a job — confidence is more impressive than desperation." }
+  },
+  {
+    phrase: "genuinely eager",
+    type: "副詞 + 形容詞",
+    chinese: "真心渴望、發自內心的熱切",
+    keywords: ["genuinely", "eager"],
+    example: {
+      english: "She was genuinely eager for the role, and her enthusiasm came through clearly in every answer she gave.",
+      chinese: "她對這個職位真心渴望，這份熱忱在面試中清晰地透過她的每個回答表現出來。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + was genuinely eager for + N, and + N + V", example: "It was clear from his questions that he was genuinely eager to understand the subject more deeply." }
+  },
+  {
+    phrase: "eager for",
+    type: "形容詞 + 介系詞",
+    chinese: "渴望得到…、迫切希望",
+    keywords: ["eager", "for"],
+    example: {
+      english: "After years of hard work, she was eager for recognition and a chance to see her efforts finally acknowledged.",
+      chinese: "在多年的艱辛努力之後，她渴望得到認可，以及看到自己工作成果獲得肯定的機會。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "After + 時間 + of + N, S + was eager for + N + and + N", example: "Young graduates are often eager for responsibility and the chance to prove themselves." }
+  },
+  {
+    phrase: "eager about",
+    type: "形容詞 + 介系詞",
+    chinese: "對…感到興奮期待",
+    keywords: ["eager", "about"],
+    example: {
+      english: "The children were so eager about the upcoming field trip that most of them could barely sleep the night before.",
+      chinese: "孩子們對即將到來的校外教學感到無比期待，前一晚幾乎都睡不著覺。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + were so eager about + N + that + S + V", example: "She didn't seem particularly eager about the new assignment when it was first announced." }
+  },
+  {
+    phrase: "seem eager",
+    type: "動詞 + 形容詞",
+    chinese: "看似熱切、表現得渴望",
+    keywords: ["seem", "eager"],
+    example: {
+      english: "Although he seemed eager in the meeting, his colleagues doubted whether he was truly interested in the project.",
+      chinese: "雖然他在會議中看似熱切，但他的同事們懷疑他是否真的對這個計畫有興趣。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "Although S + seemed eager in + N, S + doubted whether + S + V", example: "She seemed eager to help at first but gradually became less involved as the weeks went on." }
+  },
+  {
+    phrase: "remain eager",
+    type: "動詞 + 形容詞",
+    chinese: "保持熱情、依然渴望",
+    keywords: ["remain", "eager"],
+    example: {
+      english: "Despite facing numerous setbacks, the young scientist remained eager to continue her research and never considered giving up.",
+      chinese: "儘管面臨重重挫折，這位年輕的科學家依然保持對研究的熱情，從未想過放棄。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "Despite + V-ing + N, S + remained eager to + V + and never + V", example: "It is impressive how she has remained eager and motivated throughout such a long and demanding project." }
+  },
+  {
+    phrase: "feel eager",
+    type: "動詞 + 形容詞",
+    chinese: "感到迫不及待、內心充滿渴望",
+    keywords: ["feel", "eager"],
+    example: {
+      english: "Returning to work after a long holiday, he surprisingly felt eager and ready to take on new challenges.",
+      chinese: "在漫長的假期後回到工作崗位，他意外地感到迫不及待，準備好面對新的挑戰。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "V-ing after + N, S + felt eager and ready to + V", example: "I always feel eager at the start of a new project when everything still feels full of possibility." }
+  },
+  {
+    phrase: "appear eager",
+    type: "動詞 + 形容詞",
+    chinese: "表現得熱切、給人渴望的印象",
+    keywords: ["appear", "eager"],
+    example: {
+      english: "In an interview, you should appear eager but composed, leaving the interviewer with a positive and professional impression.",
+      chinese: "面試時，你應該表現得熱切但不失沉穩，給面試官留下積極卻專業的印象。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "In + N, S + should appear eager but + adj, V-ing + N + with + N", example: "Both candidates appeared eager during the debate, though their styles were very different." }
+  },
+  {
+    phrase: "eager anticipation",
+    type: "形容詞 + 名詞",
+    chinese: "熱切期待",
+    keywords: ["eager", "anticipation"],
+    example: {
+      english: "The audience gathered outside the theatre in eager anticipation of the long-awaited musical's opening night.",
+      chinese: "觀眾帶著熱切的期待聚集在劇院外，等待這齣期待已久的音樂劇首演。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "N + gathered + 地點 + in eager anticipation of + N", example: "The children waited in eager anticipation as their mother carried the birthday cake into the room." }
+  },
+  {
+    phrase: "eager beaver",
+    type: "慣用語",
+    chinese: "工作狂、積極進取的人（口語）",
+    keywords: ["eager", "beaver"],
+    example: {
+      english: "She was known as the office eager beaver, always the first to arrive, last to leave, and first to volunteer for extra tasks.",
+      chinese: "她是辦公室裡出了名的工作狂，總是第一個到、最後一個走，永遠自願承擔額外的任務。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "S + was known as the eager beaver, always + V-ing, and first to + V", example: "Don't be such an eager beaver — it's fine to take a break once in a while." }
+  },
+  {
+    phrase: "eager learner",
+    type: "形容詞 + 名詞",
+    chinese: "積極的學習者、好學的人",
+    keywords: ["eager", "learner"],
+    example: {
+      english: "A good teacher can identify the eager learners in the class and provide them with extra challenges to sustain their motivation.",
+      chinese: "好的老師能夠辨識出班上的積極學習者，並提供他們額外的挑戰以維持他們的學習動力。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "A good + N + can + V + the eager learners + and + V + N", example: "She was an eager learner who read widely beyond what was required by the course." }
+  },
+  {
+    phrase: "eager volunteer",
+    type: "形容詞 + 名詞",
+    chinese: "踴躍的志工、積極自願的人",
+    keywords: ["eager", "volunteer"],
+    example: {
+      english: "The event organiser was surprised by the number of eager volunteers who signed up, far exceeding what they had originally needed.",
+      chinese: "活動召集人對於報名的踴躍志工人數感到驚喜，遠超過他們原本預期的需求。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "N + was surprised by + N + of + eager volunteers + who + V", example: "The charity relied heavily on eager volunteers who gave their time freely every weekend." }
+  },
+  {
+    phrase: "eager expression",
+    type: "形容詞 + 名詞",
+    chinese: "熱切的表情、渴望的神情",
+    keywords: ["eager", "expression"],
+    example: {
+      english: "The eager expression on the child's face made it impossible for the teacher to refuse the request for one more story.",
+      chinese: "孩子臉上熱切的表情讓老師難以拒絕再多說一個故事的請求。",
+      grammar_point: ""
+    },
+    vocabulary: [],
+    sentence_pattern: { pattern: "The eager expression on + 人's face made it + adj + for + 人 + to + V", example: "He walked into the audition room with an eager expression that immediately caught the director's attention." }
+  },
+  {
+  phrase: "completely extinguish",
+  type: "副詞 + 動詞",
+  chinese: "完全撲滅",
+  keywords: ["completely", "extinguish"],
+  example: {
+    english: "Firefighters worked through the night to completely extinguish the blaze.",
+    chinese: "消防員徹夜工作，才將大火完全撲滅。",
+    grammar_point: "副詞 completely 修飾動詞 extinguish，強調動作的徹底性"
+  },
+  vocabulary: [
+    { word: "firefighter", pos: "n.", chinese: "消防員" },
+    { word: "completely", pos: "adv.", chinese: "完全地" },
+    { word: "blaze", pos: "n.", chinese: "大火" }
+  ],
+  sentence_pattern: {
+    pattern: "S + worked through + 時間 + to + V",
+    example: "The team worked through the weekend to completely resolve the issue."
   }
-
+},
+{
+  phrase: "finally extinguish",
+  type: "副詞 + 動詞",
+  chinese: "終於熄滅",
+  keywords: ["finally", "extinguish"],
+  example: {
+    english: "After hours of effort, they finally extinguished the forest fire.",
+    chinese: "經過數小時的努力，他們終於撲滅了森林大火。",
+    grammar_point: "副詞 finally 表示經過一段時間後動作完成，帶有如釋重負的語氣"
+  },
+  vocabulary: [
+    { word: "effort", pos: "n.", chinese: "努力" },
+    { word: "finally", pos: "adv.", chinese: "終於" },
+    { word: "forest fire", pos: "n.", chinese: "森林大火" }
+  ],
+  sentence_pattern: {
+    pattern: "After + 時間/名詞片語, S + finally + V + O",
+    example: "After months of negotiation, they finally reached an agreement."
+  }
+},
+{
+  phrase: "quickly extinguish",
+  type: "副詞 + 動詞",
+  chinese: "迅速撲滅",
+  keywords: ["quickly", "extinguish"],
+  example: {
+    english: "Staff quickly extinguished the small kitchen fire before it spread.",
+    chinese: "員工迅速撲滅了廚房小火，防止其蔓延。",
+    grammar_point: "副詞 quickly 強調反應速度，before 引導時間副詞子句"
+  },
+  vocabulary: [
+    { word: "staff", pos: "n.", chinese: "員工" },
+    { word: "quickly", pos: "adv.", chinese: "迅速地" },
+    { word: "spread", pos: "v.", chinese: "蔓延" }
+  ],
+  sentence_pattern: {
+    pattern: "S + quickly + V + O + before + S + V",
+    example: "She quickly saved the file before the computer crashed."
+  }
+},
+{
+  phrase: "extinguish a fire",
+  type: "動詞 + 名詞",
+  chinese: "撲滅火焰",
+  keywords: ["extinguish", "fire"],
+  example: {
+    english: "It took three fire trucks to extinguish the fire at the warehouse.",
+    chinese: "動用了三輛消防車才撲滅了倉庫的火災。",
+    grammar_point: "It took + 數量/工具 + to V，表示完成某事所需的資源"
+  },
+  vocabulary: [
+    { word: "fire truck", pos: "n.", chinese: "消防車" },
+    { word: "extinguish", pos: "v.", chinese: "撲滅" },
+    { word: "warehouse", pos: "n.", chinese: "倉庫" }
+  ],
+  sentence_pattern: {
+    pattern: "It took + N + to + V + O",
+    example: "It took a whole team to extinguish the fire in the building."
+  }
+},
+{
+  phrase: "extinguish a flame",
+  type: "動詞 + 名詞",
+  chinese: "熄滅火焰",
+  keywords: ["extinguish", "flame"],
+  example: {
+    english: "She gently extinguished the candle flame before leaving the room.",
+    chinese: "她在離開房間前輕輕熄滅了蠟燭的火焰。",
+    grammar_point: "副詞 gently 修飾動詞，before + V-ing 表示動作先後順序"
+  },
+  vocabulary: [
+    { word: "gently", pos: "adv.", chinese: "輕輕地" },
+    { word: "flame", pos: "n.", chinese: "火焰" },
+    { word: "candle", pos: "n.", chinese: "蠟燭" }
+  ],
+  sentence_pattern: {
+    pattern: "S + V + O + before + V-ing",
+    example: "He locked the door before leaving the office."
+  }
+},
+{
+  phrase: "extinguish hope",
+  type: "動詞 + 名詞",
+  chinese: "熄滅希望",
+  keywords: ["extinguish", "hope"],
+  example: {
+    english: "The devastating news extinguished any hope of a peaceful resolution.",
+    chinese: "這個令人震驚的消息澆熄了和平解決的任何希望。",
+    grammar_point: "extinguish 在此為比喻用法，any 強調全面否定"
+  },
+  vocabulary: [
+    { word: "devastating", pos: "adj.", chinese: "令人震驚的" },
+    { word: "resolution", pos: "n.", chinese: "解決" },
+    { word: "peaceful", pos: "adj.", chinese: "和平的" }
+  ],
+  sentence_pattern: {
+    pattern: "S + extinguished + any + N + of + N",
+    example: "The setback extinguished any chance of winning the championship."
+  }
+},
+{
+  phrase: "extinguish a debt",
+  type: "動詞 + 名詞",
+  chinese: "清償債務",
+  keywords: ["extinguish", "debt"],
+  example: {
+    english: "The settlement was used to extinguish all outstanding debts owed to creditors.",
+    chinese: "這筆和解金用於清償所有積欠債權人的未償債務。",
+    grammar_point: "extinguish 在法律語境中表示消除或清除義務，all outstanding 修飾 debts"
+  },
+  vocabulary: [
+    { word: "settlement", pos: "n.", chinese: "和解金" },
+    { word: "outstanding", pos: "adj.", chinese: "未償的" },
+    { word: "creditor", pos: "n.", chinese: "債權人" }
+  ],
+  sentence_pattern: {
+    pattern: "S + was used to + V + all + adj + N",
+    example: "The fund was used to extinguish all remaining liabilities."
+  }
+},
+{
+  phrase: "extinguish a right",
+  type: "動詞 + 名詞",
+  chinese: "消除權利",
+  keywords: ["extinguish", "right"],
+  example: {
+    english: "The new law effectively extinguished the citizens' right to appeal.",
+    chinese: "新法律實際上消除了公民的上訴權利。",
+    grammar_point: "副詞 effectively 強調結果，extinguish 用於正式法律語境"
+  },
+  vocabulary: [
+    { word: "effectively", pos: "adv.", chinese: "實際上" },
+    { word: "appeal", pos: "v.", chinese: "上訴" },
+    { word: "citizen", pos: "n.", chinese: "公民" }
+  ],
+  sentence_pattern: {
+    pattern: "S + effectively + V + N's + right to + V",
+    example: "The policy effectively extinguished workers' right to negotiate."
+  }
+},
+{
+  phrase: "extinguish with water",
+  type: "動詞 + 介系詞片語",
+  chinese: "用水撲滅",
+  keywords: ["extinguish", "with", "water"],
+  example: {
+    english: "Do not attempt to extinguish an electrical fire with water.",
+    chinese: "切勿嘗試用水撲滅電器火災。",
+    grammar_point: "否定祈使句 Do not + V，with water 為工具介系詞片語"
+  },
+  vocabulary: [
+    { word: "attempt", pos: "v.", chinese: "嘗試" },
+    { word: "electrical", pos: "adj.", chinese: "電器的" },
+    { word: "water", pos: "n.", chinese: "水" }
+  ],
+  sentence_pattern: {
+    pattern: "Do not + attempt to + V + O + with + N",
+    example: "Do not attempt to fix the machine with bare hands."
+  }
+},
+{
+  phrase: "fire extinguisher",
+  type: "名詞片語",
+  chinese: "滅火器",
+  keywords: ["fire", "extinguisher"],
+  example: {
+    english: "Every office must have a fire extinguisher mounted near the exit.",
+    chinese: "每間辦公室必須在出口附近安裝一個滅火器。",
+    grammar_point: "情態動詞 must 表示強制規定，過去分詞 mounted 作後置形容詞"
+  },
+  vocabulary: [
+    { word: "extinguisher", pos: "n.", chinese: "滅火器" },
+    { word: "mounted", pos: "adj.", chinese: "安裝固定的" },
+    { word: "exit", pos: "n.", chinese: "出口" }
+  ],
+  sentence_pattern: {
+    pattern: "S + must have + N + V-ed + adv片語",
+    example: "Every lab must have safety equipment placed near the door."
+  }
+},
+{
+  phrase: "extinguish the light",
+  type: "動詞 + 名詞",
+  chinese: "熄滅燈光",
+  keywords: ["extinguish", "light"],
+  example: {
+    english: "The butler extinguished the lights and quietly closed the door.",
+    chinese: "管家熄滅了燈光，然後悄悄關上了門。",
+    grammar_point: "兩個並列動詞片語以 and 連接，副詞 quietly 修飾第二個動作"
+  },
+  vocabulary: [
+    { word: "butler", pos: "n.", chinese: "管家" },
+    { word: "quietly", pos: "adv.", chinese: "悄悄地" },
+    { word: "extinguish", pos: "v.", chinese: "熄滅" }
+  ],
+  sentence_pattern: {
+    pattern: "S + V + O + and + adv + V + O",
+    example: "She turned off the computer and quietly left the room."
+  }
+},
+{
+  phrase: "extinguish one's spirit",
+  type: "動詞 + 名詞片語",
+  chinese: "磨滅某人的精神",
+  keywords: ["extinguish", "spirit"],
+  example: {
+    english: "Years of hardship could not extinguish her entrepreneurial spirit.",
+    chinese: "多年的艱辛仍無法磨滅她的創業精神。",
+    grammar_point: "could not + V 表示即使在困境下仍未能實現，強調主詞的堅韌"
+  },
+  vocabulary: [
+    { word: "hardship", pos: "n.", chinese: "艱辛" },
+    { word: "entrepreneurial", pos: "adj.", chinese: "創業的" },
+    { word: "spirit", pos: "n.", chinese: "精神" }
+  ],
+  sentence_pattern: {
+    pattern: "N + could not extinguish + N's + adj + spirit",
+    example: "Failure could not extinguish his competitive spirit."
+  }
+},
+{
+  phrase: "extinguish a passion",
+  type: "動詞 + 名詞",
+  chinese: "澆熄熱情",
+  keywords: ["extinguish", "passion"],
+  example: {
+    english: "Constant criticism from his manager slowly extinguished his passion for the job.",
+    chinese: "主管持續的批評慢慢澆熄了他對工作的熱情。",
+    grammar_point: "副詞 slowly 表示漸進過程，for the job 為介系詞片語修飾 passion"
+  },
+  vocabulary: [
+    { word: "criticism", pos: "n.", chinese: "批評" },
+    { word: "passion", pos: "n.", chinese: "熱情" },
+    { word: "constant", pos: "adj.", chinese: "持續的" }
+  ],
+  sentence_pattern: {
+    pattern: "N + slowly + V + N's + passion for + N",
+    example: "Overwork slowly extinguished her passion for creative writing."
+  }
+},
+{
+  phrase: "extinguish all chances",
+  type: "動詞 + 名詞片語",
+  chinese: "斷絕一切機會",
+  keywords: ["extinguish", "chances"],
+  example: {
+    english: "One careless mistake extinguished all chances of winning the contract.",
+    chinese: "一個粗心的錯誤斷絕了贏得合約的所有機會。",
+    grammar_point: "one + adj + N 作主詞，強調單一事件的嚴重後果"
+  },
+  vocabulary: [
+    { word: "careless", pos: "adj.", chinese: "粗心的" },
+    { word: "mistake", pos: "n.", chinese: "錯誤" },
+    { word: "contract", pos: "n.", chinese: "合約" }
+  ],
+  sentence_pattern: {
+    pattern: "One + adj + N + V + all chances of + V-ing",
+    example: "One poor decision extinguished all chances of recovery."
+  }
+},
+{
+  phrase: "extinguish the memory",
+  type: "動詞 + 名詞",
+  chinese: "抹去記憶",
+  keywords: ["extinguish", "memory"],
+  example: {
+    english: "No amount of time could fully extinguish the memory of that tragic event.",
+    chinese: "再多的時間也無法完全抹去那段悲劇事件的記憶。",
+    grammar_point: "No amount of + N + could + V 為強調否定的固定句型"
+  },
+  vocabulary: [
+    { word: "tragic", pos: "adj.", chinese: "悲劇的" },
+    { word: "memory", pos: "n.", chinese: "記憶" },
+    { word: "fully", pos: "adv.", chinese: "完全地" }
+  ],
+  sentence_pattern: {
+    pattern: "No amount of + N + could + fully + V + O",
+    example: "No amount of effort could fully extinguish the memory of their loss."
+  }
+},
+{
+  phrase: "highly distinguished",
+  type: "副詞 + 形容詞",
+  chinese: "備受尊崇的",
+  keywords: ["highly", "distinguished"],
+  example: {
+    english: "She is a highly distinguished scholar whose work has influenced generations of researchers.",
+    chinese: "她是一位備受尊崇的學者，其研究影響了好幾代研究人員。",
+    grammar_point: "副詞 highly 強化形容詞 distinguished 的程度，whose 引導關係子句"
+  },
+  vocabulary: [
+    { word: "scholar", pos: "n.", chinese: "學者" },
+    { word: "highly", pos: "adv.", chinese: "極為" },
+    { word: "influence", pos: "v.", chinese: "影響" }
+  ],
+  sentence_pattern: {
+    pattern: "S + is + a + adv + adj + N + whose + S + V + O",
+    example: "He is a highly distinguished scientist whose discoveries changed modern medicine."
+  }
+},
+{
+  phrase: "widely distinguished",
+  type: "副詞 + 形容詞",
+  chinese: "廣受認可的",
+  keywords: ["widely", "distinguished"],
+  example: {
+    english: "The architect is widely distinguished for her innovative and sustainable designs.",
+    chinese: "這位建築師因其創新且永續的設計而廣受認可。",
+    grammar_point: "副詞 widely 表示範圍廣泛，for 介系詞片語說明被認可的原因"
+  },
+  vocabulary: [
+    { word: "architect", pos: "n.", chinese: "建築師" },
+    { word: "innovative", pos: "adj.", chinese: "創新的" },
+    { word: "sustainable", pos: "adj.", chinese: "永續的" }
+  ],
+  sentence_pattern: {
+    pattern: "S + is + widely distinguished + for + adj + N",
+    example: "The chef is widely distinguished for his bold and creative cuisine."
+  }
+},
+{
+  phrase: "distinguished career",
+  type: "形容詞 + 名詞",
+  chinese: "傑出的職業生涯",
+  keywords: ["distinguished", "career"],
+  example: {
+    english: "After a distinguished career in diplomacy, she retired to write her memoirs.",
+    chinese: "在外交領域度過一段傑出的職業生涯後，她退休並撰寫回憶錄。",
+    grammar_point: "After + 名詞片語 引導時間狀語，to + V 表示目的"
+  },
+  vocabulary: [
+    { word: "diplomacy", pos: "n.", chinese: "外交" },
+    { word: "retire", pos: "v.", chinese: "退休" },
+    { word: "memoir", pos: "n.", chinese: "回憶錄" }
+  ],
+  sentence_pattern: {
+    pattern: "After a distinguished career in + N, S + V + to + V",
+    example: "After a distinguished career in law, he retired to teach at a university."
+  }
+},
+{
+  phrase: "distinguished professor",
+  type: "形容詞 + 名詞",
+  chinese: "傑出教授",
+  keywords: ["distinguished", "professor"],
+  example: {
+    english: "The university honoured him with the title of Distinguished Professor of Economics.",
+    chinese: "大學授予他「傑出經濟學教授」的頭銜以表彰其貢獻。",
+    grammar_point: "honour + 人 + with + 頭銜，為正式表彰的常見句型"
+  },
+  vocabulary: [
+    { word: "honour", pos: "v.", chinese: "表彰" },
+    { word: "title", pos: "n.", chinese: "頭銜" },
+    { word: "economics", pos: "n.", chinese: "經濟學" }
+  ],
+  sentence_pattern: {
+    pattern: "S + honoured + N + with the title of + Distinguished + N",
+    example: "The institute honoured her with the title of Distinguished Professor of Literature."
+  }
+},
+{
+  phrase: "distinguished guest",
+  type: "形容詞 + 名詞",
+  chinese: "貴賓",
+  keywords: ["distinguished", "guest"],
+  example: {
+    english: "We are pleased to welcome our distinguished guests to this evening's ceremony.",
+    chinese: "我們很榮幸歡迎各位貴賓蒞臨今晚的典禮。",
+    grammar_point: "We are pleased to + V 為正式場合歡迎詞的常見開場句型"
+  },
+  vocabulary: [
+    { word: "pleased", pos: "adj.", chinese: "榮幸的" },
+    { word: "welcome", pos: "v.", chinese: "歡迎" },
+    { word: "ceremony", pos: "n.", chinese: "典禮" }
+  ],
+  sentence_pattern: {
+    pattern: "S + are pleased to + V + distinguished guests + to + N",
+    example: "We are pleased to welcome our distinguished guests to the annual conference."
+  }
+},
+{
+  phrase: "distinguished service",
+  type: "形容詞 + 名詞",
+  chinese: "卓越服務",
+  keywords: ["distinguished", "service"],
+  example: {
+    english: "The officer was awarded a medal for his distinguished service during the conflict.",
+    chinese: "這名軍官因在衝突期間的卓越服務而獲頒勳章。",
+    grammar_point: "be awarded + N + for + N，表示因某事獲得獎勵的被動句型"
+  },
+  vocabulary: [
+    { word: "officer", pos: "n.", chinese: "軍官" },
+    { word: "medal", pos: "n.", chinese: "勳章" },
+    { word: "conflict", pos: "n.", chinese: "衝突" }
+  ],
+  sentence_pattern: {
+    pattern: "S + was awarded + N + for + distinguished service + during + N",
+    example: "She was awarded a certificate for her distinguished service during the crisis."
+  }
+},
+{
+  phrase: "distinguished record",
+  type: "形容詞 + 名詞",
+  chinese: "傑出紀錄",
+  keywords: ["distinguished", "record"],
+  example: {
+    english: "The candidate has a distinguished record of public service spanning over two decades.",
+    chinese: "這位候選人擁有超過二十年的傑出公共服務紀錄。",
+    grammar_point: "have a distinguished record of + N，強調過去成就的積累"
+  },
+  vocabulary: [
+    { word: "candidate", pos: "n.", chinese: "候選人" },
+    { word: "span", pos: "v.", chinese: "橫跨" },
+    { word: "decade", pos: "n.", chinese: "十年" }
+  ],
+  sentence_pattern: {
+    pattern: "S + has a distinguished record of + N + spanning + 時間",
+    example: "The director has a distinguished record of achievements spanning three decades."
+  }
+},
+{
+  phrase: "distinguished appearance",
+  type: "形容詞 + 名詞",
+  chinese: "高雅外表",
+  keywords: ["distinguished", "appearance"],
+  example: {
+    english: "His silver hair and tailored suit gave him a distinguished appearance at the gala.",
+    chinese: "他的銀白頭髮與訂製西裝讓他在晚宴上顯得儀態高雅。",
+    grammar_point: "give + 人 + a distinguished appearance，表示外在特質賦予某人某種形象"
+  },
+  vocabulary: [
+    { word: "tailored", pos: "adj.", chinese: "訂製的" },
+    { word: "appearance", pos: "n.", chinese: "外表" },
+    { word: "gala", pos: "n.", chinese: "晚宴" }
+  ],
+  sentence_pattern: {
+    pattern: "N + gave + N + a distinguished appearance + at + N",
+    example: "Her elegant posture gave her a distinguished appearance at the formal dinner."
+  }
+},
+{
+  phrase: "look distinguished",
+  type: "動詞片語",
+  chinese: "看起來高貴出眾",
+  keywords: ["look", "distinguished"],
+  example: {
+    english: "The professor looked distinguished in his academic robes during the graduation ceremony.",
+    chinese: "教授身著學術袍在畢業典禮上看起來高貴出眾。",
+    grammar_point: "look + adj 為連綴動詞句型，in + 衣著 說明外觀狀態"
+  },
+  vocabulary: [
+    { word: "academic", pos: "adj.", chinese: "學術的" },
+    { word: "robe", pos: "n.", chinese: "長袍" },
+    { word: "graduation", pos: "n.", chinese: "畢業" }
+  ],
+  sentence_pattern: {
+    pattern: "S + looked distinguished + in + N + during + N",
+    example: "She looked distinguished in her formal attire during the award ceremony."
+  }
+},
+{
+  phrase: "become distinguished",
+  type: "動詞片語",
+  chinese: "成為知名人士",
+  keywords: ["become", "distinguished"],
+  example: {
+    english: "He became distinguished in the field of neuroscience through decades of groundbreaking research.",
+    chinese: "他透過數十年的突破性研究，在神經科學領域成為知名人士。",
+    grammar_point: "become distinguished in + 領域，through 介系詞說明達成目標的手段"
+  },
+  vocabulary: [
+    { word: "neuroscience", pos: "n.", chinese: "神經科學" },
+    { word: "groundbreaking", pos: "adj.", chinese: "突破性的" },
+    { word: "research", pos: "n.", chinese: "研究" }
+  ],
+  sentence_pattern: {
+    pattern: "S + became distinguished in + N + through + N",
+    example: "She became distinguished in literature through years of award-winning writing."
+  }
+},
+{
+  phrase: "remain distinguished",
+  type: "動詞片語",
+  chinese: "保持卓越地位",
+  keywords: ["remain", "distinguished"],
+  example: {
+    english: "Despite retiring years ago, she remains distinguished as a pioneer in environmental law.",
+    chinese: "儘管已退休多年，她仍以環境法先驅的身分保持卓越地位。",
+    grammar_point: "Despite + V-ing 表示讓步，remain + adj 強調狀態持續"
+  },
+  vocabulary: [
+    { word: "pioneer", pos: "n.", chinese: "先驅" },
+    { word: "environmental", pos: "adj.", chinese: "環境的" },
+    { word: "retire", pos: "v.", chinese: "退休" }
+  ],
+  sentence_pattern: {
+    pattern: "Despite + V-ing, S + remains distinguished as + N",
+    example: "Despite stepping down, he remains distinguished as a leader in public health."
+  }
+},
+{
+  phrase: "distinguished in one's field",
+  type: "介系詞片語",
+  chinese: "在某領域享有盛名",
+  keywords: ["distinguished", "field"],
+  example: {
+    english: "Dr. Chen is widely regarded as distinguished in her field of quantum computing.",
+    chinese: "陳博士在量子運算領域享有盛名，廣受各界推崇。",
+    grammar_point: "be regarded as + adj，為表達他人評價的常見被動句型"
+  },
+  vocabulary: [
+    { word: "regard", pos: "v.", chinese: "視為" },
+    { word: "quantum", pos: "adj.", chinese: "量子的" },
+    { word: "computing", pos: "n.", chinese: "運算" }
+  ],
+  sentence_pattern: {
+    pattern: "S + is widely regarded as distinguished in + N's field of + N",
+    example: "Professor Liu is widely regarded as distinguished in her field of molecular biology."
+  }
+},
+{
+  phrase: "distinguished for one's work",
+  type: "介系詞片語",
+  chinese: "因工作成就而享譽",
+  keywords: ["distinguished", "work"],
+  example: {
+    english: "The novelist is distinguished for her work exploring themes of identity and belonging.",
+    chinese: "這位小說家因探討身分認同與歸屬感的作品而享譽文壇。",
+    grammar_point: "be distinguished for + N，介系詞 for 引導表示原因的片語"
+  },
+  vocabulary: [
+    { word: "novelist", pos: "n.", chinese: "小說家" },
+    { word: "identity", pos: "n.", chinese: "身分認同" },
+    { word: "belonging", pos: "n.", chinese: "歸屬感" }
+  ],
+  sentence_pattern: {
+    pattern: "S + is distinguished for + N's work + V-ing + N",
+    example: "The filmmaker is distinguished for his work depicting social inequality."
+  }
+},
+{
+  phrase: "distinguished from the rest",
+  type: "慣用語",
+  chinese: "從眾人中脫穎而出",
+  keywords: ["distinguished", "rest"],
+  example: {
+    english: "What distinguished her from the rest was her ability to remain calm under pressure.",
+    chinese: "讓她從眾人中脫穎而出的，是她在壓力下保持冷靜的能力。",
+    grammar_point: "What + V + S + from the rest + was + N，為強調主詞特質的名詞子句句型"
+  },
+  vocabulary: [
+    { word: "ability", pos: "n.", chinese: "能力" },
+    { word: "pressure", pos: "n.", chinese: "壓力" },
+    { word: "calm", pos: "adj.", chinese: "冷靜的" }
+  ],
+  sentence_pattern: {
+    pattern: "What distinguished S from the rest was + N's ability to + V",
+    example: "What distinguished him from the rest was his ability to inspire those around him."
+  }
+},
+{
+  phrase: "a distinguished member of",
+  type: "名詞片語",
+  chinese: "……的傑出成員",
+  keywords: ["distinguished", "member"],
+  example: {
+    english: "She was honoured as a distinguished member of the Royal Academy of Arts.",
+    chinese: "她獲選為皇家藝術學院的傑出成員，深受表彰。",
+    grammar_point: "be honoured as + N，表示獲得某一身分或頭銜的正式認可"
+  },
+  vocabulary: [
+    { word: "honour", pos: "v.", chinese: "表彰" },
+    { word: "royal", pos: "adj.", chinese: "皇家的" },
+    { word: "academy", pos: "n.", chinese: "學院" }
+  ],
+  sentence_pattern: {
+    pattern: "S + was honoured as a distinguished member of + N",
+    example: "He was honoured as a distinguished member of the National Science Foundation."
+  }
+},
 ]; // <--- 大陣列的結尾！
