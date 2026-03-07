@@ -274,6 +274,7 @@ function HomePage() {
     setSearched(true)
     setLastQuery(q)
     setExpandedCards(buildExpanded(matches))
+    setQuery('')
   }
 
   const handleKeyDown = (e) => {
